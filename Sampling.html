@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Sampling</title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="./include/ifhs2.css" />
+<script type="text/javascript" src="./libs/zeroclipboard-2.2.0/ZeroClipboard.js"></script>
+<link rel="stylesheet" href="./libs/colorbox-1.6.1/colorbox.css" />
+<script type="text/javascript" src="./libs/colorbox-1.6.1/jquery.colorbox-min.js"></script>
+<!--- favicon --->
+<link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+<link rel="manifest" href="./images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<nav>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Integrated Framework for Household Survey</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="design" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Design <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_design">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Planning</li>
+                  <li><a href="Assessment-Project-Document.html">Assessment Project Document</a></li>
+                  <li><a href="Memorandum-of-Understanding.html">Memorandum of Understanding</a></li>
+                  <li><a href="Terms-of-Reference-for-Assessment-Focal-Point.html">Terms of Reference for Assessment Focal Point</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Methodology</li>
+                  <li><a href="Sampling.html">Sampling</a></li>
+                  <li><a href="Interview.html">Interview approach</a></li>
+                  <li><a href="Pre-Assessment.html">Pre-Assessment</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Form</li>
+                  <li ><a href="protection-Topics.html">Protection Topics</a></li>
+                  <li ><a href="Module-questions.html">Questions Modules</a></li>
+                  <li ><a href="Guidelines-for-Customisation.html">Guidelines for Customisation</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="collect" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Collect <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_collect">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Preparing for fieldwork</li>
+                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
+                  <li><a href="Pre-test-Phase.html">Pre-test Phase</a></li>
+                  <li><a href="Managing-Devices.html">Managing Devices</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Fieldwork manual</li>
+                    <li ><a href="Instructions-for-Interviewers.html">Instructions for Interviewers</a></li>
+                    <li ><a href="Instructions-for-Supervisors-Editors.html">Instructions for Supervisors and Editors</a></li>
+                    <li ><a href="Instructions-for-Managers.html">Instructions for Managers</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li class="dropdown-header">Using KoboToolBox</li>
+                  <li ><a href="Data-Protection-Impact-Assessment.html">Data Protection Impact Assessment</a></li>
+                  <li ><a href="Server-Configuration.html">Server Configuration</a></li>
+                  <li ><a href="Data-Entry.html">Data Entry</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="analyse" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Analyse <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_analyse">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Analysis Steps</li>
+                  <li ><a href="Discover.html">Discover</a></li>
+                  <li ><a href="Predict.html">Predict</a></li>
+                  <li ><a href="Advise.html">Advise</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Report</li>
+                  <li ><a href="Analysis-Script.html">Analysis Scripts</a></li>
+                  <li ><a href="Model-for-Key-Findings-Report.html">Model for Key Findings Report</a></li>
+                  <li ><a href="Model-for-Final-Report.html">Model for Final Report</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li class="dropdown-header">Communication</li>
+                  <li><a href="Slides-Infographics.html">Slides & Infographics</a></li>
+                  <li><a href="Microdata.html">Sharing microdata for social scientist</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li><a href="protection-assessment-toolkit.pdf">PDF</a></li>
+      </ul>
+    <form id="rechercher" class="navbar-form navbar-right" role="search" style="padding-top: 5px;" method="get" action="https://tontonroger.org/">
+      <div class="form-group">
+        <input name="q" type="text" class="form-control input-sm" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default btn-sm" name="Search">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      </button>
+    </form>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+</nav>
+
+<div class="row">
+
+<div class="col-sm-9" role="main">
+<article>
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Sampling</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#declaration-bias">Declaration Bias</a></li>
+<li><a href="#sampling-strategy">Sampling strategy</a><ul>
+<li><a href="#non-probabilistic-approaches">Non-probabilistic approaches</a></li>
+<li><a href="#probalistics-approaches">Probalistics approaches</a></li>
+</ul></li>
+<li><a href="#sample-weight">Sample Weight</a><ul>
+<li><a href="#how-are-the-oversampledundersampled-areas-corrected-in-data-analysis">How are the oversampled/undersampled areas corrected in data analysis?</a></li>
+<li><a href="#what-does-it-mean-to-normalize-the-weights">What does it mean to normalize the weights?</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div class="important">
+<p>The sampling strategy is constrainted by both available budget, field accessibility and time. The sampling approach reflects a trade off between representativity of the results, rapid delivery and</p>
+</div>
+<div id="declaration-bias" class="section level3">
+<h3>Declaration Bias</h3>
+</div>
+<div id="sampling-strategy" class="section level2">
+<h2>Sampling strategy</h2>
+<p>Sampling strategy can be either probabilistic or non-probabilistic. a good introduction can be found <a href="http://www.fao.org/docrep/W3241E/w3241e08.htm">here</a></p>
+<div id="non-probabilistic-approaches" class="section level3">
+<h3>Non-probabilistic approaches</h3>
+<p>Non-probabilistic approaches are usually <strong>favored during the emergency phase</strong> where both time and field access represent the main challenge.</p>
+<div id="convenience-sampling" class="section level4">
+<h4>Convenience sampling</h4>
+<p>It is a frequently used method in emergency situations. It relies on sampling those respondents who are easiest to access.</p>
+<p>Practically speaking those couldd be either: * key Informant that are ready to report by themself</p>
+<ul>
+<li><p>Individuals or household among those who have settled along roadsides, or who present themselves to administrative center of the returnee settlement or the assistance desk etc.</p></li>
+<li><p>Advantages: Easy and quick to implement, especially when time and access are the main constraints.</p></li>
+<li><p>Disadvantage: The danger with this type of data collection approach is that it will often lead to biased results as the sample may not be representative of the majority, i.e. those with the most resources or power are often the ones who settle in the most easily accessible areas.</p></li>
+</ul>
+</div>
+<div id="snowball-sampling" class="section level4">
+<h4>Snowball sampling</h4>
+<p>Snowball sampling (or <a href="https://en.wikipedia.org/wiki/Snowball_sampling">chain sampling, chain-referral sampling, referral sampling</a>) is a non-probability sampling technique where existing study subjects recruit future subjects from among their acquaintances. This technique is subject to numerous biases. For example, people who have many friends are more likely to be recruited into the sample.</p>
+<ul>
+<li><p>Advantages: Useful when targeting specific groups that might be difficult to reach (hidden population).</p></li>
+<li><p>Disadvantage: This approach might underweight the most vulnerable individuals.</p></li>
+</ul>
+</div>
+<div id="purposive-sampling" class="section level4">
+<h4>Purposive sampling</h4>
+<p>It is based on previous knowledge about who might be able to provide valuable or specific information. It uses the judgement of community representatives, project staff or assessors to select typical locations and/or informants. The sampling of children or women, for example, is a type of purposive sampling.</p>
+<p>Purposive sampling can also be done through Key Informant.</p>
+<ul>
+<li><p>Advantages: Moderately rigorous if well and clear criteria for sampling are followed. Useful when targeting specific groups of affected population or specific affected areas. Less time consuming and less expensive than representative sampling.</p></li>
+<li><p>Disadvantage: Generalisations are biased and not recommended. Samples are not representative of population due to subjectivity of respondents.</p></li>
+</ul>
+<p>The risk of loosing certain componnent of the population can be addressed by defining strata within the purposive sample.</p>
+<p>In the case of Desk interview or key Informant, the more observation the better. Some kind of <a href="http://iomiraqdtm.info/Downloads/00-%20DTM%20Methodology%20Documents/DTM_LA_Credibility_Scoring_Methodology.pdf">credibility scoring</a> can be obtained for each locations based on a review of the key informant.</p>
+</div>
+<div id="quota-sample" class="section level4">
+<h4>Quota sample</h4>
+<p>A quota sample might be representative of the population (if quotas actually do work, which they not always do). But a quota sample will never satisfy the strict randomness requirements that statistics require. Only if we are working with a random sample can we make inferences from the sample to the population. In quota samples, there is not sufficient randomness, as the interviewer selects the interviewees actively. Therefore, quota samples cannot be used to reason about the general population.</p>
+</div>
+</div>
+<div id="probalistics-approaches" class="section level3">
+<h3>Probalistics approaches</h3>
+<p>Whenever the situation is becoming more <strong>protracted</strong>, probabilistic approaches should be favored. They will allow to generate more reliable results.</p>
+<div id="respondent-driven-sampling--rds" class="section level4">
+<h4>Respondent-driven sampling -RDS</h4>
+<p>A declination of snowball sampling is the <a href="http://www.respondentdrivensampling.org/">Respondent-driven sampling -RDS</a> approach. It combines “snowball sampling” with a mathematical model that weights the sample to compensate for the fact that the sample was collected in a non-random way. As such it can be classified as probabilistic approach. The advantage is that seeds selection is specific and does not require sample frame.</p>
+<p>While data requirements for RDS analysis are minimal, there are three pieces of information which are essential for analysis (RDS analysis CANNOT BE PERFORMED without these fields for each respondent):</p>
+<ul>
+<li><p>Personal Network Size (Degree) - Number of people the respondent knows within the target population.</p></li>
+<li><p>Respondent’s Serial Number - Serial number of the coupon the respondent was recruited with.</p></li>
+<li><p>Respondent’s Recruiting Serial Numbers - Serial numbers from the coupons the respondent is given to recruit others.</p></li>
+</ul>
+</div>
+<div id="time-location-sampling" class="section level4">
+<h4>Time-Location Sampling</h4>
+<p>The Time-Location Sampling (TLS) approach can be used when the goal is to have a representation of population in movement. The idea and the assumption is to sample persons at locations and at time at which they may be found.</p>
+<p>Time-location sampling is used to sample a population for which a sampling frame cannot be constructed but locations are known at which the population of interest can be found, or for which it is more efficient to sample at these locations. As such the approach is likely appropriate when the survey is taking place at a <strong>border</strong>.</p>
+<p>More practical guidelines for TLS are available in a dedicated <a href="http://globalhealthsciences.ucsf.edu/sites/default/files/content/pphg/surveillance/modules/global-trainings/tls-res-guide-2nd-edition.pdf">Resource Guide TLS</a> and some application on Border Monitoring for <a href="http://meetings.sis-statistica.org/index.php/sm/sm2012/paper/viewFile/2180/149">tourism</a> or <a href="https://books.google.jo/books?id=Gz9eAgAAQBAJ&amp;pg=PA53&amp;lpg=PA53&amp;dq=Border+surveys+and+Time+Location+Sampling&amp;source=bl&amp;ots=6i5IgC-2Mb&amp;sig=P3CdG8-LvC0Y_LCK-MZ047gAJNQ&amp;hl=en&amp;sa=X&amp;redir_esc=y#v=onepage&amp;q=Border%20surveys%20and%20Time%20Location%20Sampling&amp;f=false">illegal migrants</a>.</p>
+</div>
+<div id="random-sampling" class="section level4">
+<h4>Random sampling</h4>
+<p>If you need a purely random sample, the size of the sample is a calculation that takes 3 variables:</p>
+<ul>
+<li><p>Size of the full population. In refugee Context, Data is coming from proGres while in IDP context, data is coming from a Displacement Tracking System.</p></li>
+<li><p>Confidence level: for what proportion of the population you want to get the right estimation (usually either 90%, 95% or 99%)</p></li>
+<li><p>Error Margin (or confidence interval): How much error are you willing to tolerate for each questions? i.e. + or – your estimated ratio for each questions on the top of the confidence interval (usually either 5%, 2% or 1%)</p></li>
+</ul>
+<p>There are <a href="https://www.surveymonkey.com/mp/sample-size-calculator/">online calculator</a> for this. Alternatively one can use the excel formula from this <a href="http://archive.snh.gov.uk/vmm/Resources/R38%20SAMPLE%20SIZE%20CALCULATOR.xls">example</a></p>
+<table>
+<thead>
+<tr class="header">
+<th>For 400,000 Syrians</th>
+<th>5% error margin</th>
+<th>2% error margin</th>
+<th>1% error margin</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>90% Confidence level</td>
+<td>272</td>
+<td>1694</td>
+<td>6692</td>
+</tr>
+<tr class="even">
+<td>95% Confidence level</td>
+<td>384</td>
+<td>2387</td>
+<td>9379</td>
+</tr>
+<tr class="odd">
+<td>99% Confidence level</td>
+<td>662</td>
+<td>4105</td>
+<td>15929</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>For 150,000 Afghans</th>
+<th>5% error margin</th>
+<th>2% error margin</th>
+<th>1% error margin</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>90% Confidence level</td>
+<td>272</td>
+<td>1682</td>
+<td>6511</td>
+</tr>
+<tr class="even">
+<td>95% Confidence level</td>
+<td>383</td>
+<td>2363</td>
+<td>9026</td>
+</tr>
+<tr class="odd">
+<td>99% Confidence level</td>
+<td>661</td>
+<td>4036</td>
+<td>14937</td>
+</tr>
+</tbody>
+</table>
+<p>Usually the decision on the right confidence level and error margin to be selected is also influenced by cost implication and the final usage of the figures that is looked for.</p>
+</div>
+<div id="stratified-sampling" class="section level4">
+<h4>Stratified sampling</h4>
+<p>You can refer to this <a href="https://www.youtube.com/watch?v=WakK8Wzmw6o&amp;list=PLyLpEs0x9BnmPTE2RRRJW058Nf7R_2xQa&amp;index=5">Introduction video</a> or this <a href="http://ocw.jhsph.edu/courses/StatMethodsForSampleSurveys/PDFs/Lecture4.pdf">presentation</a> and this <a href="https://resources.vam.wfp.org/sites/default/files/mVAM_Generic%20training%20for%20live%20call%20operators.pptx">one formt eh WFP VAM</a>.</p>
+<p>A stratified random sample can only be carried out if a complete list of the population is available. In stratified sampling the population is partitioned into groups, called strata, and sampling is performed separately within each stratum.</p>
+<p>This can be done for the following reasons:</p>
+<ul>
+<li><p>Population groups may have different values for the responses of interest.</p></li>
+<li><p>If we want to improve our estimation for each group separately.</p></li>
+<li><p>To ensure adequate sample size for each group.</p></li>
+</ul>
+<p>In stratified sampling designs, it is assumed that:</p>
+<ul>
+<li><p>stratum variables are mutually exclusive (non-over lapping), e.g., urban/rural areas, economic categories, geographic regions, race, sex, etc.</p></li>
+<li><p>the population (elements) should be homogenous within-stratum, and</p></li>
+<li><p>the population (elements) should be heterogenous between the strata.</p></li>
+</ul>
+<p>The major task of stratified sampling design is the appropriate allocation of samples to different strata. The different types of allocation methods includes:</p>
+<ul>
+<li><p><strong>Equal allocation</strong>: Divide the number of sample units n equally among the k strata. This implies to use “weighted analysis” (disproportionate selection).</p></li>
+<li><p><strong>Proportional to stratum size</strong>: Make the proportion of each stratum sampled identical to the proportion of the population. A major disadvantage of proportional allocation is that sample size in a stratum may be low – provide and provide unreliable stratum-specific results. In terms of analysis, data will be Self-weighted (equal proportion from each stratum).</p></li>
+<li><p>Allocation based on <strong>variance differences among the strata</strong> (called Optimal allocation). Optimal allocation minimizes the overall variance for a specified cost, or equivalently minimizes the overall cost for a specified variance. In situations where the standard deviations of the strata are known it may be advantageous to make a disproportionate allocation. Suppose that, we had stratum A and stratum B, but we know that the individuals assigned to stratum A were more varied with respect to their opinions than those assigned to stratum B. Optimum allocation minimises the standard error of the estimated mean by ensuring that more respondents are assigned to the stratum within which there is greatest variation. Stratum variances are susually defined by previous surveys. This approach also implies to use “weighted analysis” (disproportionate selection).</p></li>
+<li><p>Allocation based on the <strong>relative cost of each survey record</strong> (called Neyman Allocation).Neyman allocation is a special case of optimal allocation where the costs per unit are the same for all strata. In this case, the ideal sample allocation allow to maximize precision, given a Stratified Sample With a fixed Sample Size. The ideal sample allocation plan would provide the most precision for the least cost. This implies to sample more heavily from a stratum when the cost to sample an element from the stratum is low, the population size of the stratum is large or the variability within the stratum is large.This approach also implies to use “weighted analysis” (disproportionate selection).</p></li>
+</ul>
+<p>Typically, when developping the stata definition, in case of optimal or neyman allocation, i.e. when stratea variance are already known through a previous survey, the following objectives can be looked at: * Find minimum sample size, given a fixed error * Find minimum error, given a fixed sample size * Find minimum error, given a fixed budget * Find minimum cost to achieve a fixed error</p>
+<p>Typical workflow to define sample size in case of stratified sampling:</p>
+<ol style="list-style-type: decimal">
+<li>Choose the stratification (e.g.regions, district,….)</li>
+<li>Define the population (N) of each strata</li>
+<li>Decide on key indicator(s)</li>
+<li>Estimate mean &amp; variance or prevalence of key indicator</li>
+<li>Decide on precision and confidence level</li>
+<li>Calculate the initial total sample size (n) according to the budget/time</li>
+<li>Use simple random sample per strata to select your representative sample</li>
+</ol>
+<p>To estimate sample size, you need to know:</p>
+<ul>
+<li>Estimate of the prevalence or mean &amp; STDev of the key indicator (e.g. 30% return intention). Prevalence is the total number of cases for a variable of interest that is <strong>typically binary</strong> within a population divided by its total population. Mean is the expected value of a variable of interest that is <strong>typically continuous</strong> within a prescribed range for a given population (e.g. expenditure per case)</li>
+<li>Precision desired (for example: ± 5%). Precision is the variability of the estimate.</li>
+<li>Level of confidence (for example: 95%). It represents the probability of the same result if you re-sampled, all other things equal.</li>
+<li>Population (only if below 10,000, otherwise it will not influence the required sample size)</li>
+<li>Expected response rate (for example: 90%)</li>
+<li>Number of eligible individuals per household (if applicable)</li>
+</ul>
+<p>Stratified sampling can be performed with R. <a href="https://github.com/unhcr-mena/stratified-sampling">Tutorial scripts are available here</a>.</p>
+</div>
+<div id="post-stratification" class="section level4">
+<h4>Post stratification</h4>
+<p>One can also use weights, computed through a <a href="https://www.r-bloggers.com/survey-computing-your-own-post-stratification-weights-in-r/">post-stratification process</a>, to get potentially biased surveys, like online surveys, to better fit the underlying population. The only thing that weights can do, is ensure that your sample composition better mimics the general population’s characteristics. Weights will never help you if the process governing non-response is part of the puzzle you want to solve.</p>
+<p>In a random sample, we define a population, draw from that population at random and then compute and apply weights to align the sample with the population. This weighting is necessary because some people originally sampled might be e.g. harder to reach than others, thereby biasing the sample. Once the post-stratification weights have been applied, the random sample is representative of the population it was drawn from. Statistics gives us a method to tell just how accurately the findings from the sample can be generalized.</p>
+</div>
+<div id="cluster-sampling" class="section level4">
+<h4>Cluster sampling</h4>
+<p>Cluster sampling is a technique that allows to reduce the surveying budget when <strong>travel cost are important</strong>. Instead of covering a whole territory, the cluster sampling implies to divide the population into separate groups, called clusters. Then, a simple random sample of clusters is selected from the population.</p>
+<p>Cluster sampling are therefore not relevant when techniques such as phone interview are used as there’s no marginal surveying cost involved with location of interview.</p>
+<p>Given equal sample sizes, cluster sampling usually provides less precision than either simple random sampling or stratified sampling.</p>
+<p>different approaches can be used for cluster sampling</p>
+<ul>
+<li>One-stage sampling. All of the elements within selected clusters are included in the sample.</li>
+<li>Two-stage sampling. A subset of elements within each selected cluster is randomly selected for inclusion in the sample.</li>
+</ul>
+</div>
+<div id="sampling-with-replacement-and-sampling-without-replacement" class="section level4">
+<h4>Sampling With Replacement and Sampling Without Replacement</h4>
+<p>When a population element can be selected more than one time, we are sampling with replacement. When a population element can be selected only one time, we are sampling without replacement. When we sample with replacement, the two sample values are independent. Practically, this means that what we get on the first one doesn’t affect what we get on the second. Mathematically, this means that the covariance between the two is zero.In sampling without replacement, the two sample values aren’t independent. Practically, this means that what we got on the for the first one affects what we can get for the second one. Mathematically, this means that the covariance between the two isn’t zero.</p>
+<p>In small populations and often in large ones, sampling is typically done “without replacement”, i.e., one deliberately avoids choosing any member of the population more than once. Although sampling can be conducted with replacement instead, this is less common and for a small sample from a large population, sampling without replacement is approximately the same as sampling with replacement, since the odds of choosing the same individual twice is low.You can tell how dramatic the results are by calculating the covariance. That’s a measure of how much two items’s probabilities are linked together; the higher the covariance, the more dramatic the results. A covariance of zero would mean there’s no difference between sampling with replacement or sampling without.</p>
+<p>As explained in this <a href="http://www.statcan.gc.ca/pub/12-001-x/2001002/article/6089-eng.pdf">paper</a>, bias may be introduced into population estimates through Telephone surveys, however, by the exclusion of nontelephone households from these surveys.The bias introduced can be significant since “non-telephone households” may differ from telephone households in ways that are not adequately handled by poststratification. Many households, called “transients”, move in and out of the telephone population during the year, sometimes due to economic reasons or relocation. The transient telephone population may be representative of the non-telephone population in general since its members have recently been in the non-telephone population.</p>
+</div>
+</div>
+</div>
+<div id="sample-weight" class="section level2">
+<h2>Sample Weight</h2>
+<p>Over-sampling in regions with small populations ensures that they have a large enough sample to be representative. Under-sampling is done in regions with large populations to save costs. Sample weights are mathematical adjustments applied to the data to correct for over-sampling, under-sampling, and different response rates to the survey in different regions.</p>
+<div id="how-are-the-oversampledundersampled-areas-corrected-in-data-analysis" class="section level3">
+<h3>How are the oversampled/undersampled areas corrected in data analysis?</h3>
+<p>The samples are designed to permit data analysis of regional subsets within the sample population. When the expected number of cases for some of these regions is too small for analysis, it is necessary to oversample those areas. When the expected number of cases for some of these regions is unnecessarily large, those areas may be undersampled to accommodate logistical or budgetary constraints.</p>
+<p>During analysis, it is then necessary to “weight down” the oversampled areas and “weight up” the undersampled areas. The developing of the sampling weights has taken this factor into account. Always use the weight variable found in the DHS data set. Even in surveys that come from a self-weighting sample, it is still necessary to use the sampling weights in analysis because the response behavior may differ by response groups.</p>
+</div>
+<div id="what-does-it-mean-to-normalize-the-weights" class="section level3">
+<h3>What does it mean to normalize the weights?</h3>
+<p>After the weights are initially calculated, they are normalized, or standardized, by dividing each weight by the average of the initial weights (equal to the sum of the initial weight divided by the sum of the number of cases) so that the sum of the normalized/standardized weights equals the sum of the cases over the entire sample. The standardization is done separately for each weight for the entire sample.</p>
+<p>The entire set of household sample weights is multiplied by a constant, thus, the total weighted number of households equals the total unweighted number of households at the national level.</p>
+<p>Individual sample weights are normalized separately for women and men. Thus, the total weighted number of women equals the total unweighted number of women, and the total weighted number of men equals the total unweighted number of men. Women and men are normalized separately because all non-HIV calculations are performed on women and men separately. We do not provide survey estimates on the joint population of women and men combined for anything other than HIV prevalence.</p>
+</div>
+</div>
+
+</article>
+</div>
+
+<div class="col-sm-3" role="complementary">
+<nav class="hidden-print hidden-xs" id="nav_sidebar">
+</nav>
+</div>
+
+</div>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+
+    // active menu
+    href = window.location.pathname;
+    href = href.substr(href.lastIndexOf('/') + 1);
+    if (href=='') href = 'index.html';
+    $('a[href="' + href + '"]').parent().addClass('active');
+    $('a[href="' + href + '"]').parent().parents('li').addClass('active');
+
+    // élargir la page d'accueil
+    if (href=='index.html') $('.col-sm-9').attr('class','col-sm-12');
+
+    // rechercher
+    $("#rechercher").submit(function(event) {
+      $('input[name="q"]').val($('input[name="q"]').val() + ' site:unhcr.github.io/Integrated-framework-household-survey');
+    });
+
+    // sidebar
+    $("#nav_sidebar").append($("#TOC").html());
+    $("#nav_sidebar ul").addClass("nav nav-stacked");
+    $("#TOC").addClass("visible-xs-block");
+    $('body').scrollspy({
+      target: '#nav_sidebar',
+      offset: 40
+    });
+
+    // Identifier les <pre> fermant
+    $('pre').next("*:not(pre)").prev().addClass('last'); // Dernier <pre> de chaque groupe contigu de <pre>
+    $('pre').parent().each(function (){
+      $(this).children('pre').last().addClass('last');
+    }); // Si <pre> est le dernier enfant de son parent
+
+    // Ajout liens rdocumentation et tooltip
+    $("code[data-pkg]").each(function( index ) {
+      pkg = $(this).attr('data-pkg');
+      if ($(this).attr('data-rdoc') !== undefined) {
+        rdocumentation = $(this).attr('data-rdoc');
+      } else {
+        rdocumentation = $(this).text();
+      }
+      fonction = $(this).text();
+      $(this).wrap('<a href="http://www.rdocumentation.org/packages/'+pkg+'/functions/'+rdocumentation+'">');
+      $(this).attr('data-toggle','tooltip');
+      $(this).attr('data-placement','top');
+      $(this).attr('title','package : ' + pkg);
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    $("code.pkg").each(function( index ) {
+      $(this).wrap('<a href="http://www.rdocumentation.org/packages/'+$(this).text()+'">');
+    });
+
+    // Figures
+    $("figure").each(function( index ) {
+      if ($(this).children("figcaption").length > 0)
+        $(this).children("figcaption:first").prepend('<span class="figure-number">Figure '+(index+1)+'.</span> ');
+      else
+        $(this).append($("<figcaption>").append('<span class="figure-number">Figure '+(index+1)+'</span>'));
+    });
+
+    // Colorbox
+    jQuery('article div img').colorbox({
+      maxWidth: '90%',
+      maxHeight: '90%',
+      rel: 'figures',
+      current: "",
+      href: function(){
+        return $(this).attr('src');
+      },
+      title: function(){
+        return $(this).attr('alt');
+      }
+    });
+    jQuery('article div img').css('cursor', 'pointer');
+    jQuery('figure img').colorbox({
+      maxWidth: '90%',
+      maxHeight: '90%',
+      rel: 'figures',
+      current: "",
+      href: function(){
+        return $(this).attr('src');
+      },
+      title: function(){
+        return $(this).parent().children("figcaption").text();
+      }
+    });
+    jQuery('figure img').css('cursor', 'pointer');
+
+    // ZeroClipboard
+    $('pre.r').parent().each(function(){
+      $(this).children('pre.r').first().before('<div class="zero-clipboard hidden-print hidden-xs"><button class="btn-clipboard">Copy</button></div>');
+    }); // Il peut arriver que le pre ne soit pas précédé (cf. figures)
+    $('*:not(pre):not(.zero-clipboard) + pre.r').before('<div class="zero-clipboard hidden-print hidden-xs"><button class="btn-clipboard">Copy</button></div>');
+    $('pre.last').after(function() {
+      if ($(this).hasClass("r")) res = $(this).text(); else res = "";
+      $(this).prevUntil('*:not(pre)','pre.r').each(function() {
+        res = $(this).text() + '\n' + res;
+      });
+      return '<div class="clipboard">' + res + '</div>';
+    });
+    $('.zero-clipboard').each(function(index){
+      $(this).children('.btn-clipboard').attr('data-clipboard-target','clipboard_'+index);
+      $(this).nextAll("div.clipboard").first().attr('id','clipboard_'+index);
+    });
+    var client = new ZeroClipboard( $(".btn-clipboard") );
+    client.on( "ready", function( readyEvent ) {
+      // alert( "ZeroClipboard SWF is ready!" );
+      client.on( "aftercopy", function( event ) {
+        // `this` === `client`
+        // `event.target` === the element that was clicked
+        //event.target.style.display = "none";
+        $(event.target).parent().before('<div class="alert alert-success"><a href="#" class="close" data-dismiss="alert">&times;</a>The <strong>R</strong> code is now copied in your clipboard.</div>');
+      } );
+    } );
+
+});
+</script>
+
+<!-- disqus -->
+<div class="row">
+  <div id="disqus_thread" class="col-sm-9" role="complementary"></div>
+</div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'protection-assessment-toolkit'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Activate JavaScript to see <a href="http://disqus.com/?ref_noscript">Disqus Comments.</a></noscript>
+    <!--<a href="http://disqus.com" class="dsq-brlink">Comments are hosted by <span class="logo-disqus">Disqus</span>.</a>-->
+
+<footer>
+  <div class="row">
+    <div class="col-lg-12">
+      <p>Powered by <a href="http://www.r-project.org/" rel="nofollow">R</a>, </a><a href="http://www.rstudio.com/" rel="nofollow">RStudio</a>, <a href="http://rmarkdown.rstudio.com/" rel="nofollow">R Markdown</a>, <a href="http://yihui.name/knitr/" rel="nofollow">knitr</a>, <a href="http://pandoc.org/" rel="nofollow">pandoc</a> and <a href="http://www.princexml.com/" rel="nofollow">Prince XML</a>. Hosted by <a href="https://github.com/" rel="nofollow">GitHub</a>.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+
+</body>
+</html>

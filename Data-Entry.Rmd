@@ -1,0 +1,95 @@
+---
+title: "Data Entry on KoboToolBox"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+<div class="important">
+This chapter is not written yet.
+</div>
+
+
+KoBoToolbox allows data collection in multiple ways. Because KoBoToolbox is built on the Xform/ODK technology, our forms are compatible with a number of different tools that can be used for data collection. We recommend using KoBoCollect as the tool of choice for Android devices, and Web Forms (Enketo) for collecting data on all other devices (including iPhones, iPads, or any laptop or computer).
+
+##  Using the client on Mobile Devices: koboCollect
+
+KoBoCollect is an Android app that can be installed on any standard Android phone or tablet. [To download the app to your Android device, click here](https://play.google.com/store/apps/details?id=org.koboc.collect.android).
+
+### Server URL set up
+
+After installing KoBoCollect, you need to configure it so that it can be used together with your KoBoToolbox account for data collection. To do so, follow the steps:
+
+* In KoBoToolbox, click on Projects within the menu sidebar on the left. Note the URL that is inside your browser at the top of your screen (for example, http://kobo.unhcr.org/username/)
+
+![Offline](images/dash_url.png)
+
+* On your Android device, open KoBoCollect and open the General Settings (click on the settings button of your device to access the settings). 
+
+![Offline](images/collect_settings_button_EX.png)
+
+* In General Settings, under URL, enter the exact URL from step (2). Make sure you include the correct 'https://'
+
+![Offline](images/collect_settings_url_EX.png)
+
+* Download forms from your account. Make sure you are connected to the Internet on your device. Also, you need to have deployed at least one project in KoBoToolbox.  On the home menu of KoBoCollect, click Get Blank Form. A list of all your forms from your different projects will be shown. Click Toggle All (or select the ones you wish to download), then click Get Selected.
+
+![Offline](images/collect_home_getformsEX.png)
+
+### Collect data 
+
+* Click on Fill blank form
+
+![Offline](images/collect_home_add_data_EX.png)
+
+* Select the form to which you would like to enter data 
+
+* Go through all the questions (swiping your finger from right to left)
+
+* At the end click on Save Form and Exit (making sure the form is marked as 'finalized')
+
+### Uploading finalized data
+
+
+* From the home screen, click on Send Finalized Form
+
+![Offline](images/collect_home_upload_data_EX.png)
+
+* A list of your most recently collected forms appears.
+
+* Click Toggle all (or select the ones you wish to send), then click Send Selected.
+
+It is possible to hide buttons and options within KoBoCollect. On the home screen click the Android menu button, then Choose Admin Settings and select the buttons you would like to hide from the different screens. If you set an admin password,  interviewers won't be able to access the Admin settings to ever get access to these buttons.
+
+![Offline](images/collect_settings_Adminbutton_EX.png)
+
+    
+##  Using the web client: Enketo
+
+Web Forms, also known as Enketo, are used by KoBoToolbox to preview  forms and to enter data directly on a computer. Web forms also for collecting data on any mobile devices - even when offline at the time of data collection. It works on virtually any device, including iPhones, iPads, or any other smartphone, tablet, or computer. Some features are still being actively developed for Enketo, so some special questions may not be fully supported yet on every device.
+### Start Collection 
+
+To start collecting data using web forms in your computer, simply click on the button 'Enter data in browser' in your project view. This is especially useful for testing purposes, but also when transcribing data from using paper forms.
+
+![Offline](images/kbt_kc_enketo2_PC.png)
+
+To collect data using a mobile device, you need to copy the URL of your webform to your mobile device. You can simply send it by email or text message to any device. To obtain the URL of the webform, click either the 'Enter data in browser' or 'How to collect data on mobile device' buttons.
+
+![Offline](images/kbt_kc_enketo1.png)
+
+### Collecting data offline
+
+Enketo is also able to collect data while offline. However, it is essential to visit the URL once before going offline, and then saving it on the device (for example with a bookmark on the mobile browser).
+
+Once your form has been fully loaded and cached, an offline availability icon (empty "signal bars" and a check mark) in the top-left corner will appear and indicate that the form can be accessed offline unless *browser's data are cleared*.
+
+![Offline](images/enketooffline.png)
+
+Enketo will display the form within that URL even without any Internet connectivity, and data  will be store and queued until the next internet connection.
+
+
+## Differences between the two options
+A detailled [list of differences between the 2 options is here](http://support.kobotoolbox.org/customer/portal/articles/1653813) but in the differences are minimal and mostly impact the ammount of hidden metdata that can be collected as well the configuration of the look'n'feel of the form for end users.
+

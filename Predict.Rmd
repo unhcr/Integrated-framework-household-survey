@@ -1,0 +1,17 @@
+---
+title: "Predict"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+<div class="important">
+This chapter is not written yet.
+</div>
+
+## Regression Analysis
+Regression analysis is a statistical process for estimating the relationships among variables. Regression (and more specifically in the case of categorical data: [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression)) can be used to predict certain characteristics or events linked to one household.
+
+

@@ -1,0 +1,37 @@
+---
+title: "KoboToolBox Server Configuration"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+<div class="important">
+This chapter is not written yet.
+</div>
+
+
+##  What is KoboToolBox?
+KoBo Toolbox is an [open-source tool](https://github.com/kobotoolbox) for mobile data collection. It allows you to collect data in the field using mobile devices such as mobile phones or tablets, as well as with paper or computers.
+
+The project has been orginally develoipped by the [Harvard Humanitarian Initiative](http://hhi.harvard.edu/research/kobotoolbox) and was then adapted to humanitarian usage in colleaboration with [OCHA](https://www.humanitarianresponse.info/en/applications/kobotoolbox).
+
+
+KoBoToolbox was first created in 2009 and has grown over the years to include several projects and initiatives. It include:
+* FORMBUILDER: Easily create survey forms through an online user interface.
+* MOBILE DATA COLLECTION: Quickly and reliably collect data on Android, iOS, and many other devices, online or offline, in any language and with complex skip logic.
+* ANALYZING DATA: Inspect data moments after it was collected - and download it for advanced analysis in other software in Excel, CSV, KML, and other formats.
+
+## Sign up and first login
+
+Visit https://kobo.unhcr.org and create a new account. After your account activation, through the link that was sent to you, you can log in to access your account.
+
+
+## Upload your form
+
+You can now go to project and upload the form designed throught the question library.
+
+## Create users to collect data
+
+
+More [support on KoboToolBox is avaialble form this page](http://support.kobotoolbox.org/)

@@ -1,0 +1,15 @@
+---
+title: "Slides & Infographics"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+<div class="important">
+This chapter is not written yet.
+</div>
+
+Experience shows that it is easier for decision makers to see trends in data when it is visually presented in charts, maps and graphs.  While valuable time should not be wasted making a visually flawless final report, attracting the readers’ eyes to key messages and actionable information is strategic. 
+

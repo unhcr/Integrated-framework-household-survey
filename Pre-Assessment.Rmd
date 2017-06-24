@@ -1,0 +1,32 @@
+---
+title: "Pre-Assessment"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+<div class="important">
+A few task needs to be completed before the proper initiation of the assessment. It includes: 
+ * Informing key community stakeholders about the assessment, 
+ * Gathering critical site information required for effective primary data collection, 
+ * Confirming (or refuting) assumptions made in the planning stage, including logistics issues, travel time, limits of accessibility, and time available for fieldwork as well as highlighting implications of security issues (curfews, movements of armed actors, and risks of mines or  explosive remnants of war). 
+ 
+</div>
+
+It is recommended that, before actual data collection in the field, a preparatory visit is done to each site of the assessment. This site preparation visit is the first contact between the assessment team and affected communities.
+
+During site preparation (which can be undertaken by the field team leader, together with a second team member), meetings are held with key stakeholders in which team members will:
+
+* Introduce themselves, 
+* Introduce the assessment objectives,
+* Agree the assessment schedule and confirm that is suitable to the community and that will include representation of necessary population groups as planned, including those most vulnerable,   
+* Work with authorities, community leaders or members of the local community to identify KI interview and FGD participants,
+* Confirm that the site has the characteristics of the strata it has been selected for,
+* Identify locations for interviews and FGDs and confirm the suitability of these structures, 
+* Provide information about the work plan , confirm KI interview and FGD start times,  
+* Inform whether the participants should expect food or refreshments,
+* Take the details of community leaders for any unforeseen communication. 
+
+A master list of sites which have been visited should be kept by the assessment team leader and noted on a map of the affected area to ensure that sites are not visited twice and that an appropriate geographic selection of sites has been used.  

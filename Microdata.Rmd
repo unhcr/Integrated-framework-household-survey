@@ -1,0 +1,115 @@
+---
+title: "Organise Microdata for Social Scientist"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+<div class="important">
+This chapter is not written yet.
+</div>
+
+## Data sharing for research
+
+
+<blockquote>
+The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the joint research team. Any data shared under this agreement will not be provided to any third party.  For its part, UNHCR agrees to share defined and agreed upon data  with the <kbd>Partner Name</kbd> for the purposes of the <kbd>Partner Name</kbd> and UNHCR collaboration on this project herein-defined as "<kbd>Project Name</kbd>".  All information that would allow for identification of individuals will be excluded from these datasets, e.g. refugee ID number. UNHCR will share this information via a safe mechanism to reduce the likelihood of a third party accessing the data unlawfully. <kbd>Partner Name</kbd> will specify by name and title who will receive the information, who will have access to the information, and where the information will be kept, e.g. individual personal computer or server, all with the intent to avoid unlawful access and use of the information. Once the information is used for its defined purpose, the data will be disposed of at a date determined and in agreement by the two parties.
+</blockquote>
+
+## Anonymization techniques & Statistical disclosure control (SDC) 
+
+Once anonymised, a dataset does not fall anymore under the Policy on the Protection of Personal Data. 
+Though there’s a [few articles](https://epic.org/privacy/reidentification/ohm_article.pdf) about the failure of anonymization that shows how removing names & ID is not always sufficient to prevent “data re-identification”. 
+Many techniques can be used for "statistical disclosure control": suppression, inference control, banardisation, rounding or sampling. Other approaches includes rules like for instance “do not share figures for a spatial unit if it does not reach  the 1000 refugees threshold”…
+
+A [dedicated R module](https://cran.r-project.org/web/packages/sdcMicro/vignettes/sdc_guidelines.pdf) is availalble to perform anonymisation.
+
+### Sharing via a safe mechanism:  File encryption
+
+What is a safe mechanism to share information: for instance which software to use for encryption, how to share password, etc. Potential requirements could include:
+-	Use a well know encryption approach – The common standard si [AES  -Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+-	Rely on open source software – so both parties can easily encrypt & decrypt without being tied to software procurement obstacle. 
+-	Combine encryption and file compression: so files are easier & lighter to share
+- The password used for the encryption should be at least 10 character long with a mixture of  lowercase and uppercase alphabetic character, numbers and symbols. This should allow to build what is commonly called a [strong password](  https://en.wikipedia.org/wiki/Password_strength) and should always be transmitted independently form the file (for instance on a separate paper sheet with no reference to the file it allows to open). 
+
+In terms of software, it is possible to use [7zip](http://www.7-zip.org/). 
+![7zip](images/7zip.png)
+
+A sumarry of the principle above woud be:
+*Data files should be encrypted with AES-256 method using a strong password (at least 10 character long with a mixture of  lowercase and uppercase alphabetic character, numbers and symbols) and compressed using the 7zip format with the 7zip software. Password will be transmitted printed on a paper that will need to be secured by the receiving agency*.
+
+
+### Restricting access to data
+
+Need to set up a standard registry of person who work on UNHCR datasets 
+
+
+## Engaging in "Research Agreement"
+
+### Research Confidentiality
+
+A written and legally-binding Confidentiality Agreement must be signed by the lead researcher, all members of the research team that will have access to individually identifiable information from the records. The agreement coudl include the folowwing points:
+
+<blockquote>
+<kbd>Analysis Project Title</kbd>
+Principal Investigator: <kbd>UNHCR</kbd>
+
+I, 	<kbd>Resesarcher Name</kbd>, from <kbd>Resesarch Organisation Name</kbd>, as a member of this research team, understand that I may have access to confidential information about study sites and participants.  By signing this statement, I am indicating my understanding of my responsibilities to maintain confidentiality and agree to the following: 
+
+1.	keep all the research information shared with me confidential by not discussing or sharing the research information in any form or format (e.g., disks, tapes, transcripts) with anyone other than the Researcher(s).
+
+2.	keep all research information in any form or format (e.g., disks, tapes, transcripts) secure while it is in my possession.
+
+3.	return all research information in any form or format (e.g., disks, tapes, transcripts) to the Researcher(s) when I have completed the research tasks.
+
+4.	after consulting with the Researcher(s), erase or destroy all research information in any form or format regarding this research project that is not returnable to the Researcher(s) (e.g., information stored on computer hard drive).
+
+5. notify the local principal investigator immediately should I become aware of an actual breach of confidentiality or a situation which could potentially result in a breach, whether this be on my part or on the part of another person.
+
+</blockquote>
+
+### Reproducible research
+
+To ensure that research done on the dataset can be reproduced afterwards by internal staff both to check them and to refresh the analysis when we have new data a series of good practices shoudl be implemented:
+
+ 1. For every result, **keep track** of how it was produced
+
+ 2. **Avoid manual data manipulation** steps
+
+ 3. **Archive** the exact versions of all external programs used
+
+ 4. **Version control** all custom scripts
+
+ 5. **Record all intermediate results**, when possible in standardized formats
+
+ 6. For analyses that include randomness, **note underlying random seeds**
+
+ 7. Always **store raw data** behind plots
+
+ 8. Generate hierarchical analysis output, allowing layers of increasing detail to be inspected
+
+ 9.  Connect **textual statements** to underlying results
+
+ 10. Provide **public access** to scripts, runs, and results
+ 
+
+
+##  The Internation Household Survey Network & the DDI format
+
+
+[Humanitarian Research](https://app.box.com/s/8cgdwbw4j311bvkk5hlqr8fuatwbdx4n) in the context of social science and data analysis is still new but can benefit the organisedtion for instance to:
+
+* Co-development and co-design of tools, protocols, products, processes, and innovations
+* Facilitate organisational learning, keeping track of lessons learned, and providing a neutral stance for moderating innovation and change processes
+* Access to wider body of knowledge, from academia or other organisations, and research in
+other fields.
+
+![7zip](images/research.png)
+
+To facilitate this process, the first approach woudl be to document the dataset according to the [Data Documentation Initiative (DDI) metadata standard](http://www.ihsn.org/home/projects/DDI-standard) developped by the [International Household Survey Network (IHSN)](http://www.ihsn.org/home/about).
+
+Once the metadata are generated in the right format, it becomes possible to publish them within the [ISHN Microdata catalog](http://catalog.ihsn.org/index.php/catalog) or the [World Bank Microdata Library](http://microdata.worldbank.org/catalog)
+
+
+

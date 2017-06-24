@@ -1,0 +1,136 @@
+---
+  title: "Protection Topics"
+---
+  
+  ```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+<div class="important">
+
+Translate assessment results into programmatic response recommendations is challenging when it comes to protection activities. 
+
+The analysis of vulnerabilities allows to generate protection activities recommendations.
+
+The analysis of vulnerabilities is complex as it should allow to understand:
+
+ * How **multiple vulnerabilities** interact between each other (prioritisation through criticality)?
+ * What is, for **each vulnerability type**, the specific profile of a population group in terms of magnitude and severity?
+
+</div>
+Translate assessment results into programmatic response recommendations is challenging when it comes to protection activities. 
+
+## The Right based approach 
+
+Protection programme are designed according to the [Right Based approach](https://en.wikipedia.org/wiki/Rights-based_approach_to_development). As such, more than the needs, it is the vulnerability of specific population group toward right violation that informs ressources allocation.
+
+Vulnerability level for each specific risk =
+function(risk **occurrence**) +
+function(**exposure** to risk of basic right violation) +
+function(**coping capacity** before or after violation)
+
+
+Protection activities for UNHCR:  
+
+ - Prevent occurrence of basic right violation event (**Environment Building actions**) && 
+ - Limit the effects of violation events consequences (**Remedial actions**) && 
+ - Respond to basic right violation event  (**Responsive actions**) 
+
+
+Protection analysis is therefore linked to specific events linked to specific Right groups defined by UNHCR Result Based management.
+
+Rights Group                                    | Basic right type                       | Violation event
+----------------------------------------------- |--------------------------------------- | ------------- 
+__Favourable Protection Environment__           | Non-refoulement                        | Non-admission, Refoulement
+-                                               | No discrimination                      | Detention
+-                                               | Freedom of movement                    | Eviction, deportation
+__Fair Protection Processes and Documentation__ | Documentation                          | No issuance/renewal of residency
+-                                               | Right to a nationality                 | Birth Registration
+__Community Empowerment and Self Reliance__     | Livelihood                             | Negative coping mechanism (Prostitution, child labour, early marriage, begging, stealing,.)
+-                                               | Peaceful co-existence                  | Intercommunity violence
+__Basic Needs and Essential Services__          | Education                              | Children out of school
+-                                               | Food                                   | Malnutrition
+-                                               | Social & economic rights               | Non access to services (healh, schools, MPSS)
+-                                               | Housing, Wash & Shelter                | Sub standard living conditions
+__Security from Violence and Exploitation__     | Age, gender and diversity mainstreaming| Sex & Gender based violence, child abuses
+
+
+
+## Vulnerability Profile
+
+On each topic, the protection assessment should allow to identify the affected population’s vulnerability profile:
+
+* Threat in terms of   __criticality__ , i.e how important is the threat compared to other. This is measured through priority ranking.
+* Threat  in terms of occurence in order to define __magnitude__ 
+* Capacities and capabilities in order to define  __severity__ -- "Severity" (or intensity) expresses the degree of unmet needs (it is thus related to shortages and deficits,  as  opposed  to  fulfillment  and  wellbeing) or the egree of something harmful,
+harsh, stern, irreversible or not desirable. As such it is expressed through a form of rating.
+
+
+The vulnerability profile (combination of criticality/magnitude/severity) for each topic will allow to prioritise the relevant activities. [Severity and Priority](http://aldo-benini.org/Level2/HumanitData/Benini_forACAPS_SeverityAndPriority_2013.pdf) are therefore appropriate way to measure vulnerability.
+
+The risk profile will help designing the best intervention approach for each group:
+
+Activity	                     | Criticality |	Magnitude | Severity
+------------------------------ |------------ | ---------- |------------ 
+Environment Building actions   |  	++       | 	  +       | 	-
+Remedial actions               | 	  +        | 	  ++      | 	+
+Responsive actions             | 		 +       |     -      | 	++
+
+
+## Analysis Topics
+
+### Favourable Protection Environment    
+
+List of analysis modules
+
+* Protection-sensitive border mechanism
+* Counselling & Legal aid
+* Freedom of movement & Detention
+* Multiple Displacement & Movement
+
+### Fair Protection Processes and Documentation 
+
+List of analysis modules
+
+* Birth Registration
+* Civil status documentation
+* Family re-unification
+* Refugee registration
+* Risk of eviction
+
+### Community Empowerment and Self Reliance 
+
+List of analysis modules:
+
+* Social cohesion
+* Housing, shelter & wash conditions
+* Employment & livelihood
+* Child Labour
+* Assets & Budget
+
+### Basic Needs and Essential Services 
+
+List of analysis modules:
+
+* Refugees with specific needs 
+* Assistance received
+* Negative coping mechanism
+* Food security
+* Access to health services
+* Education & Out of School Children
+
+### Security from Violence and Exploitation
+
+List of analysis modules:
+
+* Sexual Harassment & Violence (Rape) 
+* Harassment between youth
+* Gender inequality
+* Domestic Violence (Parental stress, Isolation at home)
+* Forced and early marriage
+* Violence among children
+* Armed recruitment
+* Harassment & Violence towards LGBTI
+* Security & Civil violence
+
+
+

@@ -1,0 +1,218 @@
+---
+title: "Interview"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+<div class="important">
+
+Several aspects come into play in the data collection process. The three most crucial aspects include: the cost of the selected data collection method; the accuracy of data collected; and the efficiency of data collection.
+
+In regard to behavioural characteristics, it is generally recongised that face-to-face data deliver the best results, followed by telephone interviews and finally online quota survey. Interactive Voice Response & Short text Message (SMS) Pools are adequate only in very specific cases.
+
+interview incentive can be very effective to ensure a good response ratio.
+</div>
+
+May guidelines are available such as:
+
+* [Designing Household Survey Samples: Practical Guidelines](http://unstats.un.org/unsd/demographic/sources/surveys/Series_F98en.pdf) 
+* [The Power of Survey Design](https://openknowledge.worldbank.org/bitstream/handle/10986/6975/350340The0Powe1n0REV01OFFICIAL0USE1.pdf?sequence=1) 
+
+## Definition of household and relations with UNHR Registration case
+
+
+### Definition of households
+
+This concept is explained in details in the (Principles and Recommendations for [Population and Housing Censuses](http://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf).
+
+The concept of household include those persons who live together and have communal arrangements concerning subsistence and other necessities of life, such as eating together. This implies therefore 2 important arrangement;
+
+ * The **household dwelling** concept regards all persons living in a housing unit as belonging to the same household. According to this concept, there is one household per occupied housing unit. Therefore, the number of occupied housing units and the number of households occupying them are equal and the locations of the housing units and households are identical.
+ 
+ * The **housekeeping concept**, that is to say, a person or a group of two or more persons living together who make common provision for food or other essentials for living, with or without combining with any other person to form part of a multi-person household. The persons in the group may pool their resources and have a common budget; they may be related or unrelated persons or a combination of persons both related and unrelated. 
+
+#### Household types
+
+3 types of households can be distinguished:
+
+**Nuclear household**: 
+It is defined as a household consisting entirely of a single family nucleus. It may be classified into: 
+
+ *  Married-couple family: With child(ren) or Without child(ren);
+ *  Partner in consensual union (cohabiting partner): With child(ren) or Without child(ren);
+ *  Father with child(ren);
+ *  Mother with child(ren);
+
+**Extended household**: 
+It is defined as a household consisting of any one of the following: 
+
+ *  A single family nucleus and other persons related to the nucleus, for example, a father with child(ren) and other relative(s) or a married couple with other relative(s) only;
+ *  Two or more family nuclei related to each other without any other persons, for example, two or more married couples with child(ren) only;
+ *  Two or more family nuclei related to each other plus other persons related to at least one of the nuclei, for example, two or more married couples with other relative(s) only;
+ *  Two or more persons related to each other, none of whom constitute a family nucleus;
+
+**Composite household** 
+It is like an extended household with the difference of : 
+
+ *  A single family nucleus plus other persons, some of whom are related to the nucleus and some of whom are not, for example, mother with child(ren) and other relatives and non-relatives;
+ *  A single family nucleus plus other persons, none of whom is related to the nucleus, for example, father with child(ren) and non-relatives);
+ *   Two or more family nuclei related to each other plus other persons, some of whom are related to at least one of the nuclei and some of whom are not related to any of the nuclei, for example, two or more couples with other relatives and non-relatives only;
+ *  Two or more family nuclei related to each other plus other persons, none of whom is related to any of the nuclei, for example, two or more married couples one or more of which with child(ren) and non-relatives;
+ *  Two or more family nuclei not related to each other, with or without any other persons;
+ *  Two or more persons related to each other but none of whom constitute a family nucleus, plus other unrelated persons;
+ *   Non-related persons only;
+
+
+### Relations with UNHCR cases as per Registration
+
+The UNHCR case is the equivalent of Nuclear household. NHCR case are used a basis for large part of the assistance delivery.
+
+When surveying Households, it is important to make connection between the households and the cases:
+
+ * Case 1: One single family nucleus which then equals a UNHCR case. In this case both dwelling & housekeeping are de facto shared.
+ * Case 2: An extended household with two or more than two UNHCR cases. In this case, the surveyor will record if  dwelling & housekeeping are effectively shared between cases.
+ * Case 3: A composite household with two or more than two UNHCR cases, as well as additional members, such as host communities individuals. In this case, the surveyor will record if  dwelling & housekeeping are effectively shared between cases, as well as with the members that are not part of the cases.
+
+The main point is to allow for understanding the allocation of expenses (housekeeping & dwelling) between cases that would be grouped together in the same extended or composite household.  The allocation coudl be based for instance on: 
+
+ * One case covering for all other cases;
+ * One case covering for non-UNHCR case members;
+ * Allocation based on number of individuals in each case;
+ * Allocation based on number of adults individuals in each case;
+ * Allocation based on number of individuals that get an income in each case, etc.
+
+## Comparison of interview approaches
+
+The follwing is based on Literature review from [here](http://www.electionstudies.org/resources/papers/documents/nes010871.pdf) and  [here](http://academyofwinebusiness.com/wp-content/uploads/2013/04/Szolnoki-Hoffmann.pdf).
+
+### Face to Face interview
+
+Advantages: 
+
+ *  Accurate screening. Face-to-face interviews help with more accurate screening. The individual being interviewed is unable to provide false information during screening questions such as gender, age, or race. 
+ * Keep focus. The interviewer is the one that has control over the interview and can keep the interviewee focused and on track to completion.  
+ *  Capture emotions and behaviors. Face-to-face interviews can no doubt capture an interviewee’s emotions and behaviors. Interviewer opinion can be a very good predictor of vulneraility for instance 
+
+Disadvantages: 
+
+ *  Cost. Cost is a major disadvantage for face-to-face interviews. They require a staff of people to conduct the interviews, which means there will be personnel costs. 
+ *  Quality of data by interviewer.  The likelihood of the entire interviewing staff having those skills is low. Some interviewers may also have their own biases that could impact the way they input responses.  
+ *  Reluctance:  Women and the elderly may feel more physically vulnerable than men and younger people.  So the first of these groups may be more reluctant to allow a stranger into their homes for an interview, whereas they may be willing to talk with an interviewer over the telephone.  
+ *   Limit sample size. The size of the sample is limited to the size of your interviewing staff, the area in which the interviews are conducted, and the number of qualified respondents within that area.  
+ * Higher level of "unknown" reponse are boserved and were demonstrated by [studies](http://egap.org/content/brief-36-face-face-interviews-cognitive-skill-and-non-response): "There is more item non-response in in-person interviews and that non-response is being driven by people with low levels of cognitive skills. The fact that there was an increased rate of correct responses to fact-based questions in the in-person interviews compared to the self-completed ones – with the concomitant decrease in “don’t knows” – suggests that it is not the case that people are randomly guessing in the self-completed modes. The in-person interview seems to keep people from answering even when they know the correct response".
+
+
+### Telephone interview through Call Center
+
+Telephone surveys may provide a good alternative, but we would advise use of a larger sample. 
+
+Advantages: 
+
+ * Increasing rates of telephone coverage, 
+ * Low cost of telephone surveys relative to face-to-face interviews,
+ * speed with which telephone surveys can be conducted.
+
+Disadvantages: 
+
+* people without  telephones can only participate in face-to-face surveys.  The systematic exclusion of this latter group from telephone surveys may introduce bias if this group is both sufficiently sizable and also sufficiently different from telephone owners.  A
+ * Young adults are more transient and less settled than middle or older age adults, the former individuals may be less likely to 
+own telephones and therefore may be under-represented in telephone samples.  
+ * Telephone  survey responses manifest more social desirability response bias than the Internet survey;
+ * Risk of selecting random people who lost/changed their phone. 
+
+### Self administered with online quota survey
+
+The emergence of Internet surveys in the 1990s threatened the dominance of telephone surveys due to their advantages in terms of cost and speed. Indeed, Internet surveys soon appeared as a promising alternative to prior methods; nevertheless, there are still problems with the coverage and, as a result, with the representativeness of online surveys.
+
+[Scrolling versus Paging, SMS versus E-mail Invitations](http://jssam.oxfordjournals.org/content/2/4/498) have an impact on response rates in web surveys completed on personal computers. Scrolling design leads to significantly faster completion times, lower (though not significantly lower) breakoff rates, fewer technical problems, and higher subjective ratings of the questionnaire. SMS invitations are more effective than e-mail invitations in mobile web surveys. 
+
+Advantages:
+
+ * Lower cost and higher speed; 
+ * Visual, interactive, and flexible; 
+ * Do not require interviewers to be present and busy people – often educated and well-off – who systematically ignore taking part in a telephone survey are willing to answer questions posted on their computer screens;
+  * Sutdies found that Internet-based  surveys increased  the  reporting on  sensitive  information, compared  to computer-assisted telephone interview.
+  
+Disadvantages: 
+
+ * under representation of uneducated population group: panel:  one  can  reach only  those  who  are online; one can reach only those who agree to become part of a panel; not all those who are invited respond; and, those who sign up for online panels are rather young and male.
+
+
+### Interactive Voice Response & Short text Message (SMS) Pools
+
+
+IVR ([Interactive Voice Response](https://en.wikipedia.org/wiki/Interactive_voice_response)) can be used with a Free tool #. 
+
+Advantages:
+
+ * Accessible to illiterate and in multiple language
+ * Can support a lot of concurrent connection
+ 
+Disadvantages:
+
+ * Technology need to be purchased
+ * Can not process to complex information
+
+
+SMS gateway: FrontlineSMS has been already used under the project name [Ascend](http://innovation.unhcr.org/labs_post/ascend/) and tested by [UNHCR in Costa Rica](http://innovation.unhcr.org/testing-ascend-in-costa-rica-refining-the-solution/)
+
+
+Specific constraints:
+
+ * 4 options max per questions 
+ * concise questions, simple words 
+ * describe action then press key 
+ * caller should be informed on how much to go to complete the survey
+
+Advantages:
+
+ * Lower cost and higher speed.
+  
+Disadvantages: 
+
+ * only fit for short questions & short survey (less than five questions)
+ * Risk of selecting random people who lost/changed their phone
+
+## Interview incentives
+
+A series of article about surveys on SGBV in US universities , [here](https:/www.washingtonpost.com/news/fact-checker/wp/2014/12/17/one-in-five-women-in-college-sexually-assaulted-an-update/), and [here](https://www.themarshallproject.org/2014/12/11/the-dueling-data-on-campus-rape), and [here](https://www.washingtonpost.com/news/grade-point/wp/2015/10/15/a-better-way-to-gauge-how-common-sexual-assault-is-on-college-campuses/) raised the point of the methodological approach to get SGBV statistics.
+
+low response rate may virtually guaranteed exaggeration of certain participants.
+
+Incentives/Fear make people declare information inaccurately and generate declaration bias. For instancem Fear associated with Legal obligations or Reporting Financial Issues in hope to get support
+
+## Interview lenght
+
+The World Bank has studied the [effect of the questionnaire lenght on survey results](http://blogs.worldbank.org/impactevaluations/9-pages-or-66-pages-questionnaire-design-s-impact-proxy-based-poverty-measurement) and found that identical questions asked of the same population yield different answers in short vs. long questionnaires due to differences in interactions between different questionnaire designs and respondent cognitive processes. This is visible through:
+
+* variables, particularly those related to subjective welfare and housing, are impacted by changes in questionnaire design. 
+
+* households answer the same questions differently when interviewed with the short versus the long questionnaire during the same time period.
+
+* differences in reporting are sufficient to yield poverty predictions that are significantly different in the short and long questionnaires.
+
+## Who to interview?
+
+The selection of the respondent is absolutely critical especially when it comes to questions about perceptions. Men and women in the same household respond differently to individual questions.  The fact that the degree of discordance varied so dramatically from one question to the next suggests that there is something about the questions themselves that affects how men and women will respond.
+
+Different set of practice can be used:
+
+ *  The household head is interviewed.
+ *  Whomever is available when the enumerator shows up is interviewed.
+ *  The member of the family who can speak the language of the interviewer. This is particularly the case in ethnic minority communities where men tend to speak better a vehicular language than women (since men generally have more relations with people outside the community and often have gone to school longer).
+ *  Multiple members of the household are interviewed, with the most knowledgeable respondents providing different pieces of information wherever possible.
+ *  A random adult among those present at the time of visit is interviewed
+ *  A random adult among all those on the household roster is interviewed.
+ * Some questions are triggered for men and some questions are triggered for female only
+
+Although it might not be the recoemmanded approach, in practice the "Whomever is available" is usually used. The design of the form can actually limit potential exclusion effects.
+
+## How to deal with Sensitive questions?
+ 
+
+List randomization (also referred to as list experiments, the item-count technique, and the unmatched count technique) is a way of obtaining truthful responses to questions related to sensitive issues. This techniques can be used for issues related to migration for instance (see this [study](http://www.cream-migration.org/publ_uploads/CDP_10_13.pdf) or this [reference page](http://graemeblair.com/sensitive/)  or this [one](https://alexandercoppock.com/research/list-experiments/) ).
+
+The use of this method typically leads to higher reports of sensitive behaviors than is obtained through 
+direct  questioning.  Practically speaking, individuals are randomly allocated  into two groups. The two groups are offered different answers for the same questions - the different answer is the sensistive one. Subtracting  the  mean  number  of  true  statements  reported  by  group  B  from  the  mean  number  of  true statements reported by group A then gives the proportion of the sample that falls under the sensitive option.  

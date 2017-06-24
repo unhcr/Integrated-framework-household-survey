@@ -1,0 +1,164 @@
+---
+title: "Instructions for Interviewer"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+## Approaching households
+
+### Appointment for interview
+
+At the start of each survey cycle, either phone calls or notification letters are used to explain the purpose of the survey to the sampled  households, to seek their co-operation, request the presence of all household members, collect their precise address and set up the appointment. The enumerator will then visit the households concerned in person to collect the required information. When they are not able to contact the households concerned during their visit to their quarters, a pre-printed non-contact (NC) slip will be left to these households so that another appoitnement can be set up.
+
+### Defining members of household
+
+On order to make a comprehensive list of individuals connected to the household, the following probe approach is used: 
+
+1. First, get the name and details of the head of household, including his refugee registration number. 
+
+2. Second, get the names of all the members of your immediate family who normally live and eat their meals together here. Names, sex, and relationship to household head are first listed. For each member, in addition of getting Individual ID, the enumerator should ask if they are registered under the same UNHCR case ID than the head of household (if not get the other number and the reason why they are living together).
+
+3. Third, get the names of any other persons related to you or other household members - "Extend Household"- who normally live and eat their meals together here. "Are there any other persons not here now who normally live and eat their meals here?  for example, household members studying elsewhere or traveling". get their details and their refugee ID.
+
+4. Then, get the names of any other persons not related to you or other household members- "Composite Household"-, but who normally live and eat their meals together here, such as servants, lodgers, or other who are not relatives. Do not list servants who have a household elsewhere, and guests who are visiting temporarily and have a household elsewhere.
+
+
+## Eligible Respondents for the Household Questionnaire
+
+In each sampled household you visit, you should begin by interviewing a knowledgeable adult member of the household to fill in the Household Questionnaire. All modules of the Household Questionnaire will be administered to this person, referred to as the Household Respondent, including the modules in the questionnaire where the information collected is about other household members. The Education module is one such example.
+
+For the purposes of the Household Questionnaire, an adult is defined as someone age 15 years and over. However, young adults (below age 18) may not be the most ideal members to interview. Therefore, in cases when there is another older household member (for instance, the parent of the 15 year-old) available to interview, you should prefer to interview this person who is likely to be more knowledgeable about the household. Whenever possible, you should use your preferences to interview the household member who is likely to be more knowledgeable.
+
+On the other hand, interviewing the household head is not a requirement and you are not expected to ask for the household head to do the interview.
+
+You should also keep in mind that for practical reasons, it may be an advantage to begin the Household Questionnaire with a mother or primary caretaker (of a child under five years of age), since many of the questions/modules are about children, and mothers/caretakers provide more accurate responses to such questions better than anybody else. While you should not make a special effort to ensure this, you will indeed start the interview with such persons in many cases, since, in practice, these persons are more likely to be at home than, say, male household heads.
+
+There should only be one respondent to the Household Questionnaire and the other members of the household should not respond to any part of the questionnaire. Multiple respondents to the questionnaire will undoubtedly lead to an uncontrolled, low quality interview, and may lead to errors in recording responses. Ideally, the household respondent is not expected to consult other members that may be available in the household. However, you may allow the household respondent to ask other members in order to get more correct information, especially on information such as age, which may affect the eligibility of some members for individual questionnaires, or modules where age checks are important, such as the education, child labour, or the child discipline modules.
+
+## Eligible Respondents for the Individual Questionnaires
+
+When you have completed the Household Questionnaire, you will have identified women (age 15-49), men (age 15-49) and ‘mothers or primary caretakers’ (age 15 or above) of children under five to whom you or other interviewers in your team will administer the individual questionnaires.
+
+ * You should interview separately all women age 15 through 49 who reside in the household to fill in the Questionnaire for Individual Women.
+ * You should interview separately all men age 15 through 49 who reside in the household to fill in the Questionnaire for Individual Men.
+ * You should administer the Questionnaire for Children Under Five to mothers of children under 5 years of age who are residing in the household. If the mother is not recorded in the List of Household Members (if the mother is not a member of this household), then the person who is acknowledged by the household respondent as the primary caretaker should be the respondent to the Questionnaire for Children Under Five.
+ 
+
+You will identify these individuals by completing the List of Household Members in the Household Questionnaire.
+
+If you visit a household where there are no members eligible for the individual questionnaires, you must still ask questions about the household to a knowledgeable adult household member and complete the Household Questionnaire.
+
+As a general rule, the respondent to any of the questionnaires must be at least 15 years old. This also applies to the mother or primary caretaker of a child under age 5; in the rare event that a mother or primary caretaker is less than age 15 you should record ‘Other’ as result of the interview in UF9 and specify that the mother/caretaker is less than age 15 and therefore cannot be interviewed. No other respondent is permitted than the mother/caretaker identified in the List of Household members.
+
+## Finding and Re-Visiting Households
+
+Your supervisor will give you a list or tell you how to find the households to visit. You must visit all these households and should not replace these households with other households that are not selected for interviews. 
+
+If no one is at home when you go to interview the household, ask the neighbours whether anyone lives at this location. If it is occupied, ask the neighbours when the household members will return. Arrange with your supervisor to go back to the location when the household members are expected to be back; for example, at the end of the day. Note such plans on your cluster control sheet and note the time you are to return on the first page of the questionnaire (Household Information Panel). 
+
+If no adult household member is at home, arrange to come back at another time. Do not interview a household member younger than age 15, a temporary caretaker of the children, such as a daytime babysitter, and do not interview anyone who does not usually live in the household. The rule to interview a knowledgeable adult household member cannot be relaxed or violated under any circumstances.
+
+Each household in the sample has to be visited at least three times (two re-visits) before you can mark HH9 (Result of household interview) as ‘No household member or no competent respondent at home at time of visit’, unless otherwise instructed by your supervisor. There may be cases when you learn that the household will be away for an extended period, and will definitely not return within the fieldwork period, in which case HH9 would be marked as ‘Entire household absent for extended period of time’. In such cases, three visits to the household may not be necessary. However, even in such cases, the ultimate decision will have to be taken by your supervisor.
+
+If an eligible woman or man, or a mother or primary caretaker is not available for the individual interview or is not at home, ask a household member or neighbour to find out when she/he will return. Note this on the Woman’s, Man’s or Under-5’s Information Panel, follow your supervisor’s instructions, and return to interview her/him at that time. Do not take responses for these questionnaires from anyone other than the eligible person her/himself.
+
+The person to be interviewed for the Questionnaire for Children Under Five should be the mother. A person other than the mother of the child under five can be interviewed only if the mother is living elsewhere or is deceased, and therefore does not appear in the List of Household Members in the Household Questionnaire. In these cases, the person who is acknowledged by the household respondent as the primary caretaker of the child in that household should be interviewed. If the mother/primary caretaker is not available for interview or not at home, try to find out when she/he will be available and return to the household later. If the person will not be available or will not return home at a time later that day when it is feasible to interview her/him, follow the instructions of your supervisor about the number of times you should attempt the interview.
+
+If a child under five is not available, but the mother/primary caretaker is available, you can complete the Questionnaire for Children Under Five, with the exception of the Anthropometry module, since you need the child to perform measurements. In such a case, complete the questionnaire with the mother/primary caretaker, but leave the Anthropometry module blank to be completed during the next visit. Note this and discuss with your supervisor. If the child is still not available after the re-visit(s), record the result in question AN2 as ‘Child not present’. Re-visits should be planned by supervisors, if possible, to measure the heights and weights of children, when children are not present at the time of first visit to the household.
+
+Ask your supervisor if you are in doubt about what to do when you cannot locate a household, or you cannot complete an interview. Always keep a record on the cluster control sheet of the households you visited where nobody was at home. If it is not possible to interview an eligible woman or man, record this on the Woman’s or Man’s Information Panel of the respective questionnaires. If it is not possible to interview a mother or primary caretaker, record this on the Under Five Child Information Panel of the Questionnaire for Children Under Five.
+
+## How to handle the interview 
+
+The interviewer and the respondent are strangers to each other; therefore, one of the main tasks of the interviewer is to establish rapport with the respondent. The respondent’s first impression of you will influence her/his willingness to participate in the survey. Make sure that your appearance is neat and you also appear friendly as you introduce yourself.
+
+On meeting the respondent, the first thing you should do is to introduce yourself, stating your name, the organization you are working for, the objectives of the survey, and what you want the respondent to do for you. You are advised to avoid long discussions on issues which are not related to the survey and which may consume a lot of your time.
+
+After building rapport with the respondent, ask questions slowly and clearly to ensure the respondent understands what he/she is being asked. After you have asked a question, pause and give the respondent time to think. If the respondent feels hurried or is not allowed to form his/her opinion, he/she may respond with “I don’t know” or give an inaccurate answer. 
+
+Specifically, the following guidelines will help you handle interviews: 
+
+ * Ensure that you understand the exact purpose of the survey and each question. This will help you to know if the responses you are receiving are adequate or relevant. 
+ * Remember the survey schedule, and remember that you are part of a team. Do not stay and talk for too long, but do not rush the interview either. 
+ * Ask the questions exactly as they are written. Even small changes in wording can alter the meaning of a question.  
+ * Ask the questions in the same order as they are given on the questionnaires. Do not change the sequence of the questions. 
+ * Ask all the questions, even if the respondent answers two questions at once. You can explain that you must ask each question individually, or say “Just so that I am sure…” or “Just to refresh my memory…”, and then ask the question. 
+ * Help your respondents feel comfortable, but make sure you do not suggest answers to your questions. For example, do not ‘help’ a woman remember various contraceptive methods. Those cases when you are expected to ‘help’ the respondent, such as probing for answers or using information to remind the respondent of dates, ages, and durations are clearly indicated on the questionnaires, and are topics that are covered during your training. 
+ * Do not leave a question unanswered unless you have been instructed to skip it. Questions left blank are difficult to deal with later. When questionnaires arrive at the central office for editing and data entry, it may look as though you forgot to ask the question. Always write in ’0‘ when a zero answer is given. For some questions, the code ‘DK’ will already be provided, and after you are sure that the respondent is unable to provide you with an answer, you will be able to circle this response. In questions where a ‘DK’ response is not printed on the questionnaire, you must make sure that the respondent provides an answer. In exceptional cases where this may not be possible, indicate this on the questionnaire with a note. 
+ * Record answers immediately when the respondent gives you the responses. Never rely on writing answers in a notebook for transfer to the questionnaire later. 
+ * Check the whole questionnaire before you leave the household to be sure it is completed correctly. 
+ * Thank the respondent for her/his cooperation and giving you time to interview her/him. Leave the way open to future interviews (for re-visits). Avoid over-staying in the respondent’s household even if he/she is very friendly and welcoming. 
+ 
+
+## General Points
+
+* **Make a good first impression** 
+
+The first impression a respondent has of you is formed through your appearance. The way you dress may affect whether your interview is successful or not. Dress neatly and simply.
+
+When first approaching the respondent, do your best to make her/him feel at ease. With a few well-chosen words, you can put the respondent in the right frame of mind for the interview. Open the interview with a smile and greetings and then proceed with your introduction as specified on your questionnaire.
+
+If and when necessary, tell the respondent that the survey will help the development of plans for children and women and that his/her cooperation will be highly appreciated.
+
+* **Gain rapport with the respondent**  
+
+Try not to arrive at the selected household at an inconvenient time of day, such as mealtimes, or too late or early during the day. Try to arrive when the respondents will not be too busy to answer questions. 
+
+Introduce yourself by name and show your identification. Explain the survey and why you want to do interview in the household, exactly as your introduction tells you to.
+
+Be prepared to explain what is meant by confidentiality and to convince respondents to participate if they are reluctant.
+
+Make sure that the respondents do not confuse you with others who might be visiting households for other reasons; for instance, for selling goods.
+
+If the respondent refuses to be interviewed, note the reasons on the questionnaire, if possible.
+
+* **Remain calm and polite at all times.**
+
+* **Always have a positive approach**
+Never adopt an apologetic manner, and never approach with such words as “Are you too busy?”. Such questions will invite refusal before you start. Rather, tell the respondent “I would like to ask you a few questions”.
+
+* **Stress confidentiality of information collected**
+Always stress confidentiality of the information you obtain from the respondent. Explain to the respondent that the information you collect will remain strictly confidential and that no individual names will be used for any purposes, and that all information will be grouped together and depersonalized when writing the report. Use a language understandable by the respondent to get this message across. Never mention other interviews or read the questionnaire with other interviewers, the editor or the supervisor in front of a respondent or any other person. This will automatically erode the confidence the respondent has in you.
+
+* **Probe for adequate responses**
+You should phrase the question as it is in the questionnaire. If you realize that an answer is not consistent with other responses, then you should seek clarification through asking indirect questions or some additional questions so as to obtain a complete answer to the original question. This process is called probing. Questions, while probing, should be worded so that they are neutral and do not lead the respondent to answer in a particular direction. Ensure the meaning of the original question is not changed.
+
+Pause and wait if the respondent is trying to remember difficult items.
+
+Ask the respondent to clarify her/his answer if necessary. You may have misunderstood the response.
+
+Check for consistency between the answers a respondent gives. Treat the questionnaires as tools that you are using to converse with the respondent. Try to understand and remember the responses, and if there is an inconsistency, ask the questions again. However, never point out to the respondents inconsistencies that you may have identified in a manner that may be understood as if you are testing the respondent’s honesty or integrity.
+
+* **Answering questions from respondent**
+The respondent may ask you some questions about the survey or how he/she was selected to be interviewed or how the survey is going to help her/him, before agreeing to be interviewed. Be direct and pleasant when you answer. The respondent may also be concerned about the length of the interview. Please be frank to tell him/her how long you are likely to take to administer the questionnaire.
+
+* **Interview the respondent alone**
+The presence of a third person during the interview can prevent you from getting frank and honest answers from the respondent. It is, therefore, very important that the interviews are conducted privately and that all the questions are answered by the respondent only. This is especially important in the case of the Woman’s and Men’s Questionnaires, which include several topics that the respondents will consider to be “personal” or “private”. If other people are present, explain to the respondent that some of the questions are private and request to talk to her/him while alone. 
+
+* **Handling hesitant respondents**
+There may be situations where the respondent simply says “I don’t know“, or gives an irrelevant answer or acts in a manner suggesting he/she is bored or contradicts earlier answers. In all these cases, try your best to make him/her get interested in the question. Spending a few moments to talk about things unrelated to the interview (e.g. his/her town or village, the weather, his/her daily activities etc.) may be useful.
+
+* **Adopt a non-judgemental attitude**
+“Social desirability response bias” is a potential problem in surveys and refers to the tendency for respondents to present a favourable image of themselves to the interviewers.  Sensitive questions may lead respondents to adjust their answers so as to appear politically correct or socially acceptable. Questionnaire items with strong social norms (such as adherence to religious or cultural expectations), or adopting attitudes/activities/objects that are widely considered desirable or undesirable tend to elicit “socially acceptable answers” rather than correct and honest answers. To minimise social desirability response bias it is very important to adopt a non-judgemental attitude and to not display any of your own attitudes, such as cultural or religious values, political preferences, and the like.
+
+ 
+## Role of the interviewer
+
+Interviewers play a central role in the collection of data and the ultimate outcome of the exercise depends on how they conduct the interviews. Success, therefore, depends on the quality of the interviewers’ work. It is, therefore, important that you are consistent in the way you put the questions to the respondent.
+
+In case a response is not clear, you should probe further. 
+
+In general, the responsibilities of interviewers will include: 
+
+ * Locating the structure and households in the sample that are assigned to them, and administering the questionnaires
+ * Identifying all the eligible respondents 
+ * Interviewing all the eligible respondents in the households assigned to them
+ * Checking completed interviews to be sure that all questions were asked 
+ * Making re-visits to interview respondents who could not be interviewed during the first or second visit due to various reasons
+ * Ensuring that the information given is correct by keeping the respondent focused to the questions
+ * Including their specific observations or notes on the last page of each questionnaire
+ * Preparing additional notes for the field editor and supervisor on other problems or observations
+
+

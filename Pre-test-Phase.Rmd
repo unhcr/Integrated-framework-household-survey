@@ -1,0 +1,74 @@
+---
+title: "Pre Test Phase"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+##  Why "pre-testing"?
+
+Use pre-test to see:
+
+ * 	if changes have affected the flow of the questionnaires;
+ * 	if response categories are comprehensive; any answer falling into the “other (specify)” category of a multiple choice question and that constitutes about 5 percent or more of all answers to that question should be considered as a serious candidate for a separate answer category of its own; and
+ * 	if translated questionnaires are working.
+
+## Objectives
+
+Briefly describe the overall objectives and the focus of the pre-test. Example text is provided below: These are the areas you must address under the Pre-test Results and Recommendations section below.
+
+The objective of the pre-test was to verify that the questionnaires are functioning well in the [country] context and specifically to make sure that:
+
+ *  Translations are accurate;
+ *  Standard questions are clear and response categories are adequate for the assessment population;
+ *  Country-specific response categories are adequately included;
+ *  Country-specific questions and modules are adequately tested; 
+ *  Difficult or sensitive questions/modules are identified so that extra training can focus on these questions during the fieldworker training;
+ *  Respondents do not misinterpret the questions (questions are not ambiguous or difficult to understand);
+ *  Changes in wording or improved translation have been incorporated when required;
+ *  The questionnaires flow smoothly; 
+ *  Interviewer instructions in questionnaire and in the Instructions for Interviewers are clear and sufficient;
+ *  There is adequate space on the questionnaires and all answers can be clearly coded;
+ *  New codes for common answers that were not included in the original questionnaires are created;
+ *  Average duration of interviews is calculated in order to plan the fieldwork;
+ *  Daily workload per interviewer/team can be planned.
+
+## Organisation of the Pre-test
+
+### Clusters selected for pre-test
+Describe the pre-test locations: Where were the households located for the pre-test, how and why were these locations selected, etc.
+
+### Personnel
+Present the trainers and interviewers (trainees) of the pre-test. Include information on the future involvement of the participants in the rest of the assessment process
+
+### Training
+List the dates and content of the pre-test training, as well as how it was organised. Some detail is useful on agenda (include as appendix) and training methodology, as it can serve as lessons for the main training. Include other details as relevant: Venue, recommendations for main training, etc.
+
+### Fieldwork
+Provide the dates of actual pre-test fieldwork. Also detail on organisation (logistics, teams, areas, etc.) is very useful.
+
+### Conclusions 
+Describe how the findings and observations from the pre-test were collected and discussed and what process for making changes to the final questionnaires was used.  It is useful to provide detail on the methodology used to obtain qualitative findings (meetings, observation forms, etc.) as well as how data analysis was organised (test of CS Pro application, tabulation programs, etc.)
+
+## Pre-test Results and Recommendations
+
+Relating to the objectives listed above, this section should include findings from the actual data gathered as well as the qualitative findings from the pre-test, including those obtained from discussions with interviewers after the pre-test fieldwork concluded. 
+
+### Questionnaires
+This section is the main output of the Pre-test Report. The use of the table below is recommended. Please add all modules in the questionnaire. Make sure that all suggested changes are listed and that evidence is provided for final decisions. Please include observations on all country-specific modules and questions.
+
+### Average duration of interviews
+Calculate the average duration of interview for each questionnaire using the data collected in the pre-test. Typically, as interviewers become more familiar with the tools, this time will decrease and therefore a realistic duration should be proposed and included in the introductory sentences on the cover pages of the questionnaires.
+
+### Manuals
+Describe and list any changes or additions required in the Instructions for Interviewers as well as those introduced in the Instructions for Supervisors and Editors. Such changes typically involve translation issues, instructions for country-specific questions, but also for country-specific response categories. Appropriate corrections are incredibly helpful and will especially inform the main field work training.
+
+### Interview process considerations
+Describe and address the observations from the pre-test that relate to interviewing that will be relevant for training and monitoring in the main field work (for example issues in approaching households, dealing with sensitive module and questions, flow of field work, roles and responsibilities, etc.) 
+
+### Assessment process considerations
+Describe here the observations, suggestions, and decisions related to the assessment planning and next steps for finalising the questionnaire (training contents/agenda, logistics, staff, UNICEF support, etc.)
+
+

@@ -1,0 +1,60 @@
+</div>
+
+<script language="javascript" type="text/javascript">
+$(document).ready(function () {
+  // add bootstrap table styles to pandoc tables
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+
+    // Identifier les <pre> fermant
+    $('pre').next("*:not(pre)").prev().addClass('last'); // Dernier <pre> de chaque groupe contigu de <pre>
+    $('pre').parent().each(function (){
+      $(this).children('pre').last().addClass('last');
+    }); // Si <pre> est le dernier enfant de son parent
+
+    // Ajout liens rdocumentation
+    $("code[data-pkg]").each(function( index ) {
+      pack = $(this).attr('data-pkg');
+      if ($(this).attr('data-rdoc') !== undefined) {
+        rdocumentation = $(this).attr('data-rdoc');
+        page = ' (' + $(this).attr('data-pkg') + ')';
+      } else {
+        rdocumentation = $(this).text();
+        page = '';
+      }
+      fonction = $(this).text();
+      $(this).wrap('<a href="http://www.rdocumentation.org/packages/'+pack+'/functions/'+rdocumentation+'">');
+    });
+
+    $("code.pkg").each(function( index ) {
+      $(this).wrap('<a href="http://www.rdocumentation.org/packages/'+$(this).text()+'">');
+    });
+
+    // Figures (numérotation intra chapitre + ajout id pour liste des figures)
+    $("article").each(function(){
+      chap = $(this).attr('id');
+      $(this).find("figure").each(function(index){
+        if ($(this).children("figcaption").length > 0)
+          $(this).children("figcaption:first").prepend('<span class="figure-number">Figure '+(index+1)+'.</span> ');
+        else
+          $(this).append($("<figcaption>").append('<span class="figure-number">Figure '+(index+1)+'</span>'));
+        if ($(this).attr('id') == undefined) $(this).attr('id', chap + '_fig_' + (index+1));
+      });
+    });
+
+    // Footnotes (prince xml only)
+    if (typeof Prince !== "undefined") {
+      $(".footnotes li").each(function(){
+        lien = $(this).find("a[href*='fnref']").attr('href');
+        $(this).find("a[href*='fnref']").remove();
+        $(lien).after('<div class="fn">' + $(this).html() + '</div>');
+      });
+      $(".footnoteRef").remove();
+      $(".footnotes").remove();
+    }
+
+});
+
+</script>
+
+</body>
+</html>

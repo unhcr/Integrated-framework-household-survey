@@ -1,0 +1,52 @@
+---
+title: "Discover"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+<div class="important">
+This chapter is not written yet.
+</div>
+
+
+![](images/Maturity.png)
+
+
+The first phase of the analysis consist at discovering the variable links. 
+
+## Graphical review
+
+### Barchart
+
+### Histogramm
+
+### Maps
+
+## Statistical Test
+Two random variables are called independent if the probability distribution of one variable is not affected by the presence of another. This is tested through the *Chi-squared Test of Independence* that allows to know if the independance hypothesis has a higher value than the .05 significance level.
+
+The Chi-squared Test provide a *p-value*: if the  p-value is greater than the .05, then the two tested variable are independent 
+
+## Multivariate Analysis
+
+Refugees profile are defined by multiple categories. However it is very difficult for the human brain to process more than 7 categories toggether. An important challenge to understand the profile of the population is to discover how categories interact together. Fortunately, since the 70's, Social scientist have developed technique that allow to discover statistical clusters among a specific population. 
+
+Multiple Correspondence Analysis ([MCA](https://en.wikipedia.org/wiki/Multiple_correspondence_analysis)) is a data analysis technique for nominal categorical data, used to detect and represent underlying structures in a data set.
+
+
+
+### Dimensionnality reduction
+
+The first step of the analysis is to reduce the numbers of dimansion in order to represent each observation in a 2D space.
+
+### Clustering
+
+Clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters). Refugee data are mostly categorical so clustering is done on the result of the Multiple Correspondence Analysis.
+
+
+### Hierarchical Classification on Principle Components
+
+### Description of statistical clusters

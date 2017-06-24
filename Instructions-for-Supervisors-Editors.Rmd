@@ -1,0 +1,81 @@
+---
+title: "Instructions for Supervisors & Editors"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+<div class="important">
+This chapter is not written yet.
+</div>
+
+## Responsibilities
+
+The field supervisor is the senior member of the field team. He/she is responsible for the well-being and safety of team members, as well as the completion of the assigned work and the maintenance of data quality. 
+
+The specific responsibilities of the field supervisor are to make the necessary preparations for the fieldwork, to organize and direct the data collection in his/her assigned clusters, and to spot check the data collected in especially the Household Questionnaire. 
+
+Preparing for fieldwork requires that the field supervisor:
+(1)	Obtains sample household lists and maps for each area in which his/her team will be working, discuss any special issues, such as potential security conditions in certain areas.
+(2)	Becomes familiar with the area where the team will be working and determine the best arrangements for travel and accommodations.
+(3)	Contacts local authorities to inform them about the survey and to gain their support and cooperation.
+(4)	Obtains all monetary advances, supplies and equipment necessary for the team to complete its assigned interviews. 
+
+## Task
+Careful preparation by the field supervisor is important for facilitating the work of the team in the field, for maintaining interviewer morale and for ensuring contact with the central office throughout the fieldwork.
+
+Organizing fieldwork requires that the field supervisor: 
+(1)	Assigns work to interviewers, taking into account the linguistic competence of individual interviewers, and assures that there is an equitable distribution of the workload.
+(2)	Coordinate the work of the measurer by making sure he/she knows where to find the households that interviewers are conducting interviews in and approximately how many children and at what time a visit to the household should happen. 
+(3)	Maintains Cluster Control Sheets, and makes sure that assignments are carried out.
+(4)	Makes spot checks of the Household Questionnaire (and individual questionnaires when appropriate) by conducting interviews according to the procedure described below.
+(5)	Regularly sends completed questionnaires and progress reports to the fieldwork director and keeps headquarters informed of the team’s location.
+(6)	Communicates any problems to the fieldwork director.
+(7)	Takes charge of the team vehicle, ensuring that it is kept in good repair and that it is used only for project work.
+(8)	Makes an effort to develop a positive team spirit. A congenial work atmosphere, along with careful planning of field activities, contributes to the overall quality of a survey.
+
+
+## Monetary Advances for Field Expenses
+The field supervisor should have sufficient funds to cover expenses for the team. Funds for team members should be distributed according to the procedures established by the survey director, if these have not been included in the per diem that is given directly to the interviewers. 
+
+The field supervisor should arrange for a system to maintain regular contact with the central office staff before leaving for the field. Regular contact is needed for supervision of the team by central office staff, payment of team members, and the return of completed questionnaires for timely data processing.
+
+## Arranging transportations & accomodations
+
+It is the field supervisor’s responsibility to make all necessary travel arrangements for his/her team, whenever possible, in consultation with the central office. The field supervisor is responsible for the maintenance and security of the team vehicle. The vehicle should be used exclusively for survey-related travel, and when not in use, should be parked in a safe place. The driver of the vehicle takes instructions from the field supervisor. 
+
+<blockquote>VEHICLES ARE GENERALLY PROVIDED TO TRANSPORT THE TEAM TO ASSIGNED WORK AREAS. HOWEVER, IN SOME CASES, IT MAY BE NECESSARY TO ARRANGE FOR OTHER MEANS OF TRANSPORTATION, SUCH AS BOATS, HORSES, MULES, ETC. CUSTOMIZE THE PARAGRAPH ABOVE ACCORDINGLY.</blockquote> 
+
+In addition to arranging transportation, the field supervisor is in charge of arranging for food and lodging for the team. If they wish, interviewers may make their own arrangements, as long as these do not interfere with fieldwork activities. The lodging should be reasonably comfortable, located as close as possible to the interview area, and should provide a secure space to store survey materials. Since travel to rural clusters is often long and difficult, the field supervisor may have to arrange for the team to stay in a central location. 
+
+## Contacting local authorities
+
+It is the field supervisor’s responsibility to contact the regional, district, local, and village officials before starting work in an area. Letters of introduction will be provided, but tact and sensitivity in explaining the purpose of the survey will help win the cooperation needed to carry out the interviews.
+
+## Using maps to locate clusters
+
+<blockquote>THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT UPDATED CLUSTER LOCATION AND SKETCH MAPS THEREFORE ARE AVAILABLE TO TEAMS.</blockquote>
+
+A major responsibility of the field supervisor and the field editor is to assist interviewers in locating households in the sample. The fieldwork director will provide the supervisor with a copy of the Household Listing for the sample as well as base, location, and sketch maps of the clusters in which his/her team will be working. These documents will enable the team to identify the cluster boundaries and to locate the households selected for the sample. The representativeness of the sample depends on finding and visiting every sampled household.
+
+Maps are generally needed during all stages of a survey, since they provide a picture of the areas in which interviews are to be carried out and help to eliminate errors, such as duplication or omission of areas. Moreover, maps help the team determine the location of sample areas, the distance to them, and how to reach selected households or dwellings.
+
+Each team will be given general base and location maps, Household Listing Forms, and sketch maps, and written descriptions of the boundaries of selected areas. A cluster (i.e., PSU or EA) is the smallest working unit in any census or survey operation that can easily be covered by one enumerator. It has identifiable boundaries and lies wholly within an administrative or statistical area. The general base maps will show more than one cluster. Each cluster is identified by a number (for example, EA-010400105). Symbols are used to indicate certain features on the map such as roads, footpaths, rivers, localities, boundaries, etc. If symbols are shown on the map, the field supervisor and field editor should know how to interpret them by using the legend. 
+
+In most clusters, the boundaries follow easily recognizable land features such as rivers, roads, railroads, swamps, etc. However, at times, boundaries are invisible lines. The location and determination of invisible boundaries calls for some ingenuity, particularly in rural areas. If the location and sketch maps and descriptions do not provide enough detail, the following procedure is suggested:
+
+In rural areas:
+
+(1)	Identify on the map the road used to reach the cluster. When you reach what appears to be the cluster boundary, verify this by checking the location of actual terrain features and landmarks against their location on the map. Do not depend on one single feature; rather, use as many as possible. 
+(2)	It is usually possible to locate unnamed roads or imaginary lines by asking people living in the vicinity. In most cases, these people will know where the villages are and, by locating the villages, you can usually determine where the boundaries run. Local authorities may be helpful, as well as residents.
+(3)	While there are cases in which boundaries shown on the map no longer exist (for example, they have been demolished), or have changed location (for example, a road has been relocated or a river has changed course), do not be hasty in jumping to conclusions. If you cannot locate a cluster, go on to the next one and discuss the matter later with the fieldwork director. 
+
+In urban areas:
+
+(1)	There should be no problem with invisible lines, as urban areas generally have plenty of boundaries for use.
+(2)	Street names in urban areas will often help you to locate the general area of clusters. Boundaries can be streets, alleys, streams, city limits, power cables, walls, rows of trees, etc.
+(3)	Check the general shape of the cluster. This will help you find out if you are in the right place.
+(4)	Read the written description.
+(5)	You should locate all the cluster boundaries before you begin interviewing. For example, if the cluster is a rectangular block, the names of three boundary streets is not enough to unequivocally identify the cluster; check all four boundary streets. 
+

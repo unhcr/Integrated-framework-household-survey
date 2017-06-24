@@ -1,0 +1,72 @@
+---
+title: "Memorandum of Understanding"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+<div class="important">
+Whether it is for the data collection or the analysis, protection assessment are often done in partnership. To avoid confusion and misunderstnading within the proces, it is recommended to establish a clear Memorandum of Understanding
+</div>
+
+## Implementation Model
+
+According to the particular context, the assessment might be implemented using une of the following models :
+
+*	Assigning full data collection responsibility to different agencies in different geographic areas
+*	Pooling human and logistical resources centrally
+*	Delegating data collection responsibilities to one or more NGO partners, ideally local NGOs, through a project agreement.
+
+Regardless of the model chosen, it is important to observe four principles:
+
+*	The objectives and methodology of the asessment need to be decided by consensus among particpant. Agencies who assume particular data collection responsibilities do not acquire a privileged say in choosing indicators, sites or data collection methods.  
+*	Particpant contribute resources to the implementation of the asessment, to the measure of their capacities and possibilities.   
+*	Common standards and understanding of assessment questions need to be agreed and maintained.  
+*	Clear focal points need to be appointed per each particpating organisation with operational responsibility for data collection.
+
+
+
+## Field Level Memorandum of Understanding 
+
+The following is an outdated example that might provide some inspiration for the inital drafting of the memorandum. Any memorandum needs to be cleared by the Bureau before signature.
+
+#### Scope of Works
+
+The following is an example of MoU.
+
+<blockquote>
+
+* The following Memorandum of Understanding between the United Nations High Commissioner for Refugees  and <kbd>Partner Name</kbd> is not attempt to repeat the basic principles of already existing  global MOU, including descriptions of the agency responsibilities towards various populations, but will instead highlight the specific areas where close cooperation will be taking place.
+
+*	This MoU covers the geographic Coverage for <kbd>population group</kbd>. All areas will be covered based on <kbd>sampling methodology</kbd>
+
+*	UNHCR and <kbd>Partner Name</kbd> will agree on a joint questionnaire subsequently used for all data collection related to the profiling exercise, through mobile data collection devices and a <kbd>methodlogy</kbd> (for instance: combination data collection methodologies: direct observation, key informant interviews and as means of triangulation in areas with a high concentration of <kbd>population group</kbd>, carry out Focus Group Discussions). 
+
+
+*	All data collectors will be selected jointly and need to sign the code of conduct. They will receive a ½ day training on the principles and objectives of the code of conduct. In addition, data collectors will be trained at a minimum in: interviewing techniques, protection principles, data protection (confidentiality, informed consent etc.), referral mechanism, usage of mobile devices, the questionnaire, and basic security principles. This introductory training will be conducted before any data collection takes place and will last 3 to 4 days. One day of field testing with the data collectors is foreseen at the beginning of the roll-out. Technical documentation of the profiling exercise will include: data collectors manual, team leader manual, data analysis plan, data entry manual and the respective Standard Operating Procedures for the project. 
+
+*	The role of the Government from the beginning of this exercise is crucial to ensure a responsible handover at the end of the project and overall ownership by the Government. To this end, the Government will be included in the project through training and in particular Line Ministries in the localities to contribute to data collection. 
+
+*	The questionnaire will be presented to and feedback sought from partners (UN, NGOs and Government) to achieve buy-in and ensure that the questionnaire meets the information needs of partners providing protection and assistance to <kbd>population group</kbd>; however, given the need for timely information delivery, contributions from partners are expected to be provided within a week from the day they receive the draft questionnaire. 
+
+*	UNHCR and <kbd>Partner Name</kbd> will have joint data ownership. The data will be stored on a UNHCR server, while UNHCR and <kbd>Partner Name</kbd> will have both administrative rights to access the data base. UNHCR and <kbd>Partner Name</kbd> will disseminate and/or publish the data collected jointly. None of them will be producing the data alone to publish products /reports /websites etc. under its own logo or other branding.. The design and layout of all information products of this project will be agreed jointly. Data collection will be an ongoing exercise to ensure that information is updated, relevant and timely. At the end of the project the data will be handed over to the Government. 
+
+*	UNHCR and <kbd>Partner Name</kbd> will establish a joint budget and enter into a cost-sharing arrangement to finance this project. 
+
+*	In line with UNHCR’s mandate for refugees, UNHCR will be collecting data on refugees residing outside camps which is not part of this MoU. 
+
+*	Nothing in this MOU shall affect the relations of either signatory to its Governing Body, nor the contractual relationship and administrative supervision of UNHCR and <kbd>Partner Name</kbd> to their operational partners.
+
+*	The implementation of the MOU will be in compliance with the respective administrative and financial rules and procedures of UNHCR and <kbd>Partner Name</kbd> and be subject to the availability of funds.
+
+*	This MOU will enter into force upon signature and shall be of indefinite duration. 
+
+*	This MOU may be terminated by either party upon 90 days written notice.
+
+*	This MOU may be modified at any time by mutual consent of the parties.
+
+*	The Representatives of both organizations will meet when necessary to discuss policy issues and will nominate officers to meet regularly to review strategic and implementation issues of particular interest to both organizations and to propose possible courses of action to address them. 
+
+</blockquote>

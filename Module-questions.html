@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Module and questions</title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="./include/ifhs2.css" />
+<script type="text/javascript" src="./libs/zeroclipboard-2.2.0/ZeroClipboard.js"></script>
+<link rel="stylesheet" href="./libs/colorbox-1.6.1/colorbox.css" />
+<script type="text/javascript" src="./libs/colorbox-1.6.1/jquery.colorbox-min.js"></script>
+<!--- favicon --->
+<link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+<link rel="manifest" href="./images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<nav>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Integrated Framework for Household Survey</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="design" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Design <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_design">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Planning</li>
+                  <li><a href="Assessment-Project-Document.html">Assessment Project Document</a></li>
+                  <li><a href="Memorandum-of-Understanding.html">Memorandum of Understanding</a></li>
+                  <li><a href="Terms-of-Reference-for-Assessment-Focal-Point.html">Terms of Reference for Assessment Focal Point</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Methodology</li>
+                  <li><a href="Sampling.html">Sampling</a></li>
+                  <li><a href="Interview.html">Interview approach</a></li>
+                  <li><a href="Pre-Assessment.html">Pre-Assessment</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Form</li>
+                  <li ><a href="protection-Topics.html">Protection Topics</a></li>
+                  <li ><a href="Module-questions.html">Questions Modules</a></li>
+                  <li ><a href="Guidelines-for-Customisation.html">Guidelines for Customisation</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="collect" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Collect <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_collect">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Preparing for fieldwork</li>
+                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
+                  <li><a href="Pre-test-Phase.html">Pre-test Phase</a></li>
+                  <li><a href="Managing-Devices.html">Managing Devices</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Fieldwork manual</li>
+                    <li ><a href="Instructions-for-Interviewers.html">Instructions for Interviewers</a></li>
+                    <li ><a href="Instructions-for-Supervisors-Editors.html">Instructions for Supervisors and Editors</a></li>
+                    <li ><a href="Instructions-for-Managers.html">Instructions for Managers</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li class="dropdown-header">Using KoboToolBox</li>
+                  <li ><a href="Data-Protection-Impact-Assessment.html">Data Protection Impact Assessment</a></li>
+                  <li ><a href="Server-Configuration.html">Server Configuration</a></li>
+                  <li ><a href="Data-Entry.html">Data Entry</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="analyse" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Analyse <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_analyse">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Analysis Steps</li>
+                  <li ><a href="Discover.html">Discover</a></li>
+                  <li ><a href="Predict.html">Predict</a></li>
+                  <li ><a href="Advise.html">Advise</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Report</li>
+                  <li ><a href="Analysis-Script.html">Analysis Scripts</a></li>
+                  <li ><a href="Model-for-Key-Findings-Report.html">Model for Key Findings Report</a></li>
+                  <li ><a href="Model-for-Final-Report.html">Model for Final Report</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li class="dropdown-header">Communication</li>
+                  <li><a href="Slides-Infographics.html">Slides & Infographics</a></li>
+                  <li><a href="Microdata.html">Sharing microdata for social scientist</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li><a href="protection-assessment-toolkit.pdf">PDF</a></li>
+      </ul>
+    <form id="rechercher" class="navbar-form navbar-right" role="search" style="padding-top: 5px;" method="get" action="https://tontonroger.org/">
+      <div class="form-group">
+        <input name="q" type="text" class="form-control input-sm" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default btn-sm" name="Search">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      </button>
+    </form>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+</nav>
+
+<div class="row">
+
+<div class="col-sm-9" role="main">
+<article>
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Module and questions</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#intro-from-the-plan-to-the-form">Intro: from the plan to the form</a></li>
+<li><a href="#questions-modules">Questions modules</a><ul>
+<li><a href="#introduction">introduction</a></li>
+<li><a href="#part-1-background-information">Part 1: Background Information</a></li>
+<li><a href="#part-2-household-condition">Part 2: Household condition</a></li>
+<li><a href="#part-3-household-composition">Part 3: Household composition</a></li>
+<li><a href="#part-4-basic-needs-and-essential-services">Part 4: Basic Needs and Essential Services</a></li>
+<li><a href="#part-5-protection-right">Part 5: Protection &amp; Right</a></li>
+<li><a href="#part-6-attitude-perception">Part 6: Attitude &amp; perception</a></li>
+<li><a href="#conclusion">conclusion</a></li>
+</ul></li>
+<li><a href="#question-design">Question design</a><ul>
+<li><a href="#checklist-used-to-review-questions">Checklist used to review questions</a></li>
+<li><a href="#context-information">Context information</a></li>
+<li><a href="#locations-geography">Locations &amp; Geography</a></li>
+<li><a href="#likert-questions">Likert questions</a></li>
+</ul></li>
+<li><a href="#using-the-modules">Using the modules</a><ul>
+<li><a href="#the-xlsform-format">The XLSFORM format</a></li>
+<li><a href="#filtering-the-questions">Filtering the questions</a></li>
+<li><a href="#questionnaire-analysis-report">Questionnaire analysis report</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div class="important">
+<p>Objective of the standardised question modules:</p>
+<ul>
+<li>Avoid replicating <strong>bad practices</strong></li>
+<li>Ensure that all <strong>topics of interest</strong> are well covered in the analysis framework</li>
+<li>Check that for each selected topcis, all <strong>required questions</strong> to calculate the indicators and vulnerability profile (severity, magnitude, criticality) are included</li>
+<li>Deliver quickly <strong>final reports</strong> through reproducible analysis workflow</li>
+</ul>
+</div>
+<div id="intro-from-the-plan-to-the-form" class="section level2">
+<h2>Intro: from the plan to the form</h2>
+<p>During the design stage of the assessment, the team must consider how each data element collected will be compiled, aggregated, analysed and disseminated to satisfy the information needs. The data analysis plans allow the assessment team to identify data elements on data collection forms that are not analysable as well as information management requirements that have not been met. Once missing data elements have been identified, forms can be amended accordingly by modifying, removing or adding data elements.</p>
+<p>A common mistake for assessment teams is to collect too much data that is neither analysable nor will be used in decision making. The temptation to ask too many questions means that teams gather poorer quality data which obstruct useful analysis. If a data analysis plan shows that too much data will be collected, then data collection forms should be revised and shortened accordingly.</p>
+<p>Each data element collected should be linked to:</p>
+<ul>
+<li>An information need linked to a Protection Topic</li>
+<li>Contextual information in relation with the Population Group (Refugees, IDPs)</li>
+<li>Data source - i.e. from aggregated Household Information, Key Informant or Focus Group discussions</li>
+<li>Type of Analysis: I.e. Correlation, Dispersion, Average,<br />
+</li>
+<li>Specific Protection indicator</li>
+</ul>
+</div>
+<div id="questions-modules" class="section level2">
+<h2>Questions modules</h2>
+<p>The Household level Assessment includes different parts that includes a series of modules. The selection of required modules will be done through a participatory assessment. Each module allow to define a series of indicators. Questions to be used in each module are extracted whenever possible from the <a href="http://qbank.ihsn.org/web/app.php/questionnaires">IHSN Question Bank</a>.</p>
+<div id="introduction" class="section level3">
+<h3>introduction</h3>
+<p>Consent Enumerator</p>
+</div>
+<div id="part-1-background-information" class="section level3">
+<h3>Part 1: Background Information</h3>
+<p><strong>Eligibility</strong>: To be administered to every household in the main sample.</p>
+<p>This questionnaire serves three purposes: (i) to identify the members of the household; (ii) within households, to identify nuclear units, i.e. couples and their own children; (iii) to collect basic demographic information on each of the household members;</p>
+<ul>
+<li>PA status</li>
+<li>Household information</li>
+<li>Address</li>
+<li>Refugee registration</li>
+<li>Reason for displacement</li>
+<li>Multiple Displacement &amp; Movement</li>
+</ul>
+</div>
+<div id="part-2-household-condition" class="section level3">
+<h3>Part 2: Household condition</h3>
+<p><strong>Eligibility</strong>: To be administered to every household in the main sample.</p>
+<ul>
+<li>Housing, shelter &amp; wash conditions</li>
+<li>Assets &amp; Budget</li>
+<li>Food security &amp; Negative coping mechanism</li>
+</ul>
+</div>
+<div id="part-3-household-composition" class="section level3">
+<h3>Part 3: Household composition</h3>
+<p><strong>Eligibility</strong>: To be administered to every member of the household.</p>
+<ul>
+<li>Employment &amp; livelihood</li>
+<li>Education &amp; Out of School Children &amp; Child Labour</li>
+</ul>
+</div>
+<div id="part-4-basic-needs-and-essential-services" class="section level3">
+<h3>Part 4: Basic Needs and Essential Services</h3>
+<p><strong>Eligibility</strong>: To be administered to every household in the main sample.</p>
+<ul>
+<li>Access to health services</li>
+<li>Assistance received - Post Distribution Monitoring</li>
+<li>Self-expressed Needs (Hesper scale)</li>
+</ul>
+</div>
+<div id="part-5-protection-right" class="section level3">
+<h3>Part 5: Protection &amp; Right</h3>
+<p><strong>Eligibility</strong>: To be administered to every household in the main sample.</p>
+<ul>
+<li>Civil status documentation</li>
+<li>Birth Registration</li>
+<li>Counselling &amp; Legal aid</li>
+<li>Freedom of movement &amp; Detention</li>
+<li>Risk of eviction</li>
+<li>Refugees with specific needs</li>
+</ul>
+</div>
+<div id="part-6-attitude-perception" class="section level3">
+<h3>Part 6: Attitude &amp; perception</h3>
+<p><strong>Eligibility</strong>: To be administered to one male member and one female member of the household.</p>
+<ul>
+<li>Return Intentions</li>
+<li>Onward movement</li>
+<li>Armed recruitment</li>
+<li>Domestic Violence (Parental stress, Isolation at home)</li>
+<li>Forced and early marriage</li>
+<li>Gender inequality</li>
+<li>Harassment &amp; Violence towards LGBTI</li>
+<li>Harassment between youth</li>
+<li>Security &amp; Civil violence</li>
+<li>Sexual Harassment &amp; Violence (Rape)</li>
+<li>Violence among children</li>
+</ul>
+</div>
+<div id="conclusion" class="section level3">
+<h3>conclusion</h3>
+<p>Additional elements to be filled by the enumerator at the end of the interview.</p>
+<ul>
+<li>Subjective Enumerator Evaluation</li>
+<li>Referral (if needed)</li>
+</ul>
+</div>
+</div>
+<div id="question-design" class="section level2">
+<h2>Question design</h2>
+<div id="checklist-used-to-review-questions" class="section level3">
+<h3>Checklist used to review questions</h3>
+<ul>
+<li>Closing questions</li>
+<li>Skip patterns</li>
+<li>Ranges for selected questions</li>
+<li>Numbering questions</li>
+<li>Two questions in one</li>
+<li>Double negatives</li>
+<li>Clarity and simplicity</li>
+<li>Consultation</li>
+<li>Parcimony</li>
+</ul>
+</div>
+<div id="context-information" class="section level3">
+<h3>Context information</h3>
+<ul>
+<li>Metadata</li>
+<li>Enumerator</li>
+<li>Address</li>
+<li>Consent</li>
+<li>Household information</li>
+<li>Self-expressed Needs</li>
+<li>Subjective Evaluation</li>
+<li>Referral</li>
+<li>Notes</li>
+</ul>
+</div>
+<div id="locations-geography" class="section level3">
+<h3>Locations &amp; Geography</h3>
+<p>Pcoding location within a form is an important taks</p>
+<p>it is possible to add pcode through a reference file, <em>itemsets.csv</em>, is available for each country. This reference file can be used when creating <a href="http://xlsform.org/#cascade">Cascading selects</a> questions using the <a href="http://xlsform.org/#external">select_one_external</a> function within XLSFORM questionnaires. The itemsets.csv file can be uploaded to UNHCR Kobo Server as a media file. It will be downloaded to any Kobo Collect like any other media file and saved to the [form-filename]-media folder. Clients like Kobo Collect load media files from the SD card and so a field data collection form with all locations within the country can load very quickly.</p>
+<p><em>itemsets.csv</em> for the MENA region countries can be downloaded from <a href="http://unhcr-mena.github.io/p-codes/">UNHCR MENA pcode</a></p>
+</div>
+<div id="likert-questions" class="section level3">
+<h3>Likert questions</h3>
+<p><a href="https://en.wikipedia.org/wiki/Likert_scale">Likert scale</a> also called “opininion scale” desribe a way to formulate questions related to opinion. A Likert item is simply a statement that the respondent is asked to evaluate by giving it a quantitative value on any kind of subjective or objective dimension, with level of agreement/disagreement being the dimension most commonly used.</p>
+<p><strong>Rating questions</strong> are often much easier to understand by individual than <strong>ranking questions</strong> where people may be forced to make one item worse or better than another, when they actually find them equal. Psychological research has proven that it’s a very tough thing for people to rank more than three options. When people are given a cognitively difficult task like ranking question choices of for instance six things, often they will end up getting frustrated and will start to rank choices randomly. This will lead to higher dropout rates and even worse, messy data.</p>
+<p>Likert questions allows for each individual parts to have the same value, if that is how people feel about them. Last the analysis of rating is more intuitve than the one of a rank that in addition might not have much statistical significance. Also from likert questions, it’s possible to compute an average score from each separate ratings in order to get an overall ranking through a <a href="https://en.wikipedia.org/wiki/Borda_count">Borda Count</a>.</p>
+<p>When designing likert questions, attention need to be given to specific <a href="http://www.uwex.edu/ces/4h/evaluation/documents/Wordingforratingscales.pdf">design issues</a> specifically in terms of wording.</p>
+<ol style="list-style-type: decimal">
+<li>Length of the scale: limit the number of points along the scale.</li>
+<li>Odd or even point scale: There should not be preferred or better choice.</li>
+<li>Label the points in the scale: Avoid using just numbers to indicate the points on the scale.</li>
+<li>Balanced scale: Make sure that the scale is balanced with an equal number of positive and negative categories. Center point on bipolar scale: A common mistake when creating a rating scale is including “no opinion” or “uncertain” as a middle response on a bipolar scale. These options are not actually a part of the scale order. A middle category in a scale between “agree” and “disagree” would be “neither agree nor disagree”. Options such as: “no opinion”, “not sure”, “undecided”, “don’t know”, or “not applicable” are placed off the scale, in a separate space.</li>
+<li>Match response to question: Be as direct and specific as possible, focusing the response options on what you want to measure.</li>
+<li>Keep labels consistent: Finally, the labels used in the scale need to refer to the same thing.</li>
+</ol>
+<p>Some examples are given below:</p>
+<p>Agreement</p>
+<ul>
+<li>Strongly Agree</li>
+<li>Agree</li>
+<li>Undecided</li>
+<li>Disagree</li>
+<li>Strongly Disagree</li>
+</ul>
+<p>Frequency</p>
+<ul>
+<li>Very Frequently</li>
+<li>Frequently</li>
+<li>Occasionally</li>
+<li>Rarely</li>
+<li>Never</li>
+</ul>
+<p>Importance</p>
+<ul>
+<li>Very Important</li>
+<li>Important</li>
+<li>Moderately Important</li>
+<li>Of Little Importance</li>
+<li>Unimportant</li>
+</ul>
+<p>Likelihood</p>
+<ul>
+<li>Almost Always True</li>
+<li>Usually True</li>
+<li>Occasionally True</li>
+<li>Usually Not True</li>
+<li>Almost Never True</li>
+</ul>
+<p>Quality</p>
+<ul>
+<li>Very poor</li>
+<li>Poor</li>
+<li>Fair</li>
+<li>Good</li>
+<li>Very Good</li>
+</ul>
+<p>Interest</p>
+<ul>
+<li>Not at all interesting<br />
+</li>
+<li>Slightly interesting</li>
+<li>Moderately interesting</li>
+<li>Very interesting</li>
+<li>Extremely interesting</li>
+</ul>
+</div>
+</div>
+<div id="using-the-modules" class="section level2">
+<h2>Using the modules</h2>
+<div id="the-xlsform-format" class="section level3">
+<h3>The XLSFORM format</h3>
+<p><a href="http://xlsform.org/">XLSFROM</a> is a standard way to describe a form. It includes information not only on the type of questions but also on:</p>
+<ul>
+<li>Hints in order to add comments on methodology</li>
+<li>Contraints to avoid entering uncorrect information</li>
+<li>Relevant to allow for skip logic</li>
+<li>Support for multiple language</li>
+<li>Possibility to perfom calculation for data quality checking</li>
+<li>Possibility to repeat the same questions in a loop.</li>
+</ul>
+</div>
+<div id="filtering-the-questions" class="section level3">
+<h3>Filtering the questions</h3>
+<p>The question library is an <a href="">online google spreasheet</a> where a sries of questions are organised around multiple categories</p>
+<p>To use it, simply copy or donwload the library, filter out the question you are not interested in and delete them.</p>
+<p>The next step will be then to <a href="Guidelines-for-Customisation.html">customise the form</a></p>
+</div>
+<div id="questionnaire-analysis-report" class="section level3">
+<h3>Questionnaire analysis report</h3>
+<p>The libary can generate a short report that sumerrise:</p>
+<ul>
+<li>What topcis are covered by the form</li>
+<li>Check that for each topics, questions are selected to allow for the estimation of magnitude, criticality &amp; severity</li>
+<li>Summarise questions that can be raised in key Informant Interview, samples household interview, on site household interview or Focus group Discussions.</li>
+</ul>
+</div>
+</div>
+
+</article>
+</div>
+
+<div class="col-sm-3" role="complementary">
+<nav class="hidden-print hidden-xs" id="nav_sidebar">
+</nav>
+</div>
+
+</div>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+
+    // active menu
+    href = window.location.pathname;
+    href = href.substr(href.lastIndexOf('/') + 1);
+    if (href=='') href = 'index.html';
+    $('a[href="' + href + '"]').parent().addClass('active');
+    $('a[href="' + href + '"]').parent().parents('li').addClass('active');
+
+    // élargir la page d'accueil
+    if (href=='index.html') $('.col-sm-9').attr('class','col-sm-12');
+
+    // rechercher
+    $("#rechercher").submit(function(event) {
+      $('input[name="q"]').val($('input[name="q"]').val() + ' site:unhcr.github.io/Integrated-framework-household-survey');
+    });
+
+    // sidebar
+    $("#nav_sidebar").append($("#TOC").html());
+    $("#nav_sidebar ul").addClass("nav nav-stacked");
+    $("#TOC").addClass("visible-xs-block");
+    $('body').scrollspy({
+      target: '#nav_sidebar',
+      offset: 40
+    });
+
+    // Identifier les <pre> fermant
+    $('pre').next("*:not(pre)").prev().addClass('last'); // Dernier <pre> de chaque groupe contigu de <pre>
+    $('pre').parent().each(function (){
+      $(this).children('pre').last().addClass('last');
+    }); // Si <pre> est le dernier enfant de son parent
+
+    // Ajout liens rdocumentation et tooltip
+    $("code[data-pkg]").each(function( index ) {
+      pkg = $(this).attr('data-pkg');
+      if ($(this).attr('data-rdoc') !== undefined) {
+        rdocumentation = $(this).attr('data-rdoc');
+      } else {
+        rdocumentation = $(this).text();
+      }
+      fonction = $(this).text();
+      $(this).wrap('<a href="http://www.rdocumentation.org/packages/'+pkg+'/functions/'+rdocumentation+'">');
+      $(this).attr('data-toggle','tooltip');
+      $(this).attr('data-placement','top');
+      $(this).attr('title','package : ' + pkg);
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    $("code.pkg").each(function( index ) {
+      $(this).wrap('<a href="http://www.rdocumentation.org/packages/'+$(this).text()+'">');
+    });
+
+    // Figures
+    $("figure").each(function( index ) {
+      if ($(this).children("figcaption").length > 0)
+        $(this).children("figcaption:first").prepend('<span class="figure-number">Figure '+(index+1)+'.</span> ');
+      else
+        $(this).append($("<figcaption>").append('<span class="figure-number">Figure '+(index+1)+'</span>'));
+    });
+
+    // Colorbox
+    jQuery('article div img').colorbox({
+      maxWidth: '90%',
+      maxHeight: '90%',
+      rel: 'figures',
+      current: "",
+      href: function(){
+        return $(this).attr('src');
+      },
+      title: function(){
+        return $(this).attr('alt');
+      }
+    });
+    jQuery('article div img').css('cursor', 'pointer');
+    jQuery('figure img').colorbox({
+      maxWidth: '90%',
+      maxHeight: '90%',
+      rel: 'figures',
+      current: "",
+      href: function(){
+        return $(this).attr('src');
+      },
+      title: function(){
+        return $(this).parent().children("figcaption").text();
+      }
+    });
+    jQuery('figure img').css('cursor', 'pointer');
+
+    // ZeroClipboard
+    $('pre.r').parent().each(function(){
+      $(this).children('pre.r').first().before('<div class="zero-clipboard hidden-print hidden-xs"><button class="btn-clipboard">Copy</button></div>');
+    }); // Il peut arriver que le pre ne soit pas précédé (cf. figures)
+    $('*:not(pre):not(.zero-clipboard) + pre.r').before('<div class="zero-clipboard hidden-print hidden-xs"><button class="btn-clipboard">Copy</button></div>');
+    $('pre.last').after(function() {
+      if ($(this).hasClass("r")) res = $(this).text(); else res = "";
+      $(this).prevUntil('*:not(pre)','pre.r').each(function() {
+        res = $(this).text() + '\n' + res;
+      });
+      return '<div class="clipboard">' + res + '</div>';
+    });
+    $('.zero-clipboard').each(function(index){
+      $(this).children('.btn-clipboard').attr('data-clipboard-target','clipboard_'+index);
+      $(this).nextAll("div.clipboard").first().attr('id','clipboard_'+index);
+    });
+    var client = new ZeroClipboard( $(".btn-clipboard") );
+    client.on( "ready", function( readyEvent ) {
+      // alert( "ZeroClipboard SWF is ready!" );
+      client.on( "aftercopy", function( event ) {
+        // `this` === `client`
+        // `event.target` === the element that was clicked
+        //event.target.style.display = "none";
+        $(event.target).parent().before('<div class="alert alert-success"><a href="#" class="close" data-dismiss="alert">&times;</a>The <strong>R</strong> code is now copied in your clipboard.</div>');
+      } );
+    } );
+
+});
+</script>
+
+<!-- disqus -->
+<div class="row">
+  <div id="disqus_thread" class="col-sm-9" role="complementary"></div>
+</div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'protection-assessment-toolkit'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Activate JavaScript to see <a href="http://disqus.com/?ref_noscript">Disqus Comments.</a></noscript>
+    <!--<a href="http://disqus.com" class="dsq-brlink">Comments are hosted by <span class="logo-disqus">Disqus</span>.</a>-->
+
+<footer>
+  <div class="row">
+    <div class="col-lg-12">
+      <p>Powered by <a href="http://www.r-project.org/" rel="nofollow">R</a>, </a><a href="http://www.rstudio.com/" rel="nofollow">RStudio</a>, <a href="http://rmarkdown.rstudio.com/" rel="nofollow">R Markdown</a>, <a href="http://yihui.name/knitr/" rel="nofollow">knitr</a>, <a href="http://pandoc.org/" rel="nofollow">pandoc</a> and <a href="http://www.princexml.com/" rel="nofollow">Prince XML</a>. Hosted by <a href="https://github.com/" rel="nofollow">GitHub</a>.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+
+</body>
+</html>

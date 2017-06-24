@@ -1,0 +1,43 @@
+---
+title: "Fieldwork Training Agenda"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+##  Training
+
+Training of survey teams is fundamental for the quality of the survey information collected and preparation for the training and survey will take time, especially the first year the full assessment is implemented.
+
+The training for the full assessment is recommended to last at least 2 days, depending on context and team experience. Extra staff should be trained in case someone is unable to perform the field work. 
+
+The main topics to cover in training of data collectors (note that team leader may be provided with a more in-depth training than some of the data collectors) are as follows:
+
+## Day 1
+
+### Morning
+* Reason / objectives for Protection Assessment
+* Composition of survey teams : roles and responsibility
+* Sampling procedure: why sample?, explained in a way that surveyors can later on explain to community members when asked; and rationale and importance of representativeness
+* Questionnaire and sheets: household-level information, child-level information, woman-level information, observations
+
+### Afternoon
+* Introduction to the household and informed verbal consent
+* Interview questions and interviewing techniques: go through each question for clarity, answer options, cultural appropriateness, gender sensitivities, avoid suggestive questioning but probe where necessary
+* Age recording and use of local events calendar
+* Practicing with real children and/or adults
+
+## Day 2 
+
+### Morning
+* Survey logistics
+* Equipment
+* Communication
+* Travel
+* Incentives / salary/allowances
+* Food and drinks
+* Accommodation, etc.
+
+### Afternoon
+* Pilot test

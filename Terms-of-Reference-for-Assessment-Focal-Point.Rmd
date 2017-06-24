@@ -1,0 +1,64 @@
+---
+title: "Terms of Reference for Assessment Focal Point"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+##  Background
+
+Insert 
+
+* background on current protection situation, 
+* details on previous assessment or what is known of the protection situation. 
+
+Explain why the current assessment is planned and if there is a specific trigger that would indicate a situation change. 
+
+Insert any other relevant detail.
+
+
+## Methodology
+
+The survey will be developed using the Protection Assessment Toolkit. Survey methodology should be reviewed by UNHCR regional or HQ Protection Infornmatiuon Management Officer prior to data collection.
+
+
+##  Objectives
+
+The Assessment Focal Point will oversee the Protection Assessment for:
+- <kbd>Operation</kbd>
+- <kbd>Population Group</kbd>
+- <kbd>Geographic Coverage</kbd>
+- <kbd>Timeframe</kbd>
+
+## Deliverables
+
+* 	A final assessment report including recommendations on actions to address the situation is to be submitted at the end of the mission. Results of standardisation tests, details of data cleaning and plausibility checks should be presented in the final report. 
+
+
+* 	Standardised tables as presented in the Protection Assessment Toolkit.
+
+* 	The findings and major recommendations are to be presented to partners at the mission level (oral presentation and slides).
+
+* 	The final analysis script.
+
+
+## Reporting
+
+The consultant will report on regular basis to the UNHCR [insert title of UNHCR person responsible], who will have the overall responsibility of the survey.
+
+
+## Time frame
+
+The consultancy will last approximately [insert number of months], starting from [Insert start date].
+
+
+## Qualification & Experience required 
+
+The successful candidate will:
+
+*	Have a university degree or the equivalent in social science, with a specific competency in humanitarian emergencies.
+*	Have significant experience in undertaking surveys (design and methodologies, staff recruitment and training, field supervision and data analysis/write up).
+*	Be familiar with the survey methodology and R statistical language.
+*	Be fluent in English with excellent writing and presentation skills [insert any other language requirements].

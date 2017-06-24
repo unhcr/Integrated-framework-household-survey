@@ -1,0 +1,247 @@
+---
+title: "Module and questions"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+<div class="important">
+Objective of the standardised question modules:
+
+ * Avoid replicating **bad practices**
+ * Ensure that all **topics of interest** are well covered in the analysis framework
+ * Check that for each selected topcis, all **required questions** to calculate the indicators and vulnerability profile (severity, magnitude, criticality) are included
+ * Deliver quickly **final reports** through reproducible analysis workflow
+
+</div>
+
+## Intro: from the plan to the form
+
+During the design stage of the assessment, the team must consider how each data element collected will be compiled, aggregated, analysed and disseminated to satisfy the information needs. The data analysis plans allow the assessment team to identify data elements on data collection forms that are not analysable as well as information management requirements that have not been met.  Once missing data elements have been identified, forms can be amended accordingly by modifying, removing or adding data elements.
+
+A common mistake for assessment teams is to collect too much data that is neither analysable nor will be used in decision making.  The temptation to ask too many questions means that teams gather poorer quality data which obstruct useful analysis.  If a data analysis plan shows that too much data will be collected, then data collection forms should be revised and shortened accordingly.
+
+Each data element collected should be linked to:
+
+* An information need linked to a Protection Topic
+* Contextual information in relation with the Population Group (Refugees, IDPs)
+* Data source - i.e. from aggregated Household Information, Key Informant or Focus Group discussions
+* Type of Analysis: I.e. Correlation, Dispersion, Average,  
+* Specific Protection indicator
+
+
+## Questions modules
+
+The Household level Assessment includes different parts that includes a series of modules. The selection of required modules will be done through a participatory assessment. Each module allow to define a series of indicators. Questions to be used in each module are extracted whenever possible from the [IHSN Question Bank](http://qbank.ihsn.org/web/app.php/questionnaires).
+
+### introduction
+Consent
+Enumerator
+
+### Part 1: Background Information 
+
+**Eligibility**: To be administered to every household in the main sample.
+
+This questionnaire serves three purposes: (i) to identify the members of the household; (ii) within households, to identify nuclear units, i.e. couples and their own children; (iii) to collect basic demographic information on each of the household members; 
+
+ * PA status
+ * Household information
+ * Address
+ * Refugee registration
+ * Reason for displacement
+ * Multiple Displacement & Movement
+
+### Part 2: Household condition  
+**Eligibility**: To be administered to every household in the main sample.
+
+ * Housing, shelter & wash conditions
+ * Assets & Budget
+ * Food security & Negative coping mechanism
+
+### Part 3: Household composition 
+**Eligibility**: To be administered to every member of the household. 
+
+ * Employment & livelihood
+ * Education & Out of School Children & Child Labour
+
+### Part 4: Basic Needs and Essential Services   
+**Eligibility**: To be administered to every household in the main sample.
+
+ * Access to health services
+ * Assistance received - Post Distribution Monitoring
+ * Self-expressed Needs (Hesper scale)
+
+### Part 5: Protection & Right  
+**Eligibility**: To be administered to every household in the main sample.
+
+ * Civil status documentation
+ * Birth Registration
+ * Counselling & Legal aid
+ * Freedom of movement & Detention
+ * Risk of eviction
+ * Refugees with specific needs 
+
+### Part 6: Attitude & perception 
+**Eligibility**: To be administered to one male member and one female member of the household. 
+
+ * Return Intentions
+ * Onward movement
+ * Armed recruitment
+ * Domestic Violence (Parental stress, Isolation at home)
+ * Forced and early marriage
+ * Gender inequality
+ * Harassment & Violence towards LGBTI
+ * Harassment between youth
+ * Security & Civil violence
+ * Sexual Harassment & Violence (Rape) 
+ * Violence among children
+
+### conclusion  
+Additional elements to be filled by the enumerator at the end of the interview.
+
+ * Subjective Enumerator Evaluation
+ * Referral (if needed) 
+
+
+
+
+## Question design 
+
+
+### Checklist used to review questions
+
+* Closing questions
+* Skip patterns
+* Ranges for selected questions
+* Numbering questions
+* Two questions in one
+* Double negatives
+* Clarity and simplicity
+* Consultation
+* Parcimony
+
+
+### Context information
+
+
+* Metadata
+* Enumerator
+* Address
+* Consent
+* Household information
+* Self-expressed Needs
+* Subjective Evaluation
+* Referral
+* Notes
+
+
+
+### Locations & Geography
+
+Pcoding location within a form is an important taks
+
+it is possible to add pcode through a reference file, *itemsets.csv*, is available for each country. This reference file can be used when creating [Cascading selects](http://xlsform.org/#cascade) questions using the [select_one_external](http://xlsform.org/#external) function within XLSFORM questionnaires. The itemsets.csv file can be uploaded to UNHCR Kobo Server as a media file. It will be downloaded to any Kobo Collect like any other media file and saved to the [form-filename]-media folder. Clients like Kobo Collect load media files from the SD card and so a field data collection form with all locations within the country can load very quickly.
+
+*itemsets.csv* for the MENA region countries can be downloaded from [UNHCR MENA pcode](http://unhcr-mena.github.io/p-codes/)
+
+### Likert questions
+
+[Likert scale](https://en.wikipedia.org/wiki/Likert_scale) also called "opininion scale" desribe a way to formulate questions related to opinion. A Likert item is simply a statement that the respondent is asked to evaluate by giving it a quantitative value on any kind of subjective or objective dimension, with level of agreement/disagreement being the dimension most commonly used.
+
+**Rating questions** are often much easier to understand by individual than **ranking questions** where  people may be forced to make one item worse or better than another, when they actually find them equal. Psychological research has proven that it’s a very tough thing for people to rank more than three options. When people are given a cognitively difficult task like ranking question choices of for instance six things, often they will end up getting frustrated and will start to rank choices randomly. This will lead to higher dropout rates and even worse, messy data. 
+
+Likert questions allows for each individual parts to have the same value, if that is how people feel about them. Last the analysis of rating is more intuitve than the one of a rank that in addition might not have much statistical significance. Also from likert questions, it's possible  to compute an average score from each separate ratings in order to get an overall ranking through a [Borda Count](https://en.wikipedia.org/wiki/Borda_count). 
+
+When designing likert questions, attention need to be given to specific [design issues](http://www.uwex.edu/ces/4h/evaluation/documents/Wordingforratingscales.pdf) specifically in terms of wording. 
+
+ 1. Length of the scale: limit the number of points along the scale.
+ 2. Odd or even point scale: There should not be preferred or better choice.
+ 3. Label the points in the scale: Avoid using just numbers to indicate the points on the scale.
+ 4. Balanced scale: Make sure that the scale is balanced with an equal number of positive and negative categories.
+Center point on bipolar scale:  A common mistake when creating a rating scale is including "no opinion" or "uncertain" as a middle response on a bipolar scale. These options are not actually a part of the scale order. A middle category in a scale between "agree" and "disagree" would be "neither agree nor disagree". Options such as: "no opinion", "not sure", "undecided", "don’t know", or "not applicable" are placed off the scale, in a separate space.
+ 5. Match response to question: Be as direct and specific as possible, focusing the response options on what you want to measure.
+ 6. Keep labels consistent: Finally, the labels used in the scale need to refer to the same thing. 
+
+Some examples are given below: 
+
+Agreement
+
+ *  Strongly Agree 
+ *  Agree 
+ *  Undecided 
+ *  Disagree 
+ *  Strongly Disagree 
+  
+Frequency
+
+ *  Very Frequently 
+ *  Frequently 
+ *  Occasionally 
+ *  Rarely 
+ *  Never 
+
+Importance
+
+ *  Very Important 
+ *  Important 
+ *  Moderately Important 
+ *  Of Little Importance 
+ *  Unimportant 
+
+Likelihood
+
+ *  Almost Always True 
+ *  Usually True 
+ *  Occasionally True 
+ *  Usually Not True 
+ *  Almost Never True 
+
+Quality
+
+ *  Very poor
+ *  Poor
+ *  Fair
+ *  Good
+ *  Very Good
+
+Interest
+
+ *  Not at all interesting  
+ *  Slightly interesting
+ *  Moderately interesting 
+ *  Very interesting 
+ *  Extremely interesting
+ 
+ 
+
+
+## Using the modules
+
+###  The XLSFORM format
+
+[XLSFROM](http://xlsform.org/) is a standard way to describe a form. It includes information not only on the type of questions but also on:
+
+* Hints in order to add comments on methodology
+* Contraints to avoid entering uncorrect information 
+* Relevant to allow for skip logic
+* Support for multiple language
+* Possibility to perfom calculation for data quality checking
+* Possibility to repeat the same questions in a loop.
+
+###  Filtering the questions
+
+The question library is an [online google spreasheet]() where a sries of questions are organised around multiple categories
+
+To use it, simply copy or donwload the library,  filter out the question you are not interested in and delete them.
+
+The next step will be then to [customise the form](Guidelines-for-Customisation.html)
+
+###  Questionnaire analysis report
+
+The libary can generate a short report that sumerrise:
+
+ * What topcis are covered by the form
+ * Check that for each topics, questions are selected to allow for the estimation of magnitude, criticality  & severity
+ * Summarise questions that can be raised in key Informant Interview, samples household interview, on site household interview or Focus group Discussions.
+

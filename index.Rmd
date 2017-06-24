@@ -1,0 +1,122 @@
+---
+title: ""
+output:
+  html_document:
+    toc: false
+---
+
+```{r options, results='hide', echo=FALSE, message=FALSE, warning=FALSE}
+if (Sys.info()["sysname"] == "Windows") {
+  Sys.setlocale("LC_TIME", "english")
+} else  {
+  Sys.setlocale("LC_TIME", "en_US");
+}
+require(lubridate)
+```
+
+<div class="jumbotron">
+
+<h1>![](images/ifhs.png) Integrated Framework<br /></h1>
+<h2>for Household Survey (IFHS)<br />
+A toolkit to facilitate planning, design & analysis.</h2>
+<p>Last update : `r I(format(today(), "%e %B %Y"))`</p>
+</div>
+
+
+## Why an "Integrated Framework"?{#presentation}
+
+The kit is a comprehensive set of tools to guide survey teams through every step of a protection assessment based on **Household survey** – from overall planning, design and data collection in the field to data processing, analysis, interpretation, documentation and dissemination. Becausse it addresses the specific challenges related to household surveys, it fits more for protracted situations and it **complements** other approaches such as the [UNHCR Tool for Participatory Assessment in Operations](http://www.unhcr.org/450e963f2.html), the [Needs Assessment for Refugee Emergencies (NARE) Checklist](https://emergency.unhcr.org/entry/50209) for Refugees operations and the [Rapid Protection Assessment Tools (RPAT)](http://www.globalprotectioncluster.org/en/tools-and-guidance/information-and-data-management.html) for IDPs operations. The kit is also organised to ensure that all findings and recommandation will allow to inform prioritisation between all potential protection activities  and subsequent ressources allocation in terms of programme, through the following elements :
+
+ * Produce **impact indicators** that are used to assess the conditions of beneficiaries over time; 
+ * Support the **analysis of vulnerabilites** and the discovery of clusters of individuals with similar profile; 
+ * Allow for the development of **targetting models** for both response (for instance cash) and prevention activities (for instance protection);
+ * Provide basis for **public advocacy** on issues faced by the population group. 
+
+![](images/process.png)
+
+This toolkit supports the technical implementation of already existing guidelines and guidances, namely the [Guidelines for Integrating Gender-Based Violence Interventions in Humanitarian Action](http://gbvguidelines.org/), the [Child Protection Rapid Assessment Toolkit](http://www.globalprotectioncluster.org/_assets/files/tools_and_guidance/info_data_management/CPRA_English-EN.pdf), the [Joint IDP Profiling Service Essential Toolkit- JET](http://jet.jips.org/), the [Heightened Risk Identification Tool](http://unhcr.org/4aa76c279.pdf), The [Operational Guidance and Toolkit for Multipurpose Cash Grants](http://www.cashlearning.org/downloads/operational-guidance-and-toolkit-for-multipurpose-cash-grants---web.pdf) etc. The proposed technical implementation approach was inspired by the [UNHCR Standardised Expanded Nutrition Survey](http://sens.unhcr.org) and the [UNICEF Multiple Indicator Cluster Surveys](http://mics.unicef.org/tools).
+
+
+## Content
+On the top of the summary narrative guidelines below, the toolkit is organised around 4 keys technical componnents that facilitate the easy replication and customisation of an assessment from an operation to another. Re-using tested proofed platforms, questions & report format, technical staff in charge will save significant amount of time.
+<div class="note">
+ * A pre-organised <kbd>[XLSFORM Questions Library](https://docs.google.com/spreadsheets/d/1zGnaLXouP9vTfjqVvUVOSfzeSkvpd63f8Z-zvqGJtNU)</kbd> in order to leverage good practices and enforce core questions during design of the assessment form.
+ 
+ * A <kbd>[KoboToolBox](hhtps://kobo.unhcr.org)</kbd> secured server to perform the data collection. This server uses the xlsform developed during the design phase.
+ 
+ * Multiple <kbd>[R statistical analysis scripts](https://github.com/unhcr-mena/protection-assessment-toolkit)</kbd> to clean & analyse data, and then to generate automatically standard report  and to facilitate the creation of presentation slides and infographics.
+ 
+ * A series of <kbd>[Github Repository](https://github.com/unhcr-mena/protection-assessment-toolkit)</kbd> to exchange collaboratively analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself.
+</div>
+
+## For whom?
+
+The targeted audience of the toolkit are *technical staff tasked to work on a protection assessment*: assessment focal points, information management officers and data scientists... The toolkit is to be used once all emergency assessment and secondary data review have been implemented and developped. With a bit of configuration at the begining, the toolkit will allow for the quick generation of results and will ensure that minimum data quality standards are enforced. In addition, because of the standard data format that are enforced through the kit, it will be possible to obtain comparable results from different operations.
+
+<div class="alert alert-warning" style="font-weight: bold;">
+## Disclaimer
+  <p>The toolkit is a *collaborative effort*: if you have suggestions, please share them <a href="https://github.com/unhcr-mena/protection-assessment-toolkit/issues" style="color: white;">through this link</a>.</p>
+  <p>The Toolkit is a *work in progress*: if you identify issues, please share them <a href="https://github.com/unhcr-mena/protection-assessment-toolkit/issues" style="color: white;">through this link</a>.</p>
+</div>
+
+## Table of Content{#tdm}
+
+
+```{r tdm semi-programmatique, results='hide', message=FALSE, echo=FALSE,  warning=FALSE, include=FALSE, cache=FALSE }
+base_url <- ""
+urls <- paste0(base_url, "index.html")
+
+tdm <- function(section) {
+  require(xml2)
+  res <- "<div class=\"row\">\n"
+  
+  menu <- read_html("include/before_body.html", encoding = "UTF-8")
+  section <- xml_find_first(menu, paste0(".//ul[@id='menu_", section, "']"))
+  sous_sections <- xml_find_all(section, ".//ul")
+  
+  for (ss in sous_sections) {
+    res <- paste0(res, "<div class=\"col-md-4\">\n")
+    titre <- as.character(xml_contents(xml_find_first(ss, ".//li[@class='dropdown-header']")))
+    Encoding(titre) <- "UTF-8"
+    res <- paste0(res, "<p><strong>", titre, "</strong></p>\n")
+    res <- paste0(res, "<div class=\"list-group\">\n")
+    
+    items <- xml_find_all(ss, ".//a")
+    for (item in items) {
+      lien <- xml_attr(item, "href")
+      titre <- as.character(xml_contents(item))
+      Encoding(titre) <- "UTF-8"
+      res <- paste0(res, "<a href=\"", lien,"\" class=\"list-group-item\">", titre, "</a>\n")
+      urls <<- c(urls, paste0(base_url, lien))
+    }
+
+    res <- paste0(res, "</div>\n</div>\n\n")
+  }
+  
+  res <- paste0(res, "</div>")
+  return(res)
+}
+```
+
+### Assessment methodology & form design
+
+```{r, results='asis', echo=FALSE, message=FALSE}
+cat(tdm("design"))
+```
+
+
+### Data collection
+
+```{r, results='asis', echo=FALSE, message=FALSE}
+cat(tdm("collect"))
+```
+
+### Analysis & dissemination
+
+```{r, results='asis', echo=FALSE, message=FALSE}
+cat(tdm("analyse"))
+```
+
+### Credits
+
+Large parts of the toolkit are extracted from other existing guidelines referenced above. 

@@ -1,0 +1,90 @@
+---
+title: "Assessment Project Document"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+<div class="note">
+ A protection Assessment needs to be carefully planned. The First step of this plan is to document all the elements of the Asesssement
+</div>
+
+
+##  Background and Objective 
+
+Protection Assessment are designed to collect statistically sound, internationally comparable estimates of key indicators and analysis that are used to assess the protection situation of displaced persons (Refugees & IDP's) and to prioritize protection intervention. 
+
+
+
+## Governance Structure 
+
+* Give the name and type (government agency or other agency) of implementing agency.
+* Provide overview of Memorandum of Understanding (MoU) (Parties, critical components affecting survey planning, etc)
+* Give the names and affiliations of those who will be responsible for the management, technical work, and coordination activities. Include the survey coordinator, the sampling expert, and data processing expert assigned from the implementing agency, as well as others, if applicable. If already identified, the UNICEF MICS Consultant and other key regional experts/consultants together with their respective responsibilities should also be included. 
+* Describe the roles and contributions of national and international stakeholders and funding agencies. 
+* Describe the status, composition and roles and responsibilities of the Steering and Technical committees.
+* Provide other details on the governance structure and human resources as needed
+
+## Questionnaires Content
+
+List the excluded modules and provide reasons for the exclusion of each module. If the module or questions are not applicable to the country/survey you are not expected to provide a detailed explanation. However, for other exclusions, please include specific details about the reasons the modules and/or the questions that are not planned to be included and provide references to the data needs assessment.
+
+Provide information on the plans for the translation and back-translation of the questionnaires into local languages and plans for pre-testing the questionnaires. Indicate that the pre-test results will be compiled in a report, and that the results of the pre-test will be used to further modify, customize, and finalize the questionnaires.
+
+## Sample Design 
+
+In this section, under separate sub-headings, as appropriate, describe: 
+
+ * The Type of sampling design shoudl be stated (Rationale for sampling design explained)
+ * State definition of Household used in the assessment
+ * Sample size, including the expected numbers of households, women, men and under-5s. Include information on sub-sampling of men, if applicable
+ * How the sample size was calculated, including the indicators used for the calculation of the sample size
+ * The level of disaggregation sought for reporting
+ * What sample frame will be used and if the sample frame needs to be updated, plans for mapping, listing and household selection 
+
+
+## Recruitment and Training of Fieldwork Staff
+
+In this section, under separate sub-headings as appropriate, describe:
+
+ * Plans for recruitment of fieldwork staff, including details of the type of personnel (interviewers, data entry, supervisors, measurers, data entry clerks), their education/background, sex, numbers etc.
+ * Timing of training
+ * Length of training
+ * Methodology and content of training
+ * Profiles of trainers
+ * How training will be organized – central location, in separate districts, including how standardization will be ensured if not central location
+
+
+##	Fieldwork
+
+In this section, under separate sub-headings as appropriate, describe:
+
+ * Timing of fieldwork, constraints on timing of fieldwork
+ * Team composition, including numbers
+ * Expected duration of fieldwork and how the duration was calculated
+ * Plans for monitoring data collection and fieldwork supervision as well as plans for handling questionnaires for data entry 
+ * Fieldwork logistics
+
+
+##	Budget
+
+In this section, under separate sub-headings as appropriate, describe:
+
+ * Expected total cost of the survey
+ * Breakdown of total cost by budget line items 
+ * Amount of funding secured and funding source(s)
+ * Amount of extra funding needed, including plans, if any, on how the funding shortfall will be secured
+
+
+## Timeline  for Tasks
+ * Identify survey coordinator, survey personnel, and plan survey; establish steering and technical committees
+ * Adapt and pre-test questionnaires; translate questionnaires and manuals
+ * Carry out sampling and household listing; order scales, boards, salt test kits, and GPS equipment
+ * Complete logistical arrangements
+ * Select and train fieldwork personnel (interviewers, editors, measurers, and supervisors)
+ * Conduct pilot study and collect data
+ * Complete data processing, including secondary editing
+ * Prepare summary findings report and final report, and disseminate widely; prepare survey archive
+
+

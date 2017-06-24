@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="./include/ifhs2.css" />
+<script type="text/javascript" src="./libs/zeroclipboard-2.2.0/ZeroClipboard.js"></script>
+<link rel="stylesheet" href="./libs/colorbox-1.6.1/colorbox.css" />
+<script type="text/javascript" src="./libs/colorbox-1.6.1/jquery.colorbox-min.js"></script>
+<!--- favicon --->
+<link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+<link rel="manifest" href="./images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<nav>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Integrated Framework for Household Survey</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="design" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Design <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_design">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Planning</li>
+                  <li><a href="Assessment-Project-Document.html">Assessment Project Document</a></li>
+                  <li><a href="Memorandum-of-Understanding.html">Memorandum of Understanding</a></li>
+                  <li><a href="Terms-of-Reference-for-Assessment-Focal-Point.html">Terms of Reference for Assessment Focal Point</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Methodology</li>
+                  <li><a href="Sampling.html">Sampling</a></li>
+                  <li><a href="Interview.html">Interview approach</a></li>
+                  <li><a href="Pre-Assessment.html">Pre-Assessment</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Form</li>
+                  <li ><a href="protection-Topics.html">Protection Topics</a></li>
+                  <li ><a href="Module-questions.html">Questions Modules</a></li>
+                  <li ><a href="Guidelines-for-Customisation.html">Guidelines for Customisation</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="collect" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Collect <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_collect">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Preparing for fieldwork</li>
+                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
+                  <li><a href="Pre-test-Phase.html">Pre-test Phase</a></li>
+                  <li><a href="Managing-Devices.html">Managing Devices</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Fieldwork manual</li>
+                    <li ><a href="Instructions-for-Interviewers.html">Instructions for Interviewers</a></li>
+                    <li ><a href="Instructions-for-Supervisors-Editors.html">Instructions for Supervisors and Editors</a></li>
+                    <li ><a href="Instructions-for-Managers.html">Instructions for Managers</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li class="dropdown-header">Using KoboToolBox</li>
+                  <li ><a href="Data-Protection-Impact-Assessment.html">Data Protection Impact Assessment</a></li>
+                  <li ><a href="Server-Configuration.html">Server Configuration</a></li>
+                  <li ><a href="Data-Entry.html">Data Entry</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="analyse" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Analyse <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-column columns-3" role="menu" id="menu_analyse">
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Analysis Steps</li>
+                  <li ><a href="Discover.html">Discover</a></li>
+                  <li ><a href="Predict.html">Predict</a></li>
+                  <li ><a href="Advise.html">Advise</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                    <li class="dropdown-header">Report</li>
+                  <li ><a href="Analysis-Script.html">Analysis Scripts</a></li>
+                  <li ><a href="Model-for-Key-Findings-Report.html">Model for Key Findings Report</a></li>
+                  <li ><a href="Model-for-Final-Report.html">Model for Final Report</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li class="dropdown-header">Communication</li>
+                  <li><a href="Slides-Infographics.html">Slides & Infographics</a></li>
+                  <li><a href="Microdata.html">Sharing microdata for social scientist</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li><a href="protection-assessment-toolkit.pdf">PDF</a></li>
+      </ul>
+    <form id="rechercher" class="navbar-form navbar-right" role="search" style="padding-top: 5px;" method="get" action="https://tontonroger.org/">
+      <div class="form-group">
+        <input name="q" type="text" class="form-control input-sm" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default btn-sm" name="Search">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      </button>
+    </form>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+</nav>
+
+<div class="row">
+
+<div class="col-sm-9" role="main">
+<article>
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div class="jumbotron">
+<h1>
+<img src="images/ifhs.png" /> Integrated Framework<br />
+</h1>
+<h2>
+for Household Survey (IFHS)<br /> A toolkit to facilitate planning, design &amp; analysis.
+</h2>
+<p>
+Last update : 24 حزيران 2017
+</p>
+</div>
+<div id="presentation" class="section level2">
+<h2>Why an “Integrated Framework”?</h2>
+<p>The kit is a comprehensive set of tools to guide survey teams through every step of a protection assessment based on <strong>Household survey</strong> – from overall planning, design and data collection in the field to data processing, analysis, interpretation, documentation and dissemination. Becausse it addresses the specific challenges related to household surveys, it fits more for protracted situations and it <strong>complements</strong> other approaches such as the <a href="http://www.unhcr.org/450e963f2.html">UNHCR Tool for Participatory Assessment in Operations</a>, the <a href="https://emergency.unhcr.org/entry/50209">Needs Assessment for Refugee Emergencies (NARE) Checklist</a> for Refugees operations and the <a href="http://www.globalprotectioncluster.org/en/tools-and-guidance/information-and-data-management.html">Rapid Protection Assessment Tools (RPAT)</a> for IDPs operations. The kit is also organised to ensure that all findings and recommandation will allow to inform prioritisation between all potential protection activities and subsequent ressources allocation in terms of programme, through the following elements :</p>
+<ul>
+<li>Produce <strong>impact indicators</strong> that are used to assess the conditions of beneficiaries over time;</li>
+<li>Support the <strong>analysis of vulnerabilites</strong> and the discovery of clusters of individuals with similar profile;</li>
+<li>Allow for the development of <strong>targetting models</strong> for both response (for instance cash) and prevention activities (for instance protection);</li>
+<li>Provide basis for <strong>public advocacy</strong> on issues faced by the population group.</li>
+</ul>
+<div class="figure">
+<img src="images/process.png" />
+
+</div>
+<p>This toolkit supports the technical implementation of already existing guidelines and guidances, namely the <a href="http://gbvguidelines.org/">Guidelines for Integrating Gender-Based Violence Interventions in Humanitarian Action</a>, the <a href="http://www.globalprotectioncluster.org/_assets/files/tools_and_guidance/info_data_management/CPRA_English-EN.pdf">Child Protection Rapid Assessment Toolkit</a>, the <a href="http://jet.jips.org/">Joint IDP Profiling Service Essential Toolkit- JET</a>, the <a href="http://unhcr.org/4aa76c279.pdf">Heightened Risk Identification Tool</a>, The <a href="http://www.cashlearning.org/downloads/operational-guidance-and-toolkit-for-multipurpose-cash-grants---web.pdf">Operational Guidance and Toolkit for Multipurpose Cash Grants</a> etc. The proposed technical implementation approach was inspired by the <a href="http://sens.unhcr.org">UNHCR Standardised Expanded Nutrition Survey</a> and the <a href="http://mics.unicef.org/tools">UNICEF Multiple Indicator Cluster Surveys</a>.</p>
+</div>
+<div id="content" class="section level2">
+<h2>Content</h2>
+On the top of the summary narrative guidelines below, the toolkit is organised around 4 keys technical componnents that facilitate the easy replication and customisation of an assessment from an operation to another. Re-using tested proofed platforms, questions &amp; report format, technical staff in charge will save significant amount of time.
+<div class="note">
+<ul>
+<li><p>A pre-organised <kbd><a href="https://docs.google.com/spreadsheets/d/1zGnaLXouP9vTfjqVvUVOSfzeSkvpd63f8Z-zvqGJtNU">XLSFORM Questions Library</a></kbd> in order to leverage good practices and enforce core questions during design of the assessment form.</p></li>
+<li><p>A <kbd><a href="hhtps://kobo.unhcr.org">KoboToolBox</a></kbd> secured server to perform the data collection. This server uses the xlsform developed during the design phase.</p></li>
+<li><p>Multiple <kbd><a href="https://github.com/unhcr-mena/protection-assessment-toolkit">R statistical analysis scripts</a></kbd> to clean &amp; analyse data, and then to generate automatically standard report and to facilitate the creation of presentation slides and infographics.</p></li>
+<li>A series of <kbd><a href="https://github.com/unhcr-mena/protection-assessment-toolkit">Github Repository</a></kbd> to exchange collaboratively analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself.</li>
+</ul>
+</div>
+</div>
+<div id="for-whom" class="section level2">
+<h2>For whom?</h2>
+<p>The targeted audience of the toolkit are <em>technical staff tasked to work on a protection assessment</em>: assessment focal points, information management officers and data scientists… The toolkit is to be used once all emergency assessment and secondary data review have been implemented and developped. With a bit of configuration at the begining, the toolkit will allow for the quick generation of results and will ensure that minimum data quality standards are enforced. In addition, because of the standard data format that are enforced through the kit, it will be possible to obtain comparable results from different operations.</p>
+<div class="alert alert-warning" style="font-weight: bold;">
+<h2 id="disclaimer">Disclaimer</h2>
+<p>
+The toolkit is a <em>collaborative effort</em>: if you have suggestions, please share them <a href="https://github.com/unhcr-mena/protection-assessment-toolkit/issues" style="color: white;">through this link</a>.
+</p>
+<p>
+The Toolkit is a <em>work in progress</em>: if you identify issues, please share them <a href="https://github.com/unhcr-mena/protection-assessment-toolkit/issues" style="color: white;">through this link</a>.
+</p>
+</div>
+</div>
+<div id="tdm" class="section level2">
+<h2>Table of Content</h2>
+<div id="assessment-methodology-form-design" class="section level3">
+<h3>Assessment methodology &amp; form design</h3>
+<div class="row">
+<div class="col-md-4">
+<p>
+<strong>Planning</strong>
+</p>
+<div class="list-group">
+<p><a href="Assessment-Project-Document.html" class="list-group-item">Assessment Project Document</a> <a href="Memorandum-of-Understanding.html" class="list-group-item">Memorandum of Understanding</a> <a href="Terms-of-Reference-for-Assessment-Focal-Point.html" class="list-group-item">Terms of Reference for Assessment Focal Point</a></p>
+</div>
+</div>
+<div class="col-md-4">
+<p>
+<strong>Methodology</strong>
+</p>
+<div class="list-group">
+<p><a href="Sampling.html" class="list-group-item">Sampling</a> <a href="Interview.html" class="list-group-item">Interview approach</a> <a href="Pre-Assessment.html" class="list-group-item">Pre-Assessment</a></p>
+</div>
+</div>
+<div class="col-md-4">
+<p>
+<strong>Form</strong>
+</p>
+<div class="list-group">
+<p><a href="protection-Topics.html" class="list-group-item">Protection Topics</a> <a href="Module-questions.html" class="list-group-item">Questions Modules</a> <a href="Guidelines-for-Customisation.html" class="list-group-item">Guidelines for Customisation</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="data-collection" class="section level3">
+<h3>Data collection</h3>
+<div class="row">
+<div class="col-md-4">
+<p>
+<strong>Preparing for fieldwork</strong>
+</p>
+<div class="list-group">
+<p><a href="Fieldwork-Training-Agenda.html" class="list-group-item">Fieldwork Training and Agenda</a> <a href="Pre-test-Phase.html" class="list-group-item">Pre-test Phase</a> <a href="Managing-Devices.html" class="list-group-item">Managing Devices</a></p>
+</div>
+</div>
+<div class="col-md-4">
+<p>
+<strong>Fieldwork manual</strong>
+</p>
+<div class="list-group">
+<p><a href="Instructions-for-Interviewers.html" class="list-group-item">Instructions for Interviewers</a> <a href="Instructions-for-Supervisors-Editors.html" class="list-group-item">Instructions for Supervisors and Editors</a> <a href="Instructions-for-Managers.html" class="list-group-item">Instructions for Managers</a></p>
+</div>
+</div>
+<div class="col-md-4">
+<p>
+<strong>Using KoboToolBox</strong>
+</p>
+<div class="list-group">
+<p><a href="Data-Protection-Impact-Assessment.html" class="list-group-item">Data Protection Impact Assessment</a> <a href="Server-Configuration.html" class="list-group-item">Server Configuration</a> <a href="Data-Entry.html" class="list-group-item">Data Entry</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="analysis-dissemination" class="section level3">
+<h3>Analysis &amp; dissemination</h3>
+<div class="row">
+<div class="col-md-4">
+<p>
+<strong>Analysis Steps</strong>
+</p>
+<div class="list-group">
+<p><a href="Discover.html" class="list-group-item">Discover</a> <a href="Predict.html" class="list-group-item">Predict</a> <a href="Advise.html" class="list-group-item">Advise</a></p>
+</div>
+</div>
+<div class="col-md-4">
+<p>
+<strong>Report</strong>
+</p>
+<div class="list-group">
+<p><a href="Analysis-Script.html" class="list-group-item">Analysis Scripts</a> <a href="Model-for-Key-Findings-Report.html" class="list-group-item">Model for Key Findings Report</a> <a href="Model-for-Final-Report.html" class="list-group-item">Model for Final Report</a></p>
+</div>
+</div>
+<div class="col-md-4">
+<p>
+<strong>Communication</strong>
+</p>
+<div class="list-group">
+<p><a href="Slides-Infographics.html" class="list-group-item">Slides &amp; Infographics</a> <a href="Microdata.html" class="list-group-item">Sharing microdata for social scientist</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="credits" class="section level3">
+<h3>Credits</h3>
+<p>Large parts of the toolkit are extracted from other existing guidelines referenced above.</p>
+</div>
+</div>
+
+</article>
+</div>
+
+<div class="col-sm-3" role="complementary">
+<nav class="hidden-print hidden-xs" id="nav_sidebar">
+</nav>
+</div>
+
+</div>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+
+    // active menu
+    href = window.location.pathname;
+    href = href.substr(href.lastIndexOf('/') + 1);
+    if (href=='') href = 'index.html';
+    $('a[href="' + href + '"]').parent().addClass('active');
+    $('a[href="' + href + '"]').parent().parents('li').addClass('active');
+
+    // élargir la page d'accueil
+    if (href=='index.html') $('.col-sm-9').attr('class','col-sm-12');
+
+    // rechercher
+    $("#rechercher").submit(function(event) {
+      $('input[name="q"]').val($('input[name="q"]').val() + ' site:unhcr.github.io/Integrated-framework-household-survey');
+    });
+
+    // sidebar
+    $("#nav_sidebar").append($("#TOC").html());
+    $("#nav_sidebar ul").addClass("nav nav-stacked");
+    $("#TOC").addClass("visible-xs-block");
+    $('body').scrollspy({
+      target: '#nav_sidebar',
+      offset: 40
+    });
+
+    // Identifier les <pre> fermant
+    $('pre').next("*:not(pre)").prev().addClass('last'); // Dernier <pre> de chaque groupe contigu de <pre>
+    $('pre').parent().each(function (){
+      $(this).children('pre').last().addClass('last');
+    }); // Si <pre> est le dernier enfant de son parent
+
+    // Ajout liens rdocumentation et tooltip
+    $("code[data-pkg]").each(function( index ) {
+      pkg = $(this).attr('data-pkg');
+      if ($(this).attr('data-rdoc') !== undefined) {
+        rdocumentation = $(this).attr('data-rdoc');
+      } else {
+        rdocumentation = $(this).text();
+      }
+      fonction = $(this).text();
+      $(this).wrap('<a href="http://www.rdocumentation.org/packages/'+pkg+'/functions/'+rdocumentation+'">');
+      $(this).attr('data-toggle','tooltip');
+      $(this).attr('data-placement','top');
+      $(this).attr('title','package : ' + pkg);
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    $("code.pkg").each(function( index ) {
+      $(this).wrap('<a href="http://www.rdocumentation.org/packages/'+$(this).text()+'">');
+    });
+
+    // Figures
+    $("figure").each(function( index ) {
+      if ($(this).children("figcaption").length > 0)
+        $(this).children("figcaption:first").prepend('<span class="figure-number">Figure '+(index+1)+'.</span> ');
+      else
+        $(this).append($("<figcaption>").append('<span class="figure-number">Figure '+(index+1)+'</span>'));
+    });
+
+    // Colorbox
+    jQuery('article div img').colorbox({
+      maxWidth: '90%',
+      maxHeight: '90%',
+      rel: 'figures',
+      current: "",
+      href: function(){
+        return $(this).attr('src');
+      },
+      title: function(){
+        return $(this).attr('alt');
+      }
+    });
+    jQuery('article div img').css('cursor', 'pointer');
+    jQuery('figure img').colorbox({
+      maxWidth: '90%',
+      maxHeight: '90%',
+      rel: 'figures',
+      current: "",
+      href: function(){
+        return $(this).attr('src');
+      },
+      title: function(){
+        return $(this).parent().children("figcaption").text();
+      }
+    });
+    jQuery('figure img').css('cursor', 'pointer');
+
+    // ZeroClipboard
+    $('pre.r').parent().each(function(){
+      $(this).children('pre.r').first().before('<div class="zero-clipboard hidden-print hidden-xs"><button class="btn-clipboard">Copy</button></div>');
+    }); // Il peut arriver que le pre ne soit pas précédé (cf. figures)
+    $('*:not(pre):not(.zero-clipboard) + pre.r').before('<div class="zero-clipboard hidden-print hidden-xs"><button class="btn-clipboard">Copy</button></div>');
+    $('pre.last').after(function() {
+      if ($(this).hasClass("r")) res = $(this).text(); else res = "";
+      $(this).prevUntil('*:not(pre)','pre.r').each(function() {
+        res = $(this).text() + '\n' + res;
+      });
+      return '<div class="clipboard">' + res + '</div>';
+    });
+    $('.zero-clipboard').each(function(index){
+      $(this).children('.btn-clipboard').attr('data-clipboard-target','clipboard_'+index);
+      $(this).nextAll("div.clipboard").first().attr('id','clipboard_'+index);
+    });
+    var client = new ZeroClipboard( $(".btn-clipboard") );
+    client.on( "ready", function( readyEvent ) {
+      // alert( "ZeroClipboard SWF is ready!" );
+      client.on( "aftercopy", function( event ) {
+        // `this` === `client`
+        // `event.target` === the element that was clicked
+        //event.target.style.display = "none";
+        $(event.target).parent().before('<div class="alert alert-success"><a href="#" class="close" data-dismiss="alert">&times;</a>The <strong>R</strong> code is now copied in your clipboard.</div>');
+      } );
+    } );
+
+});
+</script>
+
+<!-- disqus -->
+<div class="row">
+  <div id="disqus_thread" class="col-sm-9" role="complementary"></div>
+</div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'protection-assessment-toolkit'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Activate JavaScript to see <a href="http://disqus.com/?ref_noscript">Disqus Comments.</a></noscript>
+    <!--<a href="http://disqus.com" class="dsq-brlink">Comments are hosted by <span class="logo-disqus">Disqus</span>.</a>-->
+
+<footer>
+  <div class="row">
+    <div class="col-lg-12">
+      <p>Powered by <a href="http://www.r-project.org/" rel="nofollow">R</a>, </a><a href="http://www.rstudio.com/" rel="nofollow">RStudio</a>, <a href="http://rmarkdown.rstudio.com/" rel="nofollow">R Markdown</a>, <a href="http://yihui.name/knitr/" rel="nofollow">knitr</a>, <a href="http://pandoc.org/" rel="nofollow">pandoc</a> and <a href="http://www.princexml.com/" rel="nofollow">Prince XML</a>. Hosted by <a href="https://github.com/" rel="nofollow">GitHub</a>.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+
+</body>
+</html>

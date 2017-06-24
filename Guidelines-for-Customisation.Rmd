@@ -1,0 +1,74 @@
+---
+title: "Guidelines for questionnaire customisation"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+<div class="note">
+
+</div>
+## Introduction
+
+A great deal of effort has been devoted to ensure that the questions can be used by interviewers to obtain answers from respondents that are both reliable and valid. Thus the questions are drafted in a clear simple language and follow clearly and logically from one to the other, while the layout is designed to make it easy for interviewers to administer the questionnaires. The wording and question sequence are designed to motivate respondents and help them recall information on past events. Using the model questionnaires verbatim is most likely to ensure that the results of the surveys are comparable across participating countries. 
+
+It is therefore important that even if adaption and contextualisation are made, the wording of the model questionnaires is not drastically changed.
+
+
+## What is "customisation"?
+
+Customisation (or adaptation) refers to the process during which the proposed Protection Assessment questionnaires are tailored to the population/context where a the Assessment is being conducted (that is, a national assessment, or a assessment conducted for a population group or for a selected area within a country), using standard principles and approaches, while maintaining global comparability of the indicators that will be derived from the collected data.
+
+The customisation process is by no means an easy and straightforward one. Without a detailed understanding of all the standard tools and of the general principles and recommendations, customisation of questionnaires should not be attempted at country level without the assistance of an expert. During the customisation process, it is also absolutely critical that lessons learned from previous data collection activities are used effectively, and wherever necessary, tools are tested before final decisions are made. Testing may include organized pre-testing, field testing, piloting, and in some cases, cognitive testing. Analysis of raw data from previous assessment and data collection activities, as well as results from these efforts should also be undertaken for successful customisation of standard questionnaires.
+
+## What kind of "Customisation"?
+
+Customisation of the "Questionnaire Modules", "Questions" and "Response Categories" are necessary for at least two basic reasons:
+ * 	No single country/survey is expected or recommended to use all of the modules in proposed questionnaires
+ * 	No single standard questionnaire can accurately represent all human experience around the globe
+
+
+Customisation covers the following types of changes to the standard protection questionnaires:
+ * 	Country-/assessment-specific modifications to already existing standard questions and response codes,
+ * 	Deletions from the standard questionnaires, and
+ * 	Additions to the proposed questionnaires. 
+
+## Modification
+
+Certain parts of the proposed questionnaires must be modified. Indeed, in several instances, the proposed questionnaires include clear directives that a change or modification needs to be made. These cases are indicated using text such as  “insert local name". Similarly, response categories that require customisation are also indicated. 
+
+## Deletion
+No assessment is recommended to retain all of the modules and questions of the proposed protection questionnaires. First, there will always be some topics that will not be relevant in certain countries or regions. Second, decisions on the content of any assessment will ideally be made as a result of a thorough data gap assessment, generally based on the required analysis, and, for example, when information is available from other recent data sources, certain modules or sets of questions will be dropped. The process and analysis involved in a comprehensive data needs assessment will vary, but is a crucial step in determining the content of the assessment.
+
+Determining what to exclude from the assessment is a balancing act that should take data needs into account, but also learn from countless experiences of data quality issues as a result of overloaded questionnaires. Country priorities will guide decisions, but may also work against achieving an optimum questionnaire size if negotiations turn more political than technical.
+
+A final consideration will also rest with the ability to implement an adequate sample size, as this is often constrained by budget on one hand and on the other the known data quality issues associated with large sample sizes. For instance, some indicators are difficult to measure in low fertility settings, demanding higher sample sizes or complicated sample designs. Unless such issues can be technically addressed, the exclusion of such indicators may be necessary.
+
+## Addition
+
+Some Protection Asessment may also add topics, modules and questions which are not already in the proposed questionnaires. These could include additions that the proposed questionnaires already point to (for example, adding household assets to the list already in the questionnaires), or additions of modules or sets of questions that are not covered in the proposed questionnaires. 
+
+From the onset of considerations of what could be added in, you should know that this will affect the technical support available as well as require changes and considerations throughout the package of tools available, from sampling, training, instructions, and data entry application to tabulations and reporting.
+
+As with the above exercise of deleting from the questionnaires, your entry point should be the indicator list or, alternatively, the tabulation plan. Questionnaire design is secondary to the need for precise information on what such proposed additions would be measuring and how such would be presented.
+
+Only questions that are previously well-tested and validated should be included. Questions are often imported from other household surveys that have been conducted in the country. This does not necessarily mean that they are validated nor does it mean that such questions can work within the frame of a Protection Assessment.
+
+If additions are made, please ensure that formatting and coding follow the rules in place for the proposed questionnaires. For entirely new topics it may be useful to build a new module and in other cases you will need to append to an existing module or insert within the existing flow. If you create new questions, [submit them for addition in the library here](https://github.com/unhcr-mena/protection-assessment-toolkit/issues).
+
+
+## Rules and Useful Tips for Customisation
+
+Customise but do not compromise global comparability: 
+ * 	Assess the implications of changes;
+ * 	Check that all required questions to calculate the indicators are included;
+ * 	Check previous surveys to see how the customisation was done;
+ * 	Consider translations for all major languages spoken among the survey population – Arabic, Kurdish,etc.. 
+
+Pre-test rigorously to make sure that :
+ * 	the questions are understood and the response categories are meaningful;
+ * 	the language style that can be understood by everyone;
+ * 	the skip-logic functions within the form are working well;
+ 
+ 

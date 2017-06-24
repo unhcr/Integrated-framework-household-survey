@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Protection Assessment Toolkit</title>
+
+<script src="libs/jquery-1.11.0/jquery.min.js"></script>
+<link href="include/flatly.print.css" rel="stylesheet" />
+<link href="include/protection-assessment-toolkit.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+/* CSS générées par knitr */
+
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+code{white-space: pre;}
+
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+
+pre:not([class]) {
+  background-color: white;
+}
+
+/* Print CSS */
+@media print {
+  math {margin: 11px auto;}
+
+  .main-container {margin:0; padding:0; max-width: 100%;}
+
+  @page {
+		size: A4;
+		margin: 2.5cm; padding: 0;
+ 		@bottom {content: "\2013\0000a0\0000a0\0000a0\0000a0" counter(page) "\0000a0\0000a0\0000a0\0000a0\2013"; font-size: 9pt; font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+		@footnotes {
+			border-top: solid #999 thin;
+			padding-top: 8pt;
+			footnote-style-position: inside;
+    }
+	}
+	@page:first {
+  	@bottom { content: normal;}
+	  @top-left { content:normal;}
+		@top-right { content:normal;}
+  }
+  @page:left{
+    @top-left {content: "protection-assessment-toolkit\0000a0\0000a0\2013\0000a0\0000a0" string(titre_doc);
+    font-style: italic; font-size: 9pt; font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+  }
+  @page:right{
+    @top-right {content: string(titre_chap); font-style: italic; font-size: 9pt; font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+  }
+  @page:blank{
+		@bottom { content: normal;}
+	  @top-left { content:normal;}
+		@top-right { content:normal;}
+	}
+
+  article {string-set: titre_chap "";} /* éviter en-tête en début de chapitre */
+	h1 {string-set: titre_chap content();}
+	article:first-child .jumbotron h1 {string-set: titre_doc content();}
+
+	body {font-size: 10pt; color: black;}
+	pre {font-size: 10pt;}
+	h1 {font-size:36pt; margin-top: 3cm; margin-bottom: 1cm; padding:0; color: #2c3e50;}
+	article:first-child h1:first-child {margin-top: 0; margin-bottom: .5cm; padding:0; font-size: 48pt;}
+	article:first-child .jumbotron h1 {font-size: 32pt;  color: #2c3e50;}
+	article:first-child .jumbotron {margin-bottom: 5cm;}
+	h2 {font-size: 20pt; margin-top: 1cm; margin-bottom: .5cm; padding:0; color: #2c3e50;}
+	h3 {font-size: 16pt; margin-top: 1cm; margin-bottom: .5cm; padding:0; color: #2c3e50;}
+	h4 {font-size: 11pt; margin-top: 1cm; margin-bottom: .5cm; padding:0; color: #2c3e50;}
+	blockquote p {font-size: 11pt;}
+	pre {font-size: 9pt;}
+
+	/* Page-break */
+	article, #tdm {page-break-before: right;}
+	#presentation {page-break-before: always;}
+	article:first-child {page-break-before: auto;}
+	h1, h2, h3, h4, heading, caption, pre.r {page-break-after: avoid;}
+	figcaption {page-break-before: avoid;}
+	figure, table, pre.r {page-break-inside: avoid;}
+	div.note, div.important, #licence {page-break-inside: avoid;}
+
+  /* Footnotes */
+  .fn {
+    float: footnote;
+    counter-increment: footnote;
+    font-size: 9pt;
+  }
+  article {counter-reset: footnote;}
+  .fn::footnote-call {font-size: 75%; vertical-align: super; line-height: none;}
+
+  /* Liens */
+  a[href^="#"] {color: black;}
+  a[href^="#"]:after { content: ", page\0000a0" target-counter(attr(href), page);}
+
+  /* Table des matières */
+  #tdm strong {font-size: 11pt;}
+  .list-group-item {padding: 2pt 0; border:none;}
+  a.list-group-item::after {content: leader(" . ") target-counter(attr(href), page);}
+  .TOC a::after {content: leader(" . ") target-counter(attr(href), page);}
+  .TOC a {color: black;}
+  .TOC ul {list-style: none; padding:0; margin:0;}
+  .TOC ul ul {padding-left: 0.5cm; font-size: 9pt;}
+  .TOC {margin-bottom: 1cm;}
+
+  /* Index des fonctions */
+  #index_fonctions nav, #index_extensions nav, #index_concepts nav
+    {display: none;}
+  #index_fonctions_index_fonctions, #index_extensions_index_extensions, #index_concepts_index_concepts
+    {column-count: 2; column-rule: thin solid #2c3e50; column-gap: 1cm;}
+  #index_fonctions p, #index_extensions p, #index_concepts p
+    {page-break-after: avoid; margin: 10px 0 0 0;}
+  #index_fonctions ul a[href^="#"],
+  #index_extensions ul a[href^="#"],
+  #index_concepts ul a[href^="#"]
+    {color: black;}
+  #index_fonctions ul a[href^="#"]:after,
+  #index_extensions ul a[href^="#"]:after,
+  #index_concepts ul a[href^="#"]:after
+    {content: leader(" . ") target-counter(attr(href), page);}
+  #index_fonctions ul, #index_extensions ul, #index_concepts ul
+  {
+    list-style: none;
+    padding: 0; margin: 0;
+    font-size: 8pt;
+    page-break-inside: avoid;
+  }
+  #index_fonctions li, #index_extensions li, #index_concepts li
+    {padding-left: 0.5cm;}
+
+  dfn {border-bottom: dotted .5pt #AAA;}
+
+  /* Styles des exemples de fusion de tables */
+  table.exemple_df td,
+  table.exemple_df th {
+    text-align: center;
+    padding: 3px 10px;
+  }
+  table.exemple_df th {
+    border-bottom: solid 1px #999;
+  }
+
+  table.exemple_df td + td,
+  table.exemple_df th + th {
+    border-left: solid 1px #999;
+  }
+
+  table.exemple_operateur td {
+    font-size: 3em;
+    padding: 20px;
+  }
+
+}
+
+</style>
+
+<div class="container-fluid main-container">
