@@ -39,13 +39,13 @@ This toolkit supports the technical implementation of already existing guideline
 ## Content
 On the top of the summary narrative guidelines below, the toolkit is organised around 4 keys technical componnents that facilitate the easy replication and customisation of an assessment from an operation to another. Re-using tested proofed platforms, questions & report format, technical staff in charge will save significant amount of time.
 <div class="note">
- * A pre-organised <kbd>[XLSFORM Questions Library](https://docs.google.com/spreadsheets/d/1zGnaLXouP9vTfjqVvUVOSfzeSkvpd63f8Z-zvqGJtNU)</kbd> in order to leverage good practices and enforce core questions during design of the assessment form.
+ * A pre-organised <kbd>[Master list of baseline Indicators Library](https://docs.google.com/spreadsheets/d/1zGnaLXouP9vTfjqVvUVOSfzeSkvpd63f8Z-zvqGJtNU)</kbd> in order to leverage good practices and enforce core questions during design of the assessment form.
  
  * A <kbd>[KoboToolBox](hhtps://kobo.unhcr.org)</kbd> secured server to perform the data collection. This server uses the xlsform developed during the design phase.
  
- * Multiple <kbd>[R statistical analysis scripts](https://github.com/unhcr-mena/protection-assessment-toolkit)</kbd> to clean & analyse data, and then to generate automatically standard report  and to facilitate the creation of presentation slides and infographics.
+ * Multiple <kbd>[R statistical analysis scripts](https://github.com/unhcr/Integrated-framework-household-survey/code)</kbd> to clean & analyse data, and then to generate automatically standard report  and to facilitate the creation of presentation slides and infographics.
  
- * A series of <kbd>[Github Repository](https://github.com/unhcr-mena/protection-assessment-toolkit)</kbd> to exchange collaboratively analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself.
+ * A series of <kbd>[Github Repository](https://github.com/unhcr/Integrated-framework-household-survey)</kbd> to exchange collaboratively analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself.
 </div>
 
 ## For whom?
@@ -54,8 +54,8 @@ The targeted audience of the toolkit are *technical staff tasked to work on a pr
 
 <div class="alert alert-warning" style="font-weight: bold;">
 ## Disclaimer
-  <p>The toolkit is a *collaborative effort*: if you have suggestions, please share them <a href="https://github.com/unhcr-mena/protection-assessment-toolkit/issues" style="color: white;">through this link</a>.</p>
-  <p>The Toolkit is a *work in progress*: if you identify issues, please share them <a href="https://github.com/unhcr-mena/protection-assessment-toolkit/issues" style="color: white;">through this link</a>.</p>
+  <p>The toolkit is a *collaborative effort*: if you have suggestions, please share them <a href="https://github.com/unhcr/Integrated-framework-household-survey/issues" style="color: white;">through this link</a>.</p>
+  <p>The Toolkit is a *work in progress*: if you identify issues, please share them <a href="https://github.com/unhcr/Integrated-framework-household-survey/issues" style="color: white;">through this link</a>.</p>
 </div>
 
 ## Table of Content{#tdm}
