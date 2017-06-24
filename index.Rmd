@@ -16,9 +16,8 @@ require(lubridate)
 
 <div class="jumbotron">
 
-<h1>![](images/ifhs.png) Integrated Framework<br /></h1>
-<h2>for Household Survey (IFHS)<br />
-A toolkit to facilitate planning, design & analysis.</h2>
+<h1>![](images/ifhs.png) Integrated Framework for Household Survey<br /></h1>
+<h2>IFHS: A toolkit to facilitate design, collection & analysis.</h2>
 <p>Last update : `r I(format(today(), "%e %B %Y"))`</p>
 </div>
 

@@ -86,6 +86,11 @@ li.dropdown-header {
 	background-color: #f5f5f5;
 }
 
+
+.navbar-default {
+    background-color:#0072BC
+ }
+
 @media (max-width: 767px) {
 	.dropdown-menu.multi-column {
 		min-width: 240px !important;
