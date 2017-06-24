@@ -28,7 +28,7 @@ The kit is a comprehensive set of tools to guide survey teams through every step
 
  * Produce **impact indicators** that are used to assess the conditions of beneficiaries over time; 
  * Support the **analysis of vulnerabilites** and the discovery of clusters of individuals with similar profile; 
- * Allow for the development of **targetting models** for both response (for instance cash) and prevention activities (for instance protection);
+ * Allow for the development of **targeting models** for both response (for instance cash) and prevention activities (for instance protection);
  * Provide basis for **public advocacy** on issues faced by the population group. 
 
 ![](images/process.png)
@@ -52,8 +52,7 @@ On the top of the summary narrative guidelines below, the toolkit is organised a
 
 The targeted audience of the toolkit are *technical staff tasked to work on a protection assessment*: assessment focal points, information management officers and data scientists... The toolkit is to be used once all emergency assessment and secondary data review have been implemented and developped. With a bit of configuration at the begining, the toolkit will allow for the quick generation of results and will ensure that minimum data quality standards are enforced. In addition, because of the standard data format that are enforced through the kit, it will be possible to obtain comparable results from different operations.
 
-<div class="alert alert-warning" style="font-weight: bold;">
-## Disclaimer
+<div class="alert alert-warning" style="font-weight: bold;">## Disclaimer
   <p>The toolkit is a *collaborative effort*: if you have suggestions, please share them <a href="https://github.com/unhcr/Integrated-framework-household-survey/issues" style="color: white;">through this link</a>.</p>
   <p>The Toolkit is a *work in progress*: if you identify issues, please share them <a href="https://github.com/unhcr/Integrated-framework-household-survey/issues" style="color: white;">through this link</a>.</p>
 </div>
