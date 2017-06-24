@@ -1,6 +1,6 @@
 html_document:
   self_contained: false
-  theme: yeti
+  theme: flatly
   highlight: pygments
   mathjax: null
   toc: true
