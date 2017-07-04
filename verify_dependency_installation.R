@@ -1,5 +1,6 @@
 if(!require(devtools))
   install.packages("devtools")
+  install.packages("lubridate")
 
 require(devtools)
 
@@ -25,7 +26,7 @@ if (!length(m)) {
 
 # 2. Install missing packages (CRAN ou GitHub) ----------------
 
-thru_github <- c("lubridate", #"questionr", 
+thru_github <- c("lubridate", #"questionr",
                  "JLutils", "labelled")
 #repo_github <- c("hadley", "juba", "larmarange", "larmarange")
 
