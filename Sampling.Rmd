@@ -9,7 +9,7 @@ source("options_communes.R")
 
 <div class="important">
 
-The sampling strategy is constrainted by both available budget, field accessibility and time. The sampling approach reflects a trade off between representativity of the results, rapid delivery and  
+The sampling strategy is constrainted by both available budget, field accessibility and time. The sampling approach reflects a trade off between representativity of the results, rapid delivery and  cost effectiveness.
 
 
  
