@@ -71,4 +71,10 @@ Pre-test rigorously to make sure that :
  * 	the language style that can be understood by everyone;
  * 	the skip-logic functions within the form are working well;
  
+ ## Translation
+ 
+ Translation is an important step when finalising the survey.
+ [Census Bureau Guideline for the Translation of Data Collection Instruments and Supporting Materials](https://www.census.gov/srd/papers/pdf/rsm2005-06.pdf)
+ [A procedure to prevent differences in translated survey items using Survey Quality Prediction program](https://www.upf.edu/documents/3966940/3986764/RECSM_wp038.pdf)
+ [Bibliography on the transaltion of survey](http://dgim.ucsf.edu/cadc/mm/translationguide.pdf)
  
