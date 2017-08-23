@@ -6,6 +6,44 @@ title: "Instructions for Interviewer"
 source("options_communes.R")
 ```
 
+## Role of the interviewer
+
+The interviewer is really the "jack-of-all-trades" in survey research. The interviewer's role is complex and multifaceted.Success, therefore, depends on the quality of the interviewers’ work.  It includes the following tasks:
+
+ * Locating the structure and households in the sample that are assigned to them, and administering the questionnaires
+ * Identifying all the eligible respondents 
+ * Interviewing all the eligible respondents in the households assigned to them
+ * Checking completed interviews to be sure that all questions were asked 
+ * Making re-visits to interview respondents who could not be interviewed during the first or second visit due to various reasons
+ * Ensuring that the information given is correct by keeping the respondent focused to the questions
+ * Including their specific observations or notes on the last page of each questionnaire
+ * Preparing additional notes for the field editor and supervisor on other problems or observations
+
+
+
+### Locate and enlist cooperation of respondents
+
+    The interviewer has to find the respondent. In door-to-door surveys, this means being able to locate specific addresses. Often, the interviewer has to work at the least desirable times (like immediately after dinner or on weekends) because that's when respondents are most readily available.
+
+### Motivate respondents to do good job
+
+If the interviewer does not take the work seriously, why would the respondent? The interviewer has to be motivated and has to be able to communicate that motivation to the respondent. Often, this means that the interviewer has to be convinced of the importance of the research.
+
+### Clarify any confusion/concerns
+
+Interviewers have to be able to think on their feet. Respondents may raise objections or concerns that were not anticipated. The interviewer has to be able to respond candidly and informatively.
+
+### Observe quality of responses
+
+Whether the interview is personal or over the phone, the interviewer is in the best position to judge the quality of the information that is being received. Even a verbatim transcript will not adequately convey how seriously the respondent took the task, or any gestures or body language that were evident.
+
+### Conduct a good interview
+
+Last, and certainly not least, the interviewer has to conduct a good interview! Every interview has a life of its own. Some respondents are motivated and attentive, others are distracted or disinterested. The interviewer also has good or bad days. Assuring a consistently high-quality interview is a challenge that requires constant effort.
+
+
+
+
 ## Approaching households
 
 ### Appointment for interview
@@ -144,21 +182,4 @@ There may be situations where the respondent simply says “I don’t know“, o
 “Social desirability response bias” is a potential problem in surveys and refers to the tendency for respondents to present a favourable image of themselves to the interviewers.  Sensitive questions may lead respondents to adjust their answers so as to appear politically correct or socially acceptable. Questionnaire items with strong social norms (such as adherence to religious or cultural expectations), or adopting attitudes/activities/objects that are widely considered desirable or undesirable tend to elicit “socially acceptable answers” rather than correct and honest answers. To minimise social desirability response bias it is very important to adopt a non-judgemental attitude and to not display any of your own attitudes, such as cultural or religious values, political preferences, and the like.
 
  
-## Role of the interviewer
-
-Interviewers play a central role in the collection of data and the ultimate outcome of the exercise depends on how they conduct the interviews. Success, therefore, depends on the quality of the interviewers’ work. It is, therefore, important that you are consistent in the way you put the questions to the respondent.
-
-In case a response is not clear, you should probe further. 
-
-In general, the responsibilities of interviewers will include: 
-
- * Locating the structure and households in the sample that are assigned to them, and administering the questionnaires
- * Identifying all the eligible respondents 
- * Interviewing all the eligible respondents in the households assigned to them
- * Checking completed interviews to be sure that all questions were asked 
- * Making re-visits to interview respondents who could not be interviewed during the first or second visit due to various reasons
- * Ensuring that the information given is correct by keeping the respondent focused to the questions
- * Including their specific observations or notes on the last page of each questionnaire
- * Preparing additional notes for the field editor and supervisor on other problems or observations
-
 

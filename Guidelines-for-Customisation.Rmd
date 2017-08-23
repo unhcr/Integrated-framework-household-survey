@@ -67,15 +67,40 @@ Customise but do not compromise global comparability:
  * 	Consider translations for all major languages spoken among the survey population – Arabic, Kurdish,etc.. 
 
 Pre-test rigorously to make sure that :
- * 	the questions are understood and the response categories are meaningful;
- * 	the language style that can be understood by everyone;
- * 	the skip-logic functions within the form are working well;
+ * 	The questions are understood and the response categories are meaningful;
+ * 	The language style that can be understood by everyone;
+ * 	The skip-logic functions within the form are working well;
  
- ## Translation
+## Translation
  
- Translation is an important step when finalising the survey.
-  * 	[Census Bureau Guideline for the Translation of Data Collection Instruments and Supporting Materials](https://www.census.gov/srd/papers/pdf/rsm2005-06.pdf) 
-  * 	[A procedure to prevent differences in translated survey items using Survey Quality Prediction program](https://www.upf.edu/documents/3966940/3986764/RECSM_wp038.pdf) 
-  * 	[Bibliography on the transaltion of survey](http://dgim.ucsf.edu/cadc/mm/translationguide.pdf) 
+Good practises recommends that translation shoudl be planned as an integral part of the study design. 
+
+### Importance of translation
+Mistaken translation can greatly jeopardize research findings. As reported in the article [World values lost in translation](https://www.washingtonpost.com/news/monkey-cage/wp/2014/09/02/world-values-lost-in-translation/?utm_term=.57bbf105f87e), many translated terms showed different associations than the term used in English. It also shows the changes of translation in later waves of the survey made trend analysis impossible for some countries in the World Value Survey. It thus prevents the analysis on the stability of change in values, which is one of the main goal of the survey. 
+
+Translation costs will make up a very small part of a survey budget and cannot reasonably be looked at as a place to cut costs. Experience gained in organizing translation projects and selecting strong translators and other experts is likely to streamline even these costs. 
+A professional translator does 300 words/hour, 2500 words/day and a 40 minutes long questionnaire can be around 4000 characters long meaning that the initial translation could theoritically be done in 2 days. Translation cost for freelancer can vary but a benchmark of 10 cents/word can be used (meaning that the outosurced translation of a 4000 characters long questionnaire would cost about 400 USD).
+
+### Avoid unwritten translation
+
+Sometimes bilingual interviewers translate for respondents as they conduct the interview acting as interpreters. In other words, there is a written source questionnaire that the interviewers look at but there is never a written translation, only what they produce orally on the spot. This is sometimes called "on sight", "on the fly" or "oral"" translation. Evidence available from recent investigations suggests that these modes of translation must be avoided whenever possible for the following reasons: 
+ * There will be inevitabily some variance in translation performance resulting in potential misinterpretation of results.
+ * What might be gained in saving from translator will be lost with the extensive training and briefing that will need take place in order to disambiguate all complex terms and concept in the survey
+
+### Organising translation process
+ 
+Translation is an important step when finalising the survey. The important elements to considerer are summarised as TRAPD (Translation, Review, Adjudication, Pretesting, and Documentation): 
+
+ * 	__Translators__ produce, independently from each other, initial translations, (they provide the draft materials for the first discussion).  Each  translator may prepare a  full translation (double/parallel translation) or the material to be translated may be divided among the translators ( split translation). Review of the first 10% of the initial translation (in case you are working with a new translator) may indicate that a given  translator  is not suitable for the project because it is unlikely that serious deficiencies in translation quality can be remedied by more training or improved instructions. If this is the case, it is probably better to start over with a new translator. 
+ 
+ * 	__Reviewers__ review translations with the translators. Translators should not simply "hand over" the finished assignment abut should be included in the review discussion. Note relying on one person to provide the initial questionnaire translation is particularly problematic if the review is also undertaken by individuals rather than a team (these are reasons for working in teams rather than working with individuals). Even if only one translator can be hired, one or more persons with strong bilingual skills could be involved in the review process. Part of the review is to check for general tone consistency: this means that it is important to use the same style in the entire survey instrument, in terms of language register, politeness norms or level of difficulty. Some projects rely on procedures variously called "back translation" to check that their survey translations are adequate: the two source language versions are compared to try to find out if there are problems in the target language text. In practical and theoretical terms, it is recommended to focus attention on first producing the best possible translation and then directly evaluating the translation produced in the target language, rather than indirectly through a back translation. Comparisons of an original source text and a back-translated source text provide only limited and potentially misleading insight into the quality of the target language. 
+ 
+ *  One (or more) __adjudicator__ decides whether the translation is ready to move to detailed pretesting and also decides when the translation can be considered to be finalized and ready for fielding.  Official approval emphasizes the importance of this step and the significance of translation procedures in the project.
+ 
+ *  __Documentation__ of each step is used as a  quality assurance  and monitoring tool. It is also important if the survey has to be reproduced.
+
+### Reference 
+
+To know more about the subject, one can consult this [Bibliography on the transaltion of survey](http://dgim.ucsf.edu/cadc/mm/translationguide.pdf), some important reference includes the [Lessons from the European Social Survey (ESS)](http://ccsg.isr.umich.edu/index.php/chapters/translation-chapter?id=215), the [Census Bureau Guideline for the Translation of Data Collection Instruments and Supporting Materials](https://www.census.gov/srd/papers/pdf/rsm2005-06.pdf) or this [Procedure to prevent differences in translated survey items using Survey Quality Prediction program](https://www.upf.edu/documents/3966940/3986764/RECSM_wp038.pdf).
   
  

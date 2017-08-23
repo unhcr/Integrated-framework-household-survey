@@ -1,6 +1,6 @@
-if(!require(devtools))
-  install.packages("devtools")
-  install.packages("lubridate")
+#if(!require(devtools))
+#  install.packages("devtools")
+#  install.packages("lubridate")
 
 require(devtools)
 
