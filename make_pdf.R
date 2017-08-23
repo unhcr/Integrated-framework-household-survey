@@ -34,11 +34,11 @@ for (chap in chapitres) {
   res <- str_replace_all(res, paste0('href="', chap, '"'), paste0('href="#', rac, '"'))
 }
 
-## Final Export 
+## Final Export
 before <- paste(readLines("include/pdf_before.html", encoding = "UTF-8"), collapse = "\n")
 after <- paste(readLines("include/pdf_after.html", encoding = "UTF-8"), collapse = "\n")
 res <- paste(before, res, after, sep="\n")
-cat(res, file = "protection-assessment-toolkit.html", sep="\n")
+cat(res, file = "Integrated-framework-household-survey.html", sep="\n")
 
 ## PDF Generation
-system('prince protection-assessment-toolkit.html --javascript')
+system('prince Integrated-framework-household-survey.html --javascript')
