@@ -50,3 +50,23 @@ Clustering is the task of grouping a set of objects in such a way that objects i
 ### Hierarchical Classification on Principle Components
 
 ### Description of statistical clusters
+
+
+
+## Check for Errors
+
+ * __Sampling error__: The error that occurs when a sample of the population rather than the entire population is surveyed.
+ 
+ * __Coverage error__: The error that occurs when the sampling frame – i.e., the list from which the sample is taken – does not correspond to the
+population of interest. For instance, it might undercount migrants.
+
+ * __Unit nonresponse error__: The error when a designated respondent does not participate in the survey. A serious source of bias in the Literary Digest case.
+ 
+ * __Item nonresponse error__: The error when a respondent does not answer all of the questions, or answers “don’t know”.
+ 
+ * __Measurement error from Respondent__:  Occurs when the respondent does not accurately answer the question.
+ 
+ * __Measurement error from Interviewer__: Occurs when interviewers do not pose the questions properly (or falsify the answers).
+ 
+ * __Postsurvey error__: The error that occurs in processing and analyzing survey data.
+ 

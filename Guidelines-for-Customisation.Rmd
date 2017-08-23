@@ -73,19 +73,22 @@ Pre-test rigorously to make sure that :
  
 ## Translation
  
-Good practises recommends that translation shoudl be planned as an integral part of the study design. 
+Translation shoudl be planned as an integral part of the study design. 
 
 ### Importance of translation
-Mistaken translation can greatly jeopardize research findings. As reported in the article [World values lost in translation](https://www.washingtonpost.com/news/monkey-cage/wp/2014/09/02/world-values-lost-in-translation/?utm_term=.57bbf105f87e), many translated terms showed different associations than the term used in English. It also shows the changes of translation in later waves of the survey made trend analysis impossible for some countries in the World Value Survey. It thus prevents the analysis on the stability of change in values, which is one of the main goal of the survey. 
+Mistaken translation can greatly jeopardize research findings. As reported in the article [World values lost in translation](https://www.washingtonpost.com/news/monkey-cage/wp/2014/09/02/world-values-lost-in-translation/?utm_term=.57bbf105f87e), many translated terms showed different associations than the term used in English. It also shows the changes of translation in later waves of the survey made trend analysis impossible. It thus prevents the analysis on the stability of change in values, which is one of the main goal of many survey. 
 
 Translation costs will make up a very small part of a survey budget and cannot reasonably be looked at as a place to cut costs. Experience gained in organizing translation projects and selecting strong translators and other experts is likely to streamline even these costs. 
-A professional translator does 300 words/hour, 2500 words/day and a 40 minutes long questionnaire can be around 4000 characters long meaning that the initial translation could theoritically be done in 2 days. Translation cost for freelancer can vary but a benchmark of 10 cents/word can be used (meaning that the outosurced translation of a 4000 characters long questionnaire would cost about 400 USD).
+A professional translator does 300 words/hour, __2500 words/day__ and a 40 minutes long questionnaire can be around 4000 characters long meaning that the initial translation could theoritically be done in 2 days. Translation cost for freelancer can vary but a benchmark of 10 cents/word can be used (meaning that the outsourced translation of a 4000 characters long questionnaire would cost about 400 USD).
 
 ### Avoid unwritten translation
 
 Sometimes bilingual interviewers translate for respondents as they conduct the interview acting as interpreters. In other words, there is a written source questionnaire that the interviewers look at but there is never a written translation, only what they produce orally on the spot. This is sometimes called "on sight", "on the fly" or "oral"" translation. Evidence available from recent investigations suggests that these modes of translation must be avoided whenever possible for the following reasons: 
+
  * There will be inevitabily some variance in translation performance resulting in potential misinterpretation of results.
- * What might be gained in saving from translator will be lost with the extensive training and briefing that will need take place in order to disambiguate all complex terms and concept in the survey
+ 
+ * What might be gained in saving from translator will be lost with the extensive training and briefing that will need take place in order to disambiguate all complex terms and concept in the survey.
+
 
 ### Organising translation process
  

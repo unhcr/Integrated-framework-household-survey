@@ -239,4 +239,4 @@ The entire set of household sample weights is multiplied by a constant, thus, th
 
 Individual sample weights are normalized separately for women and men. Thus, the total weighted number of women equals the total unweighted number of women, and the total weighted number of men equals the total unweighted number of men. Women and men are normalized separately because all non-HIV calculations are performed on women and men separately. We do not provide survey estimates on the joint population of women and men combined for anything other than HIV prevalence.
 
-Sampling in Geneva
+
