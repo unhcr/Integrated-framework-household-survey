@@ -43,7 +43,7 @@ On the top of the summary narrative guidelines below, the toolkit is organised a
  
  * A <kbd>[KoboToolBox](hhtps://kobo.unhcr.org)</kbd> secured server to perform the data collection. This server uses the xlsform developed during the design phase.
  
- * Multiple <kbd>[R statistical analysis scripts](https://github.com/unhcr/Integrated-framework-household-survey/code)</kbd> to clean & analyse data, and then to generate automatically standard report  and to facilitate the creation of presentation slides and infographics.
+ * Multiple <kbd>[R statistical analysis scripts](https://github.com/Edouard-Legoupil/koboloadeR)</kbd> to clean & analyse data, and then to generate automatically standard report  and to facilitate the creation of presentation slides and infographics.
  
  * A series of <kbd>[Github Repository](https://github.com/unhcr/Integrated-framework-household-survey)</kbd> to exchange collaboratively analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself.
 </div>
