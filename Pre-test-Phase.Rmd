@@ -47,21 +47,19 @@ The overall objectives and the focus of the pre-test, together with the results 
  
 ## How many respondents?
 
-As a general rule, one should aim to pretest a form with at least 5 to 10 respondents and 2 different interviewers. If the survey is more complex, as studied by (reasearcher](https://www.researchgate.net/publication/263815867_Sample_size_for_pre-tests_of_questionnaires), a sample of 30 respondents is recommended.
+As a general rule, one should aim to pretest a form with at least 5 to 10 respondents and 2 different interviewers. If the survey is more complex, [as studied by reasearcher](https://www.researchgate.net/publication/263815867_Sample_size_for_pre-tests_of_questionnaires), a __sample of 30 respondents is recommended__.
 
 Even with this small number of people, a surprisingly large number of improvements can be made. Try to get within those 5 to 10 respondents a range of different people who are representative of the target group for the questionnaire. Usually, most of respondents will have the same problems with the survey, so even with such small number of people, it should be possible to identify most of the major issues. Adding more people might identify some additional smaller issues, but it also makes pretesting more time consuming and costly. 
 
-## How to observe pre-test
+## How to observe pre-test?
 
 Note that for the pre-test, it's important to have 2 persons supporting the interview. One regular enumerator and an additional person to take note of each observation during the interview. 
 
- * Respondents should be asked to complete the survey while thinking out loud. They should tell you exactly what comes into their mind so that the observer can take notes on everything they say. This which can include paraphrasing, providing retrospective thinking or providing judgments of their confidence in what each question means. 
+ * Respondents should be asked to complete the survey while __"thinking out loud"__. They should tell you exactly what comes into their mind so that the observer can take notes on everything they say. This which can include paraphrasing, providing retrospective thinking or providing judgments of their confidence in what each question means. 
  
- * The observer should look for places where the respondent hesitate or make mistakes
+ * The observer should look for places where the respondent __hesitate or make mistakes__.
  
- * A debriefing can be organised after each pre-test interview to ensure that potential additional observations from the enumerator are also inclued in the observation notes.
-
-Look for places where they hesitate or make mistakes
+ * A __debriefing__ can be organised after each pre-test interview to ensure that potential additional observations from the enumerator are also inclued in the observation notes.
 
 
 ## Pre-test Results and Recommendations
@@ -77,7 +75,7 @@ Describe and list any changes or additions required in the Instructions for Inte
  *  __Average duration of interviews:__  
 Calculate the average duration of interview for each questionnaire using the data collected in the pre-test. Typically, as interviewers become more familiar with the tools, this time will decrease and therefore a realistic duration should be proposed and included in the introductory sentences on the cover pages of the questionnaires.
 
- *  __Interview process considerations__  
+ *  __Interview process considerations:__  
 Describe and address the observations from the pre-test that relate to interviewing that will be relevant for training and monitoring in the main field work (for example issues in approaching households, dealing with sensitive module and questions, flow of field work, roles and responsibilities, etc.) 
 
  *  __Assessment process considerations:__  
