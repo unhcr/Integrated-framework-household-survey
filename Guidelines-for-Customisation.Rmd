@@ -73,7 +73,7 @@ Pre-test rigorously to make sure that :
  
 ## Translation
  
-Translation shoudl be planned as an integral part of the study design. 
+Translation should be planned as an integral part of the study design. 
 
 ### Importance of translation
 Mistaken translation can greatly jeopardize research findings. As reported in the article [World values lost in translation](https://www.washingtonpost.com/news/monkey-cage/wp/2014/09/02/world-values-lost-in-translation/?utm_term=.57bbf105f87e), many translated terms showed different associations than the term used in English. It also shows the changes of translation in later waves of the survey made trend analysis impossible. It thus prevents the analysis on the stability of change in values, which is one of the main goal of many survey. 
@@ -83,7 +83,11 @@ A professional translator does 300 words/hour, __2500 words/day__ and a 40 minut
 
 ### Avoid unwritten translation
 
-Sometimes bilingual interviewers translate for respondents as they conduct the interview acting as interpreters. In other words, there is a written source questionnaire that the interviewers look at but there is never a written translation, only what they produce orally on the spot. This is sometimes called "on sight", "on the fly" or "oral"" translation. Evidence available from recent investigations suggests that these modes of translation must be avoided whenever possible for the following reasons: 
+When the same questionnaire is runned to different population group from different linguistic background, it may become necessary to have bilingual interviewers as they will have to present and read the questions in multiple language.
+
+Sometimes, in addition of presenting and reading in multiple language, bilingual interviewers translate for respondents as they conduct the interview acting as interpreters. In other words, there is a written source questionnaire that the interviewers look at but there is never a written translation, only what they produce orally on the spot. This is sometimes called "on sight", "on the fly" or "oral"" translation. 
+
+Evidence available from recent investigations suggests that these modes of translation must be avoided whenever possible for the following reasons: 
 
  * There will be inevitabily some variance in translation performance resulting in potential misinterpretation of results.
  
