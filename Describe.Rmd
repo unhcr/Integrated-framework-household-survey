@@ -8,14 +8,22 @@ source("options_communes.R")
 
 
 <div class="important">
-This chapter is not written yet.
+Analytics approaches usually encompasses 4 distinct steps:
+
+ * Describe;
+ * Discover;
+ * Predict;
+ * Advise.
+ 
+The first step is extremely important as it provides a first overview of the data and allow to build the foundation for the next ones.
 </div>
 
+The data science maturity model from [Booz Allen](https://www.boozallen.com/s/insight/publication/field-guide-to-data-science.html)
 
 ![](images/Maturity.png)
 
 
-The first phase of the analysis consist at description of the various variable.
+The first phase (__DESCRIBE__) of analytics consists in a thourough review of all variables within the dataset.
 
 This exploratory phase usually overlaps with data cleaning; it is the stage where anomalies become evident e.g. individually plausible values may lead to a way-out point when combined with other variables on a scatterplot. In an ideal situation, this step would end with confidence that one has a clean dataset, so that a single version of the main datafiles can be finalised and ‘locked’ and all published analyses derived from a single consistent form of ‘the data’. In practice later stages of analysis often produce additional queries about data values.
 
@@ -33,27 +41,27 @@ this number of columns, entering the codes for ticked responses, one per column.
 
 ## Graphical review
 
-
 The use of graphical methods is important for presentational purposes, where simple messages need to be given in easily understood, and attention-grabbing form.Their true power comes from the ability of the eye to discern patterns in a graph that are not clearly evident from lists of numbers or tabulated statistics. In Tufte’s pithy phrase,“_graphics reveal data_”. With data in hand, the most productive first step is often to explore the data graphically. These graphs do not have to be especially polished and beautiful; rather, they need to be easy to produce and thoroughly informative, a visual scratch pad where we use the power of graphics to get a sense of the shape of variables and the interactions among them. 
 
 ### Type of variables.
 
-Numeric:
- * Continuous: age, height...
- * Discrete: cars, floors, arms, 
- * Date/Time: DOB, TOD, flight time
- 
-Categoric:
- * Ordinal: education level, salary level
- * Nominal: gender, relationship status
- * String: name, description, 
- 
-Geographic/spatial
- * Point: Cities
- * Line: Road
- * Polygon: Country, Governorate, Disctirc
+When designing the form, each variable is associated with a [data type](http://xlsform.org/#question-types)
 
+| Variable type        | Subtype           | Xlsform type                   | Examples          |
+|----------------------|:-----------------:|-------------------------------:|------------------:|
+| Categoric            | Nominal           | select_one, select_multiple    | occupation        |
+| Categoric            | Ordinal           | select_one                     | education         |
+| Categoric            | String            | text                           | name, description |
+|                      |                   |                                |                   |
+| Numeric              | Continuous        | integer, numeric, calculate    | age, height       |
+| Numeric              | Discrete          | integer, select_one, calculate | cars, floors      |
+| Numeric              | Date/Time         | date, time, dateTime, calculate| DoB, Arrival Date |
+|                      |                   |                                |                   |
+| Geographic           | Point             | geopoint, select_one           | Cities            |
+| Geographic           | Line              | geotrace, select_one           | Road              |
+| Geographic           | Polygone          | geoshape, select_one           | Gov., District    |
 
+The recommended graphical view is linked  to the subtype of variables that should be presented.
 
 ### Barchart
 
@@ -111,15 +119,18 @@ They are often used in conjonction with statistical test (such as chi-squarred c
 
 ### Maps
 
-It is often useful to display statistical information on maps.
+It is often useful to display statistical information on maps and indeed a statistical map is just subtype of chart for geographic variable.
 
 
-![](images/prop.png) Proportion symbol map are used for absolute values.
+![](images/prop.png) Proportion symbol map are used for absolute values (i.e. to be used to visualise crosstabulation between __a geographic variable and a numeric variable__)
 
-![](images/choro.png) Choropleth map are used to display proportion of ration.
+![](images/choro.png) Choropleth map are used to display proportion of ration (i.e. to be used to visualise crosstabulation between __a geographic variable and the frequency of a categoric variable__).
 
 ![](images/flow.png) Flow maps are used to present the __relation between two geographic variables__.
 
+### WordCloud
+
+Word cloud can be used to visualise the result of a text variable. They trim non essential word and allows to get a sense the frequency of redudant word within that variable.
 
 
 ## Statistical Test

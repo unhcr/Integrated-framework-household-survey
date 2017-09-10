@@ -266,6 +266,7 @@ $(document).ready(function () {
 <li><a href="#scatterplot">Scatterplot</a></li>
 <li><a href="#correlation-plot">Correlation plot</a></li>
 <li><a href="#maps">Maps</a></li>
+<li><a href="#wordcloud">WordCloud</a></li>
 </ul></li>
 <li><a href="#statistical-test">Statistical Test</a></li>
 <li><a href="#check-for-errors">Check for Errors</a></li>
@@ -273,13 +274,21 @@ $(document).ready(function () {
 </div>
 
 <div class="important">
-<p>This chapter is not written yet.</p>
+<p>Analytics approaches usually encompasses 4 distinct steps:</p>
+<ul>
+<li>Describe;</li>
+<li>Discover;</li>
+<li>Predict;</li>
+<li>Advise.</li>
+</ul>
+<p>The first step is extremely important as it provides a first overview of the data and allow to build the foundation for the next ones.</p>
 </div>
+<p>The data science maturity model from <a href="https://www.boozallen.com/s/insight/publication/field-guide-to-data-science.html">Booz Allen</a></p>
 <div class="figure">
 <img src="images/Maturity.png" />
 
 </div>
-<p>The first phase of the analysis consist at description of the various variable.</p>
+<p>The first phase (<strong>DESCRIBE</strong>) of analytics consists in a thourough review of all variables within the dataset.</p>
 <p>This exploratory phase usually overlaps with data cleaning; it is the stage where anomalies become evident e.g. individually plausible values may lead to a way-out point when combined with other variables on a scatterplot. In an ideal situation, this step would end with confidence that one has a clean dataset, so that a single version of the main datafiles can be finalised and ‘locked’ and all published analyses derived from a single consistent form of ‘the data’. In practice later stages of analysis often produce additional queries about data values.</p>
 <div id="tabulation-one-way-table-crosstabulation" class="section level2">
 <h2>Tabulation: One-way table &amp; Crosstabulation</h2>
@@ -292,9 +301,86 @@ $(document).ready(function () {
 <p>The use of graphical methods is important for presentational purposes, where simple messages need to be given in easily understood, and attention-grabbing form.Their true power comes from the ability of the eye to discern patterns in a graph that are not clearly evident from lists of numbers or tabulated statistics. In Tufte’s pithy phrase,“<em>graphics reveal data</em>”. With data in hand, the most productive first step is often to explore the data graphically. These graphs do not have to be especially polished and beautiful; rather, they need to be easy to produce and thoroughly informative, a visual scratch pad where we use the power of graphics to get a sense of the shape of variables and the interactions among them.</p>
 <div id="type-of-variables." class="section level3">
 <h3>Type of variables.</h3>
-<p>Numeric: * Continuous: age, height… * Discrete: cars, floors, arms, * Date/Time: DOB, TOD, flight time</p>
-<p>Categoric: * Ordinal: education level, salary level * Nominal: gender, relationship status * String: name, description,</p>
-<p>Geographic/spatial * Point: Cities * Line: Road * Polygon: Country, Governorate, Disctirc</p>
+<p>When designing the form, each variable is associated with a <a href="http://xlsform.org/#question-types">data type</a></p>
+<table>
+<thead>
+<tr class="header">
+<th>Variable type</th>
+<th align="center">Subtype</th>
+<th align="right">Xlsform type</th>
+<th align="right">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Categoric</td>
+<td align="center">Nominal</td>
+<td align="right">select_one, select_multiple</td>
+<td align="right">occupation</td>
+</tr>
+<tr class="even">
+<td>Categoric</td>
+<td align="center">Ordinal</td>
+<td align="right">select_one</td>
+<td align="right">education</td>
+</tr>
+<tr class="odd">
+<td>Categoric</td>
+<td align="center">String</td>
+<td align="right">text</td>
+<td align="right">name, description</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td>Numeric</td>
+<td align="center">Continuous</td>
+<td align="right">integer, numeric, calculate</td>
+<td align="right">age, height</td>
+</tr>
+<tr class="even">
+<td>Numeric</td>
+<td align="center">Discrete</td>
+<td align="right">integer, select_one, calculate</td>
+<td align="right">cars, floors</td>
+</tr>
+<tr class="odd">
+<td>Numeric</td>
+<td align="center">Date/Time</td>
+<td align="right">date, time, dateTime, calculate</td>
+<td align="right">DoB, Arrival Date</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td>Geographic</td>
+<td align="center">Point</td>
+<td align="right">geopoint, select_one</td>
+<td align="right">Cities</td>
+</tr>
+<tr class="even">
+<td>Geographic</td>
+<td align="center">Line</td>
+<td align="right">geotrace, select_one</td>
+<td align="right">Road</td>
+</tr>
+<tr class="odd">
+<td>Geographic</td>
+<td align="center">Polygone</td>
+<td align="right">geoshape, select_one</td>
+<td align="right">Gov., District</td>
+</tr>
+</tbody>
+</table>
+<p>The recommended graphical view is linked to the subtype of variables that should be presented.</p>
 </div>
 <div id="barchart" class="section level3">
 <h3>Barchart</h3>
@@ -334,10 +420,14 @@ $(document).ready(function () {
 </div>
 <div id="maps" class="section level3">
 <h3>Maps</h3>
-<p>It is often useful to display statistical information on maps.</p>
-<p><img src="images/prop.png" /> Proportion symbol map are used for absolute values.</p>
-<p><img src="images/choro.png" /> Choropleth map are used to display proportion of ration.</p>
+<p>It is often useful to display statistical information on maps and indeed a statistical map is just subtype of chart for geographic variable.</p>
+<p><img src="images/prop.png" /> Proportion symbol map are used for absolute values (i.e. to be used to visualise crosstabulation between <strong>a geographic variable and a numeric variable</strong>)</p>
+<p><img src="images/choro.png" /> Choropleth map are used to display proportion of ration (i.e. to be used to visualise crosstabulation between <strong>a geographic variable and the frequency of a categoric variable</strong>).</p>
 <p><img src="images/flow.png" /> Flow maps are used to present the <strong>relation between two geographic variables</strong>.</p>
+</div>
+<div id="wordcloud" class="section level3">
+<h3>WordCloud</h3>
+<p>Word cloud can be used to visualise the result of a text variable. They trim non essential word and allows to get a sense the frequency of redudant word within that variable.</p>
 </div>
 </div>
 <div id="statistical-test" class="section level2">
