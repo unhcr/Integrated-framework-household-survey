@@ -2516,7 +2516,7 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 </ul>
 <p>The first step is extremely important as it provides a first overview of the data and allow to build the foundation for the next ones.</p>
 </div>
-<p>The data science maturity model from <a href="https://www.boozallen.com/s/insight/publication/field-guide-to-data-science.html">Booz Allen</a></p>
+<p>The data science maturity model from <a href="https://www.boozallen.com/s/insight/publication/field-guide-to-data-science.html">Booz Allen</a> provide a simplified overview of analytics challenges.</p>
 <div class="figure">
 <img src="images/Maturity.png">
 </div>
@@ -2530,92 +2530,100 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 </div>
 <div id="Describe_graphical-review" class="section level2">
 <h2>Graphical review</h2>
-<p>The use of graphical methods is important for presentational purposes, where simple messages need to be given in easily understood, and attention-grabbing form.Their true power comes from the ability of the eye to discern patterns in a graph that are not clearly evident from lists of numbers or tabulated statistics. In Tufte’s pithy phrase,“<em>graphics reveal data</em>”. With data in hand, the most productive first step is often to explore the data graphically. These graphs do not have to be especially polished and beautiful; rather, they need to be easy to produce and thoroughly informative, a visual scratch pad where we use the power of graphics to get a sense of the shape of variables and the interactions among them.</p>
+<p>The use of graphical methods is important for presentational purposes, where simple messages need to be given in easily understood, and attention-grabbing form.Their true power comes from the ability of the eye to discern patterns in a graph that are not clearly evident from lists of numbers or tabulated statistics. In Tufte’s pithy phrase, “<strong>graphics reveal data</strong>”.</p>
+<p>With data in hand, the most productive first step is often to explore the data graphically. These graphs do not have to be especially polished and beautiful; rather, they need to be easy to produce and thoroughly informative, a visual scratch pad where we use the power of graphics to get a sense of the shape of variables and the interactions among them.</p>
 <div id="Describe_type-of-variables." class="section level3">
 <h3>Type of variables.</h3>
-<p>When designing the form, each variable is associated with a <a href="http://xlsform.org/#question-types">data type</a></p>
+<p>When designing the form, each variable is associated with a <a href="http://xlsform.org/#question-types">data type</a>. The recommended graphical view is actually linked to the subtype of variables that should be presented. A correct initial mapping of variable will partly allow for automation of the step (cf. next article).</p>
+<ul>
+<li><strong>Categoric</strong></li>
+</ul>
 <table>
 <thead><tr class="header">
-<th>Variable type</th>
-<th align="center">Subtype</th>
-<th align="right">Xlsform type</th>
-<th align="right">Examples</th>
+<th align="left">Categoric Subtype  </th>
+<th align="left">Xlsform type  </th>
+<th align="left">Examples</th>
 </tr></thead>
 <tbody>
 <tr class="odd">
-<td>Categoric</td>
-<td align="center">Nominal</td>
-<td align="right">select_one, select_multiple</td>
-<td align="right">occupation</td>
+<td align="left">Nominal</td>
+<td align="left">select_one, select_multiple  </td>
+<td align="left">occupation</td>
 </tr>
 <tr class="even">
-<td>Categoric</td>
-<td align="center">Ordinal</td>
-<td align="right">select_one</td>
-<td align="right">education</td>
+<td align="left">Ordinal</td>
+<td align="left">select_one  </td>
+<td align="left">education</td>
 </tr>
 <tr class="odd">
-<td>Categoric</td>
-<td align="center">String</td>
-<td align="right">text</td>
-<td align="right">name, description</td>
-</tr>
-<tr class="even">
-<td></td>
-<td align="center"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td>Numeric</td>
-<td align="center">Continuous</td>
-<td align="right">integer, numeric, calculate</td>
-<td align="right">age, height</td>
-</tr>
-<tr class="even">
-<td>Numeric</td>
-<td align="center">Discrete</td>
-<td align="right">integer, select_one, calculate</td>
-<td align="right">cars, floors</td>
-</tr>
-<tr class="odd">
-<td>Numeric</td>
-<td align="center">Date/Time</td>
-<td align="right">date, time, dateTime, calculate</td>
-<td align="right">DoB, Arrival Date</td>
-</tr>
-<tr class="even">
-<td></td>
-<td align="center"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td>Geographic</td>
-<td align="center">Point</td>
-<td align="right">geopoint, select_one</td>
-<td align="right">Cities</td>
-</tr>
-<tr class="even">
-<td>Geographic</td>
-<td align="center">Line</td>
-<td align="right">geotrace, select_one</td>
-<td align="right">Road</td>
-</tr>
-<tr class="odd">
-<td>Geographic</td>
-<td align="center">Polygone</td>
-<td align="right">geoshape, select_one</td>
-<td align="right">Gov., District</td>
+<td align="left">String</td>
+<td align="left">text  </td>
+<td align="left">comments</td>
 </tr>
 </tbody>
 </table>
-<p>The recommended graphical view is linked to the subtype of variables that should be presented.</p>
+<ul>
+<li><strong>Numeric</strong></li>
+</ul>
+<table>
+<thead><tr class="header">
+<th align="left">Numeric Subtype  </th>
+<th align="left">Xlsform type</th>
+<th align="left">Examples</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">Continuous</td>
+<td align="left">integer, numeric, calculate  </td>
+<td align="left">age, height</td>
+</tr>
+<tr class="even">
+<td align="left">Discrete</td>
+<td align="left">integer, select_one, calculate  </td>
+<td align="left">cars, floors</td>
+</tr>
+<tr class="odd">
+<td align="left">Date/Time</td>
+<td align="left">date, time, dateTime, calculate  </td>
+<td align="left">DoB, Arrival Date</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Geographic</strong></li>
+</ul>
+<table>
+<thead><tr class="header">
+<th align="left">Geographic Subtype  </th>
+<th align="left">Xlsform type</th>
+<th align="left">Examples</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">Point</td>
+<td align="left">geopoint, select_one  </td>
+<td align="left">Cities</td>
+</tr>
+<tr class="even">
+<td align="left">Line</td>
+<td align="left">geotrace, select_one  </td>
+<td align="left">Road</td>
+</tr>
+<tr class="odd">
+<td align="left">Polygone</td>
+<td align="left">geoshape, select_one  </td>
+<td align="left">Gov., District</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="Describe_barchart" class="section level3">
 <h3>Barchart</h3>
-<p><img src="images/bar.png"> Barchart shows simple frequency distribution of categoric value.</p>
-<p>Bar chart can also be used to visualise crosstabulation (i.e. the frequency relation between <strong>two categoric variables</strong>), bar chart can be be: * faceted * stacked * paired</p>
+<p><img src="images/bar.png"> Barchart shows simple frequency distribution of <strong>categoric value</strong>.</p>
+<p>Usually, horizontal bar chart are used so that the label of modalities for the variable are legible. If the variable is nominal, bars will be ordered as per the frequency, if the variable is ordinal, will be order as defined within the variable definition.</p>
+<p>Bar chart can also be used to visualise crosstabulation (i.e. the frequency relation between <strong>two categoric variables</strong>), bar chart can be be: * faceted<br>
+* stacked<br>
+* paired</p>
 <div class="figure">
 <img src="images/paired.png">
 </div>
@@ -2633,7 +2641,7 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 </div>
 <div id="Describe_boxplot" class="section level3">
 <h3>Boxplot</h3>
-<p><img src="images/box.png"> Boxplot are used to visualise the crosstabulation of <strong>one categoric variable together with one numeric variable</strong>.</p>
+<p><img src="images/box.png"> Boxplot are used to visualise the interaction between <strong>one categoric variable and one numeric variable</strong>.</p>
 <p>At the heart of the boxplot is a box that shows the 25th percentile (the “lower hinge”) and 75th percentile (the “upper hinge”), as well as the median value of the observations. On the upper side of the box one adds a line that stretches to the “upper adjacent value” and ends in a whisker; the whisker extends up to the largest data point that lies within 1.5 interquartile ranges of the 75th percentile. A similar line stretches to the lower adjacent value. All values of the variable beyond the adjacent values (the “outside values”) are plotted. The result is a snapshot of the distribution of a variable that allows one to get a sense of its symmetry, and the role of outliers. Boxplots are exploratory devices, and one must resist the temptation to try to use them for statistical inference.</p>
 </div>
 <div id="Describe_scatterplot" class="section level3">

@@ -18,7 +18,7 @@ Analytics approaches usually encompasses 4 distinct steps:
 The first step is extremely important as it provides a first overview of the data and allow to build the foundation for the next ones.
 </div>
 
-The data science maturity model from [Booz Allen](https://www.boozallen.com/s/insight/publication/field-guide-to-data-science.html)
+The data science maturity model from [Booz Allen](https://www.boozallen.com/s/insight/publication/field-guide-to-data-science.html) provide a simplified overview of analytics challenges.
 
 ![](images/Maturity.png)
 
@@ -41,38 +41,60 @@ this number of columns, entering the codes for ticked responses, one per column.
 
 ## Graphical review
 
-The use of graphical methods is important for presentational purposes, where simple messages need to be given in easily understood, and attention-grabbing form.Their true power comes from the ability of the eye to discern patterns in a graph that are not clearly evident from lists of numbers or tabulated statistics. In Tufte’s pithy phrase,“_graphics reveal data_”. With data in hand, the most productive first step is often to explore the data graphically. These graphs do not have to be especially polished and beautiful; rather, they need to be easy to produce and thoroughly informative, a visual scratch pad where we use the power of graphics to get a sense of the shape of variables and the interactions among them. 
+The use of graphical methods is important for presentational purposes, where simple messages need to be given in easily understood, and attention-grabbing form.Their true power comes from the ability of the eye to discern patterns in a graph that are not clearly evident from lists of numbers or tabulated statistics. In Tufte’s pithy phrase, “__graphics reveal data__”. 
+
+With data in hand, the most productive first step is often to explore the data graphically. These graphs do not have to be especially polished and beautiful; rather, they need to be easy to produce and thoroughly informative, a visual scratch pad where we use the power of graphics to get a sense of the shape of variables and the interactions among them. 
 
 ### Type of variables.
 
-When designing the form, each variable is associated with a [data type](http://xlsform.org/#question-types)
+When designing the form, each variable is associated with a [data type](http://xlsform.org/#question-types). The recommended graphical view is actually linked  to the subtype of variables that should be presented. A correct initial mapping of variable will partly allow for automation of the step (cf. next article). 
 
-| Variable type        | Subtype           | Xlsform type                   | Examples          |
-|----------------------|:-----------------:|-------------------------------:|------------------:|
-| Categoric            | Nominal           | select_one, select_multiple    | occupation        |
-| Categoric            | Ordinal           | select_one                     | education         |
-| Categoric            | String            | text                           | name, description |
-|                      |                   |                                |                   |
-| Numeric              | Continuous        | integer, numeric, calculate    | age, height       |
-| Numeric              | Discrete          | integer, select_one, calculate | cars, floors      |
-| Numeric              | Date/Time         | date, time, dateTime, calculate| DoB, Arrival Date |
-|                      |                   |                                |                   |
-| Geographic           | Point             | geopoint, select_one           | Cities            |
-| Geographic           | Line              | geotrace, select_one           | Road              |
-| Geographic           | Polygone          | geoshape, select_one           | Gov., District    |
 
-The recommended graphical view is linked  to the subtype of variables that should be presented.
+  * __Categoric__  
+
+| Categoric Subtype &nbsp;  | Xlsform type &nbsp;                  | Examples          |
+|:--------------------------|:-------------------------------------|:------------------|
+| Nominal                   | select_one, select_multiple  &nbsp;  | occupation        |
+| Ordinal                   | select_one                   &nbsp;  | education         |
+| String                    | text                        &nbsp;   | comments          |   
+
+
+
+  * __Numeric__  
+
+
+| Numeric Subtype &nbsp;    | Xlsform type                          | Examples          |
+|:--------------------------|:--------------------------------------|:------------------|
+| Continuous                | integer, numeric, calculate     &nbsp;| age, height       |
+| Discrete                  | integer, select_one, calculate  &nbsp;| cars, floors      |
+| Date/Time                 | date, time, dateTime, calculate &nbsp;| DoB, Arrival Date |   
+
+
+
+  * __Geographic__  
+
+| Geographic Subtype &nbsp; | Xlsform type                   | Examples          |
+|:--------------------------|:-------------------------------|:------------------|
+| Point                     | geopoint, select_one &nbsp;    | Cities            |
+| Line                      | geotrace, select_one &nbsp;    | Road              |
+| Polygone                  | geoshape, select_one &nbsp;    | Gov., District    |   
+
+
+
+
 
 ### Barchart
 
-![](images/bar.png)  Barchart shows simple frequency distribution of categoric value. 
+![](images/bar.png)  Barchart shows simple frequency distribution of __categoric value__.  
+
+Usually, horizontal bar chart are used so that the label of modalities for the variable are legible. If the variable is nominal, bars will be ordered as per the frequency, if the variable is ordinal, will be order as defined within the variable definition.
 
 
 
-Bar chart can also be used to visualise crosstabulation (i.e. the frequency relation between __two categoric variables__), bar chart can be be:
- * faceted
- * stacked
- * paired
+Bar chart can also be used to visualise crosstabulation (i.e. the frequency relation between __two categoric variables__), bar chart can be be: 
+  * faceted  
+  * stacked  
+  * paired  
  
  
 ![](images/paired.png)
@@ -95,7 +117,7 @@ A histogram provides a discretized, nonparametric approximation to the underlyin
 
 ### Boxplot
 
-![](images/box.png) Boxplot are used to visualise the crosstabulation of __one categoric variable together with one numeric variable__. 
+![](images/box.png) Boxplot are used to visualise the interaction between __one categoric variable and one numeric variable__. 
 
 
 At the heart of the boxplot is a box that shows the 25th percentile (the “lower hinge”) and 75th percentile (the “upper hinge”), as well as the median value of the observations. On the upper side of the box one adds a line that stretches to the “upper adjacent value” and ends in a whisker; the whisker extends up to the largest data point that lies within 1.5 interquartile ranges of the 75th percentile. A similar line stretches to the lower adjacent value. All values of the variable beyond the adjacent values (the “outside values”) are plotted. The result is a snapshot of the distribution of a variable that allows one to get a sense of its symmetry, and the role of outliers. Boxplots are exploratory devices, and one must resist the temptation to try to use them for statistical inference.
