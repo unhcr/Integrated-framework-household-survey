@@ -163,7 +163,7 @@ Center point on bipolar scale:  A common mistake when creating a rating scale is
  5. Match response to question: Be as direct and specific as possible, focusing the response options on what you want to measure.
  6. Keep labels consistent: Finally, the labels used in the scale need to refer to the same thing. 
 
-Some examples are given below: 
+Some examples are given below ([more examples here](https://www.uc.edu/content/dam/uc/sas/docs/Assessment/likert-type%20response%20anchors.pdf)): 
 
 Agreement
 

@@ -170,8 +170,8 @@ $(document).ready(function () {
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
                     <li class="dropdown-header">Preparing for fieldwork</li>
-                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
                   <li><a href="Pre-test-Phase.html">Pre-test Phase</a></li>
+                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
                   <li><a href="Managing-Devices.html">Managing Devices</a></li>
                 </ul>
               </div>
@@ -200,7 +200,8 @@ $(document).ready(function () {
             <div class="row">
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
-                    <li class="dropdown-header">Analysis Steps</li>
+                    <li class="dropdown-header">Analytics Steps</li>
+                  <li ><a href="Describe.html">Describe</a></li>
                   <li ><a href="Discover.html">Discover</a></li>
                   <li ><a href="Predict.html">Predict</a></li>
                   <li ><a href="Advise.html">Advise</a></li>
@@ -208,9 +209,9 @@ $(document).ready(function () {
               </div>
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
-                    <li class="dropdown-header">Report</li>
-                  <li ><a href="Analysis-Script.html">Analysis Scripts</a></li>
-                  <li ><a href="Model-for-Key-Findings-Report.html">Model for Key Findings Report</a></li>
+                    <li class="dropdown-header">Analysis Process</li>
+                  <li ><a href="Data-Crunching.html">Data Crunching</a></li>
+                  <li ><a href="Analysis-Workshop.html">Analysis Workshop</a></li>
                   <li ><a href="Model-for-Final-Report.html">Model for Final Report</a></li>
                 </ul>
               </div>
@@ -219,6 +220,7 @@ $(document).ready(function () {
                   <li class="dropdown-header">Communication</li>
                   <li><a href="Slides-Infographics.html">Slides & Infographics</a></li>
                   <li><a href="Microdata.html">Sharing microdata for social scientist</a></li>
+                  <li><a href="Open-Data.html">Open Data</a></li>
                 </ul>
               </div>
             </div>
@@ -255,6 +257,19 @@ $(document).ready(function () {
 <div id="TOC">
 <ul>
 <li><a href="#regression-analysis">Regression Analysis</a></li>
+<li><a href="#analysis-type">Analysis Type</a><ul>
+<li><a href="#the-multiple-linear-regression-model"><a href="http://schmidheiny.name/teaching/ols.pdf" target=blank> The Multiple Linear Regression Model </a></a></li>
+<li><a href="#functional-form-in-the-linear-model"><a href="http://schmidheiny.name/teaching/functionalform.pdf" target=blank> Functional Form in the Linear Model </a></a></li>
+<li><a href="#heteroskedasticity-in-the-linear-model"><a href="http://schmidheiny.name/teaching/heteroscedasticity.pdf" target=blank> Heteroskedasticity in the Linear Model </a></a></li>
+<li><a href="#clustering-in-the-linear-model"><a href="http://schmidheiny.name/teaching/clustering.pdf" target=blank> Clustering in the Linear Model </a></a></li>
+<li><a href="#instrumental-variables"><a href="http://schmidheiny.name/teaching/iv.pdf" target=blank> Instrumental Variables </a></a></li>
+<li><a href="#panel-data-fixed-and-random-effects"><a href="http://schmidheiny.name/teaching/panel.pdf" target=blank> Panel Data: Fixed and Random Effects </a></a></li>
+<li><a href="#binary-response-models"><a href="http://schmidheiny.name/teaching/binaryresponse.pdf" target=blank> Binary Response Models </a></a></li>
+<li><a href="#limited-dependent-variable-models"><a href="http://schmidheiny.name/teaching/limiteddependent2up.pdf" target=blank> Limited Dependent Variable Models </a></a></li>
+<li><a href="#quantile-regression">Quantile Regression</a></li>
+<li><a href="#advanced-time-series-analysis"><a href="https://www.otexts.org/fpp/8" target=blank> Advanced Time Series Analysis </a></a></li>
+<li><a href="#multiple-hypothesis-testing"><a href="http://www.stat.berkeley.edu/~mgoldman/Section0402.pdf" target=blank> Multiple Hypothesis Testing </a></a></li>
+</ul></li>
 </ul>
 </div>
 
@@ -264,6 +279,73 @@ $(document).ready(function () {
 <div id="regression-analysis" class="section level2">
 <h2>Regression Analysis</h2>
 <p>Regression analysis is a statistical process for estimating the relationships among variables. Regression (and more specifically in the case of categorical data: <a href="https://en.wikipedia.org/wiki/Logistic_regression">logistic regression</a>) can be used to predict certain characteristics or events linked to one household.</p>
+</div>
+<div id="analysis-type" class="section level2">
+<h2>Analysis Type</h2>
+<div id="the-multiple-linear-regression-model" class="section level3">
+<h3><a href="http://schmidheiny.name/teaching/ols.pdf" target=blank> The Multiple Linear Regression Model </a></h3>
+<p>The multiple linear regression model and its estimation using ordinary least squares (OLS) is doubtless the most widely used tool in econometrics. It allows to estimate the relation between a dependent variable and a set of explanatory variables minimizing the squared distances between the observed and the predicted dependent variable. <br></p>
+<p><strong>Key concepts</strong>: OLS Assumptions and Estimation, Goodness of Fit, Small Sample Properties, Tests in Small Samples, Confidence Intervals in Small Sample, Asymptotic Properties of the OLS Estimator, Asymptotic Tests, Confidence Intervals in Large Samples, Small Sample vs. Asymptotic Properties, More Known Issues (Non-linear Functional Form, Aggregate Regressors, Omitted Variables, Irrelevant Regressors, Reverse Causality, Measurement Error, Mutlicollinearity).</p>
+</div>
+<div id="functional-form-in-the-linear-model" class="section level3">
+<h3><a href="http://schmidheiny.name/teaching/functionalform.pdf" target=blank> Functional Form in the Linear Model </a></h3>
+<p>Despite its name, the classical <em>linear</em> regression model, is not limited to a linear relationship between the dependent and the explanatory variables. It is indeed possible to build a model which is linear in the parameters but that also includes non-linear functions of the regressors. <br></p>
+<p><strong>Key concepts</strong>: Log-Linear, Semi-Log, Polynomial, Inverse, Dummy Variables, Interaction Terms, Spline Functions.</p>
+</div>
+<div id="heteroskedasticity-in-the-linear-model" class="section level3">
+<h3><a href="http://schmidheiny.name/teaching/heteroscedasticity.pdf" target=blank> Heteroskedasticity in the Linear Model </a></h3>
+<p>This chapter relaxes the homoscedasticity assumption of the least squares estimation, and shows how the parameters of the linear model can be correctly estimated and tested when the error terms are heteroscedastic, i.e. their variance, conditioned on the regressors, changes across observations. <br></p>
+<p><strong>Key concepts</strong>: Groupwise Heteroskedasticity, Estimation with OLS, Estimating the Variance of the OLS Estimator, Testing for Heteroskedasticity, Estimation with GLS/WLS when the Variance Matrix is Known, Estimation with FGLS/FWLS when the Variance Matrix is Unknown.</p>
+</div>
+<div id="clustering-in-the-linear-model" class="section level3">
+<h3><a href="http://schmidheiny.name/teaching/clustering.pdf" target=blank> Clustering in the Linear Model </a></h3>
+<p>This chapter relaxes the homoscedasticity assumption of the least squares estimation and allows the error terms to be heteroscedastic and correlated within groups or so-called clusters. It shows in what situations the parameters of the linear model can be consistently estimated by OLS and how the standard errors need to be corrected. Clustering might arise when the sampling mechanism first draws a random sample of groups (e.g. schools, households, towns) and then surveys all (or a random sample of) observations within that group. <br></p>
+<p><strong>Key concepts</strong>: Random Cluster-Specific Effects, Estimation with OLS, Estimating Correct Standard Errors, Efficient Estimation with GLS, Estimating Correct Standard Errors with Random Cluster-Specific Effects.</p>
+</div>
+<div id="instrumental-variables" class="section level3">
+<h3><a href="http://schmidheiny.name/teaching/iv.pdf" target=blank> Instrumental Variables </a></h3>
+<p>In many applications of the linear model, we suspect that some regressors are endogenous, i.e. one or more regressors are correlated with the error term. In this situation, OLS cannot consistently estimate the causal effect of the regressor on the dependent variable. Sometimes, we are able to find exogenous variables which are correlated with the endogenous regressor but not correlated with the error term. Such variables are called instrumental variables or instruments. If there are enough good such instruments, we can estimate the causal effect of the regressor on the dependent variable. <br></p>
+<p><strong>Key concepts</strong>: Canonical Examples (Omitted Variables, Simultaneity and Reversed Causality, Measurement Errors), Estimation with OLS, Estimation with IV (2SLS), Asymptotic Properties of the IV Estimators, What are Valid Instruments, Testing for Exogeneity of the Instruments, Testing for Relevance of the Instruments, Testing for Exogeneity of the Regressors.</p>
+</div>
+<div id="panel-data-fixed-and-random-effects" class="section level3">
+<h3><a href="http://schmidheiny.name/teaching/panel.pdf" target=blank> Panel Data: Fixed and Random Effects </a></h3>
+<p>In panel data, individuals (persons, firms, cities, … ) are observed at several points in time (days, years, before and after treatment, …). This chapter focuses on panels with relatively few time periods (small <span class="math inline"><em>T</em></span>) and many individuals (large <span class="math inline"><em>N</em></span>). This chapter introduces the two basic models for the analysis of panel data, the fixed effects model and the random effects model, and presents consistent estimators for these two models. Panel data are most useful when we suspect that the outcome variable depends on explanatory variables which are not observable but correlated with the observed explanatory variables. If such omitted variables are constant over time, panel data estimators allow to consistently estimate the effect of the observed explanatory variables. <br></p>
+<p><strong>Key concepts</strong>: The Random Effects Model, The Fixed Effects Model, Estimation with Pooled OLS, Random Effects Estimation, Fixed Effects Estimation, Leas Squared Dummy Variable Estimation (LSDV), First Difference Estimator, Time Fixed Effects, Random Effects vs. Fixed Effects Estimation.</p>
+</div>
+<div id="binary-response-models" class="section level3">
+<h3><a href="http://schmidheiny.name/teaching/binaryresponse.pdf" target=blank> Binary Response Models </a></h3>
+<p>Many dependent variables of interest in economics and other social sciences can only take two values. The two possible outcomes are usually denoted by 0 and 1. Such variables are called dummy variables or dichotomous variables. As already seen in the course <em>Introductory Econometrics</em>, there are several ways to model these outcomes using regressions. This chapter specifically focuses on the interpretation of the Probit and Logit models, and of their estimated parameters. <br></p>
+<p><strong>Key concepts</strong>: The Econometric Model: Probit and Logit, Latent Variable Model, Interpretation of the Parameters, Estimation with Maximum Likelihood, Estimation with OLS.</p>
+</div>
+<div id="limited-dependent-variable-models" class="section level3">
+<h3><a href="http://schmidheiny.name/teaching/limiteddependent2up.pdf" target=blank> Limited Dependent Variable Models </a></h3>
+<ul>
+<li>The effect of <em>truncation</em> occurs when the observed data in the sample are only drawn from a subset of a larger population. The sampling of the subset is based on the value of the dependent variable. <br></li>
+<li><em>Censoring</em> occurs when the values of the dependent variable are restricted to a range of values. As in the case of truncation the dependent variable is only observed for a subsample. However, there is information (the independent variables) about the whole sample. <br></li>
+<li>The <em>sample selection problem</em> occurs when the observed sample is not a random sample but systematically chosen from the population. Truncation and censoring are special cases of sample selection or incidental truncation. <br></li>
+</ul>
+<p>This chapter presents the econometric models that are used to deal with the above-mentioned situations. <br></p>
+<p><strong>Key concepts</strong>: Truncation, Truncated Regression, Interpretation of Parameters, Estimation; Censoring, Tobit Model Type I, Interpretation of Parameters, Estimation; Selection, Heckman Selection Model, Interpretation of Parameters, Estimation, Estimation with Maximum Likelihood, Estimation with Heckman’s Two-Step Procedure.</p>
+</div>
+<div id="quantile-regression" class="section level3">
+<h3>Quantile Regression</h3>
+<p>Quantile regression provides an alternative to ordinary least squares (OLS) regression and related methods, which typically assume that associations between independent and dependent variables are the same at all levels. Quantile methods allow the analyst to relax the common regression slope assumption. In OLS regression, the goal is to minimize the distances between the values predicted by the regression line and the observed values. In contrast, quantile regression differentially weights the distances between the values predicted by the regression line and the observed values, then tries to minimize the weighted distances. <br> Two empirical applications are here attached to understand why and when it may be appropriate to use this model:</p>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4054530/" target=blank> Thinking beyond the mean: a practical guide for using quantile regression methods for health services research </a></li>
+<li><a href="https://www.fort.usgs.gov/publication/21137" target=blank> A gentle introduction to quantile regression for ecologists </a></li>
+</ul>
+</div>
+<div id="advanced-time-series-analysis" class="section level3">
+<h3><a href="https://www.otexts.org/fpp/8" target=blank> Advanced Time Series Analysis </a></h3>
+<p>Additionally to the forecasting models presented in the chapter <em>Introduction to Time Series Regression and Forecasting</em> of the previous course, there are other time series regressions used for forecasting which involve lags of both the dependent variable and the error term, so called AR(I)MA. Before introducing these models, the concept of stationarity and the technique of differencing time series are discussed. The course also includes applications in R. <br></p>
+<p><strong>Key concepts</strong>: Stationarity and Differencing, Autoregressive Models, Moving Average Models, Non-seasonal AR(I)MA Models, Estimation and Order Selection, AR(I)MA Modelling in R, Forecasting, Seasonal AR(I)MA Model.</p>
+</div>
+<div id="multiple-hypothesis-testing" class="section level3">
+<h3><a href="http://www.stat.berkeley.edu/~mgoldman/Section0402.pdf" target=blank> Multiple Hypothesis Testing </a></h3>
+<p>When a set of hypotheses are tested simultaneously and independently from each other, then the probability of rejecting at least one of the true null hypothesis can become excessively high. Methods for dealing with multiple testing frequently call for adjusting the significance level in some way, so that the probability of observing at least one significant result due to chance remains below your desired significance level. <br></p>
+<p><strong>Key concepts</strong>: the Problem of Multiple Testing, Bonferroni Correction, False Discovery Rate, Comparison of the Correction Methods.</p>
+<p>For a further understanding of this topic, have a look at <a href="http://multithreaded.stitchfix.com/blog/2015/10/15/multiple-hypothesis-testing/" target=blank> this interactive reading</a>.</p>
+</div>
 </div>
 
 </article>

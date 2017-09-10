@@ -13,7 +13,7 @@ Testing materials before they are used in live surveys allows to make certain th
 
 __Considerable professional and financial investment is therefore at stake__, and pre-tests can constitute some of the most difficult and contentious step within a household survey project. People often think that testing a survey takes a long time. They think they don’t have the time or resources for it, and so they end up just running the survey without any testing. This is a big mistake. Even testing with one person is better than no testing at all. So if you don’t have the time or resources to do everything in this guide, just do as much as you can with what you have available.
 
-As a good practice, the entire questionnaire should be submitted to a number of procedures to ensure there are no questions likely to test anything but respondent real status or opinion.
+As a good practice, the entire questionnaire should be submitted to a number of procedures to ensure there are no questions likely to test anything but respondent real status or opinion. There are [extensive guidelines](https://academic.oup.com/poq/article/68/1/109/1855073/Methods-for-Testing-and-Evaluating-Survey) on this subject, belwo is a summary of the main points to look at.
 
 ## Objectives
 

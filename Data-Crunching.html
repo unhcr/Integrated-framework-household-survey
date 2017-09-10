@@ -11,7 +11,7 @@
 
 
 
-<title>Protection Topics</title>
+<title>Data Crunching</title>
 
 <script src="libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -250,222 +250,153 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Protection Topics</h1>
+<h1 class="title toc-ignore">Data Crunching</h1>
 
 </div>
 
 <div id="TOC">
 <ul>
-<li><a href="#the-right-based-approach">The Right based approach</a></li>
-<li><a href="#vulnerability-profile">Vulnerability Profile</a></li>
-<li><a href="#analysis-topics">Analysis Topics</a><ul>
-<li><a href="#favourable-protection-environment">Favourable Protection Environment</a></li>
-<li><a href="#fair-protection-processes-and-documentation">Fair Protection Processes and Documentation</a></li>
-<li><a href="#community-empowerment-and-self-reliance">Community Empowerment and Self Reliance</a></li>
-<li><a href="#basic-needs-and-essential-services">Basic Needs and Essential Services</a></li>
-<li><a href="#security-from-violence-and-exploitation">Security from Violence and Exploitation</a></li>
+<li><a href="#challenges-with-household-survey-analysis">Challenges with Household Survey analysis</a></li>
+<li><a href="#data-crunching-automation">Data Crunching Automation</a></li>
+<li><a href="#using-koboloader-to-facilitate-reproducibily.">Using KoboloadeR to facilitate reproducibily.</a><ul>
+<li><a href="#import-raw-data">Import raw data</a></li>
+<li><a href="#recode-relabel">Recode &amp; Relabel</a></li>
+<li><a href="#clean-records">Clean records</a></li>
+<li><a href="#reweight-dataset-according-to-sampling-strategy">Reweight dataset according to sampling strategy,</a></li>
+<li><a href="#build-new-indicators-from-existing-variable-etc.">Build new indicators from existing variable, etc.</a></li>
+</ul></li>
+<li><a href="#koboloader">KoboloadeR</a><ul>
+<li><a href="#advantage-of-koboloader">Advantage of KoboLoadeR</a></li>
+<li><a href="#output-of-koboloader">Output of koboloadeR</a></li>
+<li><a href="#collaborative-development">Collaborative Development</a></li>
 </ul></li>
 </ul>
 </div>
 
-<div class="important">
-<p>Translate assessment results into programmatic response recommendations is challenging when it comes to protection activities.</p>
-<p>The analysis of vulnerabilities allows to generate protection activities recommendations.</p>
-<p>The analysis of vulnerabilities is complex as it should allow to understand:</p>
+<div class="note">
+<p><strong>Key Take Away</strong> :</p>
+</div>
+<div id="challenges-with-household-survey-analysis" class="section level2">
+<h2>Challenges with Household Survey analysis</h2>
+<p>Household survey often results in dataset with over 300 variables to process &amp; explore. Deadline to get insight from the dataset are often tight and Manual processing is very lengthy and can be done only for a limited part of the dataset. Often, because of those challenges, a lot of potential insights are not discovered.</p>
+<p>To address this, it’s necessary to move from a reactive support to a proactive one.</p>
+<div class="figure">
+<img src="images/unknowquestions.png" />
+
+</div>
+<p>Data Crunching is about automating processes:</p>
 <ul>
-<li>How <strong>multiple vulnerabilities</strong> interact between each other (prioritisation through criticality)?</li>
-<li>What is, for <strong>each vulnerability type</strong>, the specific profile of a population group in terms of magnitude and severity?</li>
+<li><p>Upstream process of data interpretation: consists of the <strong>preparation of a dataset</strong> so that it can be processed, sorted and structured to run algorithms and program sequences on it;</p></li>
+<li><p>Can <strong>save a lot of time</strong> as the processes do not need to be performed manually (different from data munging and data wrangling that refers manual processing of data);</p></li>
+<li><p>Can be <strong>iterative</strong> when the output of the crunching process includes new data or reveals errors. This means that the program sequences may be repeated until the desired result is achieved;</p></li>
+<li><p>Enable better <a href="http://edouard-legoupil.github.io/humanitaRian-data-science/slides/"><strong>analysis reproducibility</strong></a> (minimize point &amp; click interventions) to facilitate peer review</p></li>
 </ul>
 </div>
-<p>Translate assessment results into programmatic response recommendations is challenging when it comes to protection activities.</p>
-<div id="the-right-based-approach" class="section level2">
-<h2>The Right based approach</h2>
-<p>Protection programme are designed according to the <a href="https://en.wikipedia.org/wiki/Rights-based_approach_to_development">Right Based approach</a>. As such, more than the needs, it is the vulnerability of specific population group toward right violation that informs ressources allocation.</p>
-<p>Vulnerability level for each specific risk = function(risk <strong>occurrence</strong>) + function(<strong>exposure</strong> to risk of basic right violation) + function(<strong>coping capacity</strong> before or after violation)</p>
-<p>Protection activities for UNHCR:</p>
+<div id="data-crunching-automation" class="section level2">
+<h2>Data Crunching Automation</h2>
+<p>Using the right combination of packages from the R statistical language, it is possible to integrate all necessary data analysis steps into <strong>scripts</strong>:</p>
 <ul>
-<li>Prevent occurrence of basic right violation event (<strong>Environment Building actions</strong>) &amp;&amp;</li>
-<li>Limit the effects of violation events consequences (<strong>Remedial actions</strong>) &amp;&amp;</li>
-<li>Respond to basic right violation event (<strong>Responsive actions</strong>)</li>
+<li><p>Data management (clean, recode, merge, reshape)</p></li>
+<li><p>Data analysis (test, regression, multivariate analysis, etc…)</p></li>
+<li><p>Data visualisation (plot, map, graph…)</p></li>
+<li><p>Writing up results (report and presentation generation)</p></li>
 </ul>
-<p>Protection analysis is therefore linked to specific events linked to specific Right groups defined by UNHCR Result Based management.</p>
-<table style="width:100%;">
-<colgroup>
-<col width="47%" />
-<col width="39%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Rights Group</th>
-<th>Basic right type</th>
-<th>Violation event</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Favourable Protection Environment</strong></td>
-<td>Non-refoulement</td>
-<td>Non-admission, Refoulement</td>
-</tr>
-<tr class="even">
-<td>-</td>
-<td>No discrimination</td>
-<td>Detention</td>
-</tr>
-<tr class="odd">
-<td>-</td>
-<td>Freedom of movement</td>
-<td>Eviction, deportation</td>
-</tr>
-<tr class="even">
-<td><strong>Fair Protection Processes and Documentation</strong></td>
-<td>Documentation</td>
-<td>No issuance/renewal of residency</td>
-</tr>
-<tr class="odd">
-<td>-</td>
-<td>Right to a nationality</td>
-<td>Birth Registration</td>
-</tr>
-<tr class="even">
-<td><strong>Community Empowerment and Self Reliance</strong></td>
-<td>Livelihood</td>
-<td>Negative coping mechanism (Prostitution, child labour, early marriage, begging, stealing,.)</td>
-</tr>
-<tr class="odd">
-<td>-</td>
-<td>Peaceful co-existence</td>
-<td>Intercommunity violence</td>
-</tr>
-<tr class="even">
-<td><strong>Basic Needs and Essential Services</strong></td>
-<td>Education</td>
-<td>Children out of school</td>
-</tr>
-<tr class="odd">
-<td>-</td>
-<td>Food</td>
-<td>Malnutrition</td>
-</tr>
-<tr class="even">
-<td>-</td>
-<td>Social &amp; economic rights</td>
-<td>Non access to services (healh, schools, MPSS)</td>
-</tr>
-<tr class="odd">
-<td>-</td>
-<td>Housing, Wash &amp; Shelter</td>
-<td>Sub standard living conditions</td>
-</tr>
-<tr class="even">
-<td><strong>Security from Violence and Exploitation</strong></td>
-<td>Age, gender and diversity mainstreaming</td>
-<td>Sex &amp; Gender based violence, child abuses</td>
-</tr>
-</tbody>
-</table>
+<div class="figure">
+<img src="images/analysis.png" />
+
 </div>
-<div id="vulnerability-profile" class="section level2">
-<h2>Vulnerability Profile</h2>
-<p>On each topic, the protection assessment should allow to identify the affected population’s vulnerability profile:</p>
-<ul>
-<li>Threat in terms of <strong>criticality</strong> , i.e how important is the threat compared to other. This is measured through priority ranking.</li>
-<li>Threat in terms of occurence in order to define <strong>magnitude</strong></li>
-<li>Capacities and capabilities in order to define <strong>severity</strong> – “Severity” (or intensity) expresses the degree of unmet needs (it is thus related to shortages and deficits, as opposed to fulfillment and wellbeing) or the egree of something harmful, harsh, stern, irreversible or not desirable. As such it is expressed through a form of rating.</li>
-</ul>
-<p>The vulnerability profile (combination of criticality/magnitude/severity) for each topic will allow to prioritise the relevant activities. <a href="http://aldo-benini.org/Level2/HumanitData/Benini_forACAPS_SeverityAndPriority_2013.pdf">Severity and Priority</a> are therefore appropriate way to measure vulnerability.</p>
-<p>The risk profile will help designing the best intervention approach for each group:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Activity</th>
-<th>Criticality</th>
-<th>Magnitude</th>
-<th>Severity</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Environment Building actions</td>
-<td>++</td>
-<td>+</td>
-<td>-</td>
-</tr>
-<tr class="even">
-<td>Remedial actions</td>
-<td>+</td>
-<td>++</td>
-<td>+</td>
-</tr>
-<tr class="odd">
-<td>Responsive actions</td>
-<td>+</td>
-<td>-</td>
-<td>++</td>
-</tr>
-</tbody>
-</table>
 </div>
-<div id="analysis-topics" class="section level2">
-<h2>Analysis Topics</h2>
-<div id="favourable-protection-environment" class="section level3">
-<h3>Favourable Protection Environment</h3>
-<p>List of analysis modules</p>
+<div id="using-koboloader-to-facilitate-reproducibily." class="section level2">
+<h2>Using KoboloadeR to facilitate reproducibily.</h2>
+<p>Before data visualization &amp; interpretation many steps are required:</p>
+<div id="import-raw-data" class="section level3">
+<h3>Import raw data</h3>
+<p>In a structured survey with numbered questions, the <strong>flat file</strong> type of data structure has a column for each question, and a row for each respondent. A more complex survey data structure arises if the data are <strong>hierarchical</strong>. A common type of hierarchy is where a series of questions is repeated say for each child in the household, and combined with a household questionnaire, and maybe data collected at community level. For analysis, we can create a rectangular flat file, at the ‘child level’, by repeating relevant household information in separate rows for each child. Similarly, we can summarise information for the children in a household, to create a ‘household level’ analysis file.</p>
+<p>In the case of hierearchical dataset, it is required to use <a href="https://opendatakit.org/downloads/download-category/briefcase/">ODK Briefcase</a> to export and configure the key to join the frame together.</p>
+</div>
+<div id="recode-relabel" class="section level3">
+<h3>Recode &amp; Relabel</h3>
 <ul>
-<li>Protection-sensitive border mechanism</li>
-<li>Counselling &amp; Legal aid</li>
-<li>Freedom of movement &amp; Detention</li>
-<li>Multiple Displacement &amp; Movement</li>
+<li>Leverage the same <a href="http://xlsform.org">xlsform</a> file (saved as .xls – not .xlsx) already used to encode the questionnaire to generate a data dictionary</li>
+<li>Extend xlsform by adding additional column (chapter, disaggregation, correlation, etc.)</li>
+<li>Potentially revise label wording to make them more concise when they will appear on the output chart</li>
 </ul>
 </div>
-<div id="fair-protection-processes-and-documentation" class="section level3">
-<h3>Fair Protection Processes and Documentation</h3>
-<p>List of analysis modules</p>
+<div id="clean-records" class="section level3">
+<h3>Clean records</h3>
 <ul>
-<li>Birth Registration</li>
-<li>Civil status documentation</li>
-<li>Family re-unification</li>
-<li>Refugee registration</li>
-<li>Risk of eviction</li>
+<li>Cleaning Log defined though the iteration of the crunching</li>
+<li>Log stored as a worksheet, act as documented data audit trail</li>
+<li>Log actions to be sorted as “update” or “delete”</li>
+<li>Log to be re-applied every time to raw date</li>
 </ul>
 </div>
-<div id="community-empowerment-and-self-reliance" class="section level3">
-<h3>Community Empowerment and Self Reliance</h3>
-<p>List of analysis modules:</p>
+<div id="reweight-dataset-according-to-sampling-strategy" class="section level3">
+<h3>Reweight dataset according to sampling strategy,</h3>
 <ul>
-<li>Social cohesion</li>
-<li>Housing, shelter &amp; wash conditions</li>
-<li>Employment &amp; livelihood</li>
-<li>Child Labour</li>
-<li>Assets &amp; Budget</li>
+<li>Associate a weight to each record</li>
+<li>Weight defined by the sampling script (can be based on cluster, or Respondent Driven Sample)</li>
+<li>Possibility to use post-stratification to re-compute corrected weights in case of low coverage of the sample</li>
 </ul>
 </div>
-<div id="basic-needs-and-essential-services" class="section level3">
-<h3>Basic Needs and Essential Services</h3>
-<p>List of analysis modules:</p>
+<div id="build-new-indicators-from-existing-variable-etc." class="section level3">
+<h3>Build new indicators from existing variable, etc.</h3>
+<p>Indicators are summary measures. They often provide a baseline from which to weigh up the finer points. It is important not to create unnecessary confusion. An indicator should synthesise information and serve to represent a reasonable measure of some issue or concept. The concept should have an agreed name so that users can discuss it meaningfully.</p>
 <ul>
-<li>Refugees with specific needs</li>
-<li>Assistance received</li>
-<li>Negative coping mechanism</li>
-<li>Food security</li>
-<li>Access to health services</li>
-<li>Education &amp; Out of School Children</li>
+<li><p>Create new indicators from existing one: Need to define in a worksheet for each indicator: type, name, label, chapter, correlation, aggregation, formula, frame</p></li>
+<li><p>Indicators formula written with a R-ready syntax: Allow for complex notation:</p>
+<ul>
+<li>May need to use dcast if you want to calculate an indicator based on values from a nested data frame. dcast will work as pivot table using the unique ID used for the join.</li>
+<li>May need to use if when trying to do a calculation where you could have potential zero as numerator Indicators are calculated, appended to the right data frame and then the indicator definition is appended in the data dictionary</li>
+</ul></li>
 </ul>
 </div>
-<div id="security-from-violence-and-exploitation" class="section level3">
-<h3>Security from Violence and Exploitation</h3>
-<p>List of analysis modules:</p>
+</div>
+<div id="koboloader" class="section level2">
+<h2>KoboloadeR</h2>
+<p>It is An R packages (i.e. a series of functions) that can be plugged to a configuration file in order to separate “input”, “processing”, and “output”</p>
 <ul>
-<li>Sexual Harassment &amp; Violence (Rape)</li>
-<li>Harassment between youth</li>
-<li>Gender inequality</li>
-<li>Domestic Violence (Parental stress, Isolation at home)</li>
-<li>Forced and early marriage</li>
-<li>Violence among children</li>
-<li>Armed recruitment</li>
-<li>Harassment &amp; Violence towards LGBTI</li>
-<li>Security &amp; Civil violence</li>
+<li>The “output” is an Rmd (Rmarkdown) file than produce word, pdf or html reports</li>
+</ul>
+<div class="figure">
+<img src="images/rm-cheatsheet1.png" />
+
+</div>
+<ul>
+<li><p>The configuration file includes references to all “input”:</p>
+<pre><code>Path to raw data files
+Path to form (in xlsform) in order to build a data dictionary
+Path to the sample weight 
+Path to the data cleaning log
+Path to the indicator calculation sheet </code></pre></li>
+</ul>
+<div id="advantage-of-koboloader" class="section level3">
+<h3>Advantage of KoboLoadeR</h3>
+<ul>
+<li><strong>Productivity</strong>: Once the configuration file is written, run the script in Rstudio to get the output</li>
+<li><strong>Training</strong>: No need to write R instruction – limited knowledge of R is required</li>
+<li><strong>Iteration</strong>: Check the output, adjust the various input files &amp; re-run the script till you get a satisfying report</li>
+<li><strong>Reproducibility</strong>: all analysis input are de facto documented</li>
+</ul>
+<p>KoboLoadeR takes care of the processing component so that the technical team can focus on the interpretation.</p>
+</div>
+<div id="output-of-koboloader" class="section level3">
+<h3>Output of koboloadeR</h3>
+<ul>
+<li>Frequency tables &amp; Bar chart for select type questions</li>
+<li>Frequency tables &amp; Histogram for numeric questions</li>
+<li>Frequency table for text questions</li>
+<li>Cross-tab &amp; graph (if 2 categorical: bar chart, if 1 categoric + 1 numeric: boxplot &amp; if 2 numeric: scatterplot)</li>
+<li>Chi-squared test &amp; corrplot presentation</li>
+<li>Mapping if geographic field (still in development)</li>
+</ul>
+</div>
+<div id="collaborative-development" class="section level3">
+<h3>Collaborative Development</h3>
+<ul>
+<li><p>Open Source Package maintained in <a href="https://github.com/Edouard-Legoupil/koboloadeR">GitHub</a></p></li>
+<li><p>Submit issues for <a href="https://github.com/Edouard-Legoupil/koboloadeR/issues">bug report or feature request</a> in Github</p></li>
+<li><p><a href="https://github.com/Edouard-Legoupil/koboloadeR/tree/master/R#fork-destination-box">Fork and submit pull request</a> for code review and integration</p></li>
 </ul>
 </div>
 </div>

@@ -11,24 +11,19 @@ source("options_communes.R")
 This chapter is not written yet.
 </div>
 
+Cluster analysis is a data-driven statistical technique that can draw out – and thence characterise – groups of respondents whose response profiles are similar to one another. The response profiles may serve to differentiate one group from another if they are somewhat distinct. This might be needed if the aim were, say, to define target groups for distinct safety net interventions. The analysis could help clarify the distinguishing features of the groups, their sizes, their distinctness or otherwise, and so on. Unfortunately there is no guarantee that groupings derived from data alone will make good sense in terms of profiling respondents. 
 
-![](images/Maturity.png)
+Cluster analysis does not characterise the groupings; you have to study each cluster to see what they have in common. Nor does it prove that they constitute suitable target groups for meaningful development interventions Cluster analysis is thus an exploratory technique, which may help to screen a large mass of data, and prompt more thoughtful analysis by raising questions such as:  
 
+ *  Is there any sign that the respondents do fall into clear-cut sub-groups?  
+ 
+ *  How many groups do there seem to be, and how important are their separations? 
+ 
+ *  If there are distinct groups, what sorts of responses do “typical” group members give?  
+ 
 
-The first phase of the analysis consist at discovering the variable links. 
+![](images/cluster.png)
 
-## Graphical review
-
-### Barchart
-
-### Histogramm
-
-### Maps
-
-## Statistical Test
-Two random variables are called independent if the probability distribution of one variable is not affected by the presence of another. This is tested through the *Chi-squared Test of Independence* that allows to know if the independance hypothesis has a higher value than the .05 significance level.
-
-The Chi-squared Test provide a *p-value*: if the  p-value is greater than the .05, then the two tested variable are independent 
 
 ## Multivariate Analysis
 
@@ -53,20 +48,3 @@ Clustering is the task of grouping a set of objects in such a way that objects i
 
 
 
-## Check for Errors
-
- * __Sampling error__: The error that occurs when a sample of the population rather than the entire population is surveyed.
- 
- * __Coverage error__: The error that occurs when the sampling frame – i.e., the list from which the sample is taken – does not correspond to the
-population of interest. For instance, it might undercount migrants.
-
- * __Unit nonresponse error__: The error when a designated respondent does not participate in the survey. A serious source of bias in the Literary Digest case.
- 
- * __Item nonresponse error__: The error when a respondent does not answer all of the questions, or answers “don’t know”.
- 
- * __Measurement error from Respondent__:  Occurs when the respondent does not accurately answer the question.
- 
- * __Measurement error from Interviewer__: Occurs when interviewers do not pose the questions properly (or falsify the answers).
- 
- * __Postsurvey error__: The error that occurs in processing and analyzing survey data.
- 

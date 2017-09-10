@@ -170,8 +170,8 @@ $(document).ready(function () {
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
                     <li class="dropdown-header">Preparing for fieldwork</li>
-                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
                   <li><a href="Pre-test-Phase.html">Pre-test Phase</a></li>
+                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
                   <li><a href="Managing-Devices.html">Managing Devices</a></li>
                 </ul>
               </div>
@@ -200,7 +200,8 @@ $(document).ready(function () {
             <div class="row">
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
-                    <li class="dropdown-header">Analysis Steps</li>
+                    <li class="dropdown-header">Analytics Steps</li>
+                  <li ><a href="Describe.html">Describe</a></li>
                   <li ><a href="Discover.html">Discover</a></li>
                   <li ><a href="Predict.html">Predict</a></li>
                   <li ><a href="Advise.html">Advise</a></li>
@@ -208,9 +209,9 @@ $(document).ready(function () {
               </div>
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
-                    <li class="dropdown-header">Report</li>
-                  <li ><a href="Analysis-Script.html">Analysis Scripts</a></li>
-                  <li ><a href="Model-for-Key-Findings-Report.html">Model for Key Findings Report</a></li>
+                    <li class="dropdown-header">Analysis Process</li>
+                  <li ><a href="Data-Crunching.html">Data Crunching</a></li>
+                  <li ><a href="Analysis-Workshop.html">Analysis Workshop</a></li>
                   <li ><a href="Model-for-Final-Report.html">Model for Final Report</a></li>
                 </ul>
               </div>
@@ -219,6 +220,7 @@ $(document).ready(function () {
                   <li class="dropdown-header">Communication</li>
                   <li><a href="Slides-Infographics.html">Slides & Infographics</a></li>
                   <li><a href="Microdata.html">Sharing microdata for social scientist</a></li>
+                  <li><a href="Open-Data.html">Open Data</a></li>
                 </ul>
               </div>
             </div>
@@ -254,46 +256,28 @@ $(document).ready(function () {
 
 <div id="TOC">
 <ul>
-<li><a href="#graphical-review">Graphical review</a><ul>
-<li><a href="#barchart">Barchart</a></li>
-<li><a href="#histogramm">Histogramm</a></li>
-<li><a href="#maps">Maps</a></li>
-</ul></li>
-<li><a href="#statistical-test">Statistical Test</a></li>
 <li><a href="#multivariate-analysis">Multivariate Analysis</a><ul>
 <li><a href="#dimensionnality-reduction">Dimensionnality reduction</a></li>
 <li><a href="#clustering">Clustering</a></li>
 <li><a href="#hierarchical-classification-on-principle-components">Hierarchical Classification on Principle Components</a></li>
 <li><a href="#description-of-statistical-clusters">Description of statistical clusters</a></li>
 </ul></li>
-<li><a href="#check-for-errors">Check for Errors</a></li>
 </ul>
 </div>
 
 <div class="important">
 <p>This chapter is not written yet.</p>
 </div>
+<p>Cluster analysis is a data-driven statistical technique that can draw out – and thence characterise – groups of respondents whose response profiles are similar to one another. The response profiles may serve to differentiate one group from another if they are somewhat distinct. This might be needed if the aim were, say, to define target groups for distinct safety net interventions. The analysis could help clarify the distinguishing features of the groups, their sizes, their distinctness or otherwise, and so on. Unfortunately there is no guarantee that groupings derived from data alone will make good sense in terms of profiling respondents.</p>
+<p>Cluster analysis does not characterise the groupings; you have to study each cluster to see what they have in common. Nor does it prove that they constitute suitable target groups for meaningful development interventions Cluster analysis is thus an exploratory technique, which may help to screen a large mass of data, and prompt more thoughtful analysis by raising questions such as:</p>
+<ul>
+<li><p>Is there any sign that the respondents do fall into clear-cut sub-groups?</p></li>
+<li><p>How many groups do there seem to be, and how important are their separations?</p></li>
+<li><p>If there are distinct groups, what sorts of responses do “typical” group members give?</p></li>
+</ul>
 <div class="figure">
-<img src="images/Maturity.png" />
+<img src="images/cluster.png" />
 
-</div>
-<p>The first phase of the analysis consist at discovering the variable links.</p>
-<div id="graphical-review" class="section level2">
-<h2>Graphical review</h2>
-<div id="barchart" class="section level3">
-<h3>Barchart</h3>
-</div>
-<div id="histogramm" class="section level3">
-<h3>Histogramm</h3>
-</div>
-<div id="maps" class="section level3">
-<h3>Maps</h3>
-</div>
-</div>
-<div id="statistical-test" class="section level2">
-<h2>Statistical Test</h2>
-<p>Two random variables are called independent if the probability distribution of one variable is not affected by the presence of another. This is tested through the <em>Chi-squared Test of Independence</em> that allows to know if the independance hypothesis has a higher value than the .05 significance level.</p>
-<p>The Chi-squared Test provide a <em>p-value</em>: if the p-value is greater than the .05, then the two tested variable are independent</p>
 </div>
 <div id="multivariate-analysis" class="section level2">
 <h2>Multivariate Analysis</h2>
@@ -313,18 +297,6 @@ $(document).ready(function () {
 <div id="description-of-statistical-clusters" class="section level3">
 <h3>Description of statistical clusters</h3>
 </div>
-</div>
-<div id="check-for-errors" class="section level2">
-<h2>Check for Errors</h2>
-<ul>
-<li><p><strong>Sampling error</strong>: The error that occurs when a sample of the population rather than the entire population is surveyed.</p></li>
-<li><p><strong>Coverage error</strong>: The error that occurs when the sampling frame – i.e., the list from which the sample is taken – does not correspond to the population of interest. For instance, it might undercount migrants.</p></li>
-<li><p><strong>Unit nonresponse error</strong>: The error when a designated respondent does not participate in the survey. A serious source of bias in the Literary Digest case.</p></li>
-<li><p><strong>Item nonresponse error</strong>: The error when a respondent does not answer all of the questions, or answers “don’t know”.</p></li>
-<li><p><strong>Measurement error from Respondent</strong>: Occurs when the respondent does not accurately answer the question.</p></li>
-<li><p><strong>Measurement error from Interviewer</strong>: Occurs when interviewers do not pose the questions properly (or falsify the answers).</p></li>
-<li><p><strong>Postsurvey error</strong>: The error that occurs in processing and analyzing survey data.</p></li>
-</ul>
 </div>
 
 </article>

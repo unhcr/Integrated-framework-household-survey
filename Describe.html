@@ -11,7 +11,7 @@
 
 
 
-<title>Model for key Findings Report</title>
+<title>Describe</title>
 
 <script src="libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -170,8 +170,8 @@ $(document).ready(function () {
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
                     <li class="dropdown-header">Preparing for fieldwork</li>
-                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
                   <li><a href="Pre-test-Phase.html">Pre-test Phase</a></li>
+                  <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
                   <li><a href="Managing-Devices.html">Managing Devices</a></li>
                 </ul>
               </div>
@@ -200,7 +200,8 @@ $(document).ready(function () {
             <div class="row">
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
-                    <li class="dropdown-header">Analysis Steps</li>
+                    <li class="dropdown-header">Analytics Steps</li>
+                  <li ><a href="Describe.html">Describe</a></li>
                   <li ><a href="Discover.html">Discover</a></li>
                   <li ><a href="Predict.html">Predict</a></li>
                   <li ><a href="Advise.html">Advise</a></li>
@@ -208,9 +209,9 @@ $(document).ready(function () {
               </div>
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
-                    <li class="dropdown-header">Report</li>
-                  <li ><a href="Analysis-Script.html">Analysis Scripts</a></li>
-                  <li ><a href="Model-for-Key-Findings-Report.html">Model for Key Findings Report</a></li>
+                    <li class="dropdown-header">Analysis Process</li>
+                  <li ><a href="Data-Crunching.html">Data Crunching</a></li>
+                  <li ><a href="Analysis-Workshop.html">Analysis Workshop</a></li>
                   <li ><a href="Model-for-Final-Report.html">Model for Final Report</a></li>
                 </ul>
               </div>
@@ -219,6 +220,7 @@ $(document).ready(function () {
                   <li class="dropdown-header">Communication</li>
                   <li><a href="Slides-Infographics.html">Slides & Infographics</a></li>
                   <li><a href="Microdata.html">Sharing microdata for social scientist</a></li>
+                  <li><a href="Open-Data.html">Open Data</a></li>
                 </ul>
               </div>
             </div>
@@ -248,13 +250,112 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Model for key Findings Report</h1>
+<h1 class="title toc-ignore">Describe</h1>
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#tabulation-one-way-table-crosstabulation">Tabulation: One-way table &amp; Crosstabulation</a></li>
+<li><a href="#graphical-review">Graphical review</a><ul>
+<li><a href="#type-of-variables.">Type of variables.</a></li>
+<li><a href="#barchart">Barchart</a></li>
+<li><a href="#histogramm">Histogramm</a></li>
+<li><a href="#line-chart">Line Chart</a></li>
+<li><a href="#boxplot">Boxplot</a></li>
+<li><a href="#scatterplot">Scatterplot</a></li>
+<li><a href="#correlation-plot">Correlation plot</a></li>
+<li><a href="#maps">Maps</a></li>
+</ul></li>
+<li><a href="#statistical-test">Statistical Test</a></li>
+<li><a href="#check-for-errors">Check for Errors</a></li>
+</ul>
+</div>
 
 <div class="important">
 <p>This chapter is not written yet.</p>
+</div>
+<div class="figure">
+<img src="images/Maturity.png" />
+
+</div>
+<p>The first phase of the analysis consist at description of the various variable.</p>
+<p>This exploratory phase usually overlaps with data cleaning; it is the stage where anomalies become evident e.g. individually plausible values may lead to a way-out point when combined with other variables on a scatterplot. In an ideal situation, this step would end with confidence that one has a clean dataset, so that a single version of the main datafiles can be finalised and ‘locked’ and all published analyses derived from a single consistent form of ‘the data’. In practice later stages of analysis often produce additional queries about data values.</p>
+<div id="tabulation-one-way-table-crosstabulation" class="section level2">
+<h2>Tabulation: One-way table &amp; Crosstabulation</h2>
+<p>Often, much of the basic information need are supplied through a tabulation of results, question by question, as ‘one-way tables’. Sometimes this can be done using an original questionnaire and writing on it the frequency or number of people who ‘ticked each box’. Of course this does not identify which respondents produced particular combinations of responses, but this is often a first step where a quick and/or simple summary is required.</p>
+<p>At the most basic level, cross-tabulations break down the sample into two-way tables showing the response categories of one question as row headings, those of another question as column headings. If for example each question has five possible answers the table breaks the total sample down into 25 subgroups.</p>
+<p>When dealing with <em>select_multiple</em>, there are different ways of computerising these data. The “multiple dichotomy”approach provides as many columns as there are alternatives. The “multiple response” way find the maximum number of ticks from anyone and then have this number of columns, entering the codes for ticked responses, one per column.</p>
+</div>
+<div id="graphical-review" class="section level2">
+<h2>Graphical review</h2>
+<p>The use of graphical methods is important for presentational purposes, where simple messages need to be given in easily understood, and attention-grabbing form.Their true power comes from the ability of the eye to discern patterns in a graph that are not clearly evident from lists of numbers or tabulated statistics. In Tufte’s pithy phrase,“<em>graphics reveal data</em>”. With data in hand, the most productive first step is often to explore the data graphically. These graphs do not have to be especially polished and beautiful; rather, they need to be easy to produce and thoroughly informative, a visual scratch pad where we use the power of graphics to get a sense of the shape of variables and the interactions among them.</p>
+<div id="type-of-variables." class="section level3">
+<h3>Type of variables.</h3>
+<p>Numeric: * Continuous: age, height… * Discrete: cars, floors, arms, * Date/Time: DOB, TOD, flight time</p>
+<p>Categoric: * Ordinal: education level, salary level * Nominal: gender, relationship status * String: name, description,</p>
+<p>Geographic/spatial * Point: Cities * Line: Road * Polygon: Country, Governorate, Disctirc</p>
+</div>
+<div id="barchart" class="section level3">
+<h3>Barchart</h3>
+<p><img src="images/bar.png" /> Barchart shows simple frequency distribution of categoric value.</p>
+<p>Bar chart can also be used to visualise crosstabulation (i.e. the frequency relation between <strong>two categoric variables</strong>), bar chart can be be: * faceted * stacked * paired</p>
+<div class="figure">
+<img src="images/paired.png" />
+
+</div>
+</div>
+<div id="histogramm" class="section level3">
+<h3>Histogramm</h3>
+<p><img src="images/histo.png" /> Histogram shows simple frequency distribution of a <strong>unique numeric variable</strong>.</p>
+<p>The classification of data into bins serves to filter out some of the noise. The key choice that has to be made when designing an histogram is that of the number of classes (“bins”) into which to group the data or, alternatively, the width of each class, and this choice is as much a matter of art as of science. The <a href="https://en.wikipedia.org/wiki/Freedman%E2%80%93Diaconis_rule">Freedman and Diaconis rule</a> or the Wand “zero-stage rule” can be used to determine bin width.</p>
+<p>Note that histogramm can also be conveninent used to display date variables. The same discreatisation approach can be used.</p>
+</div>
+<div id="line-chart" class="section level3">
+<h3>Line Chart</h3>
+<p><img src="images/line.png" /> Line chart are used to display smoothen frequency distribution of a <strong>unique numeric variable</strong>.</p>
+<p>A histogram provides a discretized, nonparametric approximation to the underlying density, but it has three drawbacks: it is not smooth, it depends on the bin widths, and it is sensitive to the choice of end points of the bins. in order to address those points, it’s possible to use Kernel density visualisation in order to see a smoothed version of the data.</p>
+</div>
+<div id="boxplot" class="section level3">
+<h3>Boxplot</h3>
+<p><img src="images/box.png" /> Boxplot are used to visualise the crosstabulation of <strong>one categoric variable together with one numeric variable</strong>.</p>
+<p>At the heart of the boxplot is a box that shows the 25th percentile (the “lower hinge”) and 75th percentile (the “upper hinge”), as well as the median value of the observations. On the upper side of the box one adds a line that stretches to the “upper adjacent value” and ends in a whisker; the whisker extends up to the largest data point that lies within 1.5 interquartile ranges of the 75th percentile. A similar line stretches to the lower adjacent value. All values of the variable beyond the adjacent values (the “outside values”) are plotted. The result is a snapshot of the distribution of a variable that allows one to get a sense of its symmetry, and the role of outliers. Boxplots are exploratory devices, and one must resist the temptation to try to use them for statistical inference.</p>
+</div>
+<div id="scatterplot" class="section level3">
+<h3>Scatterplot</h3>
+<p><img src="images/scatter.png" /> Scatterplot are used to visualise the crosstabulation of <strong>two numeric variable</strong>.</p>
+<p>The shape of the resulting cloud of points will allow to detect quickly potential correlation. A regression line can be automatically drawn on the scatterplot to help visualising correlations.</p>
+<p>Scatterplots can also help detecting specific patterns that would not be detectable if just using means, variance &amp; correlation (c.f. <a href="https://en.wikipedia.org/wiki/Anscombe%27s_quartet">Anscombe’squartet</a>).</p>
+</div>
+<div id="correlation-plot" class="section level3">
+<h3>Correlation plot</h3>
+<p><img src="images/corrplot.png" /> Correlation plot are used to display the level of <strong>correlation between different modalities of 2 categoric variables</strong>.</p>
+<p>They are often used in conjonction with statistical test (such as chi-squarred cf below)</p>
+</div>
+<div id="maps" class="section level3">
+<h3>Maps</h3>
+<p>It is often useful to display statistical information on maps.</p>
+<p><img src="images/prop.png" /> Proportion symbol map are used for absolute values.</p>
+<p><img src="images/choro.png" /> Choropleth map are used to display proportion of ration.</p>
+<p><img src="images/flow.png" /> Flow maps are used to present the <strong>relation between two geographic variables</strong>.</p>
+</div>
+</div>
+<div id="statistical-test" class="section level2">
+<h2>Statistical Test</h2>
+<p>Two random variables are called independent if the probability distribution of one variable is not affected by the presence of another. This is tested through the <em>Chi-squared Test of Independence</em> that allows to know if the independance hypothesis has a higher value than the .05 significance level.</p>
+<p>The Chi-squared Test provide a <em>p-value</em>: if the p-value is greater than the .05, then the two tested variable are independent</p>
+</div>
+<div id="check-for-errors" class="section level2">
+<h2>Check for Errors</h2>
+<ul>
+<li><p><strong>Sampling error</strong>: The error that occurs when a sample of the population rather than the entire population is surveyed.</p></li>
+<li><p><strong>Coverage error</strong>: The error that occurs when the sampling frame – i.e., the list from which the sample is taken – does not correspond to the population of interest. For instance, it might undercount migrants.</p></li>
+<li><p><strong>Unit nonresponse error</strong>: The error when a designated respondent does not participate in the survey. A serious source of bias in the Literary Digest case.</p></li>
+<li><p><strong>Item nonresponse error</strong>: The error when a respondent does not answer all of the questions, or answers “don’t know”.</p></li>
+<li><p><strong>Measurement error from Respondent</strong>: Occurs when the respondent does not accurately answer the question.</p></li>
+<li><p><strong>Measurement error from Interviewer</strong>: Occurs when interviewers do not pose the questions properly (or falsify the answers).</p></li>
+<li><p><strong>Postsurvey error</strong>: The error that occurs in processing and analyzing survey data.</p></li>
+</ul>
 </div>
 
 </article>

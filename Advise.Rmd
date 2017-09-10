@@ -12,4 +12,28 @@ This chapter is not written yet.
 </div>
 
 
+## Composite indicators  
+
+* A way to compile together multiple indicators
+* Allow to capture the complexity of a situation
+* Implies to define a calculation method
+
+## Index for locations  
+
+## Index for Individuals/households  
+* Headline money metric measures of poverty has limitations
+* If someone is deprived in a third or more of ten (weighted) indicators, the index identifies them as ‘poor’, and the extent – or intensity – of their poverty is measured by the number of deprivations they are experiencing.
+
+## Explore indicator correlations  
+* Not too high, 
+* not too low…
+
+## Decide how to aggregate indicators  
+
+* Indicators that can be added together : Vouchers + Cash
+* Indicators that should be multiplied (no compensability): Access to education & Access to health care
+
+## Assess robustness & sensitivity analysis  
+
+Ensure that the decision made for normalization, weighting and aggregation have limited effects on the final ranking
 
