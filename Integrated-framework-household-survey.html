@@ -206,7 +206,7 @@ pre:not([class]) {
 IFHS: A toolkit to facilitate design, collection &amp; analysis.
 </h2>
 <p>
-Last update : 10 September 2017
+Last update : 18 September 2017
 </p>
 </div>
 <div id="presentation" class="section level2">
@@ -2704,6 +2704,7 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 <li><a href="#Discover_description-of-statistical-clusters">Description of statistical clusters</a></li>
 </ul>
 </li>
+<li><a href="#Discover_latent-class-models">Latent Class Models</a></li>
 </ul>
 </div>
 
@@ -2738,6 +2739,10 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 <div id="Discover_description-of-statistical-clusters" class="section level3">
 <h3>Description of statistical clusters</h3>
 </div>
+</div>
+<div id="Discover_latent-class-models" class="section level2">
+<h2>Latent Class Models</h2>
+<p>it possible to conduct cluster analyses that are based on a statistical model, and not purely exploratory as are traditional cluster analysis techniques. The advantages of this approach to cluster analysis are that a number of diagnostic tools are available to help determine the appropriate number of clusters, and that the clustering is model-based in that it relies on a statistical model.</p>
 </div>
 
 </article>
@@ -2953,8 +2958,6 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 </li>
 <li>
 <a href="#Data-Crunching_koboloader">KoboloadeR</a><ul>
-<li><a href="#Data-Crunching_advantage-of-koboloader">Advantage of KoboLoadeR</a></li>
-<li><a href="#Data-Crunching_output-of-koboloader">Output of koboloadeR</a></li>
 <li><a href="#Data-Crunching_collaborative-development">Collaborative Development</a></li>
 </ul>
 </li>
@@ -3059,31 +3062,6 @@ Path to the data cleaning log
 Path to the indicator calculation sheet </code></pre>
 </li>
 </ul>
-<div id="Data-Crunching_advantage-of-koboloader" class="section level3">
-<h3>Advantage of KoboLoadeR</h3>
-<ul>
-<li>
-<strong>Productivity</strong>: Once the configuration file is written, run the script in Rstudio to get the output</li>
-<li>
-<strong>Training</strong>: No need to write R instruction – limited knowledge of R is required</li>
-<li>
-<strong>Iteration</strong>: Check the output, adjust the various input files &amp; re-run the script till you get a satisfying report</li>
-<li>
-<strong>Reproducibility</strong>: all analysis input are de facto documented</li>
-</ul>
-<p>KoboLoadeR takes care of the processing component so that the technical team can focus on the interpretation.</p>
-</div>
-<div id="Data-Crunching_output-of-koboloader" class="section level3">
-<h3>Output of koboloadeR</h3>
-<ul>
-<li>Frequency tables &amp; Bar chart for select type questions</li>
-<li>Frequency tables &amp; Histogram for numeric questions</li>
-<li>Frequency table for text questions</li>
-<li>Cross-tab &amp; graph (if 2 categorical: bar chart, if 1 categoric + 1 numeric: boxplot &amp; if 2 numeric: scatterplot)</li>
-<li>Chi-squared test &amp; corrplot presentation</li>
-<li>Mapping if geographic field (still in development)</li>
-</ul>
-</div>
 <div id="Data-Crunching_collaborative-development" class="section level3">
 <h3>Collaborative Development</h3>
 <ul>
@@ -3105,6 +3083,7 @@ Path to the indicator calculation sheet </code></pre>
 
 <div class="TOC">
 <ul>
+<li><a href="#Analysis-Workshop_workshop-preparation-identify-patterns">Workshop preparation: identify patterns</a></li>
 <li><a href="#Analysis-Workshop_data-disgest-presentation">Data Disgest Presentation</a></li>
 <li><a href="#Analysis-Workshop_faciliation-note-taking">Faciliation &amp; Note taking</a></li>
 <li><a href="#Analysis-Workshop_clearance-process">Clearance process</a></li>
@@ -3129,6 +3108,26 @@ Path to the indicator calculation sheet </code></pre>
 <div class="figure">
 <img src="images/workshop.png">
 </div>
+<div id="Analysis-Workshop_workshop-preparation-identify-patterns" class="section level2">
+<h2>Workshop preparation: identify patterns</h2>
+<p>While identifying categories and sorting the data, you will start to see patterns within and between categories. At this stage it will be important to assess the relative importance and relationships between those categories. You may want to look at:</p>
+<ul>
+<li> how many times a specific category came up?<br>
+</li>
+<li> what are the key ideas being expressed?<br>
+</li>
+<li> what similarities and differences are being expressed?<br>
+</li>
+<li> if two or more categories consistently appear together for one group?</li>
+</ul>
+<p>Relationships might suggest a cause and effect; this will help you to explain why something occurs. You can ask yourself:</p>
+<ul>
+<li> How do things relate?</li>
+<li>What data supports this interpretation?</li>
+<li>What responses are contradicting findings and/or do not fit into categories?</li>
+<li>Are they important to the overall understanding?</li>
+</ul>
+</div>
 <div id="Analysis-Workshop_data-disgest-presentation" class="section level2">
 <h2>Data Disgest Presentation</h2>
 <p>Data Anlysis Workshop are among <a href="http://jet.jips.org/documents/download/terms-of-reference-for-a-workshop-on-collaborative-analysis-of-the-profiling-findings">common good practices</a>. .</p>
@@ -3140,10 +3139,19 @@ Path to the indicator calculation sheet </code></pre>
 </div>
 <div id="Analysis-Workshop_faciliation-note-taking" class="section level2">
 <h2>Faciliation &amp; Note taking</h2>
+<p>Having sorted and identified the relationships, relative importance and possible causes, you need to bring it all together. You have to interpret the data: what does it all mean?</p>
 <ul>
-<li>
-<strong>Reflect</strong>: <img src="images/reflect.png">
+<li>Take a step back and look at what you learned. Ask yourself for example:<br>
 </li>
+<li> What will those who are using the findings of the information be most interested in?</li>
+<li> What new things did you learn about the protection situation?</li>
+<li> What main protection risks for several and/or specific population groups did appear?</li>
+<li> What is the scale of a given problem/protection risks?</li>
+<li> Are there particular groups within the population who are particularly exposed to specific problems/risks?</li>
+<li> Did you confirm patterns mentioned in earlier reports or did you see new trends?</li>
+<li> The protection problems observed are there isolated incidents or generalizable trends?</li>
+<li><p> Are the incidents related to the crisis/emergency/conflict or are they more related to endemic issues such as cultural practices or generalized poverty?</p></li>
+<li><p><strong>Reflect</strong>: <img src="images/reflect.png"></p></li>
 </ul>
 <p>Data quality and or suggestions to change questions</p>
 <ul>

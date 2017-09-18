@@ -1525,43 +1525,51 @@ endobj
 /Count 4>>
 endobj
 
-338 0 obj
+339 0 obj
 <</Title (Dimensionnality reduction)
 /Parent 337 0 R
 /Dest [109 0 R /XYZ 0 705 0]
-/Next 339 0 R>>
-endobj
-
-339 0 obj
-<</Title (Clustering)
-/Parent 337 0 R
-/Dest [109 0 R /XYZ 0 616 0]
-/Prev 338 0 R
 /Next 340 0 R>>
 endobj
 
 340 0 obj
-<</Title (Hierarchical Classification on Principle Components)
+<</Title (Clustering)
 /Parent 337 0 R
-/Dest [109 0 R /XYZ 0 499 0]
+/Dest [109 0 R /XYZ 0 616 0]
 /Prev 339 0 R
 /Next 341 0 R>>
 endobj
 
 341 0 obj
+<</Title (Hierarchical Classification on Principle Components)
+/Parent 337 0 R
+/Dest [109 0 R /XYZ 0 499 0]
+/Prev 340 0 R
+/Next 342 0 R>>
+endobj
+
+342 0 obj
 <</Title (Description of statistical clusters)
 /Parent 337 0 R
 /Dest [109 0 R /XYZ 0 453 0]
-/Prev 340 0 R>>
+/Prev 341 0 R>>
 endobj
 
 337 0 obj
 <</Title (Multivariate Analysis)
 /Parent 163 0 R
 /Dest [108 0 R /XYZ 0 291 0]
-/First 338 0 R
-/Last 341 0 R
+/Next 338 0 R
+/First 339 0 R
+/Last 342 0 R
 /Count 4>>
+endobj
+
+338 0 obj
+<</Title (Latent Class Models)
+/Parent 163 0 R
+/Dest [109 0 R /XYZ 0 407 0]
+/Prev 337 0 R>>
 endobj
 
 163 0 obj
@@ -1571,110 +1579,110 @@ endobj
 /Prev 162 0 R
 /Next 164 0 R
 /First 337 0 R
-/Last 337 0 R
-/Count 1>>
+/Last 338 0 R
+/Count 2>>
 endobj
 
-342 0 obj
+343 0 obj
 <</Title (Regression Analysis)
 /Parent 164 0 R
 /Dest [111 0 R /XYZ 0 305 0]
-/Next 343 0 R>>
-endobj
-
-344 0 obj
-<</Title (The Multiple Linear Regression Model)
-/Parent 343 0 R
-/Dest [112 0 R /XYZ 0 655 0]
-/Next 345 0 R>>
+/Next 344 0 R>>
 endobj
 
 345 0 obj
-<</Title (Functional Form in the Linear Model)
-/Parent 343 0 R
-/Dest [112 0 R /XYZ 0 458 0]
-/Prev 344 0 R
+<</Title (The Multiple Linear Regression Model)
+/Parent 344 0 R
+/Dest [112 0 R /XYZ 0 655 0]
 /Next 346 0 R>>
 endobj
 
 346 0 obj
-<</Title (Heteroskedasticity in the Linear Model)
-/Parent 343 0 R
-/Dest [112 0 R /XYZ 0 319 0]
+<</Title (Functional Form in the Linear Model)
+/Parent 344 0 R
+/Dest [112 0 R /XYZ 0 458 0]
 /Prev 345 0 R
 /Next 347 0 R>>
 endobj
 
 347 0 obj
-<</Title (Clustering in the Linear Model)
-/Parent 343 0 R
-/Dest [112 0 R /XYZ 0 165 0]
+<</Title (Heteroskedasticity in the Linear Model)
+/Parent 344 0 R
+/Dest [112 0 R /XYZ 0 319 0]
 /Prev 346 0 R
 /Next 348 0 R>>
 endobj
 
 348 0 obj
-<</Title (Instrumental Variables)
-/Parent 343 0 R
-/Dest [113 0 R /XYZ 0 583 0]
+<</Title (Clustering in the Linear Model)
+/Parent 344 0 R
+/Dest [112 0 R /XYZ 0 165 0]
 /Prev 347 0 R
 /Next 349 0 R>>
 endobj
 
 349 0 obj
-<</Title (Panel Data: Fixed and Random Effects)
-/Parent 343 0 R
-/Dest [113 0 R /XYZ 0 372 0]
+<</Title (Instrumental Variables)
+/Parent 344 0 R
+/Dest [113 0 R /XYZ 0 583 0]
 /Prev 348 0 R
 /Next 350 0 R>>
 endobj
 
 350 0 obj
-<</Title (Binary Response Models)
-/Parent 343 0 R
-/Dest [114 0 R /XYZ 0 705 0]
+<</Title (Panel Data: Fixed and Random Effects)
+/Parent 344 0 R
+/Dest [113 0 R /XYZ 0 372 0]
 /Prev 349 0 R
 /Next 351 0 R>>
 endobj
 
 351 0 obj
-<</Title (Limited Dependent Variable Models)
-/Parent 343 0 R
-/Dest [114 0 R /XYZ 0 537 0]
+<</Title (Binary Response Models)
+/Parent 344 0 R
+/Dest [114 0 R /XYZ 0 705 0]
 /Prev 350 0 R
 /Next 352 0 R>>
 endobj
 
 352 0 obj
-<</Title (Quantile Regression)
-/Parent 343 0 R
-/Dest [114 0 R /XYZ 0 261 0]
+<</Title (Limited Dependent Variable Models)
+/Parent 344 0 R
+/Dest [114 0 R /XYZ 0 537 0]
 /Prev 351 0 R
 /Next 353 0 R>>
 endobj
 
 353 0 obj
-<</Title (Advanced Time Series Analysis)
-/Parent 343 0 R
-/Dest [115 0 R /XYZ 0 640 0]
+<</Title (Quantile Regression)
+/Parent 344 0 R
+/Dest [114 0 R /XYZ 0 261 0]
 /Prev 352 0 R
 /Next 354 0 R>>
 endobj
 
 354 0 obj
-<</Title (Multiple Hypothesis Testing)
-/Parent 343 0 R
-/Dest [115 0 R /XYZ 0 458 0]
-/Prev 353 0 R>>
+<</Title (Advanced Time Series Analysis)
+/Parent 344 0 R
+/Dest [115 0 R /XYZ 0 640 0]
+/Prev 353 0 R
+/Next 355 0 R>>
 endobj
 
-343 0 obj
+355 0 obj
+<</Title (Multiple Hypothesis Testing)
+/Parent 344 0 R
+/Dest [115 0 R /XYZ 0 458 0]
+/Prev 354 0 R>>
+endobj
+
+344 0 obj
 <</Title (Analysis Type)
 /Parent 164 0 R
 /Dest [112 0 R /XYZ 0 705 0]
-/Prev 342 0 R
-/First 344 0 R
-/Last 354 0 R
+/Prev 343 0 R
+/First 345 0 R
+/Last 355 0 R
 /Count 11>>
 endobj
 
@@ -1684,55 +1692,55 @@ endobj
 /Dest [111 0 R /XYZ 0 648 0]
 /Prev 163 0 R
 /Next 165 0 R
-/First 342 0 R
-/Last 343 0 R
+/First 343 0 R
+/Last 344 0 R
 /Count 2>>
 endobj
 
-355 0 obj
+356 0 obj
 <</Title (Composite indicators)
 /Parent 165 0 R
 /Dest [117 0 R /XYZ 0 389 0]
-/Next 356 0 R>>
-endobj
-
-356 0 obj
-<</Title (Index for locations)
-/Parent 165 0 R
-/Dest [117 0 R /XYZ 0 282 0]
-/Prev 355 0 R
 /Next 357 0 R>>
 endobj
 
 357 0 obj
-<</Title (Index for Individuals/households)
+<</Title (Index for locations)
 /Parent 165 0 R
-/Dest [117 0 R /XYZ 0 232 0]
+/Dest [117 0 R /XYZ 0 282 0]
 /Prev 356 0 R
 /Next 358 0 R>>
 endobj
 
 358 0 obj
-<</Title (Explore indicator correlations)
+<</Title (Index for Individuals/households)
 /Parent 165 0 R
-/Dest [118 0 R /XYZ 0 705 0]
+/Dest [117 0 R /XYZ 0 232 0]
 /Prev 357 0 R
 /Next 359 0 R>>
 endobj
 
 359 0 obj
-<</Title (Decide how to aggregate indicators)
+<</Title (Explore indicator correlations)
 /Parent 165 0 R
-/Dest [118 0 R /XYZ 0 612 0]
+/Dest [118 0 R /XYZ 0 705 0]
 /Prev 358 0 R
 /Next 360 0 R>>
 endobj
 
 360 0 obj
+<</Title (Decide how to aggregate indicators)
+/Parent 165 0 R
+/Dest [118 0 R /XYZ 0 612 0]
+/Prev 359 0 R
+/Next 361 0 R>>
+endobj
+
+361 0 obj
 <</Title (Assess robustness & sensitivity analysis)
 /Parent 165 0 R
 /Dest [118 0 R /XYZ 0 505 0]
-/Prev 359 0 R>>
+/Prev 360 0 R>>
 endobj
 
 165 0 obj
@@ -1741,105 +1749,89 @@ endobj
 /Dest [117 0 R /XYZ 0 648 0]
 /Prev 164 0 R
 /Next 166 0 R
-/First 355 0 R
-/Last 360 0 R
+/First 356 0 R
+/Last 361 0 R
 /Count 6>>
 endobj
 
-361 0 obj
+362 0 obj
 <</Title (Challenges with Household Survey analysis)
 /Parent 166 0 R
-/Dest [119 0 R /XYZ 0 315 0]
-/Next 362 0 R>>
-endobj
-
-362 0 obj
-<</Title (Data Crunching Automation)
-/Parent 166 0 R
-/Dest [120 0 R /XYZ 0 271 0]
-/Prev 361 0 R
+/Dest [119 0 R /XYZ 0 341 0]
 /Next 363 0 R>>
 endobj
 
-365 0 obj
-<</Title (Import raw data)
-/Parent 363 0 R
-/Dest [121 0 R /XYZ 0 394 0]
-/Next 366 0 R>>
+363 0 obj
+<</Title (Data Crunching Automation)
+/Parent 166 0 R
+/Dest [120 0 R /XYZ 0 271 0]
+/Prev 362 0 R
+/Next 364 0 R>>
 endobj
 
 366 0 obj
-<</Title (Recode & Relabel)
-/Parent 363 0 R
-/Dest [121 0 R /XYZ 0 197 0]
-/Prev 365 0 R
+<</Title (Import raw data)
+/Parent 364 0 R
+/Dest [121 0 R /XYZ 0 394 0]
 /Next 367 0 R>>
 endobj
 
 367 0 obj
-<</Title (Clean records)
-/Parent 363 0 R
-/Dest [122 0 R /XYZ 0 677 0]
+<</Title (Recode & Relabel)
+/Parent 364 0 R
+/Dest [121 0 R /XYZ 0 197 0]
 /Prev 366 0 R
 /Next 368 0 R>>
 endobj
 
 368 0 obj
-<</Title (Reweight dataset according to sampling strategy,)
-/Parent 363 0 R
-/Dest [122 0 R /XYZ 0 559 0]
+<</Title (Clean records)
+/Parent 364 0 R
+/Dest [122 0 R /XYZ 0 677 0]
 /Prev 367 0 R
 /Next 369 0 R>>
 endobj
 
 369 0 obj
-<</Title (Build new indicators from existing variable, etc.)
-/Parent 363 0 R
-/Dest [122 0 R /XYZ 0 442 0]
-/Prev 368 0 R>>
-endobj
-
-363 0 obj
-<</Title (Using KoboloadeR to facilitate reproducibily.)
-/Parent 166 0 R
-/Dest [121 0 R /XYZ 0 473 0]
-/Prev 362 0 R
-/Next 364 0 R
-/First 365 0 R
-/Last 369 0 R
-/Count 5>>
+<</Title (Reweight dataset according to sampling strategy,)
+/Parent 364 0 R
+/Dest [122 0 R /XYZ 0 559 0]
+/Prev 368 0 R
+/Next 370 0 R>>
 endobj
 
 370 0 obj
-<</Title (Advantage of KoboLoadeR)
+<</Title (Build new indicators from existing variable, etc.)
 /Parent 364 0 R
-/Dest [123 0 R /XYZ 0 426 0]
-/Next 371 0 R>>
-endobj
-
-371 0 obj
-<</Title (Output of koboloadeR)
-/Parent 364 0 R
-/Dest [123 0 R /XYZ 0 258 0]
-/Prev 370 0 R
-/Next 372 0 R>>
-endobj
-
-372 0 obj
-<</Title (Collaborative Development)
-/Parent 364 0 R
-/Dest [124 0 R /XYZ 0 705 0]
-/Prev 371 0 R>>
+/Dest [122 0 R /XYZ 0 442 0]
+/Prev 369 0 R>>
 endobj
 
 364 0 obj
+<</Title (Using KoboloadeR to facilitate reproducibily.)
+/Parent 166 0 R
+/Dest [121 0 R /XYZ 0 473 0]
+/Prev 363 0 R
+/Next 365 0 R
+/First 366 0 R
+/Last 370 0 R
+/Count 5>>
+endobj
+
+371 0 obj
+<</Title (Collaborative Development)
+/Parent 365 0 R
+/Dest [123 0 R /XYZ 0 426 0]>>
+endobj
+
+365 0 obj
 <</Title (KoboloadeR)
 /Parent 166 0 R
 /Dest [122 0 R /XYZ 0 187 0]
-/Prev 363 0 R
-/First 370 0 R
-/Last 372 0 R
-/Count 3>>
+/Prev 364 0 R
+/First 371 0 R
+/Last 371 0 R
+/Count 1>>
 endobj
 
 166 0 obj
@@ -1848,22 +1840,30 @@ endobj
 /Dest [119 0 R /XYZ 0 648 0]
 /Prev 165 0 R
 /Next 167 0 R
-/First 361 0 R
-/Last 364 0 R
+/First 362 0 R
+/Last 365 0 R
 /Count 4>>
+endobj
+
+372 0 obj
+<</Title (Workshop preparation: identify patterns)
+/Parent 167 0 R
+/Dest [126 0 R /XYZ 0 705 0]
+/Next 373 0 R>>
 endobj
 
 373 0 obj
 <</Title (Data Disgest Presentation)
 /Parent 167 0 R
-/Dest [126 0 R /XYZ 0 705 0]
+/Dest [126 0 R /XYZ 0 431 0]
+/Prev 372 0 R
 /Next 374 0 R>>
 endobj
 
 374 0 obj
 <</Title (Faciliation & Note taking)
 /Parent 167 0 R
-/Dest [126 0 R /XYZ 0 576 0]
+/Dest [126 0 R /XYZ 0 302 0]
 /Prev 373 0 R
 /Next 375 0 R>>
 endobj
@@ -1871,7 +1871,7 @@ endobj
 375 0 obj
 <</Title (Clearance process)
 /Parent 167 0 R
-/Dest [127 0 R /XYZ 0 705 0]
+/Dest [128 0 R /XYZ 0 705 0]
 /Prev 374 0 R
 /Next 376 0 R>>
 endobj
@@ -1879,14 +1879,14 @@ endobj
 377 0 obj
 <</Title (Confidence intervals:)
 /Parent 376 0 R
-/Dest [128 0 R /XYZ 0 655 0]
+/Dest [129 0 R /XYZ 0 655 0]
 /Next 378 0 R>>
 endobj
 
 378 0 obj
 <</Title (Rounding decimal points:)
 /Parent 376 0 R
-/Dest [128 0 R /XYZ 0 552 0]
+/Dest [129 0 R /XYZ 0 552 0]
 /Prev 377 0 R
 /Next 379 0 R>>
 endobj
@@ -1894,7 +1894,7 @@ endobj
 379 0 obj
 <</Title (Decimal points in the results:)
 /Parent 376 0 R
-/Dest [128 0 R /XYZ 0 449 0]
+/Dest [129 0 R /XYZ 0 449 0]
 /Prev 378 0 R
 /Next 380 0 R>>
 endobj
@@ -1902,7 +1902,7 @@ endobj
 380 0 obj
 <</Title (Missing data or consent not provided:)
 /Parent 376 0 R
-/Dest [128 0 R /XYZ 0 346 0]
+/Dest [129 0 R /XYZ 0 346 0]
 /Prev 379 0 R
 /Next 381 0 R>>
 endobj
@@ -1910,7 +1910,7 @@ endobj
 381 0 obj
 <</Title (Always clean the data first before going into analysis:)
 /Parent 376 0 R
-/Dest [128 0 R /XYZ 0 271 0]
+/Dest [129 0 R /XYZ 0 271 0]
 /Prev 380 0 R
 /Next 382 0 R>>
 endobj
@@ -1918,7 +1918,7 @@ endobj
 382 0 obj
 <</Title (Age variable:)
 /Parent 376 0 R
-/Dest [128 0 R /XYZ 0 183 0]
+/Dest [129 0 R /XYZ 0 183 0]
 /Prev 381 0 R
 /Next 383 0 R>>
 endobj
@@ -1926,14 +1926,14 @@ endobj
 383 0 obj
 <</Title (Reproducible Analysis)
 /Parent 376 0 R
-/Dest [129 0 R /XYZ 0 691 0]
+/Dest [130 0 R /XYZ 0 691 0]
 /Prev 382 0 R>>
 endobj
 
 376 0 obj
 <</Title (Styling guide)
 /Parent 167 0 R
-/Dest [128 0 R /XYZ 0 705 0]
+/Dest [129 0 R /XYZ 0 705 0]
 /Prev 375 0 R
 /First 377 0 R
 /Last 383 0 R
@@ -1946,9 +1946,9 @@ endobj
 /Dest [125 0 R /XYZ 0 648 0]
 /Prev 166 0 R
 /Next 168 0 R
-/First 373 0 R
+/First 372 0 R
 /Last 376 0 R
-/Count 4>>
+/Count 5>>
 endobj
 
 168 0 obj
@@ -2065,10 +2065,8 @@ endobj
 <</Length 393 0 R
 /Filter /FlateDecode>>
 stream
-xœmSËnÛ0¼ó+xîá>IFÛ²€øÜ¦E‘ Hþÿ!eÉv¥áììì.E)ãŠBÉ©ºS\W5I¦" r"+ß‡ço!§Æf‹Å(¾ßÅsK™ÅãëJ–‹c/ÕÊ€vçK²0®À%µÔrÓöŒ9I“;ÌX“.¬«öY@kÅ™É‰†ÖŠyK^
-ÅM]½$ï¬ÍÃ†\Âjuƒ^ÂZÎm½[¥7`Í	{ßºÜh|~XŠ&6¬tð£‹§Rz-¯áéÅéøg
-÷!°
-a’Ò‡€¸„%÷š´dŠç_ái¦ˆG‚ósØ±kÕ“ÌJzüÏÿ‚K7ÙÉ¡3ä”‰eá´Ä¬œk4‚µ~.2iÓ£Z&ÍýmOçn+G«ùˆbkÖ	ÆoÞ“Kr´<bÉ'òSªyÙ"t‚vL¾HhnIká¥-9ßÚBª´g%Ê„Ä$'Š&.&2¼à»;âO@¼£|À=£IxJGIjv|O#ÒyÆÛ	xNùKK*›¥ô*nÇ×Õ¦\ï"ú_ºEå’²y]çKe98c¾˜–Ñ¼=ÒYÞ	Q‘Ä•õAeG{Ôâ{˜Á~‘"G<ØáÞ*«Ì›eÛ¢
+xœmSËnÛ0¼ó+xîá>IFÛ²€øÜ¦E‘ Hþÿ!eÉvÒJÃÙÙá.E)ãŠBÉ©ºS\£š$S 9‘‹ï¿Ãó·Sc³ˆ Ä#Å÷»|n)³x|½ABÉrq¬¥Z¹ÐîœbIÆ¸£–ZnzÃ^‚1'ir‡kÒ…uÕ¾!«h­˜¢29ÑÐZ1oÉK¡¸©«—äµyØKX­nÐKX·³A[ïVéXë_ÂßÞÄ·.7ŸBÑÄ†XA?ºx*¥ïå5<ý 8ý?ÃáŒ!Pá>V!!)}ÈKXr¯IK¦xþžfŠØâ(p~;v­z’YIßãù_0péf);9t†œ2±,œ–˜õsÍF²ÖÏÉEf#mzTË¤¹¿òéÜíoÛ#ÇÑj>²ØÀšu‚1Æ›÷â’-\2Æ‰üTj^–à‡“/
+š[ÒZxiGÎ·¶Ð*íY‰2¡0É	‡¢‰‹‰/øîŽøÀï(pÏhžÒQ’šßÓÈtžñvÞ€SþÒ’Êfi½ŠÛñßuµ)×»Œþ—nY¹¤l^×ùRYÎ˜oÃ &…e4oòc–wBT$qe}PÙÑû&ª}˜Á~‘"G<XáÞ*«ÌœÛª
 endstream
 endobj
 
@@ -8171,25 +8169,24 @@ endobj
 <</Length 907 0 R
 /Filter /FlateDecode>>
 stream
-xœíZKn$ÉÝëZ{Ž ? a@ªÊ:AßÀã1àåÜáÇÈÌR‘Ò´{L]%)?ò‘|dd
-ÿ^ÿùRch¥¤×ó[2‡,ÌøC)×üúË?^~þËK½½â‹+ëuyýåc¼p-Ò4AI¡Õ?ÆKNXˆ³~qæ_S(iµó¢‡Pü±Èûw¬“*é$¬Ëqâ:¯S(ã$…_¿ÿôò×Gz%Ù5ñýç—o”„åÎwé{ýþ¯—Ü°Š˜d—øéå[ŽãIJ¡×bžðCnãÙö}lcRmn*I?—LqZòMRdÎ‘ßå†3½ËÆ˜Ò&?—Œ-é¶¦ÉS)P‘›ù[LqÃÿ??§ÏIá9V˜€7
-O	’ek9DV©ÒaŸ˜Oƒw±
-°´aÕŽïaeü¼eŽInüàM á¶?ŸíÞ%…ÿ¼ÀŸvÿoa …*Îº;êr	¥±)Š°ðß4LÀ®Mæ©#"”–ì ?Âùÿüüúó³?Ç‡phThÇ‡&¼3¤¨E›\Òø®Ñ"&E~ºkÉ·ñ×#^ †ŒOºïHc3o~ŒQ]*~ƒÄˆA›É+ÔSÈ¤8œ7÷GÐóÿÜ¦³B>·)ü¸—žv›&hXÉÄmè¶NÄ§Æ‚Ýf#ÒŸv…ü)ŒuR		Øeþûÿ¼´ø¬äÅâð“á›©=¤AMñ':H½‚;ž9?½§à{Äc.:Xfÿ¦<ž”[§ùAâô8¼òx6-œkH½_²KN3ä>pE@ØÛŽ«˜ö¿"tr(ÝÆS@,ï;M”°£èyî·iGOR\uûkÂ›%ÔÎdÅ±³O¹®`ÙX„4%Wñ³Î"ˆÊÄ’ÈpB~w®›’ð1DPEÄåÜ3#ÅINÅmëÒ«çaYùcóÃ ¥Þ¾ƒü=LPn!æ\ýaÏÙŒÄQ5wBÝÂ¼sfÈ
-¼8EfêAØ'Ÿ]'(›ìƒ<;£ZâZ£Ûf
-Ì&«„&âÄò¬#ÇF!˜. bfê=4ðñ½<4ë%¢R3{Ý%iþ$þäüAÙÜ„^—H¾8ÎŽDÞˆ¨«©VÞ‚O/â^8ŸÚ‹sš!Ï©:™›¦™#¥oI=É¨ãÉËº;TBÍ}º‚€T4qÞôˆù¦œÃf0¸i­Ü­ø 7fV”·{v³jd¨ø_ž&;õUÏÑ‰oG:G
-”bYÜÌÒŒ¨ÏÝÛA±§r@k_N;˜¨ÈEÉKã±]¯µÐã|¡qrI‹‰>Ó¸”°;ñzø4Ì‡¼dšÊ[ì¦[’ÛÙ
-i¡,¡rN¨)ÃQº‡ˆµÎýa¥ÚÎÄ%êb®æÈY¤ˆ¢ºØUD<µbO_4N “t.N4Ñ™Pd,­05»^±r‚_[VAv^6.NÌñÂ	mOØ$	¿°!¾ªqÙ”s±N!3y}ÜõˆüÐàà“Ò°”V.L´w*´Î°Ä€ÁPþ¼~J2£,&ëè5£¾®Â›¨¯<RìáD«ò‚	 B{+úß@<¯.È°f‘‘>LlÎ›•<æ¢XwÊgœ'ÚÆ”Ž€¼ã<Î˜Ë°ö*$ÜïýHÕ”/¡ Œ›ƒKJ)ÅMk]2QÑ>i³Bª>„ç\ V¹(æì|£Ÿ©ÇšõP,Õ¤Ï_gEBt‰¼Î
-kk\‹¡îZ‹ß«§É0º«mUì7›u)µBiþxÍÀ	ÜÅ‰i¯g›â%ÔŠbb¡–g}Vn}4#7§€5t”½y|Îª…	.Ò¼uïÃÅ:H1âî¯á­˜À©žD¹Ó2gÙÛZsDx¨ÝÛÖûÔÓY2›ì}{cZ@ç1~£‹¾#û©™çÁjâAÒ÷¼b¸RL-»–†%ð°=F!¿ñÞÒçŸ€-†Õ"â—Þó[¸çŒ™½NF'Hô@vÞ6®lü6®æE•¥ÉŸëzt¥Û '³Ú%h§E#ÖI•1/úx¦Ê¼_¾Ø (I‹[¯•¥ÀÉQÜ]hdŽh"E¹Öºf\N
-òô ,fI-ÎFÜÀi;QßºÂ*(7ÍIÕ6E!¤©.Œ¤+jcÑB-;¡æÂ4žåeMøÄ\ØäµŸ8¢’¬rE^6µš	µO_7öìÝ+M ‡'¶æ·ÉGmu†F
-²„F¶q4®-[¼àfÁ“üÏjßDmäBZ6¦72Km zëç°-¦ÈgDÌVý€tK>93Ñœ™‘#Wm‰¶»Å}BÈ-‹>îûý’+@¿yÙ›Þ€v–V3U›Aj	¼BØ†J­’›Þ›Y¡gµ²Dì§!MÆzÜ³]—¸—M(aÙñ×›P­§hÅ¥	EÈmn “O …á³±YÁ½"0»!jºù~{;“›ZÞšu}NÒö¥œØâ¹éÝøR×^¦ØAOªé»B:“ëJÒ²Ç,IgªÄ:^Ý±¯3;oÄ‰´œØTý(§¢¾v`…4‹!°˜Ø=˜–®dMòJ'×wBjðX¸‚5-ØSï›KM°K”ê÷é"´ä*¸ž³ÄZ­	(
-üÕÛùÇËÈ¬µípÜß×j§ŸRC §–¯‚¶ÿ
-|ÃÈjZ¥.é:‘^¾d²âôîØG0„"~Ö+îyhÙ¢Y´¶ ÂÍ	¸vê··ß¢ BÒ¯Ììf^“0’p$¿…ÿ SQJGâ=·ƒï)ÓÙ\ß 	¢$¿ê}PpdV-(ÓPÓ×m’øm^Ö†\²ª­;áëÚPýqÔÏìkCA‚'8 «£hGÀ‹Zõ¸¶Yì]<ZNÕF8Ç[wP‰·ã¥«¤E5ïm×ßV0š‚õKJl§ü<–‚°SŠÿ"jË+&5¿Û²-ÚáÀHFNÈ”ÇB
-¥­Ë›¶öØª8¡Ç©n—#3é]÷ ”Ù3--ýðÜÕøMÅïÙßË˜â„¥Ñ‚ÂuöIP¨×ÉöaG}_›ÓÔU®õ6»èÞdj>ì;îª5ãXJ¨d¶qóFrÞ2:v¾rú¸i¤%ÔâR÷Wæ¤¼\»VÐÒË§¤ù\Ÿ-ªýJïÓ^(Æ´Gæñæƒþ¦YD[mi€RCËè3îaà59 þrr2ìÞç½ñÒÖš÷þwÙ'A”ÜÀÜ§f¾006–½§Ù˜(ã8k'á(D³¹ÔL§fä¹û~¶£¥˜ž>…,˜½ÇðØ„öZÛ1ê}hiŒßßH»`ßIs'žÆQ+•q£¬OúþÃ¯·¨˜zŒÙô˜ø}æé~uØ¤	0—¯;‹¨XVÝÖCÂJþªR9·^ÎíOJÚéxM:Ž1º±ˆèX‰Whn#5=ÞÞ`ÎÇãŠ]Ë°·'¡§ª'¼ˆE.µ¡oüå³ºÖ†éãbúýÛ·ê­>nã%€Óô÷£Ñq¾®ân¤>4˜»¶KµtØ/»óÛ<ó°tªºÔ×YÆ³³ÞçAg}j3zP¥µœÁžQ{ç8<Ü½Qiî\5_·XüþöÆü'í4ØY§yþþsþ
+xœíZËŽ%·Ý÷Wô:E"©0Ð÷õóv KÿÿÂ‡ªªÛ"UÝN2f€¹·»‹zñyU)Dü{ý×K¡•’^oÉ²0ã1¤\óë¯ÿ|ùåo/1ôNôŠ/®¬_Ôåõ×÷ñB—
+¿OPRh5Ç÷ñ’â¬_œù›Ç×JB¨!
+qÅÀï‹\¾bTI a]Ž×yB'Á_~ùû#½bÆ¡‰¯¿¼|¡$,7¾IÿÇë×¿ä†PÄ$›ÄÏ/_rOR
+½ó„rÏî_Ç6&ÕæF¡’ôcÉ§%ßä!EîÂ9òE®8ÓEîüˆ)Ý¥áç’±%ÝÖ4y**r3‰)ÞñÿÇç_ô9)<Ç
+“ÁáÂS‚d™ÄZ‘UªtØ'æÃàÝ¹X…³´aÕŽïaeü|Ï“\ùÁwyÀ	ïÛóÙî]BÉ”Ì?ìþßòª8ën>PÏ| —PË¢?`ñ»¦	ØµÉ<ubd„Ò’ô=œÿÇççŸ§þ1ñcÿ
+mþ¡ï( ©jÑTd”4¾i¶ˆI=
+?Ý4‹äëøëž/CÆ'Ý6OcÍ3o~ŒQ]*~ƒÄÈAwSW¨§IýpÞÜ÷ çÿ¹Mg…|lSÄq/=m6MÐ°‚‰ëÐÿlˆOÍ›ÍF¦?ì
+ù9Së¤&°Ë|ûÿ<µø¬äÅâOh‡`ÅõÚõÊi˜Í‹Ÿ€¬OŠƒu1d?ëÿçM~€»Yí‹É‘‡ez©=¤ÁF
+âž*mÆ§WÐ…Ãöé’î›¸è`™S:åñ¤„Ø:Í§Çþp§û³ia¡Ð“Ð™×qÒ2¡^¦÷¶¥’˜¶¿Â»úcN#1Ý7ÅïÛN%ì(zjs÷ïç^q.Î'gV\”P;“ÇÎ>¤7‚=pd;`RVÅÏ:‹ Kv"#ïò%Þ€³¯Ê»ÆqŒË¹gôMš@QÝ¶Nù<,+eh~´4*zÃÀðþÃÔábÎÕöœÁðØZ¨¹êæ3ƒ7ÔÞ½"v3õ ìñÆ¦0eû ÏÃ È\ktÛìð³É*¡‰8±<ëˆA«"¥tâ"f¦ÞC;ÑËCŽQ"èšÙëf(qGZˆ'ñ'çw”î&láGòÉ9pv`·îDDCMµòf<øE¥ÚíÅYP(xæd®Š,vw?ÁqIFë†ì°¬™¡»C¥š‹zÐG+¸€5ðŠ&nÀ›1_fZÐ‚0­•»xÖÌZJèÜ³›U3CÅÿò4Ù  Ô=G'~ß7Gp$<‹eQp3K3
+=woõ=M”Ãµ¶¥DÑ…ƒÉŠ\4¼±4ÛõZ}1Î'WG.i1ÑG—RÖ`'^÷˜†ùP—lP³ñò${ƒé–äzt¿Z(KªœjÊ”î]ÄZçéýê`JGJb‰u±Ý¯÷~Øì²—"ŠvèbW-E°¸{Æ¢	Ht.N4ÑPd,­njv½úÊáüÚ¥Ôdæeâ”,$9Ml³mê– ñ‹òk¡—M¹ë2“×ÇMÈM¾¸ KiåÄD[sJ©¥„‚ôçõ³C’ÙËbŸŠ^3ë*|7îTœO±‡A­Ê‹OÀ#´¦ÿ‹Ú×Å3¬Y¤G”Å'î.š•/ä¢¾î”ÏrÆ8ÃV²uŸ‘7?³Ï p°¶§$Âï²—jÊ§® ).7†”RŠ›Ö†d¢¢­ñf…T}H3.¸ ­rQŸ³ó¶kÖw?®I3ž>¯Š„ì«â:#¬ZŒÔRkñ{µÎi*Lƒîj[;ÒÍÝ†”Z¡4¼æÇ‰›?˜¶÷îS¾„ZA&hy´€Êmfäæ°–‘êÐ›WÀÇ¨Z¤!7oÝÛ°A±’Œ¸ûãÓ`¬o.’(wZæ,Û]†D£Ö‘j÷¶õ1õÀ.(àÞ´pÇøNZ©Œê§fž«‰HßêŠÁJ @µiJ7,KÀa[Ž6B~ã	¸lÎ/>9z´>¬¿ôVGØº{Î˜Ùëd4ÿDdçmã–Îoãl^°,µHþX×ã"¢p2«sØ UDÄ¼èãY*óvßf €Ó¤îµ²pœäîD#sF)ŠµÖ4rRP§`1K*9yg8NÛ»9Å¸ôÓWä±îCÇùŒs ¥©.Œ¤#µ±(QËN¨¹4MæeMÄÄLlòÚBYÉ:¬bE^6µÍîÓ×½{ö•&‘#[óÛä[©‘‚,©‘mÞŒkËO°Ygà$¿Åƒí›¬ZHËÆôná¢½~ñá¶Å|FÆleÑ@·ä3}‚™5rÕ–h·¸[¿OH¹eÑÇm»RtÄ$”—M±éˆ`giõàa¦j+H-W¶©RYrÓnšz²•%c?#(DLŸPÜÓ&ø6àoû†&Të)ZñßiBj› ÄäHaÄllVpc&‚`7dM7ßŸoG`2ø&r•]××$m?QÊÙ‰-‘›.&–ºö2ÅzBMßÒ™\Wªh]’ªÀ:ž½V±Îì¢O$ÒrbÃúA§¢¾ib…´Š!±˜Ü=–®dMòJ'×wB¡õ¾pûÀ×”°§Þ½GÜ]i‚]¢T¿O—¡%·Põœ%V¶&€(ˆWoço§‘Y¹­î_lµgœÖ¼ušN’¶ÿŠÆÆ,3 i•º”ëDzß–ÉŠÓÅ¡$@Eü¬gÜ5SÑ²E³hmA„›yíÐooFA„¢_™ÙÍ¼a"áH~ SA¥#ñ‰žÛŽ÷éÜ]ß ¢$¿êm@pTV-(ÓPÓ7¬’ømžrC.YÕÖð97Ô8Dõ3{n((ð„ tbup€¶'¼¨¬ÇµÍbïâ½åPmDp|³u”xÛßó9-ZY*×gçáFCxP6Sb;åÇu°¤R¬ø'uP[^1©ùÝ–-iG £9!x¦<P(•h]Þ´Í°ÇVÅ	=u»™I_oxú  eöHK©ž;ŽßÐTüžý½Œ!',5ˆ
+3htÖÙøêuò­}ØÁïksš:ãàÊ—°ÙE÷¦ÚPˆaØñz‚V	Ì6nÞH.ZF‡ÀÎWŽ7´Ž!þ u»ŸâríXA/Ÿ©5=[TÛ•Þ5¦(Æ´eæñ²‹þ¦UD[mi8¥¦–ÑgÜÒÀ>j
+ üåÀdØ½¯{ã=½#-4ýÙ&A–Üð!¹MÍ}÷cøØXö–fc‚$Æq<Øk'¢Ù\j¦C³êÜm;ÛÞRLÏ˜BÌ>bxlB{­muZã·—OÐwÒÚ‰§qp¥2n”õIß^[éõÕ§c6=&~Ÿ“yº6ºHïŸv!@±¬º­ï‡„•üU¥rn½ÛŸ”´Á-àš´ctc''¢}%ÞßšºŽ26^èØìÏùx\±+{{zªzÂ“\´»Â©6Q8xÐ¹6ŒLÓoß¾Uoõq/¦¿íŽÛó%w#õ®ÁÜµ]ªÔa»ìÎoóÌÃ.Ð©êRß`Ï¾ÏÎúÒfô Jk9ƒe‚{ç8²€{‰ÖÜ¹*\m±ùííù%
+NÚi°³Nóü’Ùæ
 endstream
 endobj
 
 907 0 obj
-2705
+2744
 endobj
 
 107 0 obj
@@ -8203,7 +8200,7 @@ endobj
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [908 0 R 909 0 R 910 0 R 911 0 R 912 0 R]>>
+/Annots [908 0 R 909 0 R 910 0 R 911 0 R 912 0 R 913 0 R]>>
 endobj
 
 908 0 obj
@@ -8247,7 +8244,15 @@ endobj
 endobj
 
 913 0 obj
-<</Length 914 0 R
+<</Type /Annot
+/Rect [70.8661 514.8807 524.4094 526.8807]
+/Border [0 0 0]
+/Subtype /Link
+/Dest [109 0 R /XYZ 0 407 0]>>
+endobj
+
+914 0 obj
+<</Length 915 0 R
 /Filter /FlateDecode>>
 stream
 xœWËŽ#7¼û+|ÎA+Š¤À €Ç Ç óI6@€ Èþÿ!EuG¤ggw3€ÇínRâ£ª¨¦”ñwüóÐrêµÒñõ[”“
@@ -8260,7 +8265,7 @@ xœWËŽ#7¼û+|ÎA+Š¤À €Ç Ç óI6@€ Èþÿ!EuG¤ggw3€ÇínRâ£ª¨¦”ñwüóÐrêµÒñõ[”“
 endstream
 endobj
 
-914 0 obj
+915 0 obj
 1316
 endobj
 
@@ -8268,19 +8273,19 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 913 0 R
+/Contents 914 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
-/XObject <</I25 916 0 R>>
+/XObject <</I25 917 0 R>>
 /ProcSet [/PDF /Text /ImageC]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [915 0 R]>>
+/Annots [916 0 R]>>
 endobj
 
-915 0 obj
+916 0 obj
 <</Type /Annot
 /Rect [227.0692 176.8432 249.9192 188.8432]
 /Border [0 0 0]
@@ -8290,28 +8295,38 @@ endobj
 /URI (https://en.wikipedia.org/wiki/Multiple_correspondence_analysis)>>>>
 endobj
 
-917 0 obj
-<</Length 918 0 R
+918 0 obj
+<</Length 919 0 R
 /Filter /FlateDecode>>
 stream
-xœ•WËn#9¼û+|ÞƒF|H”€` »_OØö8ÿØ’:q$vâ`´Û%’*±HŠBÄßõß‹ÅPr¦ëû»&	IEðE”,]ÿsùõ×åþzÁgãtUoBb×ß&r¢$¾¾þ}ù±ó•òáäõ×å…²ˆïRdÅï…ïÒ¾ÝT"ÉÂ;o²ó*ÛñûÏëë—íµ;âÌ™ƒT¢Ã	])~8R–}XXjà¢ó¢—´è¢«nŽb	%²6ìz\ƒ$¸›Uã’j-´¹à(e0™ê“»<9	ÜãT©ˆ[à@)àñ Më"¨ZdÇiì8¡1NVœÌƒýv8Çbò°¢»šÀr#}€ÒËè“B4’µŒMÕ)ª:æŠ¤pJùDÒÊj6ª` ø2B«’ä¡3ŸS •tæSoýŒ"Ú1åTk°Jn	à.«ò4¡ùXeéV—ÁÄvâá¡1éƒhí‰˜)ø»5‡²Ç1¶o…Žƒ;úTè	¢n)´Aì¤\„¾r2	Ö×¥ÌQ32çPàÒâÖÑQØ”N6¼ˆKÈ‘³t¨)X‰ÕÃ@ëªiæŒ*QÙø­)æ##l¢jK¿fl[“Íä>A,Xa;þm*~e~§ =_K'mçz¦r‚š©Ø‰èâ´,%Ÿâk¥dÊea	”?Ù«²£ˆ‹/Ñ…+áÛë{ª´ßd’?Ê“·ù}"KŒBMÕÇüQ¬­xng”,´¼ý&á°
-1ªqE„6j„°ñ‘K#´@æ™\|ñˆŽCÑ™3iÎ²6¥Ž¤$È
-ÍWŸœÏC¼ˆ‘È›¹Q­q,¨=¡rõî­,NZm‰L­×äY­†ê”¢¶F`xr³ìä¨R<wrT[Ek5ÀY­îHµÎLNÀ^ß}ß” œ=´NñqÒPØÓS ì‰ãødô£,ì¸~$ ½¤ä­ž›<vŠñÍõ¤,…ÈÉCeMÕÀ œÄó‹½3ˆá|æQIBáè¡Nz¨,ÅÐ¿ßHë¼•³‡~TèI÷eÂš"æüùRWSÛZcëC<h9èN©¯AŸÜ5bá€¦T¨½ÖÊÉ—Ö˜¶I“$LsvÀ“Æ0
-äšËëkå.O…”
-be‹ÎæÚ#Ö–Ç¸&ô:2¦g%;ë<~¶‰"ö¶Ÿ¶|î·3gÙM¿”á¼<em8š¸nCmqGágIÁ˜ˆfä@¾žKê¿:ú¹Êsß)h0zr<Í½9ŠLüÆ±b<.VÙ|;œ‚š[«ðSCA™£ê2Šc?Ì#Þ[§ªAq÷€Gò¶­¨@m-móuåæHœ0*¥OçÈ›H› »9$—2)—Ç—EjmIŒ´˜<¹³¸`bhnß¾]%1òöW¦c"åv½½÷UUŸ€è×ÓMÖO6‚Ò1|VÊ
-+K·3z‰xm³ïá»_fßã~œŒG/m*Ö~»Ã@‚‹(J˜ê¬Èµ¤(¼Ãœ½µmdqÂ&bV6;Z´y'>îÍƒÕ4	_‰6á_ˆpY°ébÆH¤Ùê`çKqã
+xœ•YÉnc9¼û+tž‡¹p
+XÛøfz€9öÿ&’OV1“²ÝS€d[
+’ùr‰ŒdQÊøwúÏ[Ë©×J§ÏŸZ$Á9Qiåô×¿ßþüÇÛùã7.§œX…ðCHÚé¯ß[ÔD/|úø×Û?ï|¢zòñçÛ/ª"Òø.]®ømàgç³Ø§7•Lrá;ßäÎW¹ßÿqúøïÛíc¼ØY+'DÇ!t¢üû!e¹/ûHÜÕ/úU.zÑ«Þåžzæ 4Üõ}òHRpœÍ+HF£GÐ-G¥Â“ex˜œµãU‹àx¼ÖƒSégJxEÐMÇ
+"hô ºÈÑ¸#B«¬š¸´ŽÃ5§’K„u½kìlN_à‚ôj	ô'…(i¦ ²ŒÁžpÔtÑÐ5W¤ô„(ÕÍIT[µEÐ€,â—:4‘”õþÔ\©”ÝŸú>ßáQX»¦œêHmPX‚ œåª¼§Ó¢­r™»^J†'n›žõ¢ðG.útjíœ‰˜)ü÷nÊ=¯¶ýXèÈ1G/½ ¨-…n(öJ¹}QÊ¥IjsÝ^Êœµ"sŽ
+¼˜ÝºnC4JÝ±ˆ{ª™k mu¨%µžG„Á­W-+°V°Äà Åßz’Þ¢e„‡jé…­¥ùrv–Z•h¡…ÿæ
+ß2o—’P{Ñ>K'µ¸Á=ŽN@¡•zÛÝC-K¯›}F%.—…%Q-üÍ³Š ;ºû
+=@ ®‚OOŸ©bß‰+ÐS´×b~vÎ’Fi”mþÊšAÖ­Gßz?(µdyûCÂalÔhã6,àáhã3—VhG™W
+öåÃ:N]½ÏÄ«j•º:¥ ¬Ð|õ›ø<‹¶Áyl·Vk^©Ü“¸àl´èjÕ:˜¶ÉÉ¾ZØ©ä ´FÐðª¶s(G•à¹‡ÈÑ0F3»Ž×µ&pò{ì›’”k„gMCÑ‰£{:€3q‚?ý¨
+‡¡	œÞK‰»îÍ%¼ÚfããhWYŠ"§=*Ë±AC© ß[Ø[éí ÆáÞJ’:ç¥féøç±Î;¸Fèo†vußAÍ*ÂçÏ—uåÚÖ5×XŸÅƒ–ƒîTæôÉ»f¬"È¥z÷6£“.Ö˜n®&I(5­5 ·ƒ¨£v›5ftW‘R‡­ÜrØó:‡­–Ç&¬éi¦äÆáŒ«—Ÿ¦(QÄqïo[>Ïé¢µ°sP¿.C¼¢ËL9_›¨í!QK
+d"šQ E>—2¿î?t¨ú¾ÓÑ±év°Ó½(rLþá`…<îmgóûq(\ónï
+hŽFÈ(Î3˜‡½ïÓU‚æ€gòZ‡V0­¥›Wþ/‰ƒ)¨¼Ô‘ï"¦ çvH*îÝU†Ç†Eêjƒ$$-”'›˜Å€	ÑlŸ>FIHÞùÎt(R¶ôèû\5¤á/ æxz“ë‹‡F	åß„•rÅ.—¹ÏzJÆ»ißãì9Ì~ÚüªŒ_"èâe€êáEÓ| ÃÄõañûMÛ7ÕmºJmœEË+©°9Žû)»%¿fZ\-ÄÐG>§QC¯a§{“â¤¹{\d›:ÑÍãµ$mÐÄ¾„ëÞBnóðe’¶Ôv,›G)›ÍQ%2ftLòºíì™•!—Ç`!‚ÄÌNð‡£ñ±S¡x¬#0BçÎ1N×9·Xí¥ïü,ðlã‡eødÖ|Í~ö­‡8ÙýêFY™TÑ:Œ“½dó¨[fÝ'õøö£v³hˆÐÃé&™ÂÀÆuOm1Y8tfó
+¾w§øyŒ±‡÷eqª‰ªÞ_§€é™n»¢päaPÛ¦H1‹ÒcpQ")àÌIþÌ/ó¿vl¬}3ñ«›$0~ãs°v>¬¦ŽÏj²Äó9—–|Î‰·nò+Ñ¹Í»Š>S”BIšÅ”—ƒI¡/Ê°	·n^æð€óhð´w»A²o·,v¥ÑhŸ»æÍJ7,È'hÜü÷Ã¢ívQ~H5TduŒÝ½žã\ØïUr£ÅbèÛ/íœES× ÷ãÈ¸xY®[Ð')<˜)Ü¬`ìag+ØçúKPè8)ì¿12l…Úàûä
+üa‰9§Ç­¿¡0ù²Û.?³Xú8ÕÍéŒyBl~î±«œ){mˆRu@%m1ÚT¨bìbˆÕè˜GÊÏw9ä»KüœŠÆx}‘
+AŒ²Šqò pXé[„âdäö{ÖÑ
+¦d‹É×Ý>ñŸYMª­éâ1Ógûœ‘iŠWZáõwûžßBß}ž4ÿ¶÷Ù·àÔû\;>/W_wa·»kŒó^õÜ3cØ„Fž*MNcQxZ9Cñµ‡G0¿¨@'‰¯âR­µã@ì¦+?ÿÇdÙµ¸Ñ­Ôssø_DðMsÒ„1Bø]—}þ~·
+
 endstream
 endobj
 
-918 0 obj
-1221
+919 0 obj
+1867
 endobj
 
 109 0 obj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 917 0 R
+/Contents 918 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
@@ -8321,15 +8336,15 @@ endobj
 /CS [/ICCBased 394 0 R]>>>>
 endobj
 
-919 0 obj
-<</Length 920 0 R
+920 0 obj
+<</Length 921 0 R
 /Filter /FlateDecode>>
 stream
 xœ    
 endstream
 endobj
 
-920 0 obj
+921 0 obj
 8
 endobj
 
@@ -8337,14 +8352,14 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 919 0 R
+/Contents 920 0 R
 /Resources <</ProcSet [/PDF]>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>>>
 endobj
 
-921 0 obj
-<</Length 922 0 R
+922 0 obj
+<</Length 923 0 R
 /Filter /FlateDecode>>
 stream
 xœíZKr#7ÝûZgÁ øAÕTªôiÀ7H2©Ê2÷_älY$»mO2™‰S‘]nÉ- d_*8ŸÃoOÙ»’R8Ü^%²‹ÂŒÞ…˜ãá_Ÿ>ÿðä*Ñ/œÙ^HåðÇŸ|!ñ]@
@@ -8359,7 +8374,7 @@ $a»H]góT÷_¹N}K)(2enLÌ9!J”‰¬ÙêÌæýˆW™ç·ò’?
 endstream
 endobj
 
-922 0 obj
+923 0 obj
 1574
 endobj
 
@@ -8367,17 +8382,17 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 921 0 R
+/Contents 922 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R>>
 /ProcSet [/PDF /Text]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [923 0 R 924 0 R 925 0 R 926 0 R 927 0 R 928 0 R 929 0 R 930 0 R 931 0 R 932 0 R 933 0 R 934 0 R 935 0 R 936 0 R 937 0 R 938 0 R 939 0 R 940 0 R 941 0 R 942 0 R 943 0 R 944 0 R 945 0 R 946 0 R]>>
+/Annots [924 0 R 925 0 R 926 0 R 927 0 R 928 0 R 929 0 R 930 0 R 931 0 R 932 0 R 933 0 R 934 0 R 935 0 R 936 0 R 937 0 R 938 0 R 939 0 R 940 0 R 941 0 R 942 0 R 943 0 R 944 0 R 945 0 R 946 0 R 947 0 R]>>
 endobj
 
-923 0 obj
+924 0 obj
 <</Type /Annot
 /Rect [70.8661 580.5949 524.4094 592.5949]
 /Border [0 0 0]
@@ -8385,7 +8400,7 @@ endobj
 /Dest [111 0 R /XYZ 0 305 0]>>
 endobj
 
-924 0 obj
+925 0 obj
 <</Type /Annot
 /Rect [70.8661 566.3092 524.4094 578.3092]
 /Border [0 0 0]
@@ -8393,7 +8408,7 @@ endobj
 /Dest [112 0 R /XYZ 0 705 0]>>
 endobj
 
-925 0 obj
+926 0 obj
 <</Type /Annot
 /Rect [85.0394 553.3378 366.7474 564.1378]
 /Border [0 0 0]
@@ -8401,7 +8416,7 @@ endobj
 /Dest [112 0 R /XYZ 0 655 0]>>
 endobj
 
-926 0 obj
+927 0 obj
 <</Type /Annot
 /Rect [366.7474 553.3378 524.4094 564.1378]
 /Border [0 0 0]
@@ -8411,7 +8426,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/ols.pdf)>>>>
 endobj
 
-927 0 obj
+928 0 obj
 <</Type /Annot
 /Rect [85.0394 540.4807 374.1004 551.2807]
 /Border [0 0 0]
@@ -8419,7 +8434,7 @@ endobj
 /Dest [112 0 R /XYZ 0 458 0]>>
 endobj
 
-928 0 obj
+929 0 obj
 <</Type /Annot
 /Rect [374.1004 540.4807 524.4094 551.2807]
 /Border [0 0 0]
@@ -8429,7 +8444,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/functionalform.pdf)>>>>
 endobj
 
-929 0 obj
+930 0 obj
 <</Type /Annot
 /Rect [85.0394 527.6235 363.2824 538.4235]
 /Border [0 0 0]
@@ -8437,7 +8452,7 @@ endobj
 /Dest [112 0 R /XYZ 0 319 0]>>
 endobj
 
-930 0 obj
+931 0 obj
 <</Type /Annot
 /Rect [363.2824 527.6235 524.4094 538.4235]
 /Border [0 0 0]
@@ -8447,7 +8462,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/heteroscedasticity.pdf)>>>>
 endobj
 
-931 0 obj
+932 0 obj
 <</Type /Annot
 /Rect [85.0394 514.7664 397.2214 525.5664]
 /Border [0 0 0]
@@ -8455,7 +8470,7 @@ endobj
 /Dest [112 0 R /XYZ 0 165 0]>>
 endobj
 
-932 0 obj
+933 0 obj
 <</Type /Annot
 /Rect [397.2214 514.7664 524.4094 525.5664]
 /Border [0 0 0]
@@ -8465,7 +8480,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/clustering.pdf)>>>>
 endobj
 
-933 0 obj
+934 0 obj
 <</Type /Annot
 /Rect [85.0394 501.9092 426.3724 512.7092]
 /Border [0 0 0]
@@ -8473,7 +8488,7 @@ endobj
 /Dest [113 0 R /XYZ 0 583 0]>>
 endobj
 
-934 0 obj
+935 0 obj
 <</Type /Annot
 /Rect [426.3724 501.9092 524.4094 512.7092]
 /Border [0 0 0]
@@ -8483,7 +8498,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/iv.pdf)>>>>
 endobj
 
-935 0 obj
+936 0 obj
 <</Type /Annot
 /Rect [85.0394 489.0521 367.3684 499.8521]
 /Border [0 0 0]
@@ -8491,7 +8506,7 @@ endobj
 /Dest [113 0 R /XYZ 0 372 0]>>
 endobj
 
-936 0 obj
+937 0 obj
 <</Type /Annot
 /Rect [367.3684 489.0521 524.4094 499.8521]
 /Border [0 0 0]
@@ -8501,7 +8516,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/panel.pdf)>>>>
 endobj
 
-937 0 obj
+938 0 obj
 <</Type /Annot
 /Rect [85.0394 476.1949 419.0554 486.9949]
 /Border [0 0 0]
@@ -8509,7 +8524,7 @@ endobj
 /Dest [114 0 R /XYZ 0 705 0]>>
 endobj
 
-938 0 obj
+939 0 obj
 <</Type /Annot
 /Rect [419.0554 476.1949 524.4094 486.9949]
 /Border [0 0 0]
@@ -8519,7 +8534,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/binaryresponse.pdf)>>>>
 endobj
 
-939 0 obj
+940 0 obj
 <</Type /Annot
 /Rect [85.0394 463.3378 374.5414 474.1378]
 /Border [0 0 0]
@@ -8527,7 +8542,7 @@ endobj
 /Dest [114 0 R /XYZ 0 537 0]>>
 endobj
 
-940 0 obj
+941 0 obj
 <</Type /Annot
 /Rect [374.5414 463.3378 524.4094 474.1378]
 /Border [0 0 0]
@@ -8537,7 +8552,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/limiteddependent2up.pdf)>>>>
 endobj
 
-941 0 obj
+942 0 obj
 <</Type /Annot
 /Rect [85.0394 450.4807 524.4094 461.2807]
 /Border [0 0 0]
@@ -8545,7 +8560,7 @@ endobj
 /Dest [114 0 R /XYZ 0 261 0]>>
 endobj
 
-942 0 obj
+943 0 obj
 <</Type /Annot
 /Rect [85.0394 437.6235 394.7554 448.4235]
 /Border [0 0 0]
@@ -8553,7 +8568,7 @@ endobj
 /Dest [115 0 R /XYZ 0 640 0]>>
 endobj
 
-943 0 obj
+944 0 obj
 <</Type /Annot
 /Rect [394.7554 437.6235 524.4094 448.4235]
 /Border [0 0 0]
@@ -8563,7 +8578,7 @@ endobj
 /URI (https://www.otexts.org/fpp/8)>>>>
 endobj
 
-944 0 obj
+945 0 obj
 <</Type /Annot
 /Rect [85.0394 424.7664 406.1764 435.5664]
 /Border [0 0 0]
@@ -8571,7 +8586,7 @@ endobj
 /Dest [115 0 R /XYZ 0 458 0]>>
 endobj
 
-945 0 obj
+946 0 obj
 <</Type /Annot
 /Rect [406.1764 424.7664 524.4094 435.5664]
 /Border [0 0 0]
@@ -8581,7 +8596,7 @@ endobj
 /URI (http://www.stat.berkeley.edu/~mgoldman/Section0402.pdf)>>>>
 endobj
 
-946 0 obj
+947 0 obj
 <</Type /Annot
 /Rect [306.8524 241.5681 386.6820 253.5681]
 /Border [0 0 0]
@@ -8591,8 +8606,8 @@ endobj
 /URI (https://en.wikipedia.org/wiki/Logistic_regression)>>>>
 endobj
 
-947 0 obj
-<</Length 948 0 R
+948 0 obj
+<</Length 949 0 R
 /Filter /FlateDecode>>
 stream
 xœµZKŽ$7Ý×)j=‹ñ£P0ßô<`–¾ÿb™YA**³«¶aw¹LIùH>RAKÂ_ïÿ}«ii¥ÐûýOÍ²dÁ/ÒB¹æ÷¿ÿóö×¿ÞŽ?Þðß•ó{ZX…ð‡Ô÷¿?·(­,*•ßüùöï+¿sZùñ×Û‰4>JÁÎgÁ?‰8ÿñþão­-½Cè.ûçÛd|ÿ÷òc=8uµ«TÁ…¨¹ƒ¥/MZ½Låó`ÎÂ|MD¹J‘?H¿1E_¡Ö	ê_q¡þ}*vicUç~W¶êlÌVˆ—¤ZÖ£é6wR–í=Z_87u‹>´êU‹^Tô ÅÉ—¥õTÂQnsÔÓVŽ+‰[>ÉUiüûŒ¿E»¶Í"N´HÊiR©ÃRPk+*ìE¡D“ËVLÛ’JÏaGÁÏ[±ütªa7ÓÒ,Q±ïeÒVR[pùö¾Ž‹5¥­¨È¢ÑAØï$—a>/ËvAå¥Ô&ÑÖÃÎPj+Ú3°?¹å¬GN±[lÄ,8Á1i½/-yôó‰»¤Ô·;äº¤6yIü1%ã“.¸óUN°fY1°Y’â¦öÈK€íë¹×¥æÖ	vY¸ÞN.Ây`É™Û lè7…†0øvSRèØ`=/h×êŸT X`$/(AÔÒ’ÄNGžjø§BÓ‹ž,Mé9y`+€í–rq&@¶A:¬ýþGÄlÑ[¸hj9´ÏWÛ
@@ -8614,7 +8629,7 @@ Oyï[n‡`8­<ì¤Êžæõ!qJ…/w©Œ ,9He6pT0:PAâ±Þ¿³ŸÔÖA5¾7ö°Zò{œý—¥¸]³qÛöª®'ü ò­
 endstream
 endobj
 
-948 0 obj
+949 0 obj
 3291
 endobj
 
@@ -8622,7 +8637,7 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 947 0 R
+/Contents 948 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
@@ -8630,10 +8645,10 @@ endobj
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [949 0 R 950 0 R 951 0 R 952 0 R]>>
+/Annots [950 0 R 951 0 R 952 0 R 953 0 R]>>
 endobj
 
-949 0 obj
+950 0 obj
 <</Type /Annot
 /Rect [70.8661 636.4307 341.2261 655.6307]
 /Border [0 0 0]
@@ -8643,7 +8658,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/ols.pdf)>>>>
 endobj
 
-950 0 obj
+951 0 obj
 <</Type /Annot
 /Rect [70.8661 439.8646 328.0661 459.0646]
 /Border [0 0 0]
@@ -8653,7 +8668,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/functionalform.pdf)>>>>
 endobj
 
-951 0 obj
+952 0 obj
 <</Type /Annot
 /Rect [70.8661 300.4413 348.2661 319.6413]
 /Border [0 0 0]
@@ -8663,7 +8678,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/heteroscedasticity.pdf)>>>>
 endobj
 
-952 0 obj
+953 0 obj
 <</Type /Annot
 /Rect [70.8661 146.7324 285.7861 165.9324]
 /Border [0 0 0]
@@ -8673,8 +8688,8 @@ endobj
 /URI (http://schmidheiny.name/teaching/clustering.pdf)>>>>
 endobj
 
-953 0 obj
-<</Length 954 0 R
+954 0 obj
+<</Length 955 0 R
 /Filter /FlateDecode>>
 stream
 xœµ\KŽ$¹Ý÷)zíEŒDê4TeVž `/}ÿ…‘QÁ§ÈÌ*¦1Ó)J¢ø}¤—€~þãGK+%þ¼ÿž².9©â„%æšþëï?þüË÷ß?¹È’ch?ÿíÇ·ø3†uÃßþø¥·tÁ¯ž.ýùûŸ?>~Ûâ^–&-¹…¿ÒÇ ­éz Œ’—”CaÒÔDZ—¥y"½èíH”ãRc´“àÐõàž®zÕ›~è{ºâÕ##"iÑ\…ÎxOM?ŽdI—’z&²«	 ¡T°äÃN9.ê²¤«_”cR°S;«è‚ŸtºG7¸¥7'>ÍeQ%ý"mhiKïM‰<“È{*àÚsœb\¢²ZpÍ®›@¯Á-Éa©•$%9¢–R&%]!…y¯–:Xè¬V²hëi’¬˜„Ÿ–ß‘ïçšnF‹?õÔ¼mÆ¼TØ-ú0›rÖ)ÌX‰ì»®ZˆiI
@@ -8699,7 +8714,7 @@ fûÍï©Iï¥•,±&)Ø„ ŠÍ¯ÝBm€®é×naß¨Õ¥¼÷³·kk_I6 z\t6„œ¬ %³Ù,Žï½~¢Éƒ	('êˆÈnù~tµ
 endstream
 endobj
 
-954 0 obj
+955 0 obj
 4445
 endobj
 
@@ -8707,7 +8722,7 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 953 0 R
+/Contents 954 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R
@@ -8716,10 +8731,10 @@ endobj
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [955 0 R 956 0 R]>>
+/Annots [956 0 R 957 0 R]>>
 endobj
 
-955 0 obj
+956 0 obj
 <</Type /Annot
 /Rect [70.8661 564.6165 233.9141 583.8165]
 /Border [0 0 0]
@@ -8729,7 +8744,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/iv.pdf)>>>>
 endobj
 
-956 0 obj
+957 0 obj
 <</Type /Annot
 /Rect [70.8661 353.7646 340.5381 372.9646]
 /Border [0 0 0]
@@ -8739,8 +8754,8 @@ endobj
 /URI (http://schmidheiny.name/teaching/panel.pdf)>>>>
 endobj
 
-957 0 obj
-<</Length 958 0 R
+958 0 obj
+<</Length 959 0 R
 /Filter /FlateDecode>>
 stream
 xœµ[KŽ$7Ý×)j=‹°(R? a òw‚>‚ÇÌÒ÷_Ì£‘¤"3«vå.w’’ø¤”´üùüÏG	KÍ™>·¿%ñ’„ÿJ%}þõï?ÿõqúù–Ð„>ÃR¸0þÊDõó¯Ç¹£¦øùóßnñ“òØäçŸ?Kr'>Šo|á/n\ùoèÊ-^ñ¯™/¿þüïÇõgßrwÂœãÂh,OŸËÇ/>IíŒÔ–Œ³nŸþññ#ñnÉV)©˜å~ð•oò…ŸÚ«rÝqÔ%eÈeXRÀ–†U¦¦ý¹	ªhYªe‘&aGC\
@@ -8759,7 +8774,7 @@ XáÑÏ4gÌÞ¨xâüÍÈ.h€ªc~Ù–èYd§¬Ù©fXpuõšgáûGÚ¼;ÄnŒûØRJÝ\Àº¤S‚¤9½(hÕÌß×OOÃS=
 endstream
 endobj
 
-958 0 obj
+959 0 obj
 3868
 endobj
 
@@ -8767,7 +8782,7 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 957 0 R
+/Contents 958 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
@@ -8775,10 +8790,10 @@ endobj
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [959 0 R 960 0 R]>>
+/Annots [960 0 R 961 0 R]>>
 endobj
 
-959 0 obj
+960 0 obj
 <</Type /Annot
 /Rect [70.8661 686.7772 246.1301 705.9772]
 /Border [0 0 0]
@@ -8788,7 +8803,7 @@ endobj
 /URI (http://schmidheiny.name/teaching/binaryresponse.pdf)>>>>
 endobj
 
-960 0 obj
+961 0 obj
 <</Type /Annot
 /Rect [70.8661 518.7825 327.5621 537.9825]
 /Border [0 0 0]
@@ -8798,8 +8813,8 @@ endobj
 /URI (http://schmidheiny.name/teaching/limiteddependent2up.pdf)>>>>
 endobj
 
-961 0 obj
-<</Length 962 0 R
+962 0 obj
+<</Length 963 0 R
 /Filter /FlateDecode>>
 stream
 xœ­ZËn$»Ýû+z…"ŠzF€îêî/ð'$÷YÞÿ_äP¥.‹Tù‘ ŒÇž¦(¾yÈ*r_—?ßŠw5gº¼þ‰]ŠÌøï(•tùë_oüííöñ¦ÈCp‰|½|üóíïOºß~üñö1DŽwO±ÄÆ~ÆL×\>þýöøF­8¿ßé'OÂä=Ý&
@@ -8814,7 +8829,7 @@ cëÕ ÜÖFé]ŸP_Rñ¢dgŸ[OJb úl•ŒI^ëÚü¶ëOAk~78"Æs¹¹Ï€lí²ìŒ 0TZkÜ{T`4
 endstream
 endobj
 
-962 0 obj
+963 0 obj
 2746
 endobj
 
@@ -8822,7 +8837,7 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 961 0 R
+/Contents 962 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
@@ -8830,10 +8845,10 @@ endobj
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [963 0 R 964 0 R 965 0 R 966 0 R 967 0 R 968 0 R]>>
+/Annots [964 0 R 965 0 R 966 0 R 967 0 R 968 0 R 969 0 R]>>
 endobj
 
-963 0 obj
+964 0 obj
 <</Type /Annot
 /Rect [110.8661 698.2201 511.2361 710.2201]
 /Border [0 0 0]
@@ -8843,7 +8858,7 @@ endobj
 /URI (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4054530/)>>>>
 endobj
 
-964 0 obj
+965 0 obj
 <</Type /Annot
 /Rect [110.8661 683.9343 186.5161 695.9343]
 /Border [0 0 0]
@@ -8853,7 +8868,7 @@ endobj
 /URI (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4054530/)>>>>
 endobj
 
-965 0 obj
+966 0 obj
 <</Type /Annot
 /Rect [110.8661 669.6486 361.0861 681.6486]
 /Border [0 0 0]
@@ -8863,7 +8878,7 @@ endobj
 /URI (https://www.fort.usgs.gov/publication/21137)>>>>
 endobj
 
-966 0 obj
+967 0 obj
 <</Type /Annot
 /Rect [70.8661 621.7593 291.3781 640.9593]
 /Border [0 0 0]
@@ -8873,7 +8888,7 @@ endobj
 /URI (https://www.otexts.org/fpp/8)>>>>
 endobj
 
-967 0 obj
+968 0 obj
 <</Type /Annot
 /Rect [70.8661 439.4789 270.0901 458.6789]
 /Border [0 0 0]
@@ -8883,7 +8898,7 @@ endobj
 /URI (http://www.stat.berkeley.edu/~mgoldman/Section0402.pdf)>>>>
 endobj
 
-968 0 obj
+969 0 obj
 <</Type /Annot
 /Rect [309.8561 297.2128 410.2561 309.2128]
 /Border [0 0 0]
@@ -8893,15 +8908,15 @@ endobj
 /URI (http://multithreaded.stitchfix.com/blog/2015/10/15/multiple-hypothesis-testing/)>>>>
 endobj
 
-969 0 obj
-<</Length 970 0 R
+970 0 obj
+<</Length 971 0 R
 /Filter /FlateDecode>>
 stream
 xœ    
 endstream
 endobj
 
-970 0 obj
+971 0 obj
 8
 endobj
 
@@ -8909,14 +8924,14 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 969 0 R
+/Contents 970 0 R
 /Resources <</ProcSet [/PDF]>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>>>
 endobj
 
-971 0 obj
-<</Length 972 0 R
+972 0 obj
+<</Length 973 0 R
 /Filter /FlateDecode>>
 stream
 xœíXËŽã6¼û+|Îa?øl=¾`þ ÉÈqÿÿ°Õ¤$Sy0äàñ`$Yl²›]ÅbÓä<>×¿.É»#]×»qAEðÂ;
@@ -8930,7 +8945,7 @@ xœíXËŽã6¼û+|Îa?øl=¾`þ ÉÈqÿÿ°Õ¤$Sy0äàñ`$Yl²›]ÅbÓä<>×¿.É»#]×»qAEðÂ;
 endstream
 endobj
 
-972 0 obj
+973 0 obj
 1212
 endobj
 
@@ -8938,17 +8953,17 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 971 0 R
+/Contents 972 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R>>
 /ProcSet [/PDF /Text]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [973 0 R 974 0 R 975 0 R 976 0 R 977 0 R 978 0 R]>>
+/Annots [974 0 R 975 0 R 976 0 R 977 0 R 978 0 R 979 0 R]>>
 endobj
 
-973 0 obj
+974 0 obj
 <</Type /Annot
 /Rect [70.8661 580.5949 524.4094 592.5949]
 /Border [0 0 0]
@@ -8956,7 +8971,7 @@ endobj
 /Dest [117 0 R /XYZ 0 389 0]>>
 endobj
 
-974 0 obj
+975 0 obj
 <</Type /Annot
 /Rect [70.8661 566.3092 524.4094 578.3092]
 /Border [0 0 0]
@@ -8964,7 +8979,7 @@ endobj
 /Dest [117 0 R /XYZ 0 282 0]>>
 endobj
 
-975 0 obj
+976 0 obj
 <</Type /Annot
 /Rect [70.8661 552.0235 524.4094 564.0235]
 /Border [0 0 0]
@@ -8972,7 +8987,7 @@ endobj
 /Dest [117 0 R /XYZ 0 232 0]>>
 endobj
 
-976 0 obj
+977 0 obj
 <</Type /Annot
 /Rect [70.8661 537.7378 524.4094 549.7378]
 /Border [0 0 0]
@@ -8980,7 +8995,7 @@ endobj
 /Dest [118 0 R /XYZ 0 705 0]>>
 endobj
 
-977 0 obj
+978 0 obj
 <</Type /Annot
 /Rect [70.8661 523.4521 524.4094 535.4521]
 /Border [0 0 0]
@@ -8988,7 +9003,7 @@ endobj
 /Dest [118 0 R /XYZ 0 612 0]>>
 endobj
 
-978 0 obj
+979 0 obj
 <</Type /Annot
 /Rect [70.8661 509.1664 524.4094 521.1664]
 /Border [0 0 0]
@@ -8996,8 +9011,8 @@ endobj
 /Dest [118 0 R /XYZ 0 505 0]>>
 endobj
 
-979 0 obj
-<</Length 980 0 R
+980 0 obj
+<</Length 981 0 R
 /Filter /FlateDecode>>
 stream
 xœ•VIŽÛ0¼û:çÀôÆ0XÛü„,@Žùÿ!ÕÔx†Ôx²°)QÕ[u5e„Ïôã’)””xz¬5DSÅŽ9N¿¾]¾ºÌ÷î³Ä‰‚˜2eÍÓ¯7©¤`šeº½|Þe:‚Ü¿_®œMô¦I«.²«j‘MUV™uó]bY}õçšÚ®â¾èúeºÿ¼l÷–2®9Ps¨•ùÇwáâÜ1?ì,®2[µØ6¬+ª2üÒÒ™¾Æ2™¢5Ëœ÷+'çÉjäföy·!Uâ¾¾¿P«Q®O)N²ƒB•­,Z±‚\P;Ã7jýz{Þ‚©ŽÉB.±ü;Õ½ÅU’Ý ªUçÆÈbkãFü™ø~Áº¨çåÙlºëƒ?Ö½awƒHøæ™·œc¨Š4Ù8ñÕv]°¡ÅÜcïI_c¤‰ø} «ÄÃx
@@ -9009,7 +9024,7 @@ GöüÊÜB_ñô Ûßk…Fë¿ë»ˆŒ\ÍzˆJH‘NÿªŠù81,¥ó°†çz6î‹eƒ+¸šßÃ¤+š)†ˆÑþSÕ9ûáZ&åP
 endstream
 endobj
 
-980 0 obj
+981 0 obj
 853
 endobj
 
@@ -9017,7 +9032,7 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 979 0 R
+/Contents 980 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R
@@ -9028,47 +9043,50 @@ endobj
 /CS [/ICCBased 394 0 R]>>>>
 endobj
 
-981 0 obj
-<</Length 982 0 R
+982 0 obj
+<</Length 983 0 R
 /Filter /FlateDecode>>
 stream
-xœíZÉŽä6½×WÔy4cá4ÈEùõöx€9úÿó‚RªLUÚs§ÝÝ@+»¥PŒx±‹BÄŸ÷¿•jÎô~ÿÕ$!©nÄ@©¤÷ßþõöë?Þbh‚»øÉZì§V~ÿíó}Q¼GY>d
-µ¤¸¿Ÿ…/V0µ÷¥È~¿PÈÔ‰4pîDb'ŠA>9`*œ° «~„¤ŒëdN¡5°øøåí§½³®’øøõí“œu‘s$ŽzÑ›V¹*øhUúçûÇÞ–¾Ä ¶T9ÖvgGq`•Á0k–›±Àõ).ÊX$iÃ"WÜP-‘$âÎ%Å¾)V1nw¦¿¼}“[”‘$Úö«­˜D¯Xå:lš3æiÇß"E,úý\¤X ¼¦^ dÊ@¶+:× Ò¸S=J$ZpgF‹QánÓ:p¤–ƒêÌò¤ó×ºêri×e=ÒeR¸6I«Aq·•®9^©EÀÄ[—6¹˜â÷,‹ÜøÉtŒkÄãÍ®;.ìÙV}6š öï‹YæjÙ©†¢~‰¸8s­ã¼×WûŸ¨ÜQ]¹m «)D1*µÕèî‘Ûàº ”µ,¦¢UÙà9½=÷'´ù	»“UÇçÑ¢…ÔLYÃÚß‘²^ÿêàd¦7å	œ¸{´úý›˜-7é63<î rŸÅì=;LäÐJ%Ïàdñãzˆ†QM_£R@ÚVW4DËì,çZý½!¿‹Ë»z'LþÕWÂëãõ£â€¦x„Œˆ8ÒJÙýD²|_”.ŸQ£gûöä;^¶ìcË'® ²0•÷ûW<YƒYZ@mŠV–r(m©JO/cfQc(YÉïø„ÿRJ…ó¥Òµ6ÔªqËHnj
-ïe
-‚›%¦BS°\{)`™ÇÕRFKµ k5‡P'1ÕsVO\uGGBž‰×Äbùx±×¡ú«OKçA~o¯ æW¸©Ú+qVõÞ)) RÜÓJWè¯eCùw«†12°†\'Ö?4õØØJ§š¯Ý@þtSÉA‹,Ýrk÷þÔkÃ†Êï^kæh<PÃkþA g”ùùšÐ”°Óq3?Ðôÿö%yt„<_z·è¤=/X±¡i-@5T>ÂÆW¥H€W!¿À+Èê{»bCç8sˆA©¢÷
-£õþñ¹kýrïNU™–'ì]ãP-ø¦1üÍžl”Tmo>6<¬¨ÅÂ'-½…½:œqÇ¯ ü¿ëõT£ð;¨xÔb‡iòç·ÒPÝÚÅpÆ…×PÅïu0ôPuã@9ˆ&qÀÉ5ÅïO¾p|µÎï˜ÑeKJö°ä}–Q§¼Il:²n†BkÓkgÙžÅ )N,#ª.^ûs\p”™·«Î{Õ?ïß§wtrG>_bëîskwAðÈ(	có‹Ý6Œ«U$WÎØøIšµpŸñ¯ÌP:–¹ÁøWÍpÅyx>ñ]’¤x–jKö¿cq.¡U©‡ÙíÃ˜Ê%±à€­;ßP·S¬Ú´ç'C,×B³`ª3oDÈ^ðº™JA]\jœH­)g[Éê›2Hã`<“‹ãÉ¨¤£¦æ‰|!?’§ µ‰ü>ís0Wð|:Ö&’yò°ûæÖf!êX×ãµ |LlIÌyŒdP˜E¦mNÅ¥“–ÙÙÔÖoxÑ±C&È=Vf¢urízyjl¡%Éž<ŽTEê«±L$t ŽÉ®Q/Ÿz°‚Ò]E¬P*èäùX8´jm³È˜Fi«!SJOÏ›ÌàØÑ„ŠÝÀ’„Ü*í@ëC§Þa%”„Á“oígv5HÕ:hî$¤på¥MË	aªŒƒ#˜xò³‰t0¦„$×/~d—Ü°Ú´ÏÇ³#Ä ýÈò°xßß Ù“ñ©—XÖŒÍÎ&JÈtüò”ã}I5ÄÔäAgÞ&*Ü¼LÛxj«Î·I£ ä´i‘íKÝc@|9>q‘
-„jþ¡©–@’'\õ¦Ô¨-Í)`ãªÄk_+HK˜²)·#Ž±ù¦0©ût²Á#àÝAßœ«°âîáG*7†k&÷V'>fß¥foSäªˆT&òSw„Žy{‹’&Â¦£[%ûZ¥&ˆù’f¤_þ¾9ìàŽl¾rjÆÍÖ|kÙŒBä÷>š ÷Ã]'¸fžæ†T&Ø ãñ` ôü„-Í“ ìËˆ‡¯`\à*™a•'šµ¬µ¶ÈªmNSˆ¡4ŽO„û¡i³Þ×ZäXtnDS
-’ÒçÅ}tkˆ˜¹äùH“#M‚)µ4u:ÖnŒ„	NãnpðH6BX‡Ôþ‡ÄÁŒ!.‘ç´ÎÁ„6uJ³mPÑË–c]ûø¢·¬­1mö–j¿[;ú:	À>SÚeÛ»%áÑüëÍ»þùy½Ù'Ÿ%0BrÊïY.x¾ XÖsà_kHð\pI\º£›šî¨©Sªï‚jNå ˜²³¼†º«8úÇOP  žëÀç¿8ì
+xœíZÉŽä6½×WÔ9E\´ µ~AÿA& Çüÿ!²Ë-ªªk’KRÁLc÷Ø)q}¤›BÄÏþ÷]‰¡æLûÛ]“„¤"x¥’öþ¶ûúÓ.†&xŠ[Öb·ZyÿçÇzÉ-°ÄüÁ S¨%Åm}R,¬`jë¥Èß^_(dZ‰ZíDb'ŠA>„ß!‡
+'`ÂMHÊ('s
+­eÙ¿Ùý|¥=ë¢‰÷¯»7&9êEŽ‘8êI¯Zå¬à£Ué—ýû»Ë{1¨-U…µÝØQØEe0Ìšåj,p=GJ†eIÚ äŒçà ªK$‰xrJ±‹#…ãvcúe÷&×þ*"ÿ"I´íW“˜DÏr6Í™ó´ã·HB¿Ÿë ”×Ô+„ì§d›¡s*;Õ3G‰D<¹À¢Å¨ð´i8RËAufù
+Úù]ÚrTi·e}dË¤Hm’–€â+Ýr¼P‹€‰.mr²Åý(¹ò5’Ù×ˆ'Æ![\w¿°w'Dõ¾ÑÞ`ï±^,2—ÈN5õ"âÅ…kç½¾‚ÚÿCãŽªèÆmYM!ŠQ©Õ¨F·ŒÜ†„ŒÒ£4˜åb&ZŒÍ™ÓçØc£A›‘°;Yl|#:QHÍŒ5ÈþŽŒõúWçNz“£<q'®Á^-yÿ*ËMzŒÇŒŒ'¨ÜG±xÏÎ'rh¥’gð
+ºøq}è£™>÷J°­.ÞÙæZò½yî‡»:†&¿ô´ðãz}è£áàLñ‘gDÔ‘VÊ–'’á}Q.¼|TŽöíÿÀ›¿¬ècÅgPY™ÊÛó3Þ,ÅŠP›ª•A¥Z0¡õññ4"‹CÉJ~Ç¯ ü—2ú¨œO®µ¡W+"¹ª¼·qh®Ì„f`9÷VÀÇÙ £C-pƒ¥›C)A’˜ú9ë'ÎºyGÎÄ2±Zcy'žl9LöÀ±tä÷ö
+j~…ë#S{#Î¦Þæ"%tŠ¬tþÒ6ä¿Ù5Œ•5ä:±þa©×ðµåp¦ù<äd1·±Û¿#Dÿ[Yen9,Ò·¹O(ˆw?öÖÜÒE	•}Š_WÞ·,K!ø ¥¡ÆTA˜p¸qÿ?ðßN?y®4#ËnÉ_w¥ŸZ¶@æ)¨ö‹³ñ¾.#Bs6ºòê@9ˆ&ý€“kÝÞ|ð•ZCæºñÖW²wKÞ¦‘uÊ|bóÍe3Z›–e}ƒ¦8±ŒDÀM¼tØ\p”™·Ã×·Ïû÷	šîèÏ'ÄÂH•oŠà‘QÂÛ£dÉ€xˆa\­ž“Ò;cãiÖà9ã·Ì0:Ä\ü‹e¸â<<Ÿø¦É´x”j";ˆÀ¿OÑÜ$äV×§»A³+Cà€­;o@Ãº†6íùÉÚ5ÁæÛ:ón @YÝT´ Ù–'Rk«m+Y}[…DŒÈà™\OŽšš'òP|$GË«Mä·y½ÃXð¹"u>Öª’yv¸åæÖf%êˆÌ±,À?&¶$–<F2Ì›Ó6'xè´GÄ’T¦_tìq¥ˆ••™hbž»Fž[hI²'ãD©e"Y]ê˜âˆ÷Ð‹Œî0­Â0ÕRžãcåÐ`ÕÒ(É­´!PJOÏ›,àØÑä[€!Q"+éæh}lÜÛ»Ñ£„’ &=ù
+ø]ØÕ ]¥'„£¹“"•—6‰ÿÔ…©2.:‘M¥£ÃÓ”Ps¼ðGqÉ=[ Mû¼?;JàG–;áU|‡BV.²'ãƒªS²‹‰²/Þ9åÝ:I5ÄÔäÎf>&j€²§m<U—Û¤¡ÑÎ¥MBÖo}[Æ€úr|’"(Õü¥©–@’'¿êmåh-Í)`ã“W‰·¾V$–î|Ê¾S9Bø16ßôÎMêö!cŠˆ'(åæôÍå·Š(î~¤rƒôfzouâcñ]úÇ•ëT¹*j •‰üÐ¡#T¤ª(i"l:¦U²ïÍ5éDt¦Š\x:…ï8wZG®œ”Ã§[¬ùáÐŒBå÷>\÷^ÃÝ,§fžæÆ­UÞ„žŸp¶–tR”}Û¼ûŽí
+W)@†UžXVÐ+ÕùÎ´ÍY
+!”Æñéà‰¡i³Ý×ÒäXtiDS
+’Òì*.‹ûêÖP1sÉó‘¦DšPSj³ÓÔéX[|$üg¸2’—DÁ!µ ,âC!‹\ãòTheQ'˜m£Æ>”¸¬ëÜ}èd£%‹·TûÓÚ½¯Ó˜ìÖQeY÷n ü®š¾y7;®ÃsûˆúÑçR~°Î°àaø†wYÎß–’à¹4ø%=àÒÝ46CORÝº$•­|Ê.òú®âèïÿx ò¦ç:ðùY/Z	
 endstream
 endobj
 
-982 0 obj
-1915
+983 0 obj
+1801
 endobj
 
 119 0 obj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 981 0 R
+/Contents 982 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R>>
 /ProcSet [/PDF /Text]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [983 0 R 984 0 R 985 0 R 986 0 R 987 0 R 988 0 R 989 0 R 990 0 R 991 0 R 992 0 R 993 0 R 994 0 R]>>
+/Annots [984 0 R 985 0 R 986 0 R 987 0 R 988 0 R 989 0 R 990 0 R 991 0 R 992 0 R 993 0 R]>>
 endobj
 
-983 0 obj
+984 0 obj
 <</Type /Annot
 /Rect [70.8661 580.5949 524.4094 592.5949]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [119 0 R /XYZ 0 315 0]>>
+/Dest [119 0 R /XYZ 0 341 0]>>
 endobj
 
-984 0 obj
+985 0 obj
 <</Type /Annot
 /Rect [70.8661 566.3092 524.4094 578.3092]
 /Border [0 0 0]
@@ -9076,7 +9094,7 @@ endobj
 /Dest [120 0 R /XYZ 0 271 0]>>
 endobj
 
-985 0 obj
+986 0 obj
 <</Type /Annot
 /Rect [70.8661 552.0235 524.4094 564.0235]
 /Border [0 0 0]
@@ -9084,7 +9102,7 @@ endobj
 /Dest [121 0 R /XYZ 0 473 0]>>
 endobj
 
-986 0 obj
+987 0 obj
 <</Type /Annot
 /Rect [85.0394 539.0521 524.4094 549.8521]
 /Border [0 0 0]
@@ -9092,7 +9110,7 @@ endobj
 /Dest [121 0 R /XYZ 0 394 0]>>
 endobj
 
-987 0 obj
+988 0 obj
 <</Type /Annot
 /Rect [85.0394 526.1949 524.4094 536.9949]
 /Border [0 0 0]
@@ -9100,7 +9118,7 @@ endobj
 /Dest [121 0 R /XYZ 0 197 0]>>
 endobj
 
-988 0 obj
+989 0 obj
 <</Type /Annot
 /Rect [85.0394 513.3378 524.4094 524.1378]
 /Border [0 0 0]
@@ -9108,7 +9126,7 @@ endobj
 /Dest [122 0 R /XYZ 0 677 0]>>
 endobj
 
-989 0 obj
+990 0 obj
 <</Type /Annot
 /Rect [85.0394 500.4807 524.4094 511.2807]
 /Border [0 0 0]
@@ -9116,7 +9134,7 @@ endobj
 /Dest [122 0 R /XYZ 0 559 0]>>
 endobj
 
-990 0 obj
+991 0 obj
 <</Type /Annot
 /Rect [85.0394 487.6235 524.4094 498.4235]
 /Border [0 0 0]
@@ -9124,7 +9142,7 @@ endobj
 /Dest [122 0 R /XYZ 0 442 0]>>
 endobj
 
-991 0 obj
+992 0 obj
 <</Type /Annot
 /Rect [70.8661 473.4521 524.4094 485.4521]
 /Border [0 0 0]
@@ -9132,7 +9150,7 @@ endobj
 /Dest [122 0 R /XYZ 0 187 0]>>
 endobj
 
-992 0 obj
+993 0 obj
 <</Type /Annot
 /Rect [85.0394 460.4807 524.4094 471.2807]
 /Border [0 0 0]
@@ -9140,24 +9158,8 @@ endobj
 /Dest [123 0 R /XYZ 0 426 0]>>
 endobj
 
-993 0 obj
-<</Type /Annot
-/Rect [85.0394 447.6235 524.4094 458.4235]
-/Border [0 0 0]
-/Subtype /Link
-/Dest [123 0 R /XYZ 0 258 0]>>
-endobj
-
 994 0 obj
-<</Type /Annot
-/Rect [85.0394 434.7664 524.4094 445.5664]
-/Border [0 0 0]
-/Subtype /Link
-/Dest [124 0 R /XYZ 0 705 0]>>
-endobj
-
-995 0 obj
-<</Length 996 0 R
+<</Length 995 0 R
 /Filter /FlateDecode>>
 stream
 xœ¥XËŽ+¹Ýû+¼ÎBW|è\àvÙ@–ú’Ì ‚ ÷ÿs(•m‰åÛ3Aè.w™’ø:‡¤(Düœ;•jÎt~<5IH*‚1P*éüãŸ§_ÿrúïIsÉÅ±vpÑñúµC‘%ŸÿþïÓ·¿r>oÿ9ýíôñyšS­!R¬çÏœ¾ÝéLûnŸ¿ž¾3É‡Þä#G½ê]«lÊ*Z•"á¹EHÈU¾»Ùg{â¿bëžr¬m²É]7íéòËùó_§Û§)ÓJˆ]N¡¦H¦È÷ô1I=tE„±ñ†c®rÇqe^rH¥êº`ÕcoRŠÙ‰7“G	%quJÜ†‡fA|¯p»™3n8újjàyÛ]Ô´.î`(#­°;g3Aè-ÝäY{áJnéKíEch…Šº)Ë}K%”"mûvç%+ä"W¾Ë…ù¾
@@ -9166,7 +9168,7 @@ xœ¥XËŽ+¹Ýû+¼ÎBW|è\àvÙ@–ú’Ì ‚ ÷ÿs(•m‰åÛ3Aè.w™’ø:‡¤(Düœ;•jÎt~<5IH*‚1P*é
 endstream
 endobj
 
-996 0 obj
+995 0 obj
 1979
 endobj
 
@@ -9174,20 +9176,20 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 995 0 R
+/Contents 994 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R
 /F4 429 0 R>>
-/XObject <</I26 998 0 R>>
+/XObject <</I26 997 0 R>>
 /ProcSet [/PDF /Text /ImageC]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [997 0 R]>>
+/Annots [996 0 R]>>
 endobj
 
-997 0 obj
+996 0 obj
 <</Type /Annot
 /Rect [174.0795 314.3808 279.3961 326.3808]
 /Border [0 0 0]
@@ -9197,8 +9199,8 @@ endobj
 /URI (http://edouard-legoupil.github.io/humanitaRian-data-science/slides/)>>>>
 endobj
 
-999 0 obj
-<</Length 1000 0 R
+998 0 obj
+<</Length 999 0 R
 /Filter /FlateDecode>>
 stream
 xœ­YËŽ+¹Ýû+¼ÎB#ŠÔhh¿€,ô$™ ‚ óÿ‹ªÊn‘ªë;¦/ú–»LQ‡‡…ˆŸó?O5†V
@@ -9215,7 +9217,7 @@ Z·)YOÙê×¢ì±îâÑÍe!‰ÕØº9´th,ÜòPùÂÇœ¼Fÿ^¿;“ 9d=VùÿÂB¸9ü‰ý÷ââý¹4D•
 endstream
 endobj
 
-1000 0 obj
+999 0 obj
 2296
 endobj
 
@@ -9223,19 +9225,19 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 999 0 R
+/Contents 998 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
-/XObject <</I27 1003 0 R>>
+/XObject <</I27 1002 0 R>>
 /ProcSet [/PDF /Text /ImageC]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [1001 0 R 1002 0 R]>>
+/Annots [1000 0 R 1001 0 R]>>
 endobj
 
-1001 0 obj
+1000 0 obj
 <</Type /Annot
 /Rect [310.8112 241.0807 376.0635 253.0807]
 /Border [0 0 0]
@@ -9245,7 +9247,7 @@ endobj
 /URI (https://opendatakit.org/downloads/download-category/briefcase/)>>>>
 endobj
 
-1002 0 obj
+1001 0 obj
 <</Type /Annot
 /Rect [193.6061 152.3896 226.7161 164.3896]
 /Border [0 0 0]
@@ -9255,8 +9257,8 @@ endobj
 /URI (http://xlsform.org/)>>>>
 endobj
 
-1004 0 obj
-<</Length 1005 0 R
+1003 0 obj
+<</Length 1004 0 R
 /Filter /FlateDecode>>
 stream
 xœ­ZKŽ#9Ýç)r=µDê$°#Â'¨#Ìô ³ìû/æQRØéªº€²]6¥ÉÇÇÊ‹?ŸÿýHÖäÝçùî›à™ñ…5.¤ðù÷>þú×ÇýÇ‡ˆ—dl'2ÁÙüùãß<Ü§³mÃ}|…ûŸŸ?þ÷qüEÎV|Ñ^E‚)‹ÎµøÁðÃgàw}lßøÑIjE°žýÎHE¾3$}´.8ì´1vÁ^¿¾à5aÏPwr¶˜ç­ê&‡'l‘D¸nïxÇ§Œ×þ l.2ù”n²3±¨³qfÑÛÜýÍßø÷ÍÊùæ´½l6DÁfy@ô&¯õ<$›øcXo%
@@ -9274,7 +9276,7 @@ x:yvxcÇéóï—ƒñ×Dù®zŒ>]|yÌŽô ;ãD¼áÓÎïïã÷Gf“]I¿îþqÅYøJìOÿP©‹|0Þ.ˆÀïT„NxðÑ¬
 endstream
 endobj
 
-1005 0 obj
+1004 0 obj
 2773
 endobj
 
@@ -9282,7 +9284,7 @@ endobj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 1004 0 R
+/Contents 1003 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R
@@ -9293,67 +9295,43 @@ endobj
 /CS [/ICCBased 394 0 R]>>>>
 endobj
 
-1006 0 obj
-<</Length 1007 0 R
+1005 0 obj
+<</Length 1006 0 R
 /Filter /FlateDecode>>
 stream
-xœíXÉŽ7½÷Wô9Y"µƒ ÝUÕ@Žæœ þÿC)UTUè'×ðtƒCQäãã¢qÆâßõ÷K²&Çè®ë§l‚g†ÀR¸~ûõòÛçšB`g’%º~íel8dº:G†œ‰¯ZÎñªÓ$Ÿ/œñ¶ø7ÙÈØØ:Y ¿j5ëÄ½Ùj2¢).µµÉ‚¡hÃu³.á©ÖæÃ&ù|Ù|Ýd_.[D›l‹z³ÞIâjëâŠòÿè}/zÎ9Ý±MF¦x_‹ä+†%Œˆ5É€X“I”8\'“(cP­f½“tˆ5Ù€Ø&&&/ø4ë>xãˆX“ˆ5YEL#Úd[Ô›õN2òíþz¶•„tIMÃ‹àl¾¾þrùôpW ­UÿúÛå%Ü¼¾þyY^åÐ–‚þÄ;Oü°.UE Ùáôj¾ø‡_üM~†›užýlß}¶Ž>ñbaL¿ÝýäƒÚ‘Ë 0âÅÀ•mÁu“r-S5…&_ óàYr¸x‚ñI~¹µ*ÁOÂ©ä#¾MüÀ9H!™×Xÿ¾äâëµvøp@;È—µ@›#•ëç¯—O?Q¾Î]~¬Vpƒ&P[ü?GsPYÑäNeé€Ú¤Ç$Ó¼ä·Y4;@ØgœŽ€aApsÒâ¿|fG¥ S³ðçÖ¹[ç¨ä<®Þ‘~wý&Ýª§uæ"„6®*oü¡Y]¤õ:¸ps\ƒœïX\Å¥›Õ´EÍdíÁ˜ÕÄ%ax(ÑÌ›¼T4l#‚ °Å=!R¹xz‡@~Wadà3×`ÅdŠ|îÚRÓèEž k¬Œd¹Tùwj2%Sb¡§&;Og1+ä×ÜVD_¼;5¾{î­PGÃ×ßk­è÷ˆ«øÙÑ0ãâYª¸D!Ïì8	U¶µœ)ÛÊ´áøFÇ„¥;ÃüDgÀå„w®òßÙbB¡± 
-M\\åcTì;F¡;-ô >…}óãL&e.o~ã	Nx…+Á4@¼0£êX ííDtŒäžßìÐ%iªµÚeþØ`ƒÊ‡zÂ¬qÂ·ÅK%dm‹Ry ë¬:7¿¬µƒ¾,Õð`µºQF¨¼t'»ßE»Á³ñ%Ó“6Ø«p­3»`+˜Í~üÄ`’üêÁ'Ø8Üv‚þ]£ÌBq^Ö¨W%bj£èL2t:Ü£Ö"£ôU[-èÊø’š]?EÍn–ÖN}×Î4‰Ö’ä(<C²SÙ#éî¨®GƒåG%ìqoQw¹·PÊþ`ù5«MaöáœÂ9ÆÞ{eÕ›ý]±í¹![Ï4‹Ô¶‘mçw˜+™¨s­ÖÛ|Ø&äª7"ó9”\L¡X7?·ÚÂ„Á½öÜn…8ËaóîÙÐ«˜ÏÈÖ­ë*Œ†Ç}%ãT>X;æhø27ä{xx¹d£M	ÙQ~EÇA’.RÙÝù±¶zÆäâ¾²ª²)˜ÂÎFÛêÓá÷BÈ=úP±gcT¦ñ™‰ëîÈ&íúÁ~ÁÅÅ¤Lè¬CØ¬$NçÝ]¨Û^©Sv¤CBÍNœÇŽŽ?ªÕµU·2ÍD&8a^Paï)\HJ»\ÓÐaÂ NÉîîÁ‘^	OÀs<ñù>Z`2òþNpœ0ËÙ“"í€dE©›Dwj„éä–¦^ÑGxóI¶ú6å•GiììÙÆ×>ÿÀ-íSQ{GNå½´®Œ§Œ]Y©Z\k¹½i‡Xº¹ü=+y¼µ0ÈÎV&²R|h:`ê²Äµ2ji_º+Ÿ÷v"áiÊ…?¾õ'^šÝ`8îŠ¹M·ú
-	,}å=tw'¹×µS‰8i7·íÙ&5•PÚãÑ¹nÚªÍmþ™Þ‚²X=-?››ƒÊŠ‚‚N	Y¡]ÛÔäoãaUK]x¹5ÕIjåƒa¹ŒöàR~Ö ò¯Âê|\õñø‰4ZÀãkù¨×É™Âôl(*Ø+Ð#¥?bò«[mXÑ„·ØÜ›<qôm(¯j©J}®-I§âtàÝ¤QNº³“°|¯¿W­µ^Khž9pºéCmiAlîíâ‹˜ßkOoOµµÓT³årÏ’óôò^EV9ÏVF’dô^ÒÊ€ºº‰ï:‡¦îj×ÚÝÜ–ƒ­é¹DÅØì3—zºiNoÛæ¥Àé÷Vg‰Ñ„Ï˜Ps&í!ú§FRÝ†ê[‡WzçdÒ®@Bøá{óý¶.Dü2“˜Ø_³%ìœjSåþ$ XƒðŽÃKÍ|æˆ-³ŸÃúÀ¥0QíïE»?·„~¼Ê<Ê6ú/NþÐïxhïF« ™ÿ
+xœíVËŽÜ6¼ë+tÎf?H‘À"ÀJ#9Ø?ØÄ	ýÿW“—œ}À¹Ç„šfuwõƒCÎãßü×´x—b¤ùzjT€w–0ÿsúüËDt!·xæùk‰“x&bÇäÑjE$—Í‰<OÉ©Ïú‚}&ÎÇÐaõ²:Ù;„^¸NLCt™b(\Ž£sc·ôŠU‹¡!ÏS‹µa_¦–QÃZÖ½CâÅõ·‰¸ªü¿zÿU="r‘îk»¬Z‹¬UÃFÅNdPìÄ,KœÔa–eÅêdïN±kXpqQÓçd× .ÆQ±;±ªXÉ¨a-ëÆÞ!c¿­O“u[^P.›iDÈ§ùééÓA3„.Sÿôyzë¯óÓ?Óþd‡Z	úBÊrx
+¹˜"D8}‘ÀB³ºë£}†GO*zó$«&O|è"»Yy[uÓPxÌ"Ù5C®ä3ÜmÍ-ˆ¹RÁÁ¦6‡ÜJ@ÇÈ7û¸÷Á'ãÔ¢o›8ÈíÊõÛ”²V·~xÔöríÁ iSä<?>ýÆi¾ý;ýnZ]â.´¶Åÿ¶šƒÉ¥¦ÜTB’Õ¶rÌ*-w‚¬[Ì²D4át„;’»Izü·g2q
+
+1K¢	¾Ä¹«FôØju`…Û ÄåhþnÛ*;*sF Wå—þá[	‘/waEçB.+ÇÑB´¹¨=f&I(Ù¾"ó¥p‹uE,ÙÜž«þlS å½!Ss¼›}@h~§®Ö‘AÞ
+,.q”·CÛkÕð²ÆÚ‘bNKÿ½I¹,.ÇÌRv‘ÞŒÖš¿Ô²"û¬ô&uxaú8Zk’~ù¾ÌJypuà³k7ÈŒ3ÈgZ…èV!<„d±Vi?ÐóaI¾v
+Öp|i
+’%Jä•7¼Õžä$óÐó¼BQ_·Íqü‰Pä£|œR·Q=™/wÄÜgy”oÐ¡Ï«[—’Ø-IòÏ¯ËþÄoØE‡)(¾,Æ­n+®ýÕÉýÖ[¡~€öTjdKÒÊ½×'j°×ÊuÀbXd<"Q²:pL¸¡^…¤8¾sÀÆØÞK:‚„…?Xcƒ	r:Äuáãï8OÏŸˆ–î-}Em“Kãên‹Ý—yØ‹¬Çi³VÇz_P±µÅ÷ôuaTI0§£$MIN#‡×r¼›K“©?Êu³Ê«+a½$K}oƒž¶¦c»¿ÞK%º%ßû¬ò×Ævb%)GéñHÀz–£¬ì+”Ú|¨ÁYÄ/þ½{©Ia(,:'_NÐ§Nô÷ÖFŸ³0&ñfë@<ÖÈ5Ð•Š±(SiÆ|çóê¼»yBìíSÆoìe° Û‡ý²ü¨RY;ža	­
 endstream
 endobj
 
-1007 0 obj
-1793
+1006 0 obj
+1062
 endobj
 
 123 0 obj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 1006 0 R
+/Contents 1005 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
-/XObject <</I28 1008 0 R>>
+/XObject <</I28 1010 0 R>>
 /ProcSet [/PDF /Text /ImageC]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
-/CS [/ICCBased 394 0 R]>>>>
-endobj
-
-1009 0 obj
-<</Length 1010 0 R
-/Filter /FlateDecode>>
-stream
-xœ•TËn!¼ÏWÌ9B?h@ZYšçì'8Ž”£ÿÿfmf6Vû@ïP]tUÓóøÑ»dFãcÕ .¨>xG!†ñýÇðöm˜ï~G£w¬BX„$ŽïŸ–HÇûëð}ç‘¬rn$‹‰ñÌ¢åe¼ÿŒœdö j¸×áÆ³l"êë>GœhçýÝïu_È¥”NûGfr/Ä;ŽÏ2ID”d«°í^uÁ†¯ŒQQÓ@#ùOaî’ˆª»Œ/:É®É“xÍºë"« d^›`u’ü©.™e…ç³RÁiD$štk«ì²á+¢¾^ç³–D‰‚ÅˆRé[rÑ?•¤Hß8è~¸þÑŠž¢àŠÿBeÁ
-2…¸V·â‡î¿Šîåª¥d.ëõÓ4è¦BUÀZ¨aÇ¬[µu?0s;X¯Ü¾ÀWúâ$ºQ-Q¾Xòa%9>Ûñ¥–›úT–š0(çžWYwdF‡‹¼õäç¦ö,æb¾žÙìõª“t¸TSòø\Hð˜ô=PWJ»|èÁÑDÃ)þzeažàœþR>äÙeØÓHÆÜ½Fpá8µù&g×1Í±xãí
-pÝÂƒ….L"ÞÄ#ZeÆ·iÉ/ƒ…Ýf[ÇÉŸ9V¥®~fv‰ù,à¦ÚC„¡mgÈ©"Ê&;cÙ`Î×ä^,ÁD šŸDãfw¢Éèò~^TÇèRiÄSš‹´ãÙëº¬Ç§ì’'üˆ˜¸C	±S:³v<¿NÊ[
-endstream
-endobj
-
-1010 0 obj
-591
-endobj
-
-124 0 obj
-<</Type /Page
-/Parent 2 0 R
-/MediaBox [0 0 595.2756 841.8898]
-/Contents 1009 0 R
-/Resources <</Font <</F1 400 0 R
-/F2 401 0 R
-/F3 419 0 R>>
-/ProcSet [/PDF /Text]
-/ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
-/Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [1011 0 R 1012 0 R 1013 0 R]>>
+/Annots [1007 0 R 1008 0 R 1009 0 R]>>
 endobj
 
-1011 0 obj
+1007 0 obj
 <</Type /Annot
-/Rect [268.7061 660.2611 301.0461 672.2611]
+/Rect [268.7061 380.6539 301.0461 392.6539]
 /Border [0 0 0]
 /Subtype /Link
 /A <</Type /Action
@@ -9361,9 +9339,9 @@ endobj
 /URI (https://github.com/Edouard-Legoupil/koboloadeR)>>>>
 endobj
 
-1012 0 obj
+1008 0 obj
 <</Type /Annot
-/Rect [186.9461 638.1004 314.5961 650.1004]
+/Rect [186.9461 358.4932 314.5961 370.4932]
 /Border [0 0 0]
 /Subtype /Link
 /A <</Type /Action
@@ -9371,9 +9349,9 @@ endobj
 /URI (https://github.com/Edouard-Legoupil/koboloadeR/issues)>>>>
 endobj
 
-1013 0 obj
+1009 0 obj
 <</Type /Annot
-/Rect [110.8661 615.9397 234.8661 627.9397]
+/Rect [110.8661 336.3325 234.8661 348.3325]
 /Border [0 0 0]
 /Subtype /Link
 /A <</Type /Action
@@ -9381,32 +9359,52 @@ endobj
 /URI (https://github.com/Edouard-Legoupil/koboloadeR/tree/master/R#fork-destination-box)>>>>
 endobj
 
-1014 0 obj
-<</Length 1015 0 R
+1011 0 obj
+<</Length 1012 0 R
 /Filter /FlateDecode>>
 stream
-xœíYËn7Ýë+´î‚á}ð¬Ñè²€ÿ i
-(Šæÿ=—£±HÎÈhWQâ0G¶.sÏ¹O’óø9þyHÞåé¸>5ˆ*‚xG!…ã×?Ÿ9xW
-óIb.züz›Ï…œ„oG—!v[@afd	ö ÿ}D.R•bG¾J±ó‹TprÛæô‚(±mÁ*¶¡¤v§ˆ¥D9¾|:|¸`M]”ñòùðD³f9i¢gÅ¯'Ñ_/_D˜¤ê±Þ"üéð¤E'd|z®bóK=A£ØÙ%¬»‘¿íÆ„½f9yb²Ý”ä‚qÆßgì3~³IèŒï‹æf*Þé¸Ã“'é?Çÿ;6Š>"Ð»S,‘Ôˆ½³S0°J±ÈIŒ9Ü|E[D`zÂçY.ž*¢à8°m7¦¬Nó¸ä#hçûwqmÕ{× p€ðUW¯Q.@mª’}çð]–sE÷n¡ØgØò¹Å+†<.ýZúQÇ]ô[åWôÃúRð!å[¯s¨6m„I/°oØr‹® ¨m¦>‚ÞÛ¸‹zJE=6b98/&…”#fÑ5X—&V{óäa2Ô_-]jt¾è¼ez¦6 $ŽX©[ö'#¾5#²K:`ý#H\æxîL4ôçÕj¼O†õýeaÅÈ…Œur¦~ÁGÐÍ{wño¸?Ê -øÓ}´o`¹rõ5[â†Œ5½˜_h=ýxã.ò­Úï"¯9;|¹dÿü\ë³sc÷×ÊÍŠ@ü}¶è°Ökøo¶\Í—
-I#¥¾‚~I#dî	"ì„­oÏðêü¾Æ=ð;•Þ?ÇA¯éÂ¬Þâ´ÀX\’Ô£¸4
-Î×¡q7š„	D¨¥½˜c°dbªn‚®.„ÖtB‹§ZL4mˆž…\`„’î ïoŽm‡Ú]l#¬«¤´bK†CMà&+Úe2ûà­¨
-„©ŸúZø9nÇ]ft˜ße†Ô_Kþìt)åg­aa†§±I¸—òwK=‚VÞÛ¸Ë‚”Ê‚ÔbçBõè© D ü‚1HÚõÚ)æcvùµQ|¢™‰=K]A¢MÖ6*ðÒVˆÎçÂí$tá¶ç°~×lÄEòq¯i,d±¥=·uêU¸›õÄxY#i+ÈÁ–‘^Šñ]#Ã‡&„æqÓpT½Ø·ºv54)öÝm¢³"?y˜0¬Ê¯”CÚœ¶´Bø{ÎƒÐt}!è\ý6-»„–CâÙ8TÞÔÞÑ#9è•rMZAA¹ÃjÏµe\
-–L¶29T´QF{# E\Ê™7g\šS#ªÌ. ¦7õ¦`5e¨PSÝXsä3­x,™sÒKíÈz•)9å¡‡Ú2ìÕ +Y»ð·Ž‹¹f<›»$asÇPï`Ÿ¡_À¬gã³	ÌÌ¹|‹™”œ·Ë¬þh‹ 
->™;ƒ|La#l§NUÜØÑ¾¹]r1§á@µép+)—B¤ŒQklêx,o!L[G'nMü¨™K½ºàŽPÈ{RrÕüænªÓ>Ôã¢Ý¿má{Æt¢	êLÆ›q—µrRWòŽ…ÖÂi1\ã9ß\R+UàßŠ„­Ô²—wš†½¤%L<«/Ãôµ´‡E‘²ôS–; eO˜­Ž–Ðßõåä™›ë-Se\Ç72£?ˆX{Çå†±s êbAäêW:oÁ ‹rØ~®¤œ÷ÈE¦x|éÎÁJbï9n„úX#H¿5—Qç÷cŽ
-‹N£Æ{ÞöÜQHÂäß±iEð‹Ê#Ó¦îÔšÌÁÀ™/W•™%ÇŽ^¯®ê»^RØ±«×ÊßíŸÅyùy®
-²|Xï3¬ûP¯×?þuøð—ãùïÃï[X_Ø’+ÁÓNë;´Iç‚,(uòK.%üì”úU›uþ¡éµ¡
+xœ    
 endstream
 endobj
 
-1015 0 obj
-1463
+1012 0 obj
+8
+endobj
+
+124 0 obj
+<</Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.2756 841.8898]
+/Contents 1011 0 R
+/Resources <</ProcSet [/PDF]>>
+/Group <</S /Transparency
+/CS [/ICCBased 394 0 R]>>>>
+endobj
+
+1013 0 obj
+<</Length 1014 0 R
+/Filter /FlateDecode>>
+stream
+xœíZÉnä6½÷Wô9káÜj5c ÿÁL&@€ Èüÿ!¤ä&)ÉÈmÚã1`u[*Kõk!MÆâçüç)X½§óú©NŒSÜ°†\pçoœ¾þr²&%æ3>$Hþà¤ço÷ñ‚±>¥»bo"Äî
+ÔFz—?ÄÉÿWÈxZ¤")6¶J9#÷i./˜‰ç)X%O($¡ÉcDJ^Î/_NŸnÐ©Õ/_OO4k”‹z'zUüZýõüò×‰ƒT-ôUá/§'M:©ƒ ãÛs›_Šc]d °ÎFö>Ûª·Ä¾¡Ú’>ë$7}†mSã½I¾ƒg3lN)™1"–{ÖIÖQ$òÝ	÷¯Áìà­ÑÚ'KvÆï‡¼6ÎqÌ´ {ç"bÒFìp‚‘EŠ)û\.6gN¼ULÀ×‚èµbtÇ®ÑHÉÝ¨|ï¼Çë.¢­cuŠPˆ¨U¹HŽ+ì5Láéß±¾°Ö2¢ˆbÀ¶˜¢£ÊGðÎû½îâÚº÷WIøbÅÕª—Ûk|e$¡m|r-è"kÊß±–Û8J˜×ÅQõ#xéG½î¢ß:¿ ï÷ÐG€ˆN[«³+k:¯X Lz«´EWP¶l†>‚>Úuõ”‚zhÄ¢C•¥ˆQ.†°–cé^! ’»©ÖMËJ—’Q19›ëB½R[èQC¬Ô©ýÉˆïÍˆh‚X3BSB¿a—ì~ÃÀŒþ¼F‚Ì†’ïCÆ¿ÄþTY1r!Š‰1R¯ð|ó®{øw@ã½ñQt­×Ñ®Ñ ×vÊ%6”úlñ.°Í-âB§üüôã]w‘oÝ~Œ<¢wd¿tjÏ¥?»6ë~éÜr/Ž¿¯9;¬ýîÆ\ë¯µ`íãQ4Rè÷œ­e„Ì=A¡‰ó~KkÃ#¸ó}]wÁo]z¾·&ù´”³z‡V½Â˜LÐ£X·‚®K‹Ð;MÜ"”Ö^r`ÈÅÄTÂ-!„ÖrB“¥ÒL4M=;Ç9•´F>‚¿¿;¶j‡Øj4x˜Vl)ãP
+¸)7í2eûä­è
+Åc7ô¼ðóº½î2£Ãüâ;]Zþ[ÞR-­ü¬%íWfX·÷JþNÕ#xå£]wYÐ‚RXÐm¨W"úçSH Ò¯ hw)úÚò9šøzp¡™‰-KÑ >Ö6+°«[ñÆÆÄíº-—åY3±$ Ç”sKkw>‹QánÔ+ˆ’¶‚è¡EzA8ÆvÛ>
+:Íã¤.ÀTu½Ø˜·ºíjxÂ“ï8:<&aE¢vq0he‡WŠ.l¬M­þ–ã 4-/Ÿ«Ý–e7×rH,g¥7}'„w´(z§,E@+ˆçcmÇG0É c 3ZKbäuÓbjD•Ù8Àô¦ß¬¦ÈJ©ëK­ƒz¦÷ÉÀC#s.z+{#²žc¸ê2%£<ì¡¶{]\¢3¿¾ñâ zæÕœ ›;†Zƒõézyõlb6™1ö‚o1“‚±ù¸²7­
+¢á“¹£1ÈÇä6ÂÙêPÄ3;Ú7çÄ†9•M‡«ä–²6"iäˆæmmÍ²9…i›îÄ”3vôÌ­]pG(Ô=Á†,žßœMuÞ‡{ŒÏ'¬[øžñh>Û™7ã,kç¤&ÅZ§=Æ \†u¿„¤V*!¾%<ÜH­§­†¹¤%–xT›†áë6Ð.„ª™Fú!õ¨Î‰e«ãJèÏúb0r˜ë–©0®ãåE+v°ùë	c@Õø„ÌÕ—ºhÁ K&ä0ý\H9ï‘±H:_º0‚–ØZö¡>×Êoiôùq®©XÑaôxÏÛž;š÷‡I¬iEòóÊ#Ó¦Îj9À%€Í·Åey%ûŽ^+…ÙR×CŠlv‰ºS¥ü}¡ý[ƒ—½“gù 'õËzžA6Õ øü÷éÓoœÎ×N¿lóÿL8—±5ÉYÚÙúvmÁ1¡
+
+|­¥¤ƒŸR¯µÑóG"ª
+endstream
+endobj
+
+1014 0 obj
+1525
 endobj
 
 125 0 obj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 1014 0 R
+/Contents 1013 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R>>
 /XObject <</I29 1027 0 R>>
@@ -9414,10 +9412,10 @@ endobj
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
-/Annots [1016 0 R 1017 0 R 1018 0 R 1019 0 R 1020 0 R 1021 0 R 1022 0 R 1023 0 R 1024 0 R 1025 0 R 1026 0 R]>>
+/Annots [1015 0 R 1016 0 R 1017 0 R 1018 0 R 1019 0 R 1020 0 R 1021 0 R 1022 0 R 1023 0 R 1024 0 R 1025 0 R 1026 0 R]>>
 endobj
 
-1016 0 obj
+1015 0 obj
 <</Type /Annot
 /Rect [70.8661 580.5949 524.4094 592.5949]
 /Border [0 0 0]
@@ -9425,23 +9423,23 @@ endobj
 /Dest [126 0 R /XYZ 0 705 0]>>
 endobj
 
-1017 0 obj
+1016 0 obj
 <</Type /Annot
 /Rect [70.8661 566.3092 524.4094 578.3092]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [126 0 R /XYZ 0 576 0]>>
+/Dest [126 0 R /XYZ 0 431 0]>>
 endobj
 
-1018 0 obj
+1017 0 obj
 <</Type /Annot
 /Rect [70.8661 552.0235 524.4094 564.0235]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [127 0 R /XYZ 0 705 0]>>
+/Dest [126 0 R /XYZ 0 302 0]>>
 endobj
 
-1019 0 obj
+1018 0 obj
 <</Type /Annot
 /Rect [70.8661 537.7378 524.4094 549.7378]
 /Border [0 0 0]
@@ -9449,74 +9447,85 @@ endobj
 /Dest [128 0 R /XYZ 0 705 0]>>
 endobj
 
-1020 0 obj
+1019 0 obj
 <</Type /Annot
-/Rect [85.0394 524.7664 524.4094 535.5664]
+/Rect [70.8661 523.4521 524.4094 535.4521]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [128 0 R /XYZ 0 655 0]>>
+/Dest [129 0 R /XYZ 0 705 0]>>
+endobj
+
+1020 0 obj
+<</Type /Annot
+/Rect [85.0394 510.4807 524.4094 521.2807]
+/Border [0 0 0]
+/Subtype /Link
+/Dest [129 0 R /XYZ 0 655 0]>>
 endobj
 
 1021 0 obj
 <</Type /Annot
-/Rect [85.0394 511.9092 524.4094 522.7092]
+/Rect [85.0394 497.6235 524.4094 508.4235]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [128 0 R /XYZ 0 552 0]>>
+/Dest [129 0 R /XYZ 0 552 0]>>
 endobj
 
 1022 0 obj
 <</Type /Annot
-/Rect [85.0394 499.0521 524.4094 509.8521]
+/Rect [85.0394 484.7664 524.4094 495.5664]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [128 0 R /XYZ 0 449 0]>>
+/Dest [129 0 R /XYZ 0 449 0]>>
 endobj
 
 1023 0 obj
 <</Type /Annot
-/Rect [85.0394 486.1949 524.4094 496.9949]
+/Rect [85.0394 471.9092 524.4094 482.7092]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [128 0 R /XYZ 0 346 0]>>
+/Dest [129 0 R /XYZ 0 346 0]>>
 endobj
 
 1024 0 obj
 <</Type /Annot
-/Rect [85.0394 473.3378 524.4094 484.1378]
+/Rect [85.0394 459.0521 524.4094 469.8521]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [128 0 R /XYZ 0 271 0]>>
+/Dest [129 0 R /XYZ 0 271 0]>>
 endobj
 
 1025 0 obj
 <</Type /Annot
-/Rect [85.0394 460.4807 524.4094 471.2807]
+/Rect [85.0394 446.1949 524.4094 456.9949]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [128 0 R /XYZ 0 183 0]>>
+/Dest [129 0 R /XYZ 0 183 0]>>
 endobj
 
 1026 0 obj
 <</Type /Annot
-/Rect [85.0394 447.6235 524.4094 458.4235]
+/Rect [85.0394 433.3378 524.4094 444.1378]
 /Border [0 0 0]
 /Subtype /Link
-/Dest [129 0 R /XYZ 0 691 0]>>
+/Dest [130 0 R /XYZ 0 691 0]>>
 endobj
 
 1028 0 obj
 <</Length 1029 0 R
 /Filter /FlateDecode>>
 stream
-xœ•WËŽã6¼ë+tÎË~ð,Yrà?Èf,Ùÿ?¤š´Æ”äu03˜¡,6›ÝÅêjšœÇÏø×¼Ë1Ò¸ÄÁï(¤0þøsøöË0Ý|NFïX…0I<]ÄJâñþuø²òÈ¾mrÿ6\(ò$Ož(ŠÈMˆWü_<1ÉlÏøËf!æ‹ä_Çû÷a¹×»8cH®¢¶	ÔmW“.b›,š5Ñ›âÏ“hu£ÈkÜÖ|.ZtÖ ;ÆÓÕ›‡YÖ:&¼ÉJ} ÎµÔ“$Á‰²!ÀÌ.çCt¹ÁAjn<)a,–±^u®NVÑ>™°jQChÕÛáàJ:nãáÒ/iIÎW¨$¸,^«U˜:¢ÍÞ„ÙÒEâd t‹2ž¼‚OEWS£¬Õ6¢CüÁ×Ex‡ÄV¶Øg¤‡O€bÎ^ÖšrÙ@¬~¿Öì¸Q\9!†ØpÜpÙpj“ ÄjùÔGfAZ¤Ñy=X/ø-¯ eBmhzhoÂRS¹/í`jÐg6B„¶YN.—ec´ØZ2R ô«áE`Axÿ°l‡ã-A¤+xæºÇ\ßWBÕz°^¦ç“ãË»ôzTì._+¢¶ýjÛQ"Ü[3Ìk9ùVÏäÙ©™±Qæ0¸zÍôƒWBNãq9öÌˆa©OôË˜ì]wÅû^¾Bˆ.—_ÊWæ‰o&ˆ×S¢P¦Ï›f˜|Ìe¡Cén í(¯äë5äû¼<aàÃ+Bë 2ùŸÝžØü;¤°+™Ç
-Î#)¼ÔÞEÿø{øò›øñöÏð»møÑ<"9á=>ÔX'5ªÄVv•ý•÷©8ÞâøàvãgeìƒHÊfßD©zÚÙ½à1JÀ•(ü†Ç½ÉTšj#Ze–kmM;h§'Ÿ…6l$pN
-ÜIT³Ohé­hp©pnÐ.O@›¬lº+çŽb°Y=X-ÍÖ{0vbT¡¶Ò£§ØèµÎ·¯Aæ)æÞ€Ü›¼b.X[ÀÎdŸw £O§|òðYi9‘c1w “4øÈ|™qºRë«|«M[[Á…SëA{oPŠÝ2 ªÚø™ªtYoÎT“ÝøÎžgûÔÛTý'zÌH7*åww&'±K×ML·¼ÊN ÐöýiýÏ† ¼m#n€î7@È®< –ÀÑ?˜÷²	ÿIÒëDøÜíb£qítµi´ÂØTgëŒv	ø(Šún;C+‡¥-èŒ¦UÀÓ’Œ¥ÃhFGÀi‚Â-´ÿ˜x—j1ûÈËf¾–V±¢ ®8®ˆ{Q²&Šwö¤¶Þn˜m¥RÄqö{·ÝmµÞJö.‹jo"l¬>˜|*+¢vŒØ,Æ½Í¶žËqqŸ,<ÁÕtJšÐ­ŸI“‡pRôï²NÉán”GÜŠ¥ö vwj!öö¹ ÒÎþB„ï%=Pø¾â”ö^;?ÿ…Ç
+xœ­ZIŽ$»Ý×)jí…,Š‚ÌNÐGøþ¼ü÷_ø‘RdJŠ¨¨¶á^teER§ÇGF‘±ø÷ù¯dMŽ‘>Ÿ>°	ž¬¡Âç_ÿüøóoÏ_ø=¹ðióLøÁÄéó¯÷1Gã9¹Ï_|ü}wŸÎÖC~ýùñåò?>ýû‚Ã£ã›?>¾¸ðÂWvøô°Ä^ÜÎ÷äE×àcÃ¸_nÌX‰°„Ý†%YŸYÏ²‰JÈÓÏWÝhû¥ZtJÇL)DõÆôIÝÙ{èé#ïÝb‚Q’…ÚýÊ/˜kãÝg¿aŒÿ³§~Y Ã…Ü¸:?½,$_ü‚Mvß_v21æ<-zzèÙ‹Á¦‘¢Ÿ®´êžÛé*.ã`¹I|ónPÔ%6¾P˜ßôÆO»ô¢%›TŠE«ˆÇ“Ñu¸WS6‘cœV“˜ÞÇ^a¬§“žr'hÚ‹Fg˜iöÒæK/”‚a_Ü¼ïƒ!c&—8yÁ?Äê¼îÝ†‹›ì=_(´iDå^8Fã,•|ì‘Y$“Ø‚ã·@rãa×Wx{†É‚ÿ6Úl!’·~\FÛ`ZäšñÉÇQ¨i¶N!Ÿ5zÁê.“*%"ÛI”Çƒa .ƒÐEœ8Ë&Z‰ÜAûeoŠˆºNG&ÿ¨‰#>.àTÙ–rÒ¼iãk‡?¡÷*LA jæ³-Ç„_€³ÉÅùQ£ƒ­àšå	\‡B4ãì’IiÄI¿ÈÛŒø'{ÒhŠP—P‚ûþ’8‰¢qòæÜ³ÃîƒÛã©¤w ±1°ÿ2Ðñ¼FI&ãÃ’,ùÄÏjGÜ'5wÑ˜€$œŽÿ#Öì%Ï7ztw,¨XzG›Œ¹Ô=ž}8Ó¡F/B+¶…"êušâHeÏR«&UWÀï+`iç±ð:BVè“$Fò»ÐzqåPœ)‰ÝÍ•¹2²ÐÉQj‰E·× ÆÏ D$8_Ff0Øö¬™TIl) UÌ°LLó*‡¨ZjŠaåv­[B­É 47ºõ"£nØZR…5 …s>Œ/Ù€ŸZÿ½•ª QËëë{µÊ…*T kþÑ%zã-å;]z-ÜN|$~fòóÛ¼ÁÓ–¸¬Ø]YNÔ`zâšuÓRsBp½z^ŸØvÖk,v-§À;ò9xbÙJ›Û8ˆ	%fXª.’,ªG´Æ{Š“èêE[RSâðJ Åù9”Aúd'±áîGu,¥H5í6¹€ú›œŸÄöQðÃFÃ dH1©t®ÄH<ãcšÌtÅ°@ÅaÚQÜ}o#Ôb À¸ãï2¾€ŠâC9]|dgÔüÙÇW)#ñ2Ñ+8)·Oª»ÖY —fôŠZ µöö5Ea·Ñ¹^#úÅ8ùÚ†Û2q® ôwž}6ú{K¾RÅ·„žçeMÏUŠSÓˆat{ÞMn¤þµ—,Ø€ûùt‡2½ˆ Œµ€q­’/+	š¼	ï—°†žÃ{[1Z¥OkÅçèNHûq°=¸å…‚`nÄ½¢ìö†™ë+ž:w[‘þJÆÃ¦jP‘uó­Í%¥Éßü”’"©”°j¼ÚJÏ^¡¶™<ã·Me·C_y~ð×£À¾­“ƒ­èºº_.ÎW¥}æØ/>up†ŠÂ÷çä´ß ŒxS¿*ÆÎø)(§„'suûÚˆn3ã`‚ŸfžPsR¾œqP”¡ƒCüQdx	elbàHgkR¼‡ßŒ%8DØ]Ž%A›g©Äµ6Ã½¾’#”®tJôÅ­¡Å?º|jõëPÈ±<qâO™-€AÀÎ¡ÿÉÓí¾4ˆSÝFK<(±h,¹¥›&¬¢STkDWz4Ù€¹%ÍÇ€óUŽqò7¡:ˆ8'êÖTÉvåød©L”8æ>8èÄPoÂ0Êb›kzE˜BÒ²ÕoñC5
+Ì:±È¹µq9YLq,¿â€o/6@Hì­R‚z”ä3Ç„A7[®êp¸CüAÄ±ºS¸÷PZ£LÍ©Ü8´¬–!Î¤Ü¶5#±cÉ* Ç6e[ßÌ’¸¶K­°ÒÑc·\ª'ó‹—#¯ÕëEÜ^in¬ÝïÙmxúðbsM'[ó™¬×¼ìv.‰K%Õë«[ôq^~ zYœZE(CÝþ	¾\f	…t	_Ù=Ý
+í^oˆ‚Z°2íø¼9Á¯€ï2Ó7ð fêã%|…Æ¢£~n²íypjÙ´ÈÃž¯á¦4GÓlª¸àFáÏ¦àŒ•ÁÁ¸g7ÃEû<í\@£Ÿv>M¡”•™×(öíd£)caþ~ñïŽyÀ)KNó-îÇ<Œ	 Ä?ØŽÑTœö–}5ïx™æž`¹ð÷}µI“¼ÏHÅ·³ij.v:L`sò'²×0*ÕÉŸ=d€;£	,óÕ…Ö1L_‘Æˆj*x¨(XùÇÔW†ŸPROÀ|LªŠ	þ¬¯ÕD>½M¹©M/žu"Àoîu`1=†©Ö5äuJÚý_Óf‡n E7H;ˆ48ñ&†SñX¢g­á:c‘zÞS™qN×ëÕâ
+öFP_Z:Öñ††TL©°}W•Ñ}×U½‹Õ1ðîÍ>sJÄ¤Ý/»0içèîHÎ BÊ_Z¶N¿5AmJ´rv»]ë¦6G4ÌÍ†/u~Ôxº<WåtTù®ûu¿¤˜°õñV+»šRŸ^ÆeÄ}Šwd•OšÛNí¢:‡£B;¾w¸X†+éòC2¦–áÖ”UÚ»*Üh$)ãd”~£Y/2i–êxãÛK,:¢=Az¢ÀoaÿŸnjn:ç±³Vƒ‡j^?ýëÒÏ¯mònmà;›õ"“ÍøèýÕy«ÖX›L	e…zUV’ú}B˜·ÉkumÙrÁµ.àá‰J¼Ó¥]ÆÆº}~´~€u¦Û v0pÿ¾qß×œ àbÿ6òm­=Šz™_H¸ÊZv×J3DÆ¥¾8”·ÑFtF†ûOý¹Ä":¢
+@¦]!AÎ©ö©™¤{ß[k_{ã_Zy jì† Q;À¥Í€úQÔ1ªîá=Èú%$ééÙêË…m²ÊAB²Õ×3ãógé(þr¿8™CÔ:ãÈÄäÆ?­(*±Øè¶C*[b˜¤‚“›%~0Ûˆ7Ivá™|ò²^
+1¾­Ä«°qÙŽ{¬ã_&È€Á¹Q/ï‡Iºz0‰üWZUŽ‡ÃbeŽÕØ¹Ì‹{e	†Iò§*ô<)MÈ¸·ÒdÂ+Ú;­8`ùm_ÕZÓÔy-¯·Qû²Mƒü‘Äõ0ÊG^Ñ¸k·Ï ¯+™å
 endstream
 endobj
 
 1029 0 obj
-1136
+2548
 endobj
 
 126 0 obj
@@ -9527,11 +9536,7 @@ endobj
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
-/XObject <</I30 1031 0 R
-/I31 1032 0 R
-/I32 1033 0 R
-/I33 1034 0 R>>
-/ProcSet [/PDF /Text /ImageC]
+/ProcSet [/PDF /Text]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>
@@ -9540,7 +9545,7 @@ endobj
 
 1030 0 obj
 <</Type /Annot
-/Rect [222.8861 655.8611 325.9761 667.8611]
+/Rect [222.8861 382.0021 325.9761 394.0021]
 /Border [0 0 0]
 /Subtype /Link
 /A <</Type /Action
@@ -9548,63 +9553,61 @@ endobj
 /URI (http://jet.jips.org/documents/download/terms-of-reference-for-a-workshop-on-collaborative-analysis-of-the-profiling-findings)>>>>
 endobj
 
-1035 0 obj
-<</Length 1036 0 R
+1031 0 obj
+<</Length 1032 0 R
 /Filter /FlateDecode>>
 stream
-xœUMjÄ0…÷>…Ö]hôkÙ
-Í¤]rƒN§P(¥sÿEÕ„ÐÄIöCï{f¤<ðQ‚°ÕÊ°UsE7Õ¼ d‡û{¹=”q.9‡8Š)gQÖ€ûÿŠÚ*š†À|-§‹€Ðj2ßÊÀ®U.2êùæÏb-`S\ËoM&¹ë“žµÿõ:é´èŸçòS˜"V=Š3ax6{CqíðöUN/j0}—×%A67Œ*	öÈ®BßÑZÒv5c3åH,±rçt;pk$¯¦Ž²kmšIÒ6÷ÊØxõá½×½¾ulýÀÌÂ¾S)·îöü«¬`›
+xœ•VÉŠ,7¼×WÔÙrÓƒ¡kiðÑÐ`ûÆØÿph©v-Ýƒß3µå"EFFŠœÇÏøû½K!Ð¸]ÕÄ™Šà…wdÑÆ~¾ý0L¡˜çè|5gvF>_‡;ä[ÀÇ·áÓ¦ÇÇÃú(ND[‚Ç'-ž„”åîIo:kÖUî²èª‚û´½•YƒÜ5*ìëÓ‚§Ù|M@jN’n¹AV„žt®¡×’¢ß‹.ðmmVx“RÏš`[“èŒÿTÞÏ–(dgù”hÒ ¤¦¶Æšl®nDË‚'f>9f£êÿ¤½É!Qp™|<™Ôœ{31çÕøhÖpØ›¹ ùí
+ÈÞ%ƒ(ÙÉ¥lù‰éÎœ»–”.É{#INr%ÛW«eS—S<ÅÂJçZTüùƒy"Çt1JE{m“ê¢Éy:–öL„]¶¹ÁR+X³{ó]$>ï(w&u£˜AÜpŽ9j)Ù\Œ¤oÑ!uêkï»j”¢³|
+Ër™TÙiðçLïj«ÑP=Ç=ÖV’KÖKR¥W,Ð½j žebcä‚ß;Js–»E¹6xQ<£WÝ)ƒ\û´©Iƒ,¹Ìg‹¦;²ô,¯$ $/~]š˜ÜúîAi;Yv½‰Ï"Rø¸š¼”‹`Þx|!{“;T˜…±¾ór¨::rñ=*8Ý6¿ÔÚïHÖ/–®¤±Pá¸Ì²ñ—?‡ŸÄË_ÃÏ%á6X@/LBÝS¥ÕÜ&Ô´"Y€¨•MÏV…RáV‹çl¨5×jý¹Ø—ï=ÒÁî¨†~ç”äP÷&gPi¬Žï2ËMf>¶EU˜s„ï…6™³r%Çä½¥-] Õ”QÌÚõ?@È h§Ÿ¸Dgþµ)X:L¼ÕŽï^O¨34†d}ìV¿7× +R±qøä½É+æ‚µY¢D@œø r.¦K„ï9h9bVH	Gâ4zê ódH™³ÄÜ@^ê™…º:p¡öE"ÎÔ”¥ðçÕÆÏØæ+O¢ºÙïìy.OU"Ëd#œ…òˆÇ´\FÈ{ˆ÷&£º‡_¯rsÉ_üßAy%Ú®™a+á8;lH:Àr	Lƒ5€ó&™—^ý` üÿÙ°Ñ¸žSE¶6Æ¦:ê»Þ¬ýLZš¢¾ÛjXÚa?Ý°¿8ÉCOAÔ†’Œy’ä,ª¥øTz‡c[#NÖXÎa‘‚"°ó¸Û'â]24¿@\ÌÓV]‡ÃOFùâÁþ“ˆ˜l´ |:FÝÅù„Ð‰}
 endstream
 endobj
 
-1036 0 obj
-249
+1032 0 obj
+988
 endobj
 
 127 0 obj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 1035 0 R
+/Contents 1031 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
-/XObject <</I34 1037 0 R>>
-/ProcSet [/PDF /Text /ImageC]
-/ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
+/XObject <</I30 1033 0 R
+/I31 1034 0 R
+/I32 1035 0 R
+/I33 1036 0 R>>
+/ProcSet [/PDF /Text /ImageC]>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>>>
 endobj
 
-1038 0 obj
-<</Length 1039 0 R
+1037 0 obj
+<</Length 1038 0 R
 /Filter /FlateDecode>>
 stream
-xœ¥XËr#7¼ë+tÎ! ¾¦Ê•*Íëü	É¦*ÇýÿC GâŒÆZ+ñÖÚžHâÑh4MÎãëú÷%{WR¢ëö3Dq1ˆà…ws¼þüëòã·ËøyÁsæxõŽƒ~I¾þ|l‘JrA2_?ÿ¼ü¾ò•}=äóÇåKìšD¤yÂÚU„^ÿ¸~þsY>õ€ûF2¸"%oQzlDQ)!ëR)<óŠÍtS}ž‚ç‡ÌDÝ¶æ·­‰!Õ­éJqìmÎt+>˜‚¼¬aÂÿOaÞ-‘dÔ·xcÏú9|›ñ…ßG}«ï`Qâ$f]#º›î½®³×ýô»ž¤Ÿ"m°^ƒ¾G2£7wÅN„°E7íÆê?±­R"¶B‘qXÎbŽHWŽe°Íàë¤ÛÉfÌÙ%ÚØ|	n8ñ_öðÅ9ºŸØ•râý7STcÏiç"	 8¼ïã£„øDkâQºež-†¤eElvšÑ›z(L§¹,â°×£à¶â¤æä>Š…0ÂÚÊ÷\ñLÿ/e2ƒÎ&K“þL‡§
-™®î@šÿ!©÷í9[‹cÞ¯ñKßµ¿`›ˆ—DÃI°€$”–o”.xÆSV‚@X7Xm¼ ‹¨§\¾OýŠ¾!¹±âqpLÏ	
-Jo–¢]nöt³.MQà3
-‰"Ð„RšÅP\É%WLÊ´.lWt=ˆì[¡µV4Ó­`‹Ë].Lµ¶§!îL$Tz9qNîÜ¥Ì¸V+ì2SðÓ>T8JÂçË™KÅ£•SxåRoò¶K.G—ðóö‘^te¤Ó™•¾_^æ,Û,›0ÇÐy˜b¯ <öÈšýŠ.I;"³)UáÔ’5¢oÉØ ™UE¶êLXý˜õiâ\¤ãq÷Ì1¯n=ÈeùuOì(3.iÝZ=©ãÕN[ìD}/â#Ð˜kGúðt¼.RNÔö9K¡`^¥ŽÅ¶ßIW&ëÅF¿_Ì
-…½&¶¦Y¥D‹»Q4+å?Ö~Ýûc
-xl·3t6.w²Ñ<Î;-gÔmˆmJá¨%¬61*õ¬a¬Ïw6oòá­&ñnð…O›D¹Ö1öQ ¢YtÆÏ*üdVÙg¤Qð¼X3MÒC»Bõ5…V3™ÉË—½$^Q ï÷R¿šÐtÝhÐe£dŽˆ¥
-ÜÌŽh‹ÜFg‡.˜‘öÕ*^«©¼”k'„Ôj©]!ÊêM(ÖêîØðÐÙæÃZ%Ü‘rÄiz¦¾7é«*69=5à[à˜P".§Àý @#Ö“ ày©8P:{Ò|`ÅÈiÖØX‰Ô+vŒV©Q.m×hfÕ£E)YwVô}	æâ²ßn$ßH¿z¤²—ûïCšZg™bƒë®œ›Ï±eÃ¼˜ÞnZ:ÅÒx‡Ë²éÃPÅÁj{)qª.TkÕy&ê(´ip3Òéî!Ñº*+§²ãô÷lRp€š1Òw&|S˜ØMÖ x/:N/8ø×„”zçà±¿Þ“3Ö 7U/q[Oh÷ÕIÁy~JËMiþÞ ”]!:¿öŠâØ.¸(mäIûàKÄÂÒyÊo\tû½@˜ÅcB+À¨]t'Öd@í?/«#ÄŽPÕSˆIkOÊM§—ë;>&:˜ªB›ÃOG7qÄ¸¯·…g‡‚`hÛ¥”@®×Òo·àcÍ5fiÑRUÛtDÀùh[úQ­’ôI¢Äàè‰kiÀ”®=_¡9™Ä™›t”3¬$*- ÕúwŠ^µâ¬ºÑÅpLU h¨X4é²“¿ÒÏnÈÒà*×¡C+°	ÞÕY]oL.eÞÂƒYL>á–Ö¬"$cŠ«È*‡3æ¼øFÏŠ¼Óß‚®·Év“Újƒ8†FÛí1‡¾KP!W˜÷|„Ð›»õ¸7y+*OÓ$.¥½Í¶;ÇÅ}°kú¶Ÿ‚&”÷4d«ªnÿ*j¼c¹
-¹ACk¼ÐU-¦ uóÎþ÷7¦Þ
-¤äíwíöù&SK;
+xœ•’ËjÄ0E÷þ
+¯»Ðèaù¡0‰'Ðe!Ði…R:ÿ¿¨â!Œ3…B³‘¢]éÚ!@{ü»K9Fò[* AÄ
+¤IýåÕ½=¸qqöžX=!B’üå&s„ ‰ýrv‡™=ãuÈòæR‰<ó(Ó£_>\Hm€ßˆ³ì[æÊ3’e’²æR¥6þ´¸oG˜Ò•Ç]PBHjÉ¶iV)þåÓž$øúåž›ƒÎpF†’ÌAÛV|é–$ÊÔ8¶ñLï×-˜0òi£°D½£”«Ì’Ì”`´¬Êhµ5k¿ŒV9Ê©iÎ¸×¨¶C0Ì™yo`¡G„!*Þ!ÿrET®Œ)Å=³u›r¹oîÍ’Œe&5þ2MöÝL*(EüËµ]}VÍ^Êj­Ýõ·¦±çsŒiÇDÄÔSBöªÎÁ¦Ñ
 endstream
 endobj
 
-1039 0 obj
-1571
+1038 0 obj
+333
 endobj
 
 128 0 obj
 <</Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
-/Contents 1038 0 R
+/Contents 1037 0 R
 /Resources <</Font <</F1 400 0 R
 /F2 401 0 R
 /F3 419 0 R>>
-/ProcSet [/PDF /Text]
+/XObject <</I34 1039 0 R>>
+/ProcSet [/PDF /Text /ImageC]
 /ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>>>
@@ -9614,16 +9617,19 @@ endobj
 <</Length 1041 0 R
 /Filter /FlateDecode>>
 stream
-xœTIŽÛ@¼ë:çÐáÚ`-~Ÿ0™ 9Îÿ)µäq«í±!XV—Šd±H„ÏøkHrŒ<ÞÍ5¸©âöäãçÏáãÛ0Ý†Î|Ç‹gÊãí}ø~åÏ+ãíc¸èª“­z%¶¤Óñö{P1ãøŽz.®Ä:o(½VŒXHÞa¤žàÀÎºX´+áB²ÙŠ%Ü­&•r²Œ+ºÚb¸(Z·;Ž´°°ÒÊ…¡ŒŠß˜2xZãÿ|~ƒ
-­5­õVe	œÄ‘œ˜2~”5ŸecòKñ])9>”•«¾A…"(EU™5
-
-`Õ,“F´Oui6m‹–“Û«6ðŠúùh€p(Ú7ÀZZ&CžB'Î‹-A	Ò7‡Žæ”Ò5çÚÒJÂIÊmÖ«óÖŸêRÖØAánóÝ%OñªÛ´mŠRˆ~¢rt†¤“ÎAÙÖ/æ(Ñµ‹®°Äj¥F0ÆYüË!ÓIºÝkY‹naÅp*6Çø´|
-ÓpÉ2^‹ha*AÕü)ì„A<g…hÔWK°{Ä· 9[åm¶F)¤ÿU·±ËOª	<ó9F'÷ÎÀdË²Ø{öïž«}Ò¯—÷N`²ÞRç†bH‚§b]"óIÛ¯‰S™KÚ‰æÍDöq;–‘î>Eq}ŽuãM›¾TÕÝýœÿo‘[sŽC¤Œ]ÜIP7ˆ{ÉapŽwÕ½U"«¹F|µNO}Ä~ŽRÆLJÒ´/#K³‹k­¨a˜',HPJÚ‹„ŠsJX‰ÛŒîòiªRÈîyT,3tö¾ôš8[|.!o«§Á_˜±ÇÓi¶$À·gÔƒçí~?
+xœ¥XËŽ#7¼û+|ÎAI=A ÷ëæ’ãþÿ!EªÛV·Û³ãd;ÞnKÅbiÉyü\ÿ¾dïJJtÝ>Cƒ^xG1ÇëÏ¿.?~»Ÿ<gŽWï8áCHòõçÃD*ÉÉ|ýüóòûÂWöíÏ—l™a5‰Hò„½‹Ï¼üqýüç2êwCR]‘’7C”†(J•²n•Â/0¦Fõyž2uf5Ìš7ÓÄÎ‡šiºRçcºMD›3ÝŽ¦ Á/Kñ·„ÙS˜BÅ»9’úoìY¿‡oÞÂ£°à÷ oõV”8Š­Á
+Ý#jMíF¯;ÂäÕžþÖ“ô[¤«— ï‘ÌèÍ]ñÕIE[$pÓ°XÝãÇ!f*…a
+EÆa¡žÅ‘®K5cðuTs²-æìí\}	®žx‚õðÅ9ºŸØ•râý7SÔœcÏiç"	 Xß÷ñQÂ|"ƒ-ñ(Ý‚2OCÒ²"¶ušÑ›z(Œ§¹,â`ÛQp[qÒòˆNòÅ‚BaYË÷\ñLÿ/e32ƒÎ&K“þL‡§™®î@šÿ!©÷í9Û‹cÞïñsßµ¿`›ˆ—DõŒ$X@JóÆ7J<á)+A ¬Vm|AQN¹|Ÿ,ú|CrcÃcuLÏ	
+Jo–¢]nöt³.MQà3
+‰"Ð„RÚŠÚ
+ÜÈ%WŒÊ´+]˜Ut=ˆìÛ µ44Ó­`‹Û].L­¶§!î–HhôrâœÜ¹K™qi«`e¢àÇ}¨p”„ïç3—ŠG+§ð•Ký’·]Šp©]Âçí-8"½èÊH§3+½_›^æ,Û,1ÇÐy˜b_A3xØ¯ä¿Í~G—¤‘Ù”jpZ“5 oÉØ Ùª‚ÙR¨3añ3`Ö§‰Kp‘ŽÇaÜ{0Çh¼ºõD —å×=±£ÌX]:Òº9µzÒÆ«6Û‰ú^4ÄG 1·ŽôáéxÝ¤œ¨ís–B©`^¥ÅÕÞIW&ëÅ•~_Ì
+…½&¶¥Y¥Ä÷JÑ¬”ÿØûº÷5Æ&ðTm·3t6Îw²Ñ<Î;-gÔ­ÆuJá¨9,61õ,ahÏw6_åÃ[M"â]õ…O›D¹Ö1ö Q ¢YtÆO*üdRÙg¤Qð<[3²(†v…:ëk
+­f2“ç—½$^Q ï÷R¿šÐtÝ`Ðe£dŽˆ¥	ÜÌŽh‹¼ŽÎ]0!í‹U¼USy)·Ni­¥v…(«¯B±UwçÀ†‡Õ‘m>,MÈ)Gœ6¡gê{“XÕÄ&§§|JÄå¸hÄvÜ!/m‚J§COš¬9M+‘zÅŽÑ*­”KÛušYõhQJVËŠ¾—a..ûíFòˆô; G{9°ÿ>¤qí,SlpcÙ•s¡Ó9¶l˜ÁÛMCKg¢ØBîp™7}š8XÌ–§êB]­:Ï„A…6nF:Ý]##„#ZEbãTvœ¾ Ç=› æ¿é»%|S˜ØMÖ x_tœ^pðg^P^èƒÇ¶Øøõžœ¡½)¨v‰ÛzB»ïô¨õœç§´Ü”æßèJÙ¢ók¯)Ží‚;‚Òµ^"+§üÆE·ßÑ„IL16 ¬­ÝÑ€5PûïËcÕbG¨ê€iÄŒ¤­OÊM§—ë;>&:˜ªA›ÃOG7qÄ¸o·…g‡‚`hÛ¥”@n·Òo·àcÍ5fhÖRU»êˆ€óqméGµJÒ'‰ƒ£'®¥Š)Ýz¾As4‰3­Ò©*gXITZ ªíÿ)z!´gY¡]ÇÁÔ€†ŠM£nëràWN\¯Å³«YV¼Êµvp gˆtìXsq‹	£ºŸÐ’1Âµÿê‹ÇÐ$%ÆrrZnƒrwNL;íY!Ïòný®L¹[…>röV;;ÿî«
 endstream
 endobj
 
 1041 0 obj
-638
+1486
 endobj
 
 129 0 obj
@@ -9644,12 +9650,15 @@ endobj
 <</Length 1043 0 R
 /Filter /FlateDecode>>
 stream
-xœ    
+xœ•UIŽÛ0¼û:çÀôÊ0Œ¶ø	“	ãüÿ%)z2Hl¦Åb±«»Øä@ø¿.‰BŽ‘‡û¯¹7U¼ Àž|xÿyyûvo—Î|Ç‹gÊÃíõò}åï+ãíírÕEG[t%¶¤ãáöû¢bÆôõz¹ºë´¡t­±¼ÃHÁ„'t¶h+6ÂƒmÈ&+–0ZL*åhOtµÙðP"´o#Ž4³°ÒÂ…AFÅoL<-‚ñ:¯ BKk¹Õ´NâNL?Êš†÷GfcòKñ=S2p|dJTV}AŠ@ŠÌª2i`Õ,£F”oun7lÊ-&·ÏÊÀôóQ áP´/€µ´L†8…NœW›‚¤/Å)¥+ÎÚÒJÂLÊmÖÕy«Ou)kì ðÇ·éî’§ýªÛ´-ŠR$ýDåè„”Ž:Ye«_Ì!ÑµÛ]a‰ÅJŒ`Œsò¯GšHÒMtŸË*º…Ã¬t¹9ŽOË§0—ÜeÆ«ˆ¦TÍŸ¶qÏ	‚³B4êÕìñ-(Î¦¼Ö(…”âWº=X~òPà™Ïqtrïœìb¹Â@{ÏþÝsµNú±xßÃ‰LÖ[ê\P’à©XÈtÊíÇ‰S™KÚ‰¦ÍDö‚äÎv4#Ý}
+q}Œµã[~©fw÷s
+ü¯"·â“½¸KAí` ~ôA‡ƒs¬q¨ûü¨úYõ0âgíô“Ìd’P’¦½éPšV„®¦“Ì[·»·£˜ä´£”Š˜(¢(T¢w(GŸ\5¡o*Á¡GáÝ6²m=Ž÷ŒÙ=Æ¢A29æ“WY9¸šµ,d¾ƒü—*æÝrØ,Æ3æ¾Ì¥_ÜŠe$#PO¢·ÏC4LŒÛ9ÒWªS
+Ù=Š›a“vÜ MÕ<¶ø\BÞúxƒ¿2ãRÌ§F%MàŒzðüüçÄu
 endstream
 endobj
 
 1043 0 obj
-8
+722
 endobj
 
 130 0 obj
@@ -9657,7 +9666,11 @@ endobj
 /Parent 2 0 R
 /MediaBox [0 0 595.2756 841.8898]
 /Contents 1042 0 R
-/Resources <</ProcSet [/PDF]>>
+/Resources <</Font <</F1 400 0 R
+/F2 401 0 R
+/F3 419 0 R>>
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB [/ICCBased 394 0 R]>>>>
 /Group <</S /Transparency
 /CS [/ICCBased 394 0 R]>>>>
 endobj
@@ -10875,7 +10888,7 @@ endobj
 15879
 endobj
 
-1037 0 obj
+1039 0 obj
 <</Length 1095 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -11156,7 +11169,7 @@ endobj
 476
 endobj
 
-1034 0 obj
+1036 0 obj
 <</Length 1098 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -11200,7 +11213,7 @@ endobj
 1053
 endobj
 
-1033 0 obj
+1035 0 obj
 <</Length 1101 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -11245,7 +11258,7 @@ endobj
 1216
 endobj
 
-1032 0 obj
+1034 0 obj
 <</Length 1104 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -11298,7 +11311,7 @@ endobj
 2150
 endobj
 
-1031 0 obj
+1033 0 obj
 <</Length 1107 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -11434,7 +11447,7 @@ endobj
 2596
 endobj
 
-1008 0 obj
+1010 0 obj
 <</Length 1115 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -11913,7 +11926,7 @@ endobj
 123792
 endobj
 
-1003 0 obj
+1002 0 obj
 <</Length 1116 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -12158,7 +12171,7 @@ endobj
 240
 endobj
 
-998 0 obj
+997 0 obj
 <</Length 1119 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -12773,7 +12786,7 @@ endobj
 1830
 endobj
 
-916 0 obj
+917 0 obj
 <</Length 1122 0 R
 /Filter /FlateDecode
 /Type /XObject
@@ -16286,147 +16299,147 @@ xref
 0 1208
 0000000000 65535 f 
 0000000016 00000 n 
-0000033177 00000 n 
-0000038020 00000 n 
-0000042672 00000 n 
-0000049553 00000 n 
-0000051242 00000 n 
-0000053228 00000 n 
-0000057452 00000 n 
-0000061616 00000 n 
-0000065900 00000 n 
-0000067873 00000 n 
-0000068630 00000 n 
-0000070764 00000 n 
-0000076044 00000 n 
-0000081633 00000 n 
-0000082660 00000 n 
-0000084408 00000 n 
-0000088408 00000 n 
-0000089152 00000 n 
-0000089479 00000 n 
-0000091290 00000 n 
-0000096323 00000 n 
-0000100660 00000 n 
-0000104915 00000 n 
-0000112113 00000 n 
-0000116663 00000 n 
-0000122282 00000 n 
-0000127131 00000 n 
-0000129719 00000 n 
-0000135418 00000 n 
-0000138438 00000 n 
-0000141034 00000 n 
-0000144988 00000 n 
-0000147789 00000 n 
-0000152885 00000 n 
-0000155447 00000 n 
-0000159461 00000 n 
-0000159836 00000 n 
-0000162052 00000 n 
-0000164920 00000 n 
-0000166565 00000 n 
-0000168935 00000 n 
-0000170695 00000 n 
-0000171534 00000 n 
-0000173571 00000 n 
-0000179881 00000 n 
-0000182098 00000 n 
-0000183876 00000 n 
-0000187992 00000 n 
-0000191519 00000 n 
-0000194238 00000 n 
-0000195768 00000 n 
-0000198622 00000 n 
-0000204602 00000 n 
-0000209897 00000 n 
-0000214608 00000 n 
-0000221344 00000 n 
-0000223559 00000 n 
-0000228366 00000 n 
-0000234357 00000 n 
-0000239302 00000 n 
-0000241541 00000 n 
-0000243835 00000 n 
-0000246226 00000 n 
-0000248607 00000 n 
-0000251753 00000 n 
-0000254031 00000 n 
-0000259179 00000 n 
-0000263168 00000 n 
-0000268343 00000 n 
-0000273242 00000 n 
-0000279808 00000 n 
-0000283675 00000 n 
-0000288613 00000 n 
-0000294692 00000 n 
-0000295031 00000 n 
-0000297816 00000 n 
-0000303610 00000 n 
-0000307409 00000 n 
-0000312156 00000 n 
-0000312750 00000 n 
-0000313378 00000 n 
-0000314902 00000 n 
-0000320709 00000 n 
-0000323539 00000 n 
-0000325776 00000 n 
-0000328802 00000 n 
-0000331093 00000 n 
-0000334010 00000 n 
-0000336528 00000 n 
-0000337314 00000 n 
-0000338639 00000 n 
-0000339307 00000 n 
-0000340291 00000 n 
-0000341171 00000 n 
-0000342554 00000 n 
-0000345108 00000 n 
-0000347521 00000 n 
-0000349629 00000 n 
-0000354337 00000 n 
-0000358516 00000 n 
-0000360727 00000 n 
-0000363616 00000 n 
-0000367319 00000 n 
-0000369619 00000 n 
-0000372540 00000 n 
-0000375628 00000 n 
-0000378055 00000 n 
-0000379920 00000 n 
-0000380308 00000 n 
-0000382165 00000 n 
-0000389952 00000 n 
-0000395599 00000 n 
-0000400261 00000 n 
-0000403815 00000 n 
-0000405451 00000 n 
-0000406946 00000 n 
-0000409055 00000 n 
-0000411365 00000 n 
-0000415477 00000 n 
-0000418436 00000 n 
-0000422035 00000 n 
-0000424227 00000 n 
-0000425239 00000 n 
-0000427750 00000 n 
-0000430934 00000 n 
-0000431937 00000 n 
-0000433930 00000 n 
-0000434954 00000 n 
-0000435346 00000 n 
-0000435953 00000 n 
-0000436333 00000 n 
-0000437530 00000 n 
-0000437910 00000 n 
-0000440186 00000 n 
-0000445706 00000 n 
-0000449701 00000 n 
-0000453732 00000 n 
-0000455596 00000 n 
-0000457586 00000 n 
-0000458869 00000 n 
-0000033110 00000 n 
+0000033192 00000 n 
+0000038035 00000 n 
+0000042687 00000 n 
+0000049568 00000 n 
+0000051257 00000 n 
+0000053243 00000 n 
+0000057467 00000 n 
+0000061631 00000 n 
+0000065915 00000 n 
+0000067888 00000 n 
+0000068645 00000 n 
+0000070779 00000 n 
+0000076059 00000 n 
+0000081648 00000 n 
+0000082675 00000 n 
+0000084423 00000 n 
+0000088423 00000 n 
+0000089167 00000 n 
+0000089494 00000 n 
+0000091305 00000 n 
+0000096338 00000 n 
+0000100675 00000 n 
+0000104930 00000 n 
+0000112128 00000 n 
+0000116678 00000 n 
+0000122297 00000 n 
+0000127146 00000 n 
+0000129734 00000 n 
+0000135433 00000 n 
+0000138453 00000 n 
+0000141049 00000 n 
+0000145003 00000 n 
+0000147804 00000 n 
+0000152900 00000 n 
+0000155462 00000 n 
+0000159476 00000 n 
+0000159851 00000 n 
+0000162067 00000 n 
+0000164935 00000 n 
+0000166580 00000 n 
+0000168950 00000 n 
+0000170710 00000 n 
+0000171549 00000 n 
+0000173586 00000 n 
+0000179896 00000 n 
+0000182113 00000 n 
+0000183891 00000 n 
+0000188007 00000 n 
+0000191534 00000 n 
+0000194253 00000 n 
+0000195783 00000 n 
+0000198637 00000 n 
+0000204617 00000 n 
+0000209912 00000 n 
+0000214623 00000 n 
+0000221359 00000 n 
+0000223574 00000 n 
+0000228381 00000 n 
+0000234372 00000 n 
+0000239317 00000 n 
+0000241556 00000 n 
+0000243850 00000 n 
+0000246241 00000 n 
+0000248622 00000 n 
+0000251768 00000 n 
+0000254046 00000 n 
+0000259194 00000 n 
+0000263183 00000 n 
+0000268358 00000 n 
+0000273257 00000 n 
+0000279823 00000 n 
+0000283690 00000 n 
+0000288628 00000 n 
+0000294707 00000 n 
+0000295046 00000 n 
+0000297831 00000 n 
+0000303625 00000 n 
+0000307424 00000 n 
+0000312171 00000 n 
+0000312765 00000 n 
+0000313393 00000 n 
+0000314917 00000 n 
+0000320724 00000 n 
+0000323554 00000 n 
+0000325791 00000 n 
+0000328817 00000 n 
+0000331108 00000 n 
+0000334025 00000 n 
+0000336543 00000 n 
+0000337329 00000 n 
+0000338654 00000 n 
+0000339322 00000 n 
+0000340306 00000 n 
+0000341186 00000 n 
+0000342569 00000 n 
+0000345123 00000 n 
+0000347536 00000 n 
+0000349644 00000 n 
+0000354352 00000 n 
+0000358531 00000 n 
+0000360742 00000 n 
+0000363631 00000 n 
+0000367334 00000 n 
+0000369634 00000 n 
+0000372555 00000 n 
+0000375682 00000 n 
+0000378255 00000 n 
+0000380766 00000 n 
+0000381154 00000 n 
+0000383011 00000 n 
+0000390798 00000 n 
+0000396445 00000 n 
+0000401107 00000 n 
+0000404661 00000 n 
+0000406297 00000 n 
+0000407792 00000 n 
+0000409901 00000 n 
+0000412097 00000 n 
+0000415917 00000 n 
+0000418874 00000 n 
+0000422473 00000 n 
+0000423934 00000 n 
+0000425022 00000 n 
+0000426834 00000 n 
+0000431578 00000 n 
+0000433243 00000 n 
+0000433991 00000 n 
+0000435899 00000 n 
+0000437007 00000 n 
+0000437714 00000 n 
+0000438094 00000 n 
+0000439291 00000 n 
+0000439671 00000 n 
+0000441947 00000 n 
+0000447467 00000 n 
+0000451462 00000 n 
+0000455493 00000 n 
+0000457357 00000 n 
+0000459347 00000 n 
+0000460630 00000 n 
+0000033125 00000 n 
 0000001402 00000 n 
 0000002527 00000 n 
 0000003062 00000 n 
@@ -16447,15 +16460,15 @@ xref
 0000021520 00000 n 
 0000022600 00000 n 
 0000024298 00000 n 
-0000025097 00000 n 
-0000026955 00000 n 
-0000027882 00000 n 
-0000029613 00000 n 
-0000031188 00000 n 
-0000031348 00000 n 
-0000031475 00000 n 
-0000032828 00000 n 
-0000033010 00000 n 
+0000025221 00000 n 
+0000027079 00000 n 
+0000028006 00000 n 
+0000029484 00000 n 
+0000031203 00000 n 
+0000031363 00000 n 
+0000031490 00000 n 
+0000032843 00000 n 
+0000033025 00000 n 
 0000000082 00000 n 
 0000000231 00000 n 
 0000000458 00000 n 
@@ -16622,882 +16635,882 @@ xref
 0000023702 00000 n 
 0000023811 00000 n 
 0000024961 00000 n 
+0000025111 00000 n 
 0000024448 00000 n 
 0000024564 00000 n 
 0000024679 00000 n 
 0000024835 00000 n 
-0000025248 00000 n 
-0000026812 00000 n 
-0000025358 00000 n 
-0000025485 00000 n 
-0000025625 00000 n 
-0000025768 00000 n 
-0000025903 00000 n 
-0000026030 00000 n 
-0000026171 00000 n 
-0000026298 00000 n 
-0000026436 00000 n 
+0000025372 00000 n 
+0000026936 00000 n 
+0000025482 00000 n 
+0000025609 00000 n 
+0000025749 00000 n 
+0000025892 00000 n 
+0000026027 00000 n 
+0000026154 00000 n 
+0000026295 00000 n 
+0000026422 00000 n 
 0000026560 00000 n 
-0000026694 00000 n 
-0000027105 00000 n 
-0000027216 00000 n 
+0000026684 00000 n 
+0000026818 00000 n 
+0000027229 00000 n 
 0000027340 00000 n 
-0000027477 00000 n 
-0000027612 00000 n 
-0000027751 00000 n 
-0000028031 00000 n 
-0000028163 00000 n 
-0000028931 00000 n 
-0000029474 00000 n 
-0000028293 00000 n 
-0000028399 00000 n 
-0000028520 00000 n 
-0000028638 00000 n 
-0000028791 00000 n 
-0000029119 00000 n 
-0000029233 00000 n 
-0000029358 00000 n 
-0000029770 00000 n 
-0000029886 00000 n 
-0000030016 00000 n 
-0000031046 00000 n 
-0000030138 00000 n 
-0000030250 00000 n 
-0000030379 00000 n 
-0000030514 00000 n 
-0000030656 00000 n 
-0000030816 00000 n 
-0000030934 00000 n 
-0000031601 00000 n 
-0000031970 00000 n 
-0000032405 00000 n 
-0000032680 00000 n 
-0000031717 00000 n 
-0000031853 00000 n 
-0000032178 00000 n 
-0000032293 00000 n 
-0000034237 00000 n 
-0000034797 00000 n 
-0000034819 00000 n 
-0000037478 00000 n 
-0000038348 00000 n 
-0000038698 00000 n 
-0000037501 00000 n 
-0000037998 00000 n 
-0001629167 00000 n 
-0001645622 00000 n 
-0001620913 00000 n 
-0000038870 00000 n 
-0000042649 00000 n 
-0000043108 00000 n 
-0000043290 00000 n 
-0000043476 00000 n 
-0000043661 00000 n 
-0000043905 00000 n 
-0000044148 00000 n 
-0000044319 00000 n 
-0000044578 00000 n 
-0000044836 00000 n 
-0000045003 00000 n 
-0000045179 00000 n 
-0000045435 00000 n 
-0000045604 00000 n 
-0000045772 00000 n 
-0001659405 00000 n 
-0001610871 00000 n 
-0000045947 00000 n 
-0000049530 00000 n 
-0000049904 00000 n 
-0000050134 00000 n 
-0000050303 00000 n 
-0000050496 00000 n 
-0000050705 00000 n 
-0000050921 00000 n 
-0001673547 00000 n 
-0000051137 00000 n 
-0000051222 00000 n 
-0000051423 00000 n 
-0000053205 00000 n 
-0000053627 00000 n 
-0000053763 00000 n 
-0000053900 00000 n 
-0000054037 00000 n 
-0000054174 00000 n 
-0000054311 00000 n 
-0000054448 00000 n 
-0000054585 00000 n 
-0000054722 00000 n 
-0000054859 00000 n 
-0000054996 00000 n 
-0000055133 00000 n 
-0000055270 00000 n 
-0000055407 00000 n 
-0000055544 00000 n 
-0000055681 00000 n 
-0000057429 00000 n 
-0000057847 00000 n 
-0000057984 00000 n 
-0000058121 00000 n 
-0000058258 00000 n 
-0000058395 00000 n 
-0000058533 00000 n 
-0000058671 00000 n 
-0000058809 00000 n 
-0000058947 00000 n 
-0000059085 00000 n 
-0000059223 00000 n 
-0000059361 00000 n 
-0000059499 00000 n 
-0000059637 00000 n 
-0000061593 00000 n 
-0000061959 00000 n 
-0000062095 00000 n 
-0000062231 00000 n 
-0000062368 00000 n 
-0000062505 00000 n 
-0000062642 00000 n 
-0000062779 00000 n 
-0000062916 00000 n 
-0000063053 00000 n 
-0000065877 00000 n 
-0000066182 00000 n 
-0000067850 00000 n 
-0000068155 00000 n 
-0000068608 00000 n 
-0000068852 00000 n 
-0000070741 00000 n 
-0000071060 00000 n 
-0000071197 00000 n 
-0000071334 00000 n 
-0000076021 00000 n 
-0000076326 00000 n 
-0000081610 00000 n 
-0000081903 00000 n 
-0000082638 00000 n 
-0000082930 00000 n 
-0000084385 00000 n 
-0000084744 00000 n 
-0000084881 00000 n 
-0000085018 00000 n 
-0000085155 00000 n 
-0000085292 00000 n 
-0000085429 00000 n 
-0000085566 00000 n 
-0000085703 00000 n 
-0000088385 00000 n 
-0000088690 00000 n 
-0000089130 00000 n 
-0000089374 00000 n 
-0000089459 00000 n 
-0000089661 00000 n 
-0000091267 00000 n 
-0000091634 00000 n 
-0000091771 00000 n 
-0000091908 00000 n 
-0000092045 00000 n 
-0000092182 00000 n 
-0000092319 00000 n 
-0000092456 00000 n 
-0000092593 00000 n 
-0000092785 00000 n 
-0000096300 00000 n 
-0000096623 00000 n 
-0000096817 00000 n 
-0000100637 00000 n 
-0000100976 00000 n 
-0000101234 00000 n 
-0000101491 00000 n 
-0000101678 00000 n 
-0000104892 00000 n 
-0000105271 00000 n 
-0000105555 00000 n 
-0000105780 00000 n 
-0000106186 00000 n 
-0000106388 00000 n 
-0000106611 00000 n 
-0000106849 00000 n 
-0000107070 00000 n 
-0000107327 00000 n 
-0000112090 00000 n 
-0000112347 00000 n 
-0000116640 00000 n 
-0000116983 00000 n 
-0000117179 00000 n 
-0000117412 00000 n 
-0000122259 00000 n 
-0000122582 00000 n 
-0000122795 00000 n 
-0000127108 00000 n 
-0000127413 00000 n 
-0000129696 00000 n 
-0000130111 00000 n 
-0000130248 00000 n 
-0000130385 00000 n 
-0000130522 00000 n 
-0000130659 00000 n 
-0000130796 00000 n 
-0000130933 00000 n 
-0000131070 00000 n 
-0000131207 00000 n 
-0000131344 00000 n 
-0000131481 00000 n 
-0000131618 00000 n 
-0000131755 00000 n 
-0000131973 00000 n 
-0000132234 00000 n 
-0000135395 00000 n 
-0000135726 00000 n 
-0000135940 00000 n 
-0000136153 00000 n 
-0000138415 00000 n 
-0000138720 00000 n 
-0000141011 00000 n 
-0000141350 00000 n 
-0000141568 00000 n 
-0000141796 00000 n 
-0000142029 00000 n 
-0000144965 00000 n 
-0000145288 00000 n 
-0000145481 00000 n 
-0000147766 00000 n 
-0000148137 00000 n 
-0000148339 00000 n 
-0000148531 00000 n 
-0000148757 00000 n 
-0000148982 00000 n 
-0000149250 00000 n 
-0000149474 00000 n 
-0000149754 00000 n 
-0000152862 00000 n 
-0000153185 00000 n 
-0000153458 00000 n 
-0000155424 00000 n 
-0000155763 00000 n 
-0000155967 00000 n 
-0000156147 00000 n 
-0000156349 00000 n 
-0000159438 00000 n 
-0000159731 00000 n 
-0000159816 00000 n 
-0000160018 00000 n 
-0000162029 00000 n 
-0000162404 00000 n 
-0000162541 00000 n 
-0000162678 00000 n 
-0000162815 00000 n 
-0000162952 00000 n 
-0000163089 00000 n 
-0000163226 00000 n 
-0000163363 00000 n 
-0000163500 00000 n 
-0000163713 00000 n 
-0000164897 00000 n 
-0000165154 00000 n 
-0000166542 00000 n 
-0000166799 00000 n 
-0000168912 00000 n 
-0000169235 00000 n 
-0000169468 00000 n 
-0000170672 00000 n 
-0000170977 00000 n 
-0000171512 00000 n 
-0000171756 00000 n 
-0000173548 00000 n 
-0000174003 00000 n 
-0000174140 00000 n 
-0000174277 00000 n 
-0000174414 00000 n 
-0000174551 00000 n 
-0000174688 00000 n 
-0000174825 00000 n 
-0000174962 00000 n 
-0000175099 00000 n 
-0000175236 00000 n 
-0000175373 00000 n 
-0000175510 00000 n 
-0000175647 00000 n 
-0000175784 00000 n 
-0000175921 00000 n 
-0000176058 00000 n 
-0000176195 00000 n 
-0000176332 00000 n 
-0000176469 00000 n 
-0000176606 00000 n 
-0000179858 00000 n 
-0000180189 00000 n 
-0000180384 00000 n 
-0000180578 00000 n 
-0000182075 00000 n 
-0000182380 00000 n 
-0000183853 00000 n 
-0000184158 00000 n 
-0000187969 00000 n 
-0000188316 00000 n 
-0000188490 00000 n 
-0000188665 00000 n 
-0000188848 00000 n 
-0000189036 00000 n 
-0000191496 00000 n 
-0000191823 00000 n 
-0000192011 00000 n 
-0000192232 00000 n 
-0000192469 00000 n 
-0000194215 00000 n 
-0000194546 00000 n 
-0000194711 00000 n 
-0000194848 00000 n 
-0000195746 00000 n 
-0000196068 00000 n 
-0000196206 00000 n 
-0000198599 00000 n 
-0000198998 00000 n 
-0000199135 00000 n 
-0000199272 00000 n 
-0000199409 00000 n 
-0000199546 00000 n 
-0000199683 00000 n 
-0000199820 00000 n 
-0000199957 00000 n 
-0000200094 00000 n 
-0000200231 00000 n 
-0000200368 00000 n 
-0000200505 00000 n 
-0000200642 00000 n 
-0000204579 00000 n 
-0000204884 00000 n 
-0000209874 00000 n 
-0000210179 00000 n 
-0000214585 00000 n 
-0000214924 00000 n 
-0000215136 00000 n 
-0000215401 00000 n 
-0000215665 00000 n 
-0000221321 00000 n 
-0000221626 00000 n 
-0000223536 00000 n 
-0000223899 00000 n 
-0000224095 00000 n 
-0000224313 00000 n 
-0000224512 00000 n 
-0000224710 00000 n 
-0000224918 00000 n 
-0000225125 00000 n 
-0000228343 00000 n 
-0000228710 00000 n 
-0000228847 00000 n 
-0000228984 00000 n 
-0000229121 00000 n 
-0000229258 00000 n 
-0000229395 00000 n 
-0000229532 00000 n 
-0000229774 00000 n 
-0000230015 00000 n 
-0000234334 00000 n 
-0000234657 00000 n 
-0000234898 00000 n 
-0000239279 00000 n 
-0000239584 00000 n 
-0000241518 00000 n 
-0000241775 00000 n 
-0000243812 00000 n 
-0000244171 00000 n 
-0000244308 00000 n 
-0000244445 00000 n 
-0000244582 00000 n 
-0000244719 00000 n 
-0000244856 00000 n 
-0000244993 00000 n 
-0000245130 00000 n 
-0000246204 00000 n 
-0000246508 00000 n 
-0000248584 00000 n 
-0000248919 00000 n 
-0000249056 00000 n 
-0000249193 00000 n 
-0000249330 00000 n 
-0000249467 00000 n 
-0000251730 00000 n 
-0000252035 00000 n 
-0000254008 00000 n 
-0000254423 00000 n 
-0000254560 00000 n 
-0000254697 00000 n 
-0000254834 00000 n 
-0000254971 00000 n 
-0000255108 00000 n 
-0000255245 00000 n 
-0000255382 00000 n 
-0000255519 00000 n 
-0000255656 00000 n 
-0000255793 00000 n 
-0000255930 00000 n 
-0000256067 00000 n 
-0000256204 00000 n 
-0000256341 00000 n 
-0000259156 00000 n 
-0000259461 00000 n 
-0000263145 00000 n 
-0000263450 00000 n 
-0000268320 00000 n 
-0000268625 00000 n 
-0000273219 00000 n 
-0000273524 00000 n 
-0000279785 00000 n 
-0000280090 00000 n 
-0000283652 00000 n 
-0000283909 00000 n 
-0000288590 00000 n 
-0000288895 00000 n 
-0000294669 00000 n 
-0000294926 00000 n 
-0000295011 00000 n 
-0000295213 00000 n 
-0000297793 00000 n 
-0000298144 00000 n 
-0000298281 00000 n 
-0000298418 00000 n 
-0000298555 00000 n 
-0000298692 00000 n 
-0000298829 00000 n 
-0000298966 00000 n 
-0000303587 00000 n 
-0000303892 00000 n 
-0000307386 00000 n 
-0000307691 00000 n 
-0000312133 00000 n 
-0000312378 00000 n 
-0000312728 00000 n 
-0000313026 00000 n 
-0000313273 00000 n 
-0000313358 00000 n 
-0000313560 00000 n 
-0000314879 00000 n 
-0000315271 00000 n 
-0000315408 00000 n 
-0000315545 00000 n 
-0000315682 00000 n 
-0000315819 00000 n 
-0000315956 00000 n 
-0000316093 00000 n 
-0001605384 00000 n 
-0000316283 00000 n 
-0000320686 00000 n 
-0000321009 00000 n 
-0000321236 00000 n 
-0000323516 00000 n 
-0000323855 00000 n 
-0000324104 00000 n 
-0000324243 00000 n 
-0000324381 00000 n 
-0000325753 00000 n 
-0000326058 00000 n 
-0000328779 00000 n 
-0000329146 00000 n 
-0000329283 00000 n 
-0000329420 00000 n 
-0000329557 00000 n 
-0000329694 00000 n 
-0000329871 00000 n 
-0000330061 00000 n 
-0000330273 00000 n 
-0000330442 00000 n 
-0000331071 00000 n 
-0000331393 00000 n 
-0000331570 00000 n 
-0000333987 00000 n 
-0000334370 00000 n 
-0000334507 00000 n 
-0000334644 00000 n 
-0000334781 00000 n 
-0000334918 00000 n 
-0000335055 00000 n 
-0000335192 00000 n 
-0000335329 00000 n 
-0000335547 00000 n 
-0000335764 00000 n 
-0000335942 00000 n 
-0000336506 00000 n 
-0001561582 00000 n 
-0000336783 00000 n 
-0000337292 00000 n 
-0000337635 00000 n 
-0001513661 00000 n 
-0000337790 00000 n 
-0000338617 00000 n 
-0001465459 00000 n 
-0000338894 00000 n 
-0000339285 00000 n 
-0001423811 00000 n 
-0000339622 00000 n 
-0000340269 00000 n 
-0001383172 00000 n 
-0000340546 00000 n 
-0000341149 00000 n 
-0001345086 00000 n 
-0000341486 00000 n 
-0000342532 00000 n 
-0001296057 00000 n 
-0000342810 00000 n 
-0000345085 00000 n 
-0001265438 00000 n 
-0000345424 00000 n 
-0000347498 00000 n 
-0000347868 00000 n 
-0001240690 00000 n 
-0001237183 00000 n 
-0000348078 00000 n 
-0000349606 00000 n 
-0000350021 00000 n 
-0000350159 00000 n 
-0000350297 00000 n 
-0000350435 00000 n 
-0000350573 00000 n 
-0000350711 00000 n 
-0000350849 00000 n 
-0000350987 00000 n 
-0000351125 00000 n 
-0000351263 00000 n 
-0000351401 00000 n 
-0000351539 00000 n 
-0000351677 00000 n 
-0000351815 00000 n 
-0000352042 00000 n 
-0000354314 00000 n 
-0001147315 00000 n 
-0000354654 00000 n 
-0000358493 00000 n 
-0000358817 00000 n 
-0000358998 00000 n 
-0000360704 00000 n 
-0001142489 00000 n 
-0001140387 00000 n 
-0000361057 00000 n 
-0000363593 00000 n 
-0000363985 00000 n 
-0000364192 00000 n 
-0001136900 00000 n 
-0001132857 00000 n 
-0001130136 00000 n 
-0000364398 00000 n 
-0000367296 00000 n 
-0000367667 00000 n 
-0001126209 00000 n 
-0001121907 00000 n 
-0000367864 00000 n 
-0000369596 00000 n 
-0001112577 00000 n 
-0001105256 00000 n 
-0001098311 00000 n 
-0000369962 00000 n 
-0000372517 00000 n 
-0000372823 00000 n 
-0000375605 00000 n 
-0000375949 00000 n 
-0000376087 00000 n 
-0000376225 00000 n 
-0000376363 00000 n 
-0000376501 00000 n 
-0000376639 00000 n 
-0000378032 00000 n 
-0000378390 00000 n 
-0001043479 00000 n 
-0000378599 00000 n 
-0000379897 00000 n 
-0000380203 00000 n 
-0000380288 00000 n 
-0000380491 00000 n 
-0000382142 00000 n 
-0000382638 00000 n 
-0000382776 00000 n 
-0000382914 00000 n 
-0000383052 00000 n 
-0000383239 00000 n 
-0000383377 00000 n 
-0000383575 00000 n 
-0000383713 00000 n 
-0000383915 00000 n 
-0000384053 00000 n 
-0000384247 00000 n 
-0000384385 00000 n 
-0000384571 00000 n 
-0000384709 00000 n 
-0000384898 00000 n 
-0000385036 00000 n 
-0000385234 00000 n 
-0000385372 00000 n 
-0000385575 00000 n 
-0000385713 00000 n 
-0000385851 00000 n 
-0000386026 00000 n 
-0000386164 00000 n 
-0000386365 00000 n 
-0000386561 00000 n 
-0000389929 00000 n 
-0000390277 00000 n 
-0000390463 00000 n 
-0000390660 00000 n 
-0000390861 00000 n 
-0000391054 00000 n 
-0000395576 00000 n 
-0000395920 00000 n 
-0000396105 00000 n 
-0000396293 00000 n 
-0000400238 00000 n 
-0000400570 00000 n 
-0000400767 00000 n 
-0000400969 00000 n 
-0000403792 00000 n 
-0000404156 00000 n 
-0000404356 00000 n 
-0000404556 00000 n 
-0000404746 00000 n 
-0000404920 00000 n 
-0000405120 00000 n 
-0000405346 00000 n 
-0000405431 00000 n 
-0000405634 00000 n 
-0000406923 00000 n 
-0000407275 00000 n 
-0000407413 00000 n 
-0000407551 00000 n 
-0000407689 00000 n 
-0000407827 00000 n 
-0000407965 00000 n 
-0000408103 00000 n 
-0000409033 00000 n 
-0000409350 00000 n 
-0000411342 00000 n 
-0000411742 00000 n 
-0000411880 00000 n 
-0000412018 00000 n 
-0000412156 00000 n 
-0000412294 00000 n 
-0000412432 00000 n 
-0000412570 00000 n 
-0000412708 00000 n 
-0000412846 00000 n 
-0000412984 00000 n 
-0000413122 00000 n 
-0000413260 00000 n 
-0000413398 00000 n 
-0000415454 00000 n 
-0000415824 00000 n 
-0000906793 00000 n 
-0000416038 00000 n 
-0000418412 00000 n 
-0000418782 00000 n 
-0000418992 00000 n 
-0000858825 00000 n 
-0000419159 00000 n 
-0000422011 00000 n 
-0000422331 00000 n 
-0000424203 00000 n 
-0000734804 00000 n 
-0000424546 00000 n 
-0000425216 00000 n 
-0000425560 00000 n 
-0000425754 00000 n 
-0000425955 00000 n 
-0000426184 00000 n 
-0000427726 00000 n 
-0000428166 00000 n 
-0000428305 00000 n 
-0000428444 00000 n 
-0000428583 00000 n 
-0000428722 00000 n 
-0000428861 00000 n 
-0000429000 00000 n 
-0000429139 00000 n 
-0000429278 00000 n 
-0000429417 00000 n 
-0000429556 00000 n 
-0000727507 00000 n 
-0000429695 00000 n 
-0000430910 00000 n 
-0000431314 00000 n 
-0000720389 00000 n 
-0000716800 00000 n 
-0000714298 00000 n 
-0000712645 00000 n 
-0000431586 00000 n 
-0000431914 00000 n 
-0000641976 00000 n 
-0000432256 00000 n 
-0000433906 00000 n 
-0000434214 00000 n 
-0000434931 00000 n 
-0000435238 00000 n 
-0000435325 00000 n 
-0000435530 00000 n 
-0000435930 00000 n 
-0000436225 00000 n 
-0000436312 00000 n 
-0000436517 00000 n 
-0000437507 00000 n 
-0000437802 00000 n 
-0000437889 00000 n 
-0000438094 00000 n 
-0000440162 00000 n 
-0000440540 00000 n 
-0000440679 00000 n 
-0000440818 00000 n 
-0000440957 00000 n 
-0000441096 00000 n 
-0000441235 00000 n 
-0000441374 00000 n 
-0000441513 00000 n 
-0000441652 00000 n 
-0000445682 00000 n 
-0000446057 00000 n 
-0000446262 00000 n 
-0000446486 00000 n 
-0000446692 00000 n 
-0000446887 00000 n 
-0000447056 00000 n 
-0000449677 00000 n 
-0000594854 00000 n 
-0000450020 00000 n 
-0000453708 00000 n 
-0000454016 00000 n 
-0000455572 00000 n 
-0000455970 00000 n 
-0000456171 00000 n 
-0000456365 00000 n 
-0000456558 00000 n 
-0000456736 00000 n 
-0000459570 00000 n 
-0000456913 00000 n 
-0000457563 00000 n 
-0000457895 00000 n 
-0000458084 00000 n 
-0000458272 00000 n 
-0000458458 00000 n 
-0000458846 00000 n 
-0000459141 00000 n 
-0000459547 00000 n 
-0000594828 00000 n 
-0000625869 00000 n 
-0000625894 00000 n 
-0000641951 00000 n 
-0000711946 00000 n 
-0000711971 00000 n 
-0000712622 00000 n 
-0000713022 00000 n 
-0000713045 00000 n 
-0000714274 00000 n 
-0000715360 00000 n 
-0000715383 00000 n 
-0000716776 00000 n 
-0000718015 00000 n 
-0000718039 00000 n 
-0000720365 00000 n 
-0000722339 00000 n 
-0000722363 00000 n 
-0000727483 00000 n 
-0000731614 00000 n 
-0000731638 00000 n 
-0000732077 00000 n 
-0000732100 00000 n 
-0000734780 00000 n 
-0000858799 00000 n 
-0000906328 00000 n 
-0000906353 00000 n 
-0000906770 00000 n 
-0001041422 00000 n 
-0001041448 00000 n 
-0001043455 00000 n 
-0001098050 00000 n 
-0001098075 00000 n 
-0001098289 00000 n 
-0001104996 00000 n 
-0001105020 00000 n 
-0001105234 00000 n 
-0001112314 00000 n 
-0001112338 00000 n 
-0001112555 00000 n 
-0001121647 00000 n 
-0001121671 00000 n 
-0001121885 00000 n 
-0001125953 00000 n 
-0001125977 00000 n 
-0001126187 00000 n 
-0001129878 00000 n 
-0001129902 00000 n 
-0001130114 00000 n 
-0001132603 00000 n 
-0001132627 00000 n 
-0001132835 00000 n 
-0001136646 00000 n 
-0001136670 00000 n 
-0001136878 00000 n 
-0001140132 00000 n 
-0001140156 00000 n 
-0001140365 00000 n 
-0001142235 00000 n 
-0001142259 00000 n 
-0001142467 00000 n 
-0001144470 00000 n 
-0001144494 00000 n 
-0001147291 00000 n 
-0001237158 00000 n 
-0001240666 00000 n 
-0001265413 00000 n 
-0001295587 00000 n 
-0001295612 00000 n 
-0001296034 00000 n 
-0001344616 00000 n 
-0001344641 00000 n 
-0001345063 00000 n 
-0001382702 00000 n 
-0001382727 00000 n 
-0001383149 00000 n 
-0001423341 00000 n 
-0001423366 00000 n 
-0001423788 00000 n 
-0001464989 00000 n 
-0001465014 00000 n 
-0001465436 00000 n 
-0001513191 00000 n 
-0001513216 00000 n 
-0001513638 00000 n 
-0001561168 00000 n 
-0001561193 00000 n 
-0001561559 00000 n 
-0001605359 00000 n 
-0001610501 00000 n 
-0001610525 00000 n 
-0001610848 00000 n 
-0001619316 00000 n 
-0001619340 00000 n 
-0001620889 00000 n 
-0001629143 00000 n 
-0001629705 00000 n 
-0001629899 00000 n 
-0001630603 00000 n 
-0001630580 00000 n 
-0001645597 00000 n 
-0001646073 00000 n 
-0001646264 00000 n 
-0001646899 00000 n 
-0001646876 00000 n 
-0001659380 00000 n 
-0001659849 00000 n 
-0001660045 00000 n 
-0001660672 00000 n 
-0001660649 00000 n 
-0001673522 00000 n 
-0001673718 00000 n 
-0001673910 00000 n 
-0001674243 00000 n 
-0001674220 00000 n 
-0001680304 00000 n 
-0001680328 00000 n 
+0000027464 00000 n 
+0000027601 00000 n 
+0000027736 00000 n 
+0000027875 00000 n 
+0000028155 00000 n 
+0000028287 00000 n 
+0000029055 00000 n 
+0000029345 00000 n 
+0000028417 00000 n 
+0000028523 00000 n 
+0000028644 00000 n 
+0000028762 00000 n 
+0000028915 00000 n 
+0000029243 00000 n 
+0000029641 00000 n 
+0000029771 00000 n 
+0000029901 00000 n 
+0000030031 00000 n 
+0000031061 00000 n 
+0000030153 00000 n 
+0000030265 00000 n 
+0000030394 00000 n 
+0000030529 00000 n 
+0000030671 00000 n 
+0000030831 00000 n 
+0000030949 00000 n 
+0000031616 00000 n 
+0000031985 00000 n 
+0000032420 00000 n 
+0000032695 00000 n 
+0000031732 00000 n 
+0000031868 00000 n 
+0000032193 00000 n 
+0000032308 00000 n 
+0000034252 00000 n 
+0000034812 00000 n 
+0000034834 00000 n 
+0000037493 00000 n 
+0000038363 00000 n 
+0000038713 00000 n 
+0000037516 00000 n 
+0000038013 00000 n 
+0001630928 00000 n 
+0001647383 00000 n 
+0001622674 00000 n 
+0000038885 00000 n 
+0000042664 00000 n 
+0000043123 00000 n 
+0000043305 00000 n 
+0000043491 00000 n 
+0000043676 00000 n 
+0000043920 00000 n 
+0000044163 00000 n 
+0000044334 00000 n 
+0000044593 00000 n 
+0000044851 00000 n 
+0000045018 00000 n 
+0000045194 00000 n 
+0000045450 00000 n 
+0000045619 00000 n 
+0000045787 00000 n 
+0001661166 00000 n 
+0001612632 00000 n 
+0000045962 00000 n 
+0000049545 00000 n 
+0000049919 00000 n 
+0000050149 00000 n 
+0000050318 00000 n 
+0000050511 00000 n 
+0000050720 00000 n 
+0000050936 00000 n 
+0001675308 00000 n 
+0000051152 00000 n 
+0000051237 00000 n 
+0000051438 00000 n 
+0000053220 00000 n 
+0000053642 00000 n 
+0000053778 00000 n 
+0000053915 00000 n 
+0000054052 00000 n 
+0000054189 00000 n 
+0000054326 00000 n 
+0000054463 00000 n 
+0000054600 00000 n 
+0000054737 00000 n 
+0000054874 00000 n 
+0000055011 00000 n 
+0000055148 00000 n 
+0000055285 00000 n 
+0000055422 00000 n 
+0000055559 00000 n 
+0000055696 00000 n 
+0000057444 00000 n 
+0000057862 00000 n 
+0000057999 00000 n 
+0000058136 00000 n 
+0000058273 00000 n 
+0000058410 00000 n 
+0000058548 00000 n 
+0000058686 00000 n 
+0000058824 00000 n 
+0000058962 00000 n 
+0000059100 00000 n 
+0000059238 00000 n 
+0000059376 00000 n 
+0000059514 00000 n 
+0000059652 00000 n 
+0000061608 00000 n 
+0000061974 00000 n 
+0000062110 00000 n 
+0000062246 00000 n 
+0000062383 00000 n 
+0000062520 00000 n 
+0000062657 00000 n 
+0000062794 00000 n 
+0000062931 00000 n 
+0000063068 00000 n 
+0000065892 00000 n 
+0000066197 00000 n 
+0000067865 00000 n 
+0000068170 00000 n 
+0000068623 00000 n 
+0000068867 00000 n 
+0000070756 00000 n 
+0000071075 00000 n 
+0000071212 00000 n 
+0000071349 00000 n 
+0000076036 00000 n 
+0000076341 00000 n 
+0000081625 00000 n 
+0000081918 00000 n 
+0000082653 00000 n 
+0000082945 00000 n 
+0000084400 00000 n 
+0000084759 00000 n 
+0000084896 00000 n 
+0000085033 00000 n 
+0000085170 00000 n 
+0000085307 00000 n 
+0000085444 00000 n 
+0000085581 00000 n 
+0000085718 00000 n 
+0000088400 00000 n 
+0000088705 00000 n 
+0000089145 00000 n 
+0000089389 00000 n 
+0000089474 00000 n 
+0000089676 00000 n 
+0000091282 00000 n 
+0000091649 00000 n 
+0000091786 00000 n 
+0000091923 00000 n 
+0000092060 00000 n 
+0000092197 00000 n 
+0000092334 00000 n 
+0000092471 00000 n 
+0000092608 00000 n 
+0000092800 00000 n 
+0000096315 00000 n 
+0000096638 00000 n 
+0000096832 00000 n 
+0000100652 00000 n 
+0000100991 00000 n 
+0000101249 00000 n 
+0000101506 00000 n 
+0000101693 00000 n 
+0000104907 00000 n 
+0000105286 00000 n 
+0000105570 00000 n 
+0000105795 00000 n 
+0000106201 00000 n 
+0000106403 00000 n 
+0000106626 00000 n 
+0000106864 00000 n 
+0000107085 00000 n 
+0000107342 00000 n 
+0000112105 00000 n 
+0000112362 00000 n 
+0000116655 00000 n 
+0000116998 00000 n 
+0000117194 00000 n 
+0000117427 00000 n 
+0000122274 00000 n 
+0000122597 00000 n 
+0000122810 00000 n 
+0000127123 00000 n 
+0000127428 00000 n 
+0000129711 00000 n 
+0000130126 00000 n 
+0000130263 00000 n 
+0000130400 00000 n 
+0000130537 00000 n 
+0000130674 00000 n 
+0000130811 00000 n 
+0000130948 00000 n 
+0000131085 00000 n 
+0000131222 00000 n 
+0000131359 00000 n 
+0000131496 00000 n 
+0000131633 00000 n 
+0000131770 00000 n 
+0000131988 00000 n 
+0000132249 00000 n 
+0000135410 00000 n 
+0000135741 00000 n 
+0000135955 00000 n 
+0000136168 00000 n 
+0000138430 00000 n 
+0000138735 00000 n 
+0000141026 00000 n 
+0000141365 00000 n 
+0000141583 00000 n 
+0000141811 00000 n 
+0000142044 00000 n 
+0000144980 00000 n 
+0000145303 00000 n 
+0000145496 00000 n 
+0000147781 00000 n 
+0000148152 00000 n 
+0000148354 00000 n 
+0000148546 00000 n 
+0000148772 00000 n 
+0000148997 00000 n 
+0000149265 00000 n 
+0000149489 00000 n 
+0000149769 00000 n 
+0000152877 00000 n 
+0000153200 00000 n 
+0000153473 00000 n 
+0000155439 00000 n 
+0000155778 00000 n 
+0000155982 00000 n 
+0000156162 00000 n 
+0000156364 00000 n 
+0000159453 00000 n 
+0000159746 00000 n 
+0000159831 00000 n 
+0000160033 00000 n 
+0000162044 00000 n 
+0000162419 00000 n 
+0000162556 00000 n 
+0000162693 00000 n 
+0000162830 00000 n 
+0000162967 00000 n 
+0000163104 00000 n 
+0000163241 00000 n 
+0000163378 00000 n 
+0000163515 00000 n 
+0000163728 00000 n 
+0000164912 00000 n 
+0000165169 00000 n 
+0000166557 00000 n 
+0000166814 00000 n 
+0000168927 00000 n 
+0000169250 00000 n 
+0000169483 00000 n 
+0000170687 00000 n 
+0000170992 00000 n 
+0000171527 00000 n 
+0000171771 00000 n 
+0000173563 00000 n 
+0000174018 00000 n 
+0000174155 00000 n 
+0000174292 00000 n 
+0000174429 00000 n 
+0000174566 00000 n 
+0000174703 00000 n 
+0000174840 00000 n 
+0000174977 00000 n 
+0000175114 00000 n 
+0000175251 00000 n 
+0000175388 00000 n 
+0000175525 00000 n 
+0000175662 00000 n 
+0000175799 00000 n 
+0000175936 00000 n 
+0000176073 00000 n 
+0000176210 00000 n 
+0000176347 00000 n 
+0000176484 00000 n 
+0000176621 00000 n 
+0000179873 00000 n 
+0000180204 00000 n 
+0000180399 00000 n 
+0000180593 00000 n 
+0000182090 00000 n 
+0000182395 00000 n 
+0000183868 00000 n 
+0000184173 00000 n 
+0000187984 00000 n 
+0000188331 00000 n 
+0000188505 00000 n 
+0000188680 00000 n 
+0000188863 00000 n 
+0000189051 00000 n 
+0000191511 00000 n 
+0000191838 00000 n 
+0000192026 00000 n 
+0000192247 00000 n 
+0000192484 00000 n 
+0000194230 00000 n 
+0000194561 00000 n 
+0000194726 00000 n 
+0000194863 00000 n 
+0000195761 00000 n 
+0000196083 00000 n 
+0000196221 00000 n 
+0000198614 00000 n 
+0000199013 00000 n 
+0000199150 00000 n 
+0000199287 00000 n 
+0000199424 00000 n 
+0000199561 00000 n 
+0000199698 00000 n 
+0000199835 00000 n 
+0000199972 00000 n 
+0000200109 00000 n 
+0000200246 00000 n 
+0000200383 00000 n 
+0000200520 00000 n 
+0000200657 00000 n 
+0000204594 00000 n 
+0000204899 00000 n 
+0000209889 00000 n 
+0000210194 00000 n 
+0000214600 00000 n 
+0000214939 00000 n 
+0000215151 00000 n 
+0000215416 00000 n 
+0000215680 00000 n 
+0000221336 00000 n 
+0000221641 00000 n 
+0000223551 00000 n 
+0000223914 00000 n 
+0000224110 00000 n 
+0000224328 00000 n 
+0000224527 00000 n 
+0000224725 00000 n 
+0000224933 00000 n 
+0000225140 00000 n 
+0000228358 00000 n 
+0000228725 00000 n 
+0000228862 00000 n 
+0000228999 00000 n 
+0000229136 00000 n 
+0000229273 00000 n 
+0000229410 00000 n 
+0000229547 00000 n 
+0000229789 00000 n 
+0000230030 00000 n 
+0000234349 00000 n 
+0000234672 00000 n 
+0000234913 00000 n 
+0000239294 00000 n 
+0000239599 00000 n 
+0000241533 00000 n 
+0000241790 00000 n 
+0000243827 00000 n 
+0000244186 00000 n 
+0000244323 00000 n 
+0000244460 00000 n 
+0000244597 00000 n 
+0000244734 00000 n 
+0000244871 00000 n 
+0000245008 00000 n 
+0000245145 00000 n 
+0000246219 00000 n 
+0000246523 00000 n 
+0000248599 00000 n 
+0000248934 00000 n 
+0000249071 00000 n 
+0000249208 00000 n 
+0000249345 00000 n 
+0000249482 00000 n 
+0000251745 00000 n 
+0000252050 00000 n 
+0000254023 00000 n 
+0000254438 00000 n 
+0000254575 00000 n 
+0000254712 00000 n 
+0000254849 00000 n 
+0000254986 00000 n 
+0000255123 00000 n 
+0000255260 00000 n 
+0000255397 00000 n 
+0000255534 00000 n 
+0000255671 00000 n 
+0000255808 00000 n 
+0000255945 00000 n 
+0000256082 00000 n 
+0000256219 00000 n 
+0000256356 00000 n 
+0000259171 00000 n 
+0000259476 00000 n 
+0000263160 00000 n 
+0000263465 00000 n 
+0000268335 00000 n 
+0000268640 00000 n 
+0000273234 00000 n 
+0000273539 00000 n 
+0000279800 00000 n 
+0000280105 00000 n 
+0000283667 00000 n 
+0000283924 00000 n 
+0000288605 00000 n 
+0000288910 00000 n 
+0000294684 00000 n 
+0000294941 00000 n 
+0000295026 00000 n 
+0000295228 00000 n 
+0000297808 00000 n 
+0000298159 00000 n 
+0000298296 00000 n 
+0000298433 00000 n 
+0000298570 00000 n 
+0000298707 00000 n 
+0000298844 00000 n 
+0000298981 00000 n 
+0000303602 00000 n 
+0000303907 00000 n 
+0000307401 00000 n 
+0000307706 00000 n 
+0000312148 00000 n 
+0000312393 00000 n 
+0000312743 00000 n 
+0000313041 00000 n 
+0000313288 00000 n 
+0000313373 00000 n 
+0000313575 00000 n 
+0000314894 00000 n 
+0000315286 00000 n 
+0000315423 00000 n 
+0000315560 00000 n 
+0000315697 00000 n 
+0000315834 00000 n 
+0000315971 00000 n 
+0000316108 00000 n 
+0001607145 00000 n 
+0000316298 00000 n 
+0000320701 00000 n 
+0000321024 00000 n 
+0000321251 00000 n 
+0000323531 00000 n 
+0000323870 00000 n 
+0000324119 00000 n 
+0000324258 00000 n 
+0000324396 00000 n 
+0000325768 00000 n 
+0000326073 00000 n 
+0000328794 00000 n 
+0000329161 00000 n 
+0000329298 00000 n 
+0000329435 00000 n 
+0000329572 00000 n 
+0000329709 00000 n 
+0000329886 00000 n 
+0000330076 00000 n 
+0000330288 00000 n 
+0000330457 00000 n 
+0000331086 00000 n 
+0000331408 00000 n 
+0000331585 00000 n 
+0000334002 00000 n 
+0000334385 00000 n 
+0000334522 00000 n 
+0000334659 00000 n 
+0000334796 00000 n 
+0000334933 00000 n 
+0000335070 00000 n 
+0000335207 00000 n 
+0000335344 00000 n 
+0000335562 00000 n 
+0000335779 00000 n 
+0000335957 00000 n 
+0000336521 00000 n 
+0001563343 00000 n 
+0000336798 00000 n 
+0000337307 00000 n 
+0000337650 00000 n 
+0001515422 00000 n 
+0000337805 00000 n 
+0000338632 00000 n 
+0001467220 00000 n 
+0000338909 00000 n 
+0000339300 00000 n 
+0001425572 00000 n 
+0000339637 00000 n 
+0000340284 00000 n 
+0001384933 00000 n 
+0000340561 00000 n 
+0000341164 00000 n 
+0001346847 00000 n 
+0000341501 00000 n 
+0000342547 00000 n 
+0001297818 00000 n 
+0000342825 00000 n 
+0000345100 00000 n 
+0001267199 00000 n 
+0000345439 00000 n 
+0000347513 00000 n 
+0000347883 00000 n 
+0001242451 00000 n 
+0001238944 00000 n 
+0000348093 00000 n 
+0000349621 00000 n 
+0000350036 00000 n 
+0000350174 00000 n 
+0000350312 00000 n 
+0000350450 00000 n 
+0000350588 00000 n 
+0000350726 00000 n 
+0000350864 00000 n 
+0000351002 00000 n 
+0000351140 00000 n 
+0000351278 00000 n 
+0000351416 00000 n 
+0000351554 00000 n 
+0000351692 00000 n 
+0000351830 00000 n 
+0000352057 00000 n 
+0000354329 00000 n 
+0001149076 00000 n 
+0000354669 00000 n 
+0000358508 00000 n 
+0000358832 00000 n 
+0000359013 00000 n 
+0000360719 00000 n 
+0001144250 00000 n 
+0001142148 00000 n 
+0000361072 00000 n 
+0000363608 00000 n 
+0000364000 00000 n 
+0000364207 00000 n 
+0001138661 00000 n 
+0001134618 00000 n 
+0001131897 00000 n 
+0000364413 00000 n 
+0000367311 00000 n 
+0000367682 00000 n 
+0001127970 00000 n 
+0001123668 00000 n 
+0000367879 00000 n 
+0000369611 00000 n 
+0001114338 00000 n 
+0001107017 00000 n 
+0001100072 00000 n 
+0000369977 00000 n 
+0000372532 00000 n 
+0000372838 00000 n 
+0000375659 00000 n 
+0000376011 00000 n 
+0000376149 00000 n 
+0000376287 00000 n 
+0000376425 00000 n 
+0000376563 00000 n 
+0000376701 00000 n 
+0000376839 00000 n 
+0000378232 00000 n 
+0000378590 00000 n 
+0001045240 00000 n 
+0000378799 00000 n 
+0000380743 00000 n 
+0000381049 00000 n 
+0000381134 00000 n 
+0000381337 00000 n 
+0000382988 00000 n 
+0000383484 00000 n 
+0000383622 00000 n 
+0000383760 00000 n 
+0000383898 00000 n 
+0000384085 00000 n 
+0000384223 00000 n 
+0000384421 00000 n 
+0000384559 00000 n 
+0000384761 00000 n 
+0000384899 00000 n 
+0000385093 00000 n 
+0000385231 00000 n 
+0000385417 00000 n 
+0000385555 00000 n 
+0000385744 00000 n 
+0000385882 00000 n 
+0000386080 00000 n 
+0000386218 00000 n 
+0000386421 00000 n 
+0000386559 00000 n 
+0000386697 00000 n 
+0000386872 00000 n 
+0000387010 00000 n 
+0000387211 00000 n 
+0000387407 00000 n 
+0000390775 00000 n 
+0000391123 00000 n 
+0000391309 00000 n 
+0000391506 00000 n 
+0000391707 00000 n 
+0000391900 00000 n 
+0000396422 00000 n 
+0000396766 00000 n 
+0000396951 00000 n 
+0000397139 00000 n 
+0000401084 00000 n 
+0000401416 00000 n 
+0000401613 00000 n 
+0000401815 00000 n 
+0000404638 00000 n 
+0000405002 00000 n 
+0000405202 00000 n 
+0000405402 00000 n 
+0000405592 00000 n 
+0000405766 00000 n 
+0000405966 00000 n 
+0000406192 00000 n 
+0000406277 00000 n 
+0000406480 00000 n 
+0000407769 00000 n 
+0000408121 00000 n 
+0000408259 00000 n 
+0000408397 00000 n 
+0000408535 00000 n 
+0000408673 00000 n 
+0000408811 00000 n 
+0000408949 00000 n 
+0000409879 00000 n 
+0000410196 00000 n 
+0000412074 00000 n 
+0000412458 00000 n 
+0000412596 00000 n 
+0000412734 00000 n 
+0000412872 00000 n 
+0000413010 00000 n 
+0000413148 00000 n 
+0000413286 00000 n 
+0000413424 00000 n 
+0000413562 00000 n 
+0000413700 00000 n 
+0000413838 00000 n 
+0000415894 00000 n 
+0000416264 00000 n 
+0000908554 00000 n 
+0000416478 00000 n 
+0000418851 00000 n 
+0000419220 00000 n 
+0000419430 00000 n 
+0000860586 00000 n 
+0000419597 00000 n 
+0000422449 00000 n 
+0000422769 00000 n 
+0000423910 00000 n 
+0000424290 00000 n 
+0000424484 00000 n 
+0000424685 00000 n 
+0000736565 00000 n 
+0000424914 00000 n 
+0000425001 00000 n 
+0000425206 00000 n 
+0000426810 00000 n 
+0000427259 00000 n 
+0000427398 00000 n 
+0000427537 00000 n 
+0000427676 00000 n 
+0000427815 00000 n 
+0000427954 00000 n 
+0000428093 00000 n 
+0000428232 00000 n 
+0000428371 00000 n 
+0000428510 00000 n 
+0000428649 00000 n 
+0000428788 00000 n 
+0000729268 00000 n 
+0000428927 00000 n 
+0000431554 00000 n 
+0000431881 00000 n 
+0000432153 00000 n 
+0000433220 00000 n 
+0000722150 00000 n 
+0000718561 00000 n 
+0000716059 00000 n 
+0000714406 00000 n 
+0000433556 00000 n 
+0000433968 00000 n 
+0000643737 00000 n 
+0000434310 00000 n 
+0000435875 00000 n 
+0000436183 00000 n 
+0000436984 00000 n 
+0000437291 00000 n 
+0000437691 00000 n 
+0000437986 00000 n 
+0000438073 00000 n 
+0000438278 00000 n 
+0000439268 00000 n 
+0000439563 00000 n 
+0000439650 00000 n 
+0000439855 00000 n 
+0000441923 00000 n 
+0000442301 00000 n 
+0000442440 00000 n 
+0000442579 00000 n 
+0000442718 00000 n 
+0000442857 00000 n 
+0000442996 00000 n 
+0000443135 00000 n 
+0000443274 00000 n 
+0000443413 00000 n 
+0000447443 00000 n 
+0000447818 00000 n 
+0000448023 00000 n 
+0000448247 00000 n 
+0000448453 00000 n 
+0000448648 00000 n 
+0000448817 00000 n 
+0000451438 00000 n 
+0000596615 00000 n 
+0000451781 00000 n 
+0000455469 00000 n 
+0000455777 00000 n 
+0000457333 00000 n 
+0000457731 00000 n 
+0000457932 00000 n 
+0000458126 00000 n 
+0000458319 00000 n 
+0000458497 00000 n 
+0000461331 00000 n 
+0000458674 00000 n 
+0000459324 00000 n 
+0000459656 00000 n 
+0000459845 00000 n 
+0000460033 00000 n 
+0000460219 00000 n 
+0000460607 00000 n 
+0000460902 00000 n 
+0000461308 00000 n 
+0000596589 00000 n 
+0000627630 00000 n 
+0000627655 00000 n 
+0000643712 00000 n 
+0000713707 00000 n 
+0000713732 00000 n 
+0000714383 00000 n 
+0000714783 00000 n 
+0000714806 00000 n 
+0000716035 00000 n 
+0000717121 00000 n 
+0000717144 00000 n 
+0000718537 00000 n 
+0000719776 00000 n 
+0000719800 00000 n 
+0000722126 00000 n 
+0000724100 00000 n 
+0000724124 00000 n 
+0000729244 00000 n 
+0000733375 00000 n 
+0000733399 00000 n 
+0000733838 00000 n 
+0000733861 00000 n 
+0000736541 00000 n 
+0000860560 00000 n 
+0000908089 00000 n 
+0000908114 00000 n 
+0000908531 00000 n 
+0001043183 00000 n 
+0001043209 00000 n 
+0001045216 00000 n 
+0001099811 00000 n 
+0001099836 00000 n 
+0001100050 00000 n 
+0001106757 00000 n 
+0001106781 00000 n 
+0001106995 00000 n 
+0001114075 00000 n 
+0001114099 00000 n 
+0001114316 00000 n 
+0001123408 00000 n 
+0001123432 00000 n 
+0001123646 00000 n 
+0001127714 00000 n 
+0001127738 00000 n 
+0001127948 00000 n 
+0001131639 00000 n 
+0001131663 00000 n 
+0001131875 00000 n 
+0001134364 00000 n 
+0001134388 00000 n 
+0001134596 00000 n 
+0001138407 00000 n 
+0001138431 00000 n 
+0001138639 00000 n 
+0001141893 00000 n 
+0001141917 00000 n 
+0001142126 00000 n 
+0001143996 00000 n 
+0001144020 00000 n 
+0001144228 00000 n 
+0001146231 00000 n 
+0001146255 00000 n 
+0001149052 00000 n 
+0001238919 00000 n 
+0001242427 00000 n 
+0001267174 00000 n 
+0001297348 00000 n 
+0001297373 00000 n 
+0001297795 00000 n 
+0001346377 00000 n 
+0001346402 00000 n 
+0001346824 00000 n 
+0001384463 00000 n 
+0001384488 00000 n 
+0001384910 00000 n 
+0001425102 00000 n 
+0001425127 00000 n 
+0001425549 00000 n 
+0001466750 00000 n 
+0001466775 00000 n 
+0001467197 00000 n 
+0001514952 00000 n 
+0001514977 00000 n 
+0001515399 00000 n 
+0001562929 00000 n 
+0001562954 00000 n 
+0001563320 00000 n 
+0001607120 00000 n 
+0001612262 00000 n 
+0001612286 00000 n 
+0001612609 00000 n 
+0001621077 00000 n 
+0001621101 00000 n 
+0001622650 00000 n 
+0001630904 00000 n 
+0001631466 00000 n 
+0001631660 00000 n 
+0001632364 00000 n 
+0001632341 00000 n 
+0001647358 00000 n 
+0001647834 00000 n 
+0001648025 00000 n 
+0001648660 00000 n 
+0001648637 00000 n 
+0001661141 00000 n 
+0001661610 00000 n 
+0001661806 00000 n 
+0001662433 00000 n 
+0001662410 00000 n 
+0001675283 00000 n 
+0001675479 00000 n 
+0001675671 00000 n 
+0001676004 00000 n 
+0001675981 00000 n 
+0001682065 00000 n 
+0001682089 00000 n 
 
 trailer
 <</Info 1207 0 R
 /Size 1208
 /Root 1 0 R
-/ID [<7FADAE3977A9433395D02F5A60715CE9> <7FADAE3977A9433395D02F5A60715CE9>]>>
+/ID [<9961E53C8EF741FC9FBE3B74F50DD183> <9961E53C8EF741FC9FBE3B74F50DD183>]>>
 startxref
-1680448
+1682209
 %%EOF

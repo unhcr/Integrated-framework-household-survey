@@ -16,17 +16,48 @@ The Goal of the analysis workshop is to review of data patterns in order to coll
 
 ![](images/workshop.png)
 
+## Workshop preparation: identify patterns
+
+While identifying categories and sorting the data, you will start to see patterns within and between categories. At this stage it will be important to assess the relative importance and relationships between those categories. You may want to look at: 
+
+ * 	how many times a specific category came up?  
+ * 	what are the key ideas being expressed?  
+ * 	what similarities and differences are being expressed?  
+ * 	if two or more categories consistently appear together for one group?  
+
+Relationships might suggest a cause and effect; this will help you to explain why something occurs. You can ask yourself:  
+
+ *  How do things relate?
+ * What data supports this interpretation?
+ * What responses are contradicting findings and/or do not fit into categories?
+ * Are they important to the overall understanding? 
+
+
 
 ## Data Disgest Presentation 
 
 Data Anlysis Workshop are among [common good practices](http://jet.jips.org/documents/download/terms-of-reference-for-a-workshop-on-collaborative-analysis-of-the-profiling-findings).
 .
 
-*  Engage with various levels (Field, Sector, Partner, Authority..)
-*  Facilitation around “data digest” (±60 slides for 3 hours session) 
-*  Rapporteur to capture (extensive note taking):
+ *  Engage with various levels (Field, Sector, Partner, Authority..)
+ *  Facilitation around “data digest” (±60 slides for 3 hours session) 
+ *  Rapporteur to capture (extensive note taking):
 
 ## Faciliation & Note taking
+
+Having sorted and identified the relationships, relative importance and possible causes, you need to bring it all together. You have to interpret the data: what does it all mean? 
+
+ *  Take a step back and look at what you learned. Ask yourself for example:  
+ *  	What will those who are using the findings of the information be most interested in?
+ *  	What new things did you learn about the protection situation?
+ *  	What main protection risks for several and/or specific population groups did appear?
+ *  	What is the scale of a given problem/protection risks? 
+ *  	Are there particular groups within the population who are particularly exposed to specific problems/risks?
+ *  	Did you confirm patterns mentioned in earlier reports or did you see new trends?
+ *  	The protection problems observed are there isolated incidents or generalizable trends? 
+ *  	Are the incidents related to the crisis/emergency/conflict or are they more related to endemic issues such as cultural practices or generalized poverty?  
+
+
 
  * __Reflect__: ![](images/reflect.png)  
  

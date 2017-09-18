@@ -47,4 +47,7 @@ Clustering is the task of grouping a set of objects in such a way that objects i
 ### Description of statistical clusters
 
 
+## Latent Class Models
 
+it possible to conduct cluster analyses that are based on a statistical model, and not purely exploratory as are traditional cluster
+analysis techniques. The advantages of this approach to cluster analysis are that a number of diagnostic tools are available to help determine the appropriate number of clusters, and that the clustering is model-based in that it relies on a statistical model.
