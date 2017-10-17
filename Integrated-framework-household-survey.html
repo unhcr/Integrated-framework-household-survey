@@ -206,7 +206,7 @@ pre:not([class]) {
 IFHS: A toolkit to facilitate design, collection &amp; analysis.
 </h2>
 <p>
-Last update : 18 September 2017
+Last update : 17 October 2017
 </p>
 </div>
 <div id="presentation" class="section level2">
@@ -3266,52 +3266,144 @@ Path to the indicator calculation sheet </code></pre>
 
 <div class="TOC">
 <ul>
-<li><a href="#Microdata_data-sharing-for-research">Data sharing for research</a></li>
 <li>
-<a href="#Microdata_anonymization-techniques-statistical-disclosure-control-sdc">Anonymization techniques &amp; Statistical disclosure control (SDC)</a><ul>
+<a href="#Microdata_dealing-with-confidentiality">Dealing with confidentiality</a><ul>
+<li><a href="#Microdata_anonymization-techniques">Anonymization techniques</a></li>
+<li><a href="#Microdata_statistical-disclosure-control-sdc">Statistical disclosure control (SDC)</a></li>
+</ul>
+</li>
+<li>
+<a href="#Microdata_ensuring-data-security">Ensuring data security</a><ul>
+<li><a href="#Microdata_access-registry">Access Registry</a></li>
 <li><a href="#Microdata_sharing-via-a-safe-mechanism-file-encryption">Sharing via a safe mechanism: File encryption</a></li>
-<li><a href="#Microdata_restricting-access-to-data">Restricting access to data</a></li>
 </ul>
 </li>
 <li>
-<a href="#Microdata_engaging-in-research-agreement">Engaging in “Research Agreement”</a><ul>
-<li><a href="#Microdata_research-confidentiality">Research Confidentiality</a></li>
-<li><a href="#Microdata_reproducible-research">Reproducible research</a></li>
+<a href="#Microdata_dealing-with-sensitive-information">Dealing with sensitive information</a><ul>
+<li><a href="#Microdata_information-classification">Information classification</a></li>
+<li><a href="#Microdata_data-sharing-for-research">Data sharing for research</a></li>
+<li><a href="#Microdata_restricting-publication-of-findings">Restricting publication of findings</a></li>
 </ul>
 </li>
-<li><a href="#Microdata_the-internation-household-survey-network-the-ddi-format">The Internation Household Survey Network &amp; the DDI format</a></li>
+<li>
+<a href="#Microdata_engaging-in-research">Engaging in research</a><ul>
+<li><a href="#Microdata_reproducible-research">Reproducible research</a></li>
+<li><a href="#Microdata_establish-a-survey-catalog">Establish a survey catalog</a></li>
+</ul>
+</li>
 </ul>
 </div>
 
 <div class="important">
-<p>This chapter is not written yet.</p>
+<p>Data Confidentiality, Data Security and Data sensitivity are two important consideration but should not be confused.</p>
+<ul>
+<li>Data Confidentiality is linked to data protection and can be addressed through anonymisation</li>
+<li>Data security is linked to technical processes that needs to be established to prevent leak</li>
+<li>Data sensitivity is linked a collective clearance process</li>
+</ul>
+<p>Once those elements are addressed, it becomes possible to engage with researchers.</p>
 </div>
-<div id="Microdata_data-sharing-for-research" class="section level2">
-<h2>Data sharing for research</h2>
-<blockquote>
-The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the joint research team. Any data shared under this agreement will not be provided to any third party. For its part, UNHCR agrees to share defined and agreed upon data with the <kbd>Partner Name</kbd> for the purposes of the <kbd>Partner Name</kbd> and UNHCR collaboration on this project herein-defined as “<kbd>Project Name</kbd>”. All information that would allow for identification of individuals will be excluded from these datasets, e.g. refugee ID number. UNHCR will share this information via a safe mechanism to reduce the likelihood of a third party accessing the data unlawfully. <kbd>Partner Name</kbd> will specify by name and title who will receive the information, who will have access to the information, and where the information will be kept, e.g. individual personal computer or server, all with the intent to avoid unlawful access and use of the information. Once the information is used for its defined purpose, the data will be disposed of at a date determined and in agreement by the two parties.
-</blockquote>
+<div id="Microdata_dealing-with-confidentiality" class="section level2">
+<h2>Dealing with confidentiality</h2>
+<p>Once anonymised, a dataset does not fall anymore under the Policy on the Protection of Personal Data. Though there’s a <a href="https://epic.org/privacy/reidentification/ohm_article.pdf">few articles</a> about the failure of anonymization that shows how removing names &amp; ID is not always sufficient to prevent “data re-identification”.</p>
+<div id="Microdata_anonymization-techniques" class="section level3">
+<h3>Anonymization techniques</h3>
+<p>Even when personal data is not being collected it still may be appropriate to apply the methodology since quasi-identifiable data or other sensitive data could lead to personal identification or should not be shared.</p>
+<table style="width:44%;">
+<colgroup>
+<col width="23%">
+<col width="20%">
+</colgroup>
+<thead><tr class="header">
+<th>Type</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td><strong>Direct identifiers</strong></td>
+<td>Can be directly used to identify an individual. E.g. Name, Address, Date of birth, Telephone number, GPS location</td>
+</tr>
+<tr class="even">
+<td><strong>Quasi- identifiers</strong></td>
+<td>Can be used to identify individuals when it is joined with other information. E.g. Age, Salary, Next of kin, School name, Place of work</td>
+</tr>
+<tr class="odd">
+<td><strong>Sensitive information</strong></td>
+<td>&amp; Community identifiable information Might not identify an individual but could put an individual or group at risk. E.g. Gender, Ethnicity, Religious belief</td>
+</tr>
+<tr class="even">
+<td><strong>Meta data</strong></td>
+<td>Data about who, where and how the data is collected is often stored separately to the main data and can be used identify individuals</td>
+</tr>
+</tbody>
+</table>
+<p>The following are different generic anonymisation actions that can be performed on sensitive fields. The type of anonymisation should be dictated by the desired use of the data. A good approach to follow is to start from the minimum data required, and then to identify if any of those fields should be obscured.</p>
+<p>The methods below can be referenced in the dedicated column within xlsform (cf above)</p>
+<table style="width:44%;">
+<colgroup>
+<col width="23%">
+<col width="20%">
+</colgroup>
+<thead><tr class="header">
+<th>Method</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td><strong>Remove</strong></td>
+<td>Variable is removed entirely from the data set. The Variable is preserved in the original file.</td>
+</tr>
+<tr class="even">
+<td><strong>Reference</strong></td>
+<td>Variable is removed entirely from the data set and is copied into a reference file. A random unique identifier field is added to the reference file and the data set so that they can be joined together in future. The reference file is never shared and the Variable is also preserved in the original file.</td>
+</tr>
+<tr class="odd">
+<td><strong>Mask</strong></td>
+<td>The Variable values are replaced with meaningless values but the categories are preserved. A reference file is created to link the original value with the meaningless value. Typically applied to categorical Variable . For example, Town names could be masked with random combinations of letters. It would still be possible to perform statisitical analysis on the Variable but the person running the analysis would not be able to identify the original values, they would only become meaningful when replaced with the original values. The reference file is never shared and the data is also preserved in the original file.</td>
+</tr>
+<tr class="even">
+<td><strong>Generalise</strong></td>
+<td>Continuous Variable is turned into categorical or ordinal Variable by summarising it into ranges. For example, Age could be turned into age ranges, Weight could be turned into ranges. It can also apply to categorical Variable where parent groups are created. For example, illness is grouped into illness type. Generalised Variable can also be masked for extra anonymisation. The Variable is preserved in the original file.</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="Microdata_anonymization-techniques-statistical-disclosure-control-sdc" class="section level2">
-<h2>Anonymization techniques &amp; Statistical disclosure control (SDC)</h2>
-<p>Once anonymised, a dataset does not fall anymore under the Policy on the Protection of Personal Data. Though there’s a <a href="https://epic.org/privacy/reidentification/ohm_article.pdf">few articles</a> about the failure of anonymization that shows how removing names &amp; ID is not always sufficient to prevent “data re-identification”. Many techniques can be used for “statistical disclosure control”: suppression, inference control, banardisation, rounding or sampling. Other approaches includes rules like for instance “do not share figures for a spatial unit if it does not reach the 1000 refugees threshold”…</p>
+<div id="Microdata_statistical-disclosure-control-sdc" class="section level3">
+<h3>Statistical disclosure control (SDC)</h3>
+<p>Many techniques can be used for “statistical disclosure control”: suppression, inference control, banardisation, rounding or sampling. Other approaches includes rules like for instance “do not share figures for a spatial unit if it does not reach the 1000 refugees threshold”…</p>
 <p>A <a href="https://cran.r-project.org/web/packages/sdcMicro/vignettes/sdc_guidelines.pdf">dedicated R module</a> is availalble to perform anonymisation.</p>
+</div>
+</div>
+<div id="Microdata_ensuring-data-security" class="section level2">
+<h2>Ensuring data security</h2>
+<div id="Microdata_access-registry" class="section level3">
+<h3>Access Registry</h3>
+<p>A first requirement is to set up a standard registry of person who work on UNHCR datasets</p>
+</div>
 <div id="Microdata_sharing-via-a-safe-mechanism-file-encryption" class="section level3">
 <h3>Sharing via a safe mechanism: File encryption</h3>
 <p>What is a safe mechanism to share information: for instance which software to use for encryption, how to share password, etc. Potential requirements could include: - Use a well know encryption approach – The common standard si <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES -Advanced Encryption Standard (AES)</a> - Rely on open source software – so both parties can easily encrypt &amp; decrypt without being tied to software procurement obstacle. - Combine encryption and file compression: so files are easier &amp; lighter to share - The password used for the encryption should be at least 10 character long with a mixture of lowercase and uppercase alphabetic character, numbers and symbols. This should allow to build what is commonly called a <a href="https://en.wikipedia.org/wiki/Password_strength">strong password</a> and should always be transmitted independently form the file (for instance on a separate paper sheet with no reference to the file it allows to open).</p>
 <p>In terms of software, it is possible to use <a href="http://www.7-zip.org/">7zip</a>. <img src="images/7zip.png" alt="7zip"></p>
-<p>A sumarry of the principle above woud be: <em>Data files should be encrypted with AES-256 method using a strong password (at least 10 character long with a mixture of lowercase and uppercase alphabetic character, numbers and symbols) and compressed using the 7zip format with the 7zip software. Password will be transmitted printed on a paper that will need to be secured by the receiving agency</em>.</p>
-</div>
-<div id="Microdata_restricting-access-to-data" class="section level3">
-<h3>Restricting access to data</h3>
-<p>Need to set up a standard registry of person who work on UNHCR datasets</p>
+<p>A summary of the principle above woud be:</p>
+<p><em>Data files should be encrypted with AES-256 method using a strong password (at least 10 character long with a mixture of lowercase and uppercase alphabetic character, numbers and symbols) and compressed using the 7zip format with the 7zip software. Password will be transmitted printed on a paper that will need to be secured by the receiving agency</em>.</p>
 </div>
 </div>
-<div id="Microdata_engaging-in-research-agreement" class="section level2">
-<h2>Engaging in “Research Agreement”</h2>
-<div id="Microdata_research-confidentiality" class="section level3">
-<h3>Research Confidentiality</h3>
-<p>A written and legally-binding Confidentiality Agreement must be signed by the lead researcher, all members of the research team that will have access to individually identifiable information from the records. The agreement coudl include the folowwing points:</p>
+<div id="Microdata_dealing-with-sensitive-information" class="section level2">
+<h2>Dealing with sensitive information</h2>
+<div id="Microdata_information-classification" class="section level3">
+<h3>Information classification</h3>
+<p><em>Sensitive Data</em> - institutional data that is not legally protected, but should not be made public and should only be disclosed under limited circumstances. Users must be granted specific authorization to access since the data’s unauthorized disclosure, alteration, or destruction may cause perceivable damage to the institution.</p>
+</div>
+<div id="Microdata_data-sharing-for-research" class="section level3">
+<h3>Data sharing for research</h3>
+<p>If outsourced, formal agreement needs to established.</p>
+<blockquote>
+The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the joint research team. Any data shared under this agreement will not be provided to any third party. For its part, UNHCR agrees to share defined and agreed upon data with the <kbd>Partner Name</kbd> for the purposes of the <kbd>Partner Name</kbd> and UNHCR collaboration on this project herein-defined as “<kbd>Project Name</kbd>”. All information that would allow for identification of individuals will be excluded from these datasets, e.g. refugee ID number. UNHCR will share this information via a safe mechanism to reduce the likelihood of a third party accessing the data unlawfully. <kbd>Partner Name</kbd> will specify by name and title who will receive the information, who will have access to the information, and where the information will be kept, e.g. individual personal computer or server, all with the intent to avoid unlawful access and use of the information. Once the information is used for its defined purpose, the data will be disposed of at a date determined and in agreement by the two parties.
+</blockquote>
+</div>
+<div id="Microdata_restricting-publication-of-findings" class="section level3">
+<h3>Restricting publication of findings</h3>
+<p>Research Confidentiality agreement are written and legally-binding Confidentiality Agreement that must be signed by the lead researcher, all members of the research team that will have access to individually identifiable information from the records. The agreement coudl include the following points:</p>
 <blockquote>
 <p><kbd>Analysis Project Title</kbd> Principal Investigator: <kbd>UNHCR</kbd></p>
 <p>I, <kbd>Resesarcher Name</kbd>, from <kbd>Resesarch Organisation Name</kbd>, as a member of this research team, understand that I may have access to confidential information about study sites and participants. By signing this statement, I am indicating my understanding of my responsibilities to maintain confidentiality and agree to the following:</p>
@@ -3324,6 +3416,9 @@ The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the 
 </ol>
 </blockquote>
 </div>
+</div>
+<div id="Microdata_engaging-in-research" class="section level2">
+<h2>Engaging in research</h2>
 <div id="Microdata_reproducible-research" class="section level3">
 <h3>Reproducible research</h3>
 <p>To ensure that research done on the dataset can be reproduced afterwards by internal staff both to check them and to refresh the analysis when we have new data a series of good practices shoudl be implemented:</p>
@@ -3340,9 +3435,8 @@ The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the 
 <li><p>Provide <strong>public access</strong> to scripts, runs, and results</p></li>
 </ol>
 </div>
-</div>
-<div id="Microdata_the-internation-household-survey-network-the-ddi-format" class="section level2">
-<h2>The Internation Household Survey Network &amp; the DDI format</h2>
+<div id="Microdata_establish-a-survey-catalog" class="section level3">
+<h3>Establish a survey catalog</h3>
 <p><a href="https://app.box.com/s/8cgdwbw4j311bvkk5hlqr8fuatwbdx4n">Humanitarian Research</a> in the context of social science and data analysis is still new but can benefit the organisedtion for instance to:</p>
 <ul>
 <li>Co-development and co-design of tools, protocols, products, processes, and innovations</li>
@@ -3354,6 +3448,7 @@ The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the 
 </div>
 <p>To facilitate this process, the first approach woudl be to document the dataset according to the <a href="http://www.ihsn.org/home/projects/DDI-standard">Data Documentation Initiative (DDI) metadata standard</a> developped by the <a href="http://www.ihsn.org/home/about">International Household Survey Network (IHSN)</a>.</p>
 <p>Once the metadata are generated in the right format, it becomes possible to publish them within the <a href="http://catalog.ihsn.org/index.php/catalog">ISHN Microdata catalog</a> or the <a href="http://microdata.worldbank.org/catalog">World Bank Microdata Library</a></p>
+</div>
 </div>
 
 </article>

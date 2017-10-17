@@ -7,23 +7,58 @@ source("options_communes.R")
 ```
 
 <div class="important">
-This chapter is not written yet.
+
+Data Confidentiality, Data Security and Data sensitivity are two important consideration but should not be confused.
+
+  * Data Confidentiality is linked to data protection and can be addressed through anonymisation
+  * Data security is linked to technical processes that needs to be established to prevent leak
+  * Data sensitivity is linked a collective clearance process
+
+Once those elements are addressed, it becomes possible to engage with researchers.
+
 </div>
 
-## Data sharing for research
 
-
-<blockquote>
-The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the joint research team. Any data shared under this agreement will not be provided to any third party.  For its part, UNHCR agrees to share defined and agreed upon data  with the <kbd>Partner Name</kbd> for the purposes of the <kbd>Partner Name</kbd> and UNHCR collaboration on this project herein-defined as "<kbd>Project Name</kbd>".  All information that would allow for identification of individuals will be excluded from these datasets, e.g. refugee ID number. UNHCR will share this information via a safe mechanism to reduce the likelihood of a third party accessing the data unlawfully. <kbd>Partner Name</kbd> will specify by name and title who will receive the information, who will have access to the information, and where the information will be kept, e.g. individual personal computer or server, all with the intent to avoid unlawful access and use of the information. Once the information is used for its defined purpose, the data will be disposed of at a date determined and in agreement by the two parties.
-</blockquote>
-
-## Anonymization techniques & Statistical disclosure control (SDC) 
+##  Dealing with confidentiality
 
 Once anonymised, a dataset does not fall anymore under the Policy on the Protection of Personal Data. 
 Though there’s a [few articles](https://epic.org/privacy/reidentification/ohm_article.pdf) about the failure of anonymization that shows how removing names & ID is not always sufficient to prevent “data re-identification”. 
+
+### Anonymization techniques 
+
+Even when personal data is not being collected it still may be appropriate to apply the methodology since quasi-identifiable data or other sensitive data could lead to personal identification or should not be shared.
+
+Type            | Description
+----------------|--------------
+__Direct identifiers__      |	Can be directly used to identify an individual. E.g. Name, Address, Date of birth, Telephone number, GPS location
+__Quasi- identifiers__      |	Can be used to identify individuals when it is joined with other information. E.g. Age, Salary, Next of kin, School name, Place of work
+__Sensitive information__      | & Community identifiable information	Might not identify an individual but could put an individual or group at risk. E.g. Gender, Ethnicity, Religious belief
+__Meta data__      |	Data about who, where and how the data is collected is often stored separately to the main data and can be used identify individuals
+
+
+The following are different generic anonymisation actions that can be performed on sensitive fields. The type of anonymisation should be dictated by the desired use of the data. A good approach to follow is to start from the minimum data required, and then to identify if any of those fields should be obscured.
+
+The methods below can be referenced in the dedicated column within xlsform (cf above)
+
+Method          | Description
+----------------|--------------
+  __Remove__    |	Variable is removed entirely from the data set. The Variable  is preserved in the original file.  
+__Reference__   |	Variable is removed entirely from the data set and is copied into a reference file. A random unique identifier field is added to the reference file and the data set so that they can be joined together in future.  The reference file is never shared and the Variable  is also preserved in the original file.  
+__Mask__        |	The Variable  values are replaced with meaningless values but the categories are preserved. A reference file is created to link the original value with the meaningless value. Typically applied to categorical Variable . For example, Town names could be masked with random combinations of letters. It would still be possible to perform statisitical analysis on the Variable  but the person running the analysis would not be able to identify the original values, they would only become meaningful when replaced with the original values. The reference file is never shared and the data is also preserved in the original file.  
+__Generalise__	| Continuous Variable  is turned into categorical or ordinal Variable  by summarising it into ranges. For example, Age could be turned into age ranges, Weight could be turned into ranges. It can also apply to categorical Variable  where parent groups are created. For example, illness is grouped into illness type. Generalised Variable  can also be masked for extra anonymisation. The Variable  is preserved in the original file.  
+
+### Statistical disclosure control (SDC)
+
 Many techniques can be used for "statistical disclosure control": suppression, inference control, banardisation, rounding or sampling. Other approaches includes rules like for instance “do not share figures for a spatial unit if it does not reach  the 1000 refugees threshold”…
 
 A [dedicated R module](https://cran.r-project.org/web/packages/sdcMicro/vignettes/sdc_guidelines.pdf) is availalble to perform anonymisation.
+
+
+
+## Ensuring data security
+
+### Access Registry
+A first requirement is to set up a standard registry of person who work on UNHCR datasets 
 
 ### Sharing via a safe mechanism:  File encryption
 
@@ -36,20 +71,31 @@ What is a safe mechanism to share information: for instance which software to us
 In terms of software, it is possible to use [7zip](http://www.7-zip.org/). 
 ![7zip](images/7zip.png)
 
-A sumarry of the principle above woud be:
+A summary of the principle above woud be:
+
 *Data files should be encrypted with AES-256 method using a strong password (at least 10 character long with a mixture of  lowercase and uppercase alphabetic character, numbers and symbols) and compressed using the 7zip format with the 7zip software. Password will be transmitted printed on a paper that will need to be secured by the receiving agency*.
 
 
-### Restricting access to data
+## Dealing with sensitive information
 
-Need to set up a standard registry of person who work on UNHCR datasets 
+### Information classification
+
+*Sensitive Data* - institutional data that is not legally protected, but should not be made public and should only be disclosed under limited circumstances. Users must be granted specific authorization to access since the data's unauthorized disclosure, alteration, or destruction may cause perceivable damage to the institution.
 
 
-## Engaging in "Research Agreement"
 
-### Research Confidentiality
+### Data sharing for research
 
-A written and legally-binding Confidentiality Agreement must be signed by the lead researcher, all members of the research team that will have access to individually identifiable information from the records. The agreement coudl include the folowwing points:
+If outsourced, formal agreement needs to established.
+
+<blockquote>
+The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the joint research team. Any data shared under this agreement will not be provided to any third party.  For its part, UNHCR agrees to share defined and agreed upon data  with the <kbd>Partner Name</kbd> for the purposes of the <kbd>Partner Name</kbd> and UNHCR collaboration on this project herein-defined as "<kbd>Project Name</kbd>".  All information that would allow for identification of individuals will be excluded from these datasets, e.g. refugee ID number. UNHCR will share this information via a safe mechanism to reduce the likelihood of a third party accessing the data unlawfully. <kbd>Partner Name</kbd> will specify by name and title who will receive the information, who will have access to the information, and where the information will be kept, e.g. individual personal computer or server, all with the intent to avoid unlawful access and use of the information. Once the information is used for its defined purpose, the data will be disposed of at a date determined and in agreement by the two parties.
+</blockquote>
+
+### Restricting publication of findings
+
+
+Research Confidentiality agreement are written and legally-binding Confidentiality Agreement that  must be signed by the lead researcher, all members of the research team that will have access to individually identifiable information from the records. The agreement coudl include the following points:
 
 <blockquote>
 <kbd>Analysis Project Title</kbd>
@@ -68,6 +114,9 @@ I, 	<kbd>Resesarcher Name</kbd>, from <kbd>Resesarch Organisation Name</kbd>, as
 5. notify the local principal investigator immediately should I become aware of an actual breach of confidentiality or a situation which could potentially result in a breach, whether this be on my part or on the part of another person.
 
 </blockquote>
+
+## Engaging in research
+
 
 ### Reproducible research
 
@@ -95,7 +144,7 @@ To ensure that research done on the dataset can be reproduced afterwards by inte
  
 
 
-##  The Internation Household Survey Network & the DDI format
+###  Establish a survey catalog
 
 
 [Humanitarian Research](https://app.box.com/s/8cgdwbw4j311bvkk5hlqr8fuatwbdx4n) in the context of social science and data analysis is still new but can benefit the organisedtion for instance to:
