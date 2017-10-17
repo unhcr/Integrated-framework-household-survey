@@ -3297,22 +3297,22 @@ Path to the indicator calculation sheet </code></pre>
 <div class="important">
 <p>Data Confidentiality, Data Security and Data sensitivity are two important consideration but should not be confused.</p>
 <ul>
-<li>Data Confidentiality is linked to data protection and can be addressed through anonymisation</li>
-<li>Data security is linked to technical processes that needs to be established to prevent leak</li>
-<li>Data sensitivity is linked a collective clearance process</li>
+<li>Data <em>Confidentiality</em> is linked to data protection and can be addressed through anonymisation.</li>
+<li>Data <em>Security</em> is dependant from technical processes that needs to be established to prevent leaks.</li>
+<li>Data <em>Sensitivity</em> is tied a collective clearance and information classification process.</li>
 </ul>
 <p>Once those elements are addressed, it becomes possible to engage with researchers.</p>
 </div>
 <div id="Microdata_dealing-with-confidentiality" class="section level2">
 <h2>Dealing with confidentiality</h2>
-<p>Once anonymised, a dataset does not fall anymore under the Policy on the Protection of Personal Data. Though there’s a <a href="https://epic.org/privacy/reidentification/ohm_article.pdf">few articles</a> about the failure of anonymization that shows how removing names &amp; ID is not always sufficient to prevent “data re-identification”.</p>
+<p>Once anonymised, a dataset does not fall anymore under the Policy on the Protection of Personal Data.</p>
 <div id="Microdata_anonymization-techniques" class="section level3">
 <h3>Anonymization techniques</h3>
 <p>Even when personal data is not being collected it still may be appropriate to apply the methodology since quasi-identifiable data or other sensitive data could lead to personal identification or should not be shared.</p>
-<table style="width:44%;">
+<table>
 <colgroup>
-<col width="23%">
-<col width="20%">
+<col width="18%">
+<col width="81%">
 </colgroup>
 <thead><tr class="header">
 <th>Type</th>
@@ -3339,13 +3339,13 @@ Path to the indicator calculation sheet </code></pre>
 </table>
 <p>The following are different generic anonymisation actions that can be performed on sensitive fields. The type of anonymisation should be dictated by the desired use of the data. A good approach to follow is to start from the minimum data required, and then to identify if any of those fields should be obscured.</p>
 <p>The methods below can be referenced in the dedicated column within xlsform (cf above)</p>
-<table style="width:44%;">
+<table>
 <colgroup>
-<col width="23%">
-<col width="20%">
+<col width="18%">
+<col width="81%">
 </colgroup>
 <thead><tr class="header">
-<th>Method</th>
+<th>Type</th>
 <th>Description</th>
 </tr></thead>
 <tbody>
@@ -3370,20 +3370,24 @@ Path to the indicator calculation sheet </code></pre>
 </div>
 <div id="Microdata_statistical-disclosure-control-sdc" class="section level3">
 <h3>Statistical disclosure control (SDC)</h3>
+<p>Though there’s a <a href="https://epic.org/privacy/reidentification/ohm_article.pdf">few articles</a> about the failure of anonymization that shows how removing names &amp; ID is not always sufficient to prevent “data re-identification”.</p>
 <p>Many techniques can be used for “statistical disclosure control”: suppression, inference control, banardisation, rounding or sampling. Other approaches includes rules like for instance “do not share figures for a spatial unit if it does not reach the 1000 refugees threshold”…</p>
-<p>A <a href="https://cran.r-project.org/web/packages/sdcMicro/vignettes/sdc_guidelines.pdf">dedicated R module</a> is availalble to perform anonymisation.</p>
+<p>A <a href="https://cran.r-project.org/web/packages/sdcMicro/vignettes/sdc_guidelines.pdf">dedicated R module</a> is available to perform anonymisation analysis.</p>
 </div>
 </div>
 <div id="Microdata_ensuring-data-security" class="section level2">
 <h2>Ensuring data security</h2>
 <div id="Microdata_access-registry" class="section level3">
 <h3>Access Registry</h3>
-<p>A first requirement is to set up a standard registry of person who work on UNHCR datasets</p>
+<p>A first requirement is to set up a standard registry of person who work on UNHCR datasets. This is actually prescribed in the data protection policy.</p>
 </div>
 <div id="Microdata_sharing-via-a-safe-mechanism-file-encryption" class="section level3">
 <h3>Sharing via a safe mechanism: File encryption</h3>
 <p>What is a safe mechanism to share information: for instance which software to use for encryption, how to share password, etc. Potential requirements could include: - Use a well know encryption approach – The common standard si <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES -Advanced Encryption Standard (AES)</a> - Rely on open source software – so both parties can easily encrypt &amp; decrypt without being tied to software procurement obstacle. - Combine encryption and file compression: so files are easier &amp; lighter to share - The password used for the encryption should be at least 10 character long with a mixture of lowercase and uppercase alphabetic character, numbers and symbols. This should allow to build what is commonly called a <a href="https://en.wikipedia.org/wiki/Password_strength">strong password</a> and should always be transmitted independently form the file (for instance on a separate paper sheet with no reference to the file it allows to open).</p>
-<p>In terms of software, it is possible to use <a href="http://www.7-zip.org/">7zip</a>. <img src="images/7zip.png" alt="7zip"></p>
+<p>In terms of software, it is possible to use <a href="http://www.7-zip.org/">7zip</a>.</p>
+<div class="figure">
+<img src="images/7zip.png">
+</div>
 <p>A summary of the principle above woud be:</p>
 <p><em>Data files should be encrypted with AES-256 method using a strong password (at least 10 character long with a mixture of lowercase and uppercase alphabetic character, numbers and symbols) and compressed using the 7zip format with the 7zip software. Password will be transmitted printed on a paper that will need to be secured by the receiving agency</em>.</p>
 </div>
@@ -3444,7 +3448,7 @@ The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the 
 <li>Access to wider body of knowledge, from academia or other organisations, and research in other fields.</li>
 </ul>
 <div class="figure">
-<img src="images/research.png" alt="7zip"><p class="caption">7zip</p>
+<img src="images/research.png">
 </div>
 <p>To facilitate this process, the first approach woudl be to document the dataset according to the <a href="http://www.ihsn.org/home/projects/DDI-standard">Data Documentation Initiative (DDI) metadata standard</a> developped by the <a href="http://www.ihsn.org/home/about">International Household Survey Network (IHSN)</a>.</p>
 <p>Once the metadata are generated in the right format, it becomes possible to publish them within the <a href="http://catalog.ihsn.org/index.php/catalog">ISHN Microdata catalog</a> or the <a href="http://microdata.worldbank.org/catalog">World Bank Microdata Library</a></p>

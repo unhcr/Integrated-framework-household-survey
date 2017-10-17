@@ -10,9 +10,9 @@ source("options_communes.R")
 
 Data Confidentiality, Data Security and Data sensitivity are two important consideration but should not be confused.
 
-  * Data Confidentiality is linked to data protection and can be addressed through anonymisation
-  * Data security is linked to technical processes that needs to be established to prevent leak
-  * Data sensitivity is linked a collective clearance process
+  * Data *Confidentiality* is linked to data protection and can be addressed through anonymisation.
+  * Data *Security* is dependant from technical processes that needs to be established to prevent leaks.
+  * Data *Sensitivity* is tied a collective clearance and information classification process.
 
 Once those elements are addressed, it becomes possible to engage with researchers.
 
@@ -22,14 +22,13 @@ Once those elements are addressed, it becomes possible to engage with researcher
 ##  Dealing with confidentiality
 
 Once anonymised, a dataset does not fall anymore under the Policy on the Protection of Personal Data. 
-Though there’s a [few articles](https://epic.org/privacy/reidentification/ohm_article.pdf) about the failure of anonymization that shows how removing names & ID is not always sufficient to prevent “data re-identification”. 
 
 ### Anonymization techniques 
 
 Even when personal data is not being collected it still may be appropriate to apply the methodology since quasi-identifiable data or other sensitive data could lead to personal identification or should not be shared.
 
-Type            | Description
-----------------|--------------
+Type            | Description                                                                                                  
+----------------|--------------------------------------------------------------------------
 __Direct identifiers__      |	Can be directly used to identify an individual. E.g. Name, Address, Date of birth, Telephone number, GPS location
 __Quasi- identifiers__      |	Can be used to identify individuals when it is joined with other information. E.g. Age, Salary, Next of kin, School name, Place of work
 __Sensitive information__      | & Community identifiable information	Might not identify an individual but could put an individual or group at risk. E.g. Gender, Ethnicity, Religious belief
@@ -40,8 +39,8 @@ The following are different generic anonymisation actions that can be performed 
 
 The methods below can be referenced in the dedicated column within xlsform (cf above)
 
-Method          | Description
-----------------|--------------
+Type            | Description                                                                                                  
+----------------|--------------------------------------------------------------------------
   __Remove__    |	Variable is removed entirely from the data set. The Variable  is preserved in the original file.  
 __Reference__   |	Variable is removed entirely from the data set and is copied into a reference file. A random unique identifier field is added to the reference file and the data set so that they can be joined together in future.  The reference file is never shared and the Variable  is also preserved in the original file.  
 __Mask__        |	The Variable  values are replaced with meaningless values but the categories are preserved. A reference file is created to link the original value with the meaningless value. Typically applied to categorical Variable . For example, Town names could be masked with random combinations of letters. It would still be possible to perform statisitical analysis on the Variable  but the person running the analysis would not be able to identify the original values, they would only become meaningful when replaced with the original values. The reference file is never shared and the data is also preserved in the original file.  
@@ -49,16 +48,18 @@ __Generalise__	| Continuous Variable  is turned into categorical or ordinal Vari
 
 ### Statistical disclosure control (SDC)
 
+Though there’s a [few articles](https://epic.org/privacy/reidentification/ohm_article.pdf) about the failure of anonymization that shows how removing names & ID is not always sufficient to prevent “data re-identification”. 
+
 Many techniques can be used for "statistical disclosure control": suppression, inference control, banardisation, rounding or sampling. Other approaches includes rules like for instance “do not share figures for a spatial unit if it does not reach  the 1000 refugees threshold”…
 
-A [dedicated R module](https://cran.r-project.org/web/packages/sdcMicro/vignettes/sdc_guidelines.pdf) is availalble to perform anonymisation.
+A [dedicated R module](https://cran.r-project.org/web/packages/sdcMicro/vignettes/sdc_guidelines.pdf) is available to perform anonymisation analysis.
 
 
 
 ## Ensuring data security
 
 ### Access Registry
-A first requirement is to set up a standard registry of person who work on UNHCR datasets 
+A first requirement is to set up a standard registry of person who work on UNHCR datasets. This is actually prescribed in the data protection policy. 
 
 ### Sharing via a safe mechanism:  File encryption
 
@@ -68,8 +69,9 @@ What is a safe mechanism to share information: for instance which software to us
 -	Combine encryption and file compression: so files are easier & lighter to share
 - The password used for the encryption should be at least 10 character long with a mixture of  lowercase and uppercase alphabetic character, numbers and symbols. This should allow to build what is commonly called a [strong password](  https://en.wikipedia.org/wiki/Password_strength) and should always be transmitted independently form the file (for instance on a separate paper sheet with no reference to the file it allows to open). 
 
-In terms of software, it is possible to use [7zip](http://www.7-zip.org/). 
-![7zip](images/7zip.png)
+In terms of software, it is possible to use [7zip](http://www.7-zip.org/).  
+
+![](images/7zip.png)
 
 A summary of the principle above woud be:
 
@@ -154,7 +156,7 @@ To ensure that research done on the dataset can be reproduced afterwards by inte
 * Access to wider body of knowledge, from academia or other organisations, and research in
 other fields.
 
-![7zip](images/research.png)
+![](images/research.png)
 
 To facilitate this process, the first approach woudl be to document the dataset according to the [Data Documentation Initiative (DDI) metadata standard](http://www.ihsn.org/home/projects/DDI-standard) developped by the [International Household Survey Network (IHSN)](http://www.ihsn.org/home/about).
 
