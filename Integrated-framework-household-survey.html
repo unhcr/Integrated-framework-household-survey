@@ -206,7 +206,7 @@ pre:not([class]) {
 IFHS: A toolkit to facilitate design, collection &amp; analysis.
 </h2>
 <p>
-Last update : 20 November 2017
+Last update : 18 December 2017
 </p>
 </div>
 <div id="presentation" class="section level2">
@@ -287,7 +287,7 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 <strong>Preparing for fieldwork</strong>
 </p>
 <div class="list-group">
-<p><a href="#Pre-test-Phase" class="list-group-item">Pre-test Phase</a> <a href="#Fieldwork-Training-Agenda" class="list-group-item">Fieldwork Training and Agenda</a> <a href="#Managing-Devices" class="list-group-item">Managing Devices</a></p>
+<p><a href="#Configure-forms" class="list-group-item">Configure forms</a> <a href="#Pre-test-Phase" class="list-group-item">Pre-test Phase</a> <a href="#Fieldwork-Training-Agenda" class="list-group-item">Fieldwork Training and Agenda</a></p>
 </div>
 </div>
 <div class="col-md-4">
@@ -1692,6 +1692,35 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 </div>
 
 </article>
+<article id="Configure-forms"><div class="fluid-row" id="Configure-forms_header">
+
+
+
+<h1 class="title toc-ignore">Configure forms</h1>
+
+</div>
+
+
+<div class="important">
+<p> </p>
+<p>Configure forms can be done both through the Kobobuilder interface or within Excel. The second options is preferred as it allows for more controls.</p>
+</div>
+<p>The form needs ot be defined using the xlsform format. XLSForm is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.</p>
+<p>The XLSForm is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.</p>
+<p>The documentation on xlsform is <a href="http://xlsform.org/">here</a>. The same format is actually used by multiple data collection technological platform such as <a href="http://www.kobotoolbox.org/">kobotoolbox</a>(the platform used by UNHCR on <a href="http://kobo.unhcr.org" class="uri">http://kobo.unhcr.org</a>, <a href="https://opendatakit.org/">OpenDataKit</a> or <a href="https://ona.io">ONA</a></p>
+<p>Additional tutorials and tips can be found through the following links:</p>
+<ul>
+<li><p><a href="https://opendatakit.org/help/form-design/">Open data kit Form design guides</a></p></li>
+<li><p><a href="https://opendatakit.org/help/form-design/workarounds/">Open data kit work around</a></p></li>
+<li><p><a href="https://opendatakit.org/help/training-guides/">Other training guides</a></p></li>
+<li><p><a href="http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/">Advanced XLSForm coding tips #1</a></p></li>
+<li><p><a href="http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/">Advanced XLSForm coding tips #2</a></p></li>
+</ul>
+<p>When faced with specific challenges, multiple online forums can be consulted:</p>
+<ul>
+<li><p><a href="http://support.kobotoolbox.org/">Forum for Kobotoolbox</a></p></li>
+<li><p><a href="https://forum.opendatakit.org/">Forum for OpenDataKit</a></p></li>
+</ul></article>
 <article id="Pre-test-Phase"><div class="fluid-row" id="Pre-test-Phase_header">
 
 
@@ -1845,68 +1874,6 @@ Describe here the observations, suggestions, and decisions related to the assess
 <li>Pilot test</li>
 </ul>
 </div>
-</div>
-
-</article>
-<article id="Managing-Devices"><div class="fluid-row" id="Managing-Devices_header">
-
-
-
-<h1 class="title toc-ignore">Managing Devices</h1>
-
-</div>
-
-<div class="TOC">
-<ul>
-<li><a href="#Managing-Devices_android-devices">Android Devices</a></li>
-<li><a href="#Managing-Devices_computer">Computer</a></li>
-<li><a href="#Managing-Devices_steady-power-supply">STEADY POWER SUPPLY</a></li>
-<li><a href="#Managing-Devices_usb-battery-packs">USB BATTERY PACKS</a></li>
-</ul>
-</div>
-
-<div id="Managing-Devices_android-devices" class="section level2">
-<h2>Android Devices</h2>
-<p>The software platform used for the data consolidation has specific clients developped on the Android Mobile Operating System. It’s also possible, although not first recommended to use any browser (including any browser on a smartphone) to record information.</p>
-<p>A certain number of smartphones or tablets will be needed for each survey team to have one or two phones, as well as a few backups.</p>
-<p>For ease of use, smartphones and tablets with a large touchscreen and slide-out keyboard are preferable. Equipement might be borrowed from UNHCR HQ, or country operations could have their own set of phones.</p>
-<p>Minimal Requirements for the devices:</p>
-<ul>
-<li>Android Version 2.3 (recent phones are generally platform 4 or higher)</li>
-<li>Screen size of 4 inches is recommended</li>
-<li>GPS Chipset</li>
-<li>Wifi connection</li>
-</ul>
-<p>Required Applications:</p>
-<ul>
-<li>Latest recommended version of KoboCollect</li>
-<li>GPS Test, if you need GPS coordinates for the survey</li>
-<li>Andexplorer (or equivalent file explorer)</li>
-</ul>
-</div>
-<div id="Managing-Devices_computer" class="section level2">
-<h2>Computer</h2>
-<p>We strongly recommend to have a dedicated survey computer. This computer will be set up specifically for the survey. Note that using the computer for other purposes (e.g. internet) may cause compromise the security of the data you will collect.</p>
-<p>Minimal Requirements:</p>
-<ul>
-<li>4G RAM</li>
-<li>Installed with Windows 7 (alternatively XP works as well)</li>
-</ul>
-<p>Software Required:</p>
-<ul>
-<li>Microsoft Excel (English Version)</li>
-<li>R</li>
-<li>Rstudio</li>
-<li>Github</li>
-</ul>
-</div>
-<div id="Managing-Devices_steady-power-supply" class="section level2">
-<h2>STEADY POWER SUPPLY</h2>
-<p>Access to a good electrical supply is essential for the router and computer and for over-night charging capacities of the phones. Where electrical supply is unstable with unexpected power-cuts or planned power savings, alternative charging options must be considered before the survey.</p>
-</div>
-<div id="Managing-Devices_usb-battery-packs" class="section level2">
-<h2>USB BATTERY PACKS</h2>
-<p>Even though they cannot replace steady electrical power, battery packs are a useful secondary source of energy for the phones. We recommend having at least 2 for a survey where the phones are daily charged. This way, if a phone lack battery during the survey, the enumerator can charge it while continuing the survey.</p>
 </div>
 
 </article>
@@ -2331,6 +2298,8 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 <li><a href="#Server-Configuration_sign-up-and-first-login">Sign up and first login</a></li>
 <li><a href="#Server-Configuration_upload-your-form">Upload your form</a></li>
 <li><a href="#Server-Configuration_create-users-to-collect-data">Create users to collect data</a></li>
+<li><a href="#Server-Configuration_share-projects">Share projects</a></li>
+<li><a href="#Server-Configuration_be-cautious">Be cautious!</a></li>
 </ul>
 </div>
 
@@ -2341,19 +2310,32 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 <h2>What is KoboToolBox?</h2>
 <p>KoBo Toolbox is an <a href="https://github.com/kobotoolbox">open-source tool</a> for mobile data collection. It allows you to collect data in the field using mobile devices such as mobile phones or tablets, as well as with paper or computers.</p>
 <p>The project has been orginally develoipped by the <a href="http://hhi.harvard.edu/research/kobotoolbox">Harvard Humanitarian Initiative</a> and was then adapted to humanitarian usage in colleaboration with <a href="https://www.humanitarianresponse.info/en/applications/kobotoolbox">OCHA</a>.</p>
-<p>KoBoToolbox was first created in 2009 and has grown over the years to include several projects and initiatives. It include: * FORMBUILDER: Easily create survey forms through an online user interface. * MOBILE DATA COLLECTION: Quickly and reliably collect data on Android, iOS, and many other devices, online or offline, in any language and with complex skip logic. * ANALYZING DATA: Inspect data moments after it was collected - and download it for advanced analysis in other software in Excel, CSV, KML, and other formats.</p>
+<p>KoBoToolbox was first created in 2009 and has grown over the years to include several projects and initiatives. It includes:</p>
+<ul>
+<li><p><strong>FORMBUILDER</strong>: Easily create survey forms through an online user interface.</p></li>
+<li><p><strong>MOBILE DATA COLLECTION</strong>: Quickly and reliably collect data on Android, iOS, and many other devices, online or offline, in any language and with complex skip logic.</p></li>
+<li><p><strong>ANALYZING DATA</strong>: Inspect data moments after it was collected - and download it for advanced analysis in other software in Excel, CSV, KML, and other formats.</p></li>
+</ul>
 </div>
 <div id="Server-Configuration_sign-up-and-first-login" class="section level2">
 <h2>Sign up and first login</h2>
 <p>Visit <a href="https://kobo.unhcr.org" class="uri">https://kobo.unhcr.org</a> and create a new account. After your account activation, through the link that was sent to you, you can log in to access your account.</p>
+<p>Note that the server is open to non-UNHCR users.</p>
 </div>
 <div id="Server-Configuration_upload-your-form" class="section level2">
 <h2>Upload your form</h2>
-<p>You can now go to project and upload the form designed throught the question library.</p>
+<p>You can now go to project and upload the form designed throught the question library in <a href="http://xslform.org">XlsForm format</a>.</p>
 </div>
 <div id="Server-Configuration_create-users-to-collect-data" class="section level2">
 <h2>Create users to collect data</h2>
 <p>More <a href="http://support.kobotoolbox.org/">support on KoboToolBox is avaialble form this page</a></p>
+</div>
+<div id="Server-Configuration_share-projects" class="section level2">
+<h2>Share projects</h2>
+</div>
+<div id="Server-Configuration_be-cautious" class="section level2">
+<h2>Be cautious!</h2>
+<p>Be very cautious with questionnaire versioning on a kobotoolbox project – i.e. do avoid to use a versioned project for production – you may destroy the integrity of your data set– Versioning can be used in a “production project” only to add a modality to an existing question –</p>
 </div>
 
 </article>
@@ -2367,6 +2349,13 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 
 <div class="TOC">
 <ul>
+<li>
+<a href="#Data-Entry_managing-android-devices">Managing Android Devices</a><ul>
+<li><a href="#Data-Entry_minimal-requirements-for-the-devices">Minimal Requirements for the devices</a></li>
+<li><a href="#Data-Entry_steady-power-supply">Steady power supply</a></li>
+<li><a href="#Data-Entry_usb-battery-packs">USB Battery packs</a></li>
+</ul>
+</li>
 <li>
 <a href="#Data-Entry_using-the-client-on-mobile-devices-kobocollect">Using the client on Mobile Devices: koboCollect</a><ul>
 <li><a href="#Data-Entry_server-url-set-up">Server URL set up</a></li>
@@ -2386,7 +2375,34 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 <div class="important">
 <p>This chapter is not written yet.</p>
 </div>
-<p>KoBoToolbox allows data collection in multiple ways. Because KoBoToolbox is built on the Xform/ODK technology, our forms are compatible with a number of different tools that can be used for data collection. We recommend using KoBoCollect as the tool of choice for Android devices, and Web Forms (Enketo) for collecting data on all other devices (including iPhones, iPads, or any laptop or computer).</p>
+<div id="Data-Entry_managing-android-devices" class="section level2">
+<h2>Managing Android Devices</h2>
+<p>The software platform used for the data consolidation has specific clients developped on the Android Mobile Operating System. It’s also possible, although not first recommended to use any browser (including any browser on a smartphone) to record information.</p>
+<p>A certain number of smartphones or tablets will be needed for each survey team to have one or two phones, as well as a few backups.</p>
+<p>For ease of use, smartphones and tablets with a large touchscreen and slide-out keyboard are preferable. Equipement might be borrowed from UNHCR HQ, or country operations could have their own set of phones.</p>
+<div id="Data-Entry_minimal-requirements-for-the-devices" class="section level3">
+<h3>Minimal Requirements for the devices</h3>
+<ul>
+<li>Android Version 2.3 (recent phones are generally platform 4 or higher)</li>
+<li>Screen size of 4 inches is recommended</li>
+<li>GPS Chipset</li>
+<li>Wifi connection</li>
+</ul>
+<p>Required Applications:</p>
+<ul>
+<li>Latest recommended version of KoboCollect</li>
+<li>GPS Test, if you need GPS coordinates for the survey</li>
+</ul>
+</div>
+<div id="Data-Entry_steady-power-supply" class="section level3">
+<h3>Steady power supply</h3>
+<p>Access to a good electrical supply is essential for the router and computer and for over-night charging capacities of the phones. Where electrical supply is unstable with unexpected power-cuts or planned power savings, alternative charging options must be considered before the survey.</p>
+</div>
+<div id="Data-Entry_usb-battery-packs" class="section level3">
+<h3>USB Battery packs</h3>
+<p>Even though they cannot replace steady electrical power, battery packs are a useful secondary source of energy for the phones. We recommend having at least 2 for a survey where the phones are daily charged. This way, if a phone lack battery during the survey, the enumerator can charge it while continuing the survey.</p>
+</div>
+</div>
 <div id="Data-Entry_using-the-client-on-mobile-devices-kobocollect" class="section level2">
 <h2>Using the client on Mobile Devices: koboCollect</h2>
 <p>KoBoCollect is an Android app that can be installed on any standard Android phone or tablet. <a href="https://play.google.com/store/apps/details?id=org.koboc.collect.android">To download the app to your Android device, click here</a>.</p>
@@ -3084,8 +3100,9 @@ Path to the indicator calculation sheet </code></pre>
 <div class="TOC">
 <ul>
 <li><a href="#Analysis-Workshop_workshop-preparation-identify-patterns">Workshop preparation: identify patterns</a></li>
-<li><a href="#Analysis-Workshop_data-disgest-presentation">Data Disgest Presentation</a></li>
+<li><a href="#Analysis-Workshop_data-digest-presentation">Data Digest Presentation</a></li>
 <li><a href="#Analysis-Workshop_faciliation-note-taking">Faciliation &amp; Note taking</a></li>
+<li><a href="#Analysis-Workshop_practical-steps-during-the-slides-review">Practical steps during the slides review</a></li>
 <li><a href="#Analysis-Workshop_clearance-process">Clearance process</a></li>
 <li>
 <a href="#Analysis-Workshop_styling-guide">Styling guide</a><ul>
@@ -3112,25 +3129,25 @@ Path to the indicator calculation sheet </code></pre>
 <h2>Workshop preparation: identify patterns</h2>
 <p>While identifying categories and sorting the data, you will start to see patterns within and between categories. At this stage it will be important to assess the relative importance and relationships between those categories. You may want to look at:</p>
 <ul>
-<li> how many times a specific category came up?<br>
+<li>How many times a specific category came up?<br>
 </li>
-<li> what are the key ideas being expressed?<br>
+<li>What are the key ideas being expressed?<br>
 </li>
-<li> what similarities and differences are being expressed?<br>
+<li>What similarities and differences are being expressed?<br>
 </li>
-<li> if two or more categories consistently appear together for one group?</li>
+<li>If two or more categories consistently appear together for one group?</li>
 </ul>
 <p>Relationships might suggest a cause and effect; this will help you to explain why something occurs. You can ask yourself:</p>
 <ul>
-<li> How do things relate?</li>
-<li>What data supports this interpretation?</li>
-<li>What responses are contradicting findings and/or do not fit into categories?</li>
-<li>Are they important to the overall understanding?</li>
+<li>How do things relate?</li>
+<li>What data supports this interpretation?</li>
+<li>What responses are contradicting findings and/or do not fit into categories?</li>
+<li>Are they important to the overall understanding?</li>
 </ul>
 </div>
-<div id="Analysis-Workshop_data-disgest-presentation" class="section level2">
-<h2>Data Disgest Presentation</h2>
-<p>Data Anlysis Workshop are among <a href="http://jet.jips.org/documents/download/terms-of-reference-for-a-workshop-on-collaborative-analysis-of-the-profiling-findings">common good practices</a>. .</p>
+<div id="Analysis-Workshop_data-digest-presentation" class="section level2">
+<h2>Data Digest Presentation</h2>
+<p>Data Analysis Workshop are among <a href="http://jet.jips.org/documents/download/terms-of-reference-for-a-workshop-on-collaborative-analysis-of-the-profiling-findings">common good practices</a>. .</p>
 <ul>
 <li>Engage with various levels (Field, Sector, Partner, Authority..)</li>
 <li>Facilitation around “data digest” (±60 slides for 3 hours session)</li>
@@ -3143,15 +3160,22 @@ Path to the indicator calculation sheet </code></pre>
 <ul>
 <li>Take a step back and look at what you learned. Ask yourself for example:<br>
 </li>
-<li> What will those who are using the findings of the information be most interested in?</li>
-<li> What new things did you learn about the protection situation?</li>
-<li> What main protection risks for several and/or specific population groups did appear?</li>
-<li> What is the scale of a given problem/protection risks?</li>
-<li> Are there particular groups within the population who are particularly exposed to specific problems/risks?</li>
-<li> Did you confirm patterns mentioned in earlier reports or did you see new trends?</li>
-<li> The protection problems observed are there isolated incidents or generalizable trends?</li>
-<li><p> Are the incidents related to the crisis/emergency/conflict or are they more related to endemic issues such as cultural practices or generalized poverty?</p></li>
-<li><p><strong>Reflect</strong>: <img src="images/reflect.png"></p></li>
+<li>What will those who are using the findings of the information be most interested in?</li>
+<li>What new things did you learn about the protection situation?</li>
+<li>What main protection risks for several and/or specific population groups did appear?</li>
+<li>What is the scale of a given problem/protection risks?</li>
+<li>Are there particular groups within the population who are particularly exposed to specific problems/risks?</li>
+<li>Did you confirm patterns mentioned in earlier reports or did you see new trends?</li>
+<li>The protection problems observed are there isolated incidents or generalizable trends?</li>
+<li>Are the incidents related to the crisis/emergency/conflict or are they more related to endemic issues such as cultural practices or generalized poverty?</li>
+</ul>
+</div>
+<div id="Analysis-Workshop_practical-steps-during-the-slides-review" class="section level2">
+<h2>Practical steps during the slides review</h2>
+<ul>
+<li>
+<strong>Reflect</strong>: <img src="images/reflect.png">
+</li>
 </ul>
 <p>Data quality and or suggestions to change questions</p>
 <ul>

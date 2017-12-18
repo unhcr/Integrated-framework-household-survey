@@ -11,7 +11,7 @@
 
 
 
-<title>Managing Devices</title>
+<title>Configure forms</title>
 
 <script src="libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -170,9 +170,9 @@ $(document).ready(function () {
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
                     <li class="dropdown-header">Preparing for fieldwork</li>
+                  <li><a href="Configure-forms.html">Configure forms</a></li>
                   <li><a href="Pre-test-Phase.html">Pre-test Phase</a></li>
                   <li><a href="Fieldwork-Training-Agenda.html">Fieldwork Training and Agenda</a></li>
-                  <li><a href="Managing-Devices.html">Managing Devices</a></li>
                 </ul>
               </div>
               <div class="col-sm-4">
@@ -250,62 +250,31 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Managing Devices</h1>
+<h1 class="title toc-ignore">Configure forms</h1>
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#android-devices">Android Devices</a></li>
-<li><a href="#computer">Computer</a></li>
-<li><a href="#steady-power-supply">STEADY POWER SUPPLY</a></li>
-<li><a href="#usb-battery-packs">USB BATTERY PACKS</a></li>
-</ul>
-</div>
 
-<div id="android-devices" class="section level2">
-<h2>Android Devices</h2>
-<p>The software platform used for the data consolidation has specific clients developped on the Android Mobile Operating System. It’s also possible, although not first recommended to use any browser (including any browser on a smartphone) to record information.</p>
-<p>A certain number of smartphones or tablets will be needed for each survey team to have one or two phones, as well as a few backups.</p>
-<p>For ease of use, smartphones and tablets with a large touchscreen and slide-out keyboard are preferable. Equipement might be borrowed from UNHCR HQ, or country operations could have their own set of phones.</p>
-<p>Minimal Requirements for the devices:</p>
-<ul>
-<li>Android Version 2.3 (recent phones are generally platform 4 or higher)</li>
-<li>Screen size of 4 inches is recommended</li>
-<li>GPS Chipset</li>
-<li>Wifi connection</li>
-</ul>
-<p>Required Applications:</p>
-<ul>
-<li>Latest recommended version of KoboCollect</li>
-<li>GPS Test, if you need GPS coordinates for the survey</li>
-<li>Andexplorer (or equivalent file explorer)</li>
-</ul>
+<div class="important">
+<p> </p>
+<p>Configure forms can be done both through the Kobobuilder interface or within Excel. The second options is preferred as it allows for more controls.</p>
 </div>
-<div id="computer" class="section level2">
-<h2>Computer</h2>
-<p>We strongly recommend to have a dedicated survey computer. This computer will be set up specifically for the survey. Note that using the computer for other purposes (e.g. internet) may cause compromise the security of the data you will collect.</p>
-<p>Minimal Requirements:</p>
+<p>The form needs ot be defined using the xlsform format. XLSForm is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.</p>
+<p>The XLSForm is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.</p>
+<p>The documentation on xlsform is <a href="http://xlsform.org/">here</a>. The same format is actually used by multiple data collection technological platform such as <a href="http://www.kobotoolbox.org/">kobotoolbox</a>(the platform used by UNHCR on <a href="http://kobo.unhcr.org" class="uri">http://kobo.unhcr.org</a>, <a href="https://opendatakit.org/">OpenDataKit</a> or <a href="https://ona.io">ONA</a></p>
+<p>Additional tutorials and tips can be found through the following links:</p>
 <ul>
-<li>4G RAM</li>
-<li>Installed with Windows 7 (alternatively XP works as well)</li>
+<li><p><a href="https://opendatakit.org/help/form-design/">Open data kit Form design guides</a></p></li>
+<li><p><a href="https://opendatakit.org/help/form-design/workarounds/">Open data kit work around</a></p></li>
+<li><p><a href="https://opendatakit.org/help/training-guides/">Other training guides</a></p></li>
+<li><p><a href="http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/">Advanced XLSForm coding tips #1</a></p></li>
+<li><p><a href="http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/">Advanced XLSForm coding tips #2</a></p></li>
 </ul>
-<p>Software Required:</p>
+<p>When faced with specific challenges, multiple online forums can be consulted:</p>
 <ul>
-<li>Microsoft Excel (English Version)</li>
-<li>R</li>
-<li>Rstudio</li>
-<li>Github</li>
+<li><p><a href="http://support.kobotoolbox.org/">Forum for Kobotoolbox</a></p></li>
+<li><p><a href="https://forum.opendatakit.org/">Forum for OpenDataKit</a></p></li>
 </ul>
-</div>
-<div id="steady-power-supply" class="section level2">
-<h2>STEADY POWER SUPPLY</h2>
-<p>Access to a good electrical supply is essential for the router and computer and for over-night charging capacities of the phones. Where electrical supply is unstable with unexpected power-cuts or planned power savings, alternative charging options must be considered before the survey.</p>
-</div>
-<div id="usb-battery-packs" class="section level2">
-<h2>USB BATTERY PACKS</h2>
-<p>Even though they cannot replace steady electrical power, battery packs are a useful secondary source of energy for the phones. We recommend having at least 2 for a survey where the phones are daily charged. This way, if a phone lack battery during the survey, the enumerator can charge it while continuing the survey.</p>
-</div>
 
 </article>
 </div>

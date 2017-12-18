@@ -1,0 +1,42 @@
+---
+title: "Configure forms"
+---
+
+```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+<div class="important">
+ 
+
+Configure forms can be done both through the Kobobuilder interface or within Excel.
+The second options is preferred as it allows for more controls.
+
+</div>
+
+The form needs ot be defined using the xlsform format.
+XLSForm is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.
+
+The XLSForm is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.
+
+The documentation on xlsform is [here](http://xlsform.org/). The same format is actually used by multiple data collection technological platform such as [kobotoolbox](http://www.kobotoolbox.org/)(the platform used by UNHCR on [http://kobo.unhcr.org](http://kobo.unhcr.org), [OpenDataKit](https://opendatakit.org/) or [ONA](https://ona.io)
+
+Additional tutorials and tips can be found through the following links: 
+
+ * [Open data kit Form design guides](https://opendatakit.org/help/form-design/) 
+
+ * [Open data kit work around](https://opendatakit.org/help/form-design/workarounds/)  
+
+ * [Other training guides](https://opendatakit.org/help/training-guides/)
+
+ * [Advanced XLSForm coding tips #1](http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/)  
+
+ * [Advanced XLSForm coding tips #2](http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/) 
+ 
+When faced with specific challenges, multiple online forums can be consulted: 
+
+ * [Forum for Kobotoolbox](http://support.kobotoolbox.org/) 
+
+ * [Forum for OpenDataKit](https://forum.opendatakit.org/)  
+
+
