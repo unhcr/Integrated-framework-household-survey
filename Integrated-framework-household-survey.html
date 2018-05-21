@@ -206,7 +206,7 @@ pre:not([class]) {
 IFHS: A toolkit to facilitate design, collection &amp; analysis.
 </h2>
 <p>
-Last update : 18 December 2017
+Last update : 21 May 2018
 </p>
 </div>
 <div id="presentation" class="section level2">
@@ -802,9 +802,20 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 </div>
 <div id="Sampling_sampling-with-replacement-and-sampling-without-replacement" class="section level4">
 <h4>Sampling With Replacement and Sampling Without Replacement</h4>
+<div id="Sampling_what-is-replacement" class="section level5">
+<h5>What is replacement?</h5>
 <p>When a population element can be selected more than one time, we are sampling with replacement. When a population element can be selected only one time, we are sampling without replacement. When we sample with replacement, the two sample values are independent. Practically, this means that what we get on the first one doesn’t affect what we get on the second. Mathematically, this means that the covariance between the two is zero.In sampling without replacement, the two sample values aren’t independent. Practically, this means that what we got on the for the first one affects what we can get for the second one. Mathematically, this means that the covariance between the two isn’t zero.</p>
-<p>In small populations and often in large ones, sampling is typically done “without replacement”, i.e., one deliberately avoids choosing any member of the population more than once. Although sampling can be conducted with replacement instead, this is less common and for a small sample from a large population, sampling without replacement is approximately the same as sampling with replacement, since the odds of choosing the same individual twice is low.You can tell how dramatic the results are by calculating the covariance. That’s a measure of how much two items’s probabilities are linked together; the higher the covariance, the more dramatic the results. A covariance of zero would mean there’s no difference between sampling with replacement or sampling without.</p>
-<p>As explained in this <a href="http://www.statcan.gc.ca/pub/12-001-x/2001002/article/6089-eng.pdf">paper</a>, bias may be introduced into population estimates through Telephone surveys, however, by the exclusion of nontelephone households from these surveys.The bias introduced can be significant since “non-telephone households” may differ from telephone households in ways that are not adequately handled by poststratification. Many households, called “transients”, move in and out of the telephone population during the year, sometimes due to economic reasons or relocation. The transient telephone population may be representative of the non-telephone population in general since its members have recently been in the non-telephone population.</p>
+</div>
+<div id="Sampling_whith-or-without" class="section level5">
+<h5>Whith or without?</h5>
+<p>In small populations and often in large ones, sampling is typically done “without replacement”, i.e., one deliberately avoids choosing any member of the population more than once.</p>
+<p>Less commonly, sampling can also be conducted with replacement. This allow to address low response rate.</p>
+<p>For a small sample from a large population, sampling without replacement is approximately the same as sampling with replacement, since the odds of choosing the same individual twice is low. This can be measure by calculating the covariance: how much two items’s probabilities are linked together. The higher the covariance, the more the results can be influenced. A covariance of zero would mean there’s no difference between sampling with replacement or sampling without.</p>
+</div>
+<div id="Sampling_the-specific-case-of-phone-surveys" class="section level5">
+<h5>The specific case of phone surveys</h5>
+<p>As explained in this <a href="http://www.statcan.gc.ca/pub/12-001-x/2001002/article/6089-eng.pdf">paper</a>, bias may be introduced into population estimates through telephone surveys, however, by the exclusion of nontelephone households from these surveys.The bias introduced can be significant since “non-telephone households” may differ from telephone households in ways that are not adequately handled by poststratification. Many households, called “transients”, move in and out of the telephone population during the year, sometimes due to economic reasons or relocation. The transient telephone population may be representative of the non-telephone population in general since its members have recently been in the non-telephone population.</p>
+</div>
 </div>
 </div>
 </div>
@@ -1715,6 +1726,7 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 <li><p><a href="https://opendatakit.org/help/training-guides/">Other training guides</a></p></li>
 <li><p><a href="http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/">Advanced XLSForm coding tips #1</a></p></li>
 <li><p><a href="http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/">Advanced XLSForm coding tips #2</a></p></li>
+<li><p><a href="https://odk.acf-e.org/odk/LinkedDocuments/Annex%204%20ODK%20ACF-E%20How%20to%20author%20surveys%20for%20ODK.pdf">ACF XLSForm coding tips</a></p></li>
 </ul>
 <p>When faced with specific challenges, multiple online forums can be consulted:</p>
 <ul>

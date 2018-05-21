@@ -33,6 +33,8 @@ Additional tutorials and tips can be found through the following links:
 
  * [Advanced XLSForm coding tips #2](http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/) 
  
+ * [ACF XLSForm coding tips](https://odk.acf-e.org/odk/LinkedDocuments/Annex%204%20ODK%20ACF-E%20How%20to%20author%20surveys%20for%20ODK.pdf)
+ 
 When faced with specific challenges, multiple online forums can be consulted: 
 
  * [Forum for Kobotoolbox](http://support.kobotoolbox.org/) 
