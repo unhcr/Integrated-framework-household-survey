@@ -260,16 +260,57 @@ $(document).ready(function () {
 
 <div id="TOC">
 <ul>
-<li><a href="#section"></a></li>
+<li><a href="#cleaning-linked-to-the-sample">Cleaning linked to the sample</a></li>
+<li><a href="#cleaning-on-numeric-variable-filter-unwanted-outliers">Cleaning on numeric variable: Filter Unwanted Outliers</a></li>
+<li><a href="#cleaning-categoric-variables-review-categories">Cleaning categoric variables: review categories</a></li>
+<li><a href="#fix-labeling">Fix labeling</a></li>
+<li><a href="#handle-missing-data">Handle Missing Data</a></li>
 </ul>
 </div>
 
 <div class="important">
 <p>Data Cleaning is an essential step in data analysis. Most of the cleaning should allow to predect some potential errors in the dataset.</p>
 </div>
-<div id="section" class="section level2">
-<h2></h2>
+<p>A multiplicity of errors can occurs during a survey. Once data are collected only a few of them can be addressed.</p>
 <p><img src="images/error.png" /></p>
+<div id="cleaning-linked-to-the-sample" class="section level2">
+<h2>Cleaning linked to the sample</h2>
+<p>In this case, some household were visited multiples times. The only way to address this is to have a cleaning log that contains the uniqueID (meta_instance_id) of the questionnaires that will need to be deleted.</p>
+</div>
+<div id="cleaning-on-numeric-variable-filter-unwanted-outliers" class="section level2">
+<h2>Cleaning on numeric variable: Filter Unwanted Outliers</h2>
+<p>Outliers on numeric variable can be spotted looking at the value of standard deviation.</p>
+<p>Keep in mind that “outliers are innocent until proven guilty”. Sometimes they traduce a proable in data collection but sometimes it can also add important information. One must have a good reason for removing an outlier, such as suspicious measurements that are unlikely to be real data.</p>
+</div>
+<div id="cleaning-categoric-variables-review-categories" class="section level2">
+<h2>Cleaning categoric variables: review categories</h2>
+<p>xlsform allow to add the option of using <strong>or_other</strong> when raising a categoric questions. Often the results of this sub-variable needs to be reviewed to ensure that the or_other can not be affected to any existing value.</p>
+<p>The other point to check is low-frequency modalities that might need to be compacted together. This is also important in the sense that it will facilitate the data anonymisation in case this variable is a key one.</p>
+</div>
+<div id="fix-labeling" class="section level2">
+<h2>Fix labeling</h2>
+<p>When recoding the data set it can appears often that the label attributed to the variables when raising the questions are not worded well, comme with typos / capitalisation issues or are too long to appear in a report. This can be fixed directly within the xlsform used for the data analysis plan.</p>
+</div>
+<div id="handle-missing-data" class="section level2">
+<h2>Handle Missing Data</h2>
+<p>This can be important when developing the analysis for the scoring.</p>
+<p>The 2 most commonly recommended ways of dealing with missing data are:</p>
+<ul>
+<li><p>Dropping observations that have missing values: Dropping missing values is sub-optimal because when you drop observations, you drop information. The fact that the value was missing may be informative in itself.</p></li>
+<li><p>Imputing the missing values based on other observations</p></li>
+</ul>
+<p>The best way to handle missing data for categorical features is to simply label them as ’Missing’!</p>
+<ul>
+<li>You’re essentially adding a new class for the feature.</li>
+<li>This tells the algorithm that the value was missing.</li>
+<li>This also gets around the technical requirement for no missing values.</li>
+</ul>
+<p>For missing numeric data, you should flag and fill the values.</p>
+<ul>
+<li>Flag the observation with an indicator variable of missingness.</li>
+<li>Then, fill the original missing value with 0 just to meet the technical requirement of no missing values.</li>
+</ul>
+<p>By using this technique of flagging and filling, you are essentially allowing the algorithm to estimate the optimal constant for missingness, instead of just filling it in with the mean.</p>
 </div>
 
 </article>
