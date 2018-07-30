@@ -16,6 +16,9 @@ The sampling strategy is constrainted by both available budget, field accessibil
 </div>
 
 
+
+![](images/sampling_bowl.jpeg)
+
 ### Declaration Bias
 
 
@@ -86,7 +89,7 @@ While data requirements for RDS analysis are minimal, there are three pieces of 
 
 * Respondent's Recruiting Serial Numbers - Serial numbers from the coupons the respondent is given to recruit others. 
 
-
+A good introduction to the organisation of RDS is in [this presentation](https://9f6e4747-a-62cb3a1a-s-sites.googlegroups.com/site/lsjohnstonglobal/respondent-driven-sampling/presentations-rds/RDS%20Essentials.pdf).
 
 #### Time-Location Sampling
 
