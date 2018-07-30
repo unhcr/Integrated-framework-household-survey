@@ -13,6 +13,7 @@ Objective of the standardised question modules:
  * Ensure that all **topics of interest** are well covered in the analysis framework
  * Check that for each selected topcis, all **required questions** to calculate the indicators and vulnerability profile (severity, magnitude, criticality) are included
  * Deliver quickly **final reports** through reproducible analysis workflow
+ * Collect information at case level and record links between case that forms a household
 
 </div>
 
@@ -31,13 +32,44 @@ Each data element collected should be linked to:
 * Specific Protection indicator
 
 
+## Unit of analysis: record at Case level and analyse household.
+
+Household is the standard unit used in both national and international Household survey programme:
+ *  Allow for comparability
+ *  Allow for more complex analysis of interaction
+ *  More complex to capture than case information
+
+_“Persons who live together and have communal arrangements concerning subsistence and other necessities of life, such as eating together”_ . As such Household includes two main concepts:
+ *   The household dwelling -> living in a housing unit as belonging to the same household.  
+ *   The housekeeping concept  ->  common provision for food or other essentials for living, with or without combining with any other person to form part of a multi-person household.  
+
+household can corresponds to the 3 follwoing differents types: 
+ *  Nuclear household (Family unit)  
+ *  Extended household (Family unit + additional related members) 
+ *  Composite household (Family unit + additional non-related members) 
+
+
+Case (i.e. group of individuals as registered) corresponds to the unit used for assistance, as registered by UNHCR and also used during continuous assessment / protection monitoring. __It is recommended to have one form filled by each case rather than by each household. In this form one repeat questions can allow to records all linkeds cases with their respective CaseID__ for the following reasons:
+
+ * It's easier, after data collection, to reconstruct a household from multiple case than deconstruct household in multiple cases as this implies to define the correct elements to re-apportion correctly the right information. 
+ * The types of links between cases (level of sharing for accomodation and for food) that forms an household and the household profile can easily be collected. 
+ * There's a risk to miss some extremely vulnerable cases if their record is merge with a less vulnerable, creating either an exclusion error or worst generating some '[Cobra effect](https://en.wikipedia.org/wiki/Cobra_effect)'. 
+ 
+
+
+
+
 ## Questions modules
 
 The Household level Assessment includes different parts that includes a series of modules. The selection of required modules will be done through a participatory assessment. Each module allow to define a series of indicators. Questions to be used in each module are extracted whenever possible from the [IHSN Question Bank](http://qbank.ihsn.org/web/app.php/questionnaires).
 
-### introduction
-Consent
+### Introduction
+
+Introduction should include the follwoing mains elements
+
 Enumerator
+
+Consent
 
 ### Part 1: Background Information 
 
