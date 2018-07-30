@@ -1,0 +1,22 @@
+---
+  title: "Clean"
+---
+
+  ```{r options_communes, include=FALSE}
+source("options_communes.R")
+```
+
+
+<div class="important">
+
+  Data Cleaning is an essential step in data analysis. Most of the cleaning should allow to predect some potential errors in the dataset.
+
+
+
+</div>
+
+
+##
+
+
+![](images/error.png)
