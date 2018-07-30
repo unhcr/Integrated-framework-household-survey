@@ -11,7 +11,7 @@
 
 
 
-<title>Data Protection Impact Assessment</title>
+<title>Clean</title>
 
 <script src="libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -254,152 +254,22 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Data Protection Impact Assessment</h1>
+<h1 class="title toc-ignore">Clean</h1>
 
 </div>
 
 <div id="TOC">
 <ul>
-<li><a href="#unhcr-data-protection-policy">UNHCR Data Protection Policy</a></li>
-<li><a href="#the-12-privacy-principles">The 12 privacy principles</a></li>
-<li><a href="#threat-vulnerability-matrix">Threat &amp; vulnerability matrix</a></li>
-<li><a href="#deleting-dataset">Deleting dataset</a></li>
-<li><a href="#technical-measures-necessary-to-comply-with-the-policy">Technical measures necessary to comply with the policy</a></li>
-<li><a href="#standard-operating-procedures-necessary-to-comply-with-the-policy">Standard Operating Procedures necessary to comply with the policy</a></li>
+<li><a href="#section"></a></li>
 </ul>
 </div>
 
 <div class="important">
-<p>This chapter is not written yet.</p>
+<p>Data Cleaning is an essential step in data analysis. Most of the cleaning should allow to predect some potential errors in the dataset.</p>
 </div>
-<div id="unhcr-data-protection-policy" class="section level2">
-<h2>UNHCR Data Protection Policy</h2>
-<p>The <a href="http://www.refworld.org/docid/55643c1d4.html">Policy on the Protection of Personal Data of Persons of Concern to UNHCR</a> has been issued in May 2015.</p>
-<div class="figure">
-<img src="images/dataprotection.png" alt="Data Protection Policy" />
-<p class="caption">Data Protection Policy</p>
-</div>
-<p>In addition of the clarification of the basic principles to be applied when collecting information that includes <strong>Personally Identifiable Information (PII)</strong>, the policy recall the needs to carry out <strong>Data Protection Impact Assessment (DPIA)</strong>. A DPIA is required where the collection and processing or transfer of personal data is likely to be large, repeated or structural.</p>
-<p>Bceause most of “Protection Assessment” fall under that policy as they are linked with the need to be able to process referals, personally identifiable information are often required. In addition, information such a precise coordinates of individuals with specific profile or needs might also fall unde the policy.</p>
-</div>
-<div id="the-12-privacy-principles" class="section level2">
-<h2>The 12 privacy principles</h2>
-<p>Data Protection Impact Assessments (PIAs) are an integral part of taking the “<a href="https://ico.org.uk/for-organisations/guide-to-data-protection/privacy-by-design/">privacy by design</a>” approach. This is done by enforcing the following 12 principles:</p>
-<ol style="list-style-type: decimal">
-<li><p><strong>Consent and choice</strong>: presenting to the data subject the choice whether to allow the processing of their personally identifiable information (PII)</p></li>
-<li><p><strong>Purpose legitimacy and specification</strong>: ensuring that the purpose of data collection is specified and lawful</p></li>
-<li><p><strong>Collection limitation</strong>: limiting the collection of PII to that which is within applicable law and strictly necessary for the specified purpose(s)</p></li>
-<li><p><strong>Data minimisation</strong>: minimising the PII processed and the number of privacy stakeholders to whom PII is disclosed or who have access to it</p></li>
-<li><p><strong>Retention and deletion</strong>: ensuring that data is not kept for longer than is necessary for the purpose specified</p></li>
-<li><p><strong>Accuracy and quality</strong>: ensuring that the PII processed is accurate, complete, up to date (unless there is a legitimate basis for keeping outdated data), adequate and relevant for the purpose of use</p></li>
-<li><p><strong>Openness, transparency and notice</strong>: providing data subjects with clear and easily accessible information about the PII controller’s policies, procedures and practices with respect to processing of PII</p></li>
-<li><p><strong>Individual participation and access</strong>: giving data subjects the ability to access and review their PII, provided their identity is first authenticated (Access and correction)</p></li>
-<li><p><strong>Accountability</strong>: assigning to a specified individual within the organisation the task of implementing the privacy-related policies, procedures and practices</p></li>
-<li><p><strong>Information security</strong>: protecting PII under an organisation’s control with appropriate controls at the operational, functional and strategic level to ensure the integrity, confidentiality and availability of the PII, and to protect it against risks such as unauthorised access, destruction, use, modification, disclosure or loss.</p></li>
-<li><p><strong>Privacy compliance</strong>: verifying and demonstrating that the processing of data meets data protection and privacy legislation by periodically conducting audits using internal or trusted third-parties</p></li>
-<li><p><strong>Data transfers</strong>: do not store or transfer personal data to third parties without adequate assurances that they will safeguard it to a standard comparable to that of the UNHCR.</p></li>
-</ol>
-</div>
-<div id="threat-vulnerability-matrix" class="section level2">
-<h2>Threat &amp; vulnerability matrix</h2>
-<p>The <a href="https://ico.org.uk/media/for-organisations/documents/1042836/pia-code-of-practice-editable-annexes.docx">template from the UK ICO</a> can be used a starting point to developd the document.</p>
-<p>An important point is to build the threat &amp; vulnerability matrix:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Potential Threats to look at</th>
-<th>Vulnerability</th>
-<th>Risk</th>
-<th>Mitigation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cyber espionage</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Physical loss of data</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Technical failure</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Unauthorised acquisition</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>DDOS attack / malware</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Insider privilege abuse</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Partner abuse</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Partner negligence</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Refugee complaints litigation</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Reputational damage</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="deleting-dataset" class="section level2">
-<h2>Deleting dataset</h2>
-<p>Personal data that is not recorded in individual case files is not to be retained longer than necessary for the purpose(s) for which it was collected.</p>
-<p>Though this should not minimise the need to save anonymised copies of the dataset in order to ensure potential new analysis of the data or longtidinal analysis. See <a href="Microdata.html">the last chapter for more information on this</a>.</p>
-</div>
-<div id="technical-measures-necessary-to-comply-with-the-policy" class="section level2">
-<h2>Technical measures necessary to comply with the policy</h2>
-<ul>
-<li><p>Maintaining physical security of premises, portable equipment, individual case files and records;</p></li>
-<li><p>Maintaining computer and information technology (IT) security, for example, access control (e.g. passwords, tiered access), user control, storage control, input control, communication and transport control (e.g., encryption).</p></li>
-</ul>
-</div>
-<div id="standard-operating-procedures-necessary-to-comply-with-the-policy" class="section level2">
-<h2>Standard Operating Procedures necessary to comply with the policy</h2>
-<p>A DPIA would contain a general description of:</p>
-<ul>
-<li>the envisaged project,</li>
-<li>data sharing agreement in place</li>
-<li>arrangement involving processing of personal data (for instance clarififcation on protection referal),</li>
-<li>analysis of the risks to the rights of data subjects by virtue of the circumstances</li>
-<li>nature of the personal data processed,</li>
-<li>safeguards and security measures in place or proposed.</li>
-</ul>
+<div id="section" class="section level2">
+<h2></h2>
+<p><img src="images/error.png" /></p>
 </div>
 
 </article>

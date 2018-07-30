@@ -97,6 +97,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -201,6 +204,7 @@ $(document).ready(function () {
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
                     <li class="dropdown-header">Analytics Steps</li>
+                  <li ><a href="Clean.html">Clean</a></li>
                   <li ><a href="Describe.html">Describe</a></li>
                   <li ><a href="Discover.html">Discover</a></li>
                   <li ><a href="Predict.html">Predict</a></li>
@@ -257,8 +261,9 @@ $(document).ready(function () {
 <div id="TOC">
 <ul>
 <li><a href="#intro-from-the-plan-to-the-form">Intro: from the plan to the form</a></li>
+<li><a href="#unit-of-analysis-record-at-case-level-and-analyse-household.">Unit of analysis: record at Case level and analyse household.</a></li>
 <li><a href="#questions-modules">Questions modules</a><ul>
-<li><a href="#introduction">introduction</a></li>
+<li><a href="#introduction">Introduction</a></li>
 <li><a href="#part-1-background-information">Part 1: Background Information</a></li>
 <li><a href="#part-2-household-condition">Part 2: Household condition</a></li>
 <li><a href="#part-3-household-composition">Part 3: Household composition</a></li>
@@ -288,6 +293,7 @@ $(document).ready(function () {
 <li>Ensure that all <strong>topics of interest</strong> are well covered in the analysis framework</li>
 <li>Check that for each selected topcis, all <strong>required questions</strong> to calculate the indicators and vulnerability profile (severity, magnitude, criticality) are included</li>
 <li>Deliver quickly <strong>final reports</strong> through reproducible analysis workflow</li>
+<li>Collect information at case level and record links between case that forms a household</li>
 </ul>
 </div>
 <div id="intro-from-the-plan-to-the-form" class="section level2">
@@ -304,12 +310,28 @@ $(document).ready(function () {
 <li>Specific Protection indicator</li>
 </ul>
 </div>
+<div id="unit-of-analysis-record-at-case-level-and-analyse-household." class="section level2">
+<h2>Unit of analysis: record at Case level and analyse household.</h2>
+<p>Household is the standard unit used in both national and international Household survey programme: * Allow for comparability * Allow for more complex analysis of interaction * More complex to capture than case information</p>
+<p><em>“Persons who live together and have communal arrangements concerning subsistence and other necessities of life, such as eating together”</em> . As such Household includes two main concepts: * The household dwelling -&gt; living in a housing unit as belonging to the same household.<br />
+* The housekeeping concept -&gt; common provision for food or other essentials for living, with or without combining with any other person to form part of a multi-person household.</p>
+<p>household can corresponds to the 3 follwoing differents types: * Nuclear household (Family unit)<br />
+* Extended household (Family unit + additional related members) * Composite household (Family unit + additional non-related members)</p>
+<p>Case (i.e. group of individuals as registered) corresponds to the unit used for assistance, as registered by UNHCR and also used during continuous assessment / protection monitoring. <strong>It is recommended to have one form filled by each case rather than by each household. In this form one repeat questions can allow to records all linkeds cases with their respective CaseID</strong> for the following reasons:</p>
+<ul>
+<li>It’s easier, after data collection, to reconstruct a household from multiple case than deconstruct household in multiple cases as this implies to define the correct elements to re-apportion correctly the right information.</li>
+<li>The types of links between cases (level of sharing for accomodation and for food) that forms an household and the household profile can easily be collected.</li>
+<li>There’s a risk to miss some extremely vulnerable cases if their record is merge with a less vulnerable, creating either an exclusion error or worst generating some ‘<a href="https://en.wikipedia.org/wiki/Cobra_effect">Cobra effect</a>’.</li>
+</ul>
+</div>
 <div id="questions-modules" class="section level2">
 <h2>Questions modules</h2>
 <p>The Household level Assessment includes different parts that includes a series of modules. The selection of required modules will be done through a participatory assessment. Each module allow to define a series of indicators. Questions to be used in each module are extracted whenever possible from the <a href="http://qbank.ihsn.org/web/app.php/questionnaires">IHSN Question Bank</a>.</p>
 <div id="introduction" class="section level3">
-<h3>introduction</h3>
-<p>Consent Enumerator</p>
+<h3>Introduction</h3>
+<p>Introduction should include the follwoing mains elements</p>
+<p>Enumerator</p>
+<p>Consent</p>
 </div>
 <div id="part-1-background-information" class="section level3">
 <h3>Part 1: Background Information</h3>

@@ -97,6 +97,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -201,6 +204,7 @@ $(document).ready(function () {
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
                     <li class="dropdown-header">Analytics Steps</li>
+                  <li ><a href="Clean.html">Clean</a></li>
                   <li ><a href="Describe.html">Describe</a></li>
                   <li ><a href="Discover.html">Discover</a></li>
                   <li ><a href="Predict.html">Predict</a></li>
@@ -278,10 +282,7 @@ $(document).ready(function () {
 <h2>Challenges with Household Survey analysis</h2>
 <p>Household survey often results in dataset with over 300 variables to process &amp; explore. Deadline to get insight from the dataset are often tight and Manual processing is very lengthy and can be done only for a limited part of the dataset. Often, because of those challenges, a lot of potential insights are not discovered.</p>
 <p>To address this, it’s necessary to move from a reactive support to a proactive one.</p>
-<div class="figure">
-<img src="images/unknowquestions.png" />
-
-</div>
+<p><img src="images/unknowquestions.png" /></p>
 <p>Data Crunching is about automating processes:</p>
 <ul>
 <li><p>Upstream process of data interpretation: consists of the <strong>preparation of a dataset</strong> so that it can be processed, sorted and structured to run algorithms and program sequences on it;</p></li>
@@ -299,10 +300,7 @@ $(document).ready(function () {
 <li><p>Data visualisation (plot, map, graph…)</p></li>
 <li><p>Writing up results (report and presentation generation)</p></li>
 </ul>
-<div class="figure">
-<img src="images/analysis.png" />
-
-</div>
+<p><img src="images/analysis.png" /></p>
 </div>
 <div id="using-koboloader-to-facilitate-reproducibily." class="section level2">
 <h2>Using KoboloadeR to facilitate reproducibily.</h2>
@@ -356,17 +354,14 @@ $(document).ready(function () {
 <ul>
 <li>The “output” is an Rmd (Rmarkdown) file than produce word, pdf or html reports</li>
 </ul>
-<div class="figure">
-<img src="images/rm-cheatsheet1.png" />
-
-</div>
+<p><img src="images/rm-cheatsheet1.png" /></p>
 <ul>
 <li><p>The configuration file includes references to all “input”:</p>
-<pre><code>Path to raw data files
-Path to form (in xlsform) in order to build a data dictionary
-Path to the sample weight 
-Path to the data cleaning log
-Path to the indicator calculation sheet </code></pre></li>
+<pre><code> Path to raw data files
+ Path to form (in xlsform) in order to build a data dictionary
+ Path to the sample weight 
+ Path to the data cleaning log
+ Path to the indicator calculation sheet </code></pre></li>
 </ul>
 <div id="collaborative-development" class="section level3">
 <h3>Collaborative Development</h3>

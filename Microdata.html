@@ -97,6 +97,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -201,6 +204,7 @@ $(document).ready(function () {
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
                     <li class="dropdown-header">Analytics Steps</li>
+                  <li ><a href="Clean.html">Clean</a></li>
                   <li ><a href="Describe.html">Describe</a></li>
                   <li ><a href="Discover.html">Discover</a></li>
                   <li ><a href="Predict.html">Predict</a></li>
@@ -293,8 +297,8 @@ $(document).ready(function () {
 <p>Even when personal data is not being collected it still may be appropriate to apply the methodology since quasi-identifiable data or other sensitive data could lead to personal identification or should not be shared.</p>
 <table>
 <colgroup>
-<col width="18%" />
-<col width="81%" />
+<col width="17%" />
+<col width="82%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -325,8 +329,8 @@ $(document).ready(function () {
 <p>The methods below can be referenced in the dedicated column within xlsform (cf above)</p>
 <table>
 <colgroup>
-<col width="18%" />
-<col width="81%" />
+<col width="17%" />
+<col width="82%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -371,10 +375,7 @@ $(document).ready(function () {
 <h3>Sharing via a safe mechanism: File encryption</h3>
 <p>What is a safe mechanism to share information: for instance which software to use for encryption, how to share password, etc. Potential requirements could include: - Use a well know encryption approach – The common standard si <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES -Advanced Encryption Standard (AES)</a> - Rely on open source software – so both parties can easily encrypt &amp; decrypt without being tied to software procurement obstacle. - Combine encryption and file compression: so files are easier &amp; lighter to share - The password used for the encryption should be at least 10 character long with a mixture of lowercase and uppercase alphabetic character, numbers and symbols. This should allow to build what is commonly called a <a href="https://en.wikipedia.org/wiki/Password_strength">strong password</a> and should always be transmitted independently form the file (for instance on a separate paper sheet with no reference to the file it allows to open).</p>
 <p>In terms of software, it is possible to use <a href="http://www.7-zip.org/">7zip</a>.</p>
-<div class="figure">
-<img src="images/7zip.png" />
-
-</div>
+<p><img src="images/7zip.png" /></p>
 <p>A summary of the principle above woud be:</p>
 <p><em>Data files should be encrypted with AES-256 method using a strong password (at least 10 character long with a mixture of lowercase and uppercase alphabetic character, numbers and symbols) and compressed using the 7zip format with the 7zip software. Password will be transmitted printed on a paper that will need to be secured by the receiving agency</em>.</p>
 </div>
@@ -434,10 +435,7 @@ The UNHCR and <kbd>Partner Name</kbd> will identify the staff to be part of the 
 <li>Facilitate organisational learning, keeping track of lessons learned, and providing a neutral stance for moderating innovation and change processes</li>
 <li>Access to wider body of knowledge, from academia or other organisations, and research in other fields.</li>
 </ul>
-<div class="figure">
-<img src="images/research.png" />
-
-</div>
+<p><img src="images/research.png" /></p>
 <p>To facilitate this process, the first approach woudl be to document the dataset according to the <a href="http://www.ihsn.org/home/projects/DDI-standard">Data Documentation Initiative (DDI) metadata standard</a> developped by the <a href="http://www.ihsn.org/home/about">International Household Survey Network (IHSN)</a>.</p>
 <p>Once the metadata are generated in the right format, it becomes possible to publish them within the <a href="http://catalog.ihsn.org/index.php/catalog">ISHN Microdata catalog</a> or the <a href="http://microdata.worldbank.org/catalog">World Bank Microdata Library</a></p>
 </div>

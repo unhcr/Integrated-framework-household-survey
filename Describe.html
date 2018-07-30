@@ -97,6 +97,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -201,6 +204,7 @@ $(document).ready(function () {
               <div class="col-sm-4">
                 <ul class="multi-column-dropdown">
                     <li class="dropdown-header">Analytics Steps</li>
+                  <li ><a href="Clean.html">Clean</a></li>
                   <li ><a href="Describe.html">Describe</a></li>
                   <li ><a href="Discover.html">Discover</a></li>
                   <li ><a href="Predict.html">Predict</a></li>
@@ -284,10 +288,7 @@ $(document).ready(function () {
 <p>The first step is extremely important as it provides a first overview of the data and allow to build the foundation for the next ones.</p>
 </div>
 <p>The data science maturity model from <a href="https://www.boozallen.com/s/insight/publication/field-guide-to-data-science.html">Booz Allen</a> provide a simplified overview of analytics challenges.</p>
-<div class="figure">
-<img src="images/Maturity.png" />
-
-</div>
+<p><img src="images/Maturity.png" /></p>
 <p>The first phase (<strong>DESCRIBE</strong>) of analytics consists in a thourough review of all variables within the dataset.</p>
 <p>This exploratory phase usually overlaps with data cleaning; it is the stage where anomalies become evident e.g. individually plausible values may lead to a way-out point when combined with other variables on a scatterplot. In an ideal situation, this step would end with confidence that one has a clean dataset, so that a single version of the main datafiles can be finalised and ‘locked’ and all published analyses derived from a single consistent form of ‘the data’. In practice later stages of analysis often produce additional queries about data values.</p>
 <div id="tabulation-one-way-table-crosstabulation" class="section level2">
@@ -398,10 +399,7 @@ $(document).ready(function () {
 <p>Bar chart can also be used to visualise crosstabulation (i.e. the frequency relation between <strong>two categoric variables</strong>), bar chart can be be: * faceted<br />
 * stacked<br />
 * paired</p>
-<div class="figure">
-<img src="images/paired.png" />
-
-</div>
+<p><img src="images/paired.png" /></p>
 </div>
 <div id="histogramm" class="section level3">
 <h3>Histogramm</h3>
