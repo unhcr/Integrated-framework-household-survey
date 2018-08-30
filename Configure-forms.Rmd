@@ -19,7 +19,31 @@ XLSForm is a form standard created to help simplify the authoring of forms in Ex
 
 The XLSForm is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.
 
-The documentation on xlsform is [here](http://xlsform.org/). The same format is actually used by multiple data collection technological platform such as [kobotoolbox](http://www.kobotoolbox.org/)(the platform used by UNHCR on [http://kobo.unhcr.org](http://kobo.unhcr.org), [OpenDataKit](https://opendatakit.org/) or [ONA](https://ona.io)
+The documentation on xlsform is [here](http://xlsform.org/). The same format is actually used by multiple data collection technological platform such as [kobotoolbox](http://www.kobotoolbox.org/)(the platform used by UNHCR on [http://kobo.unhcr.org](http://kobo.unhcr.org), [OpenDataKit](https://opendatakit.org/) or [ONA](https://ona.io).
+
+Some tips:
+
+ * The "name" column must be within 32 characters, cannot begin with a number or any special character and cannot contain any spaces in between; otherwise ODK Validate will issue an error. 
+ 
+ * Please use a short meaningull name for your variable rather than a code like Q1 or Q2. 
+
+ * All "begin group" types must have a corresponding "end group". It is advised to name each of the begin group and end group "name" as well as "label" columns for easy identification of where a group starts and ends, e.g. "type–begin group. Name – grp_agri_aman. Label – Aman Rice. T ype – end group. Name – endgrp_agri_aman. Label – no labels are required as this won't show up in the form. There can be a mother group with several child groups within, however each group essentially works like brackets which open, can remain open, close or close at the end. It can get rather complicated once several questions within a group are to be skipped. 
+
+ * DO NOT LEAVE A SPACE AFTER your "type" or "name" variables, e.g. "end group ". It is an invisible error that will cause the form to malfunction. 
+
+ * It is a good practice to keep naming the questions "label" as “Name of Household H ead... Age of Respondent...Please specify what you mean by "Other"...and so on”. The same can be done for "name" variables but one must remember that they cannot start with an uppercase letter, e.g. “name_hhh” is allowed. 
+
+ * The "note" and "calculate" type of questions can be really handy and must be used whenever there is a reason to check back with data entered previously. E.g. "type – calculate, name – calc_loan, calculation - ${loan_1}+{loan_2}+{loan_3}" with "type – note, name – chk_total_loan , label – Your breakdown of total loans ${loan_1} and ${loan_2} and ${loan_3} add up to ${calc_loan}. Please make sure they are equal to the amount entered before as total loan ${totalloan}. 
+
+ * It is possible to separate different sections of the questionn aire using different cell colours. It does not make a difference for ODK, but makes the form much more navigable. 
+
+ * If the questions need to be translated into a local language, the input must be in Unicode. Also it is imperative to make sure that questions in the base language are translated with the meaning intact. Difference in interpretation can cause severe errors in the quality of the data. 
+
+ * In the choices sheet, a gap or (blank row) can be left after each set of answers. Again, it doe s not make a difference for ODK but makes it much easier for navigation. 
+
+ * By the end of the coding sessions, there will be several versions of the . MS X ls files. It is crucial to separate each according to versions and also to make sure the names do not in clude any spaces or begin with numbers or special characters. 
+
+ * The best types of constraint and relevance are usually the simplest. When typing the binding guidelines (http://opendatakit.org/help/form - design/binding/) can simplify the entire line of code. Also this is the most interesting and perhaps challenging part of writing questionnaires. Users are free to develop their own lines of code and put them to the test. For any help the Google ODK groups are more than sufficient.  Note for field deployment: if possible, users must try and keep a copy/image of the entire " ODK " folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out " ODK " and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard
 
 Additional tutorials and tips can be found through the following links: 
 
