@@ -264,7 +264,7 @@ $(document).ready(function () {
 <li><a href="#some-tips">Some tips</a><ul>
 <li><a href="#variable-encoding">Variable Encoding</a></li>
 <li><a href="#questionnaire-structure">Questionnaire structure</a></li>
-<li><a href="#get-your-form-smart">Get your form smart</a></li>
+<li><a href="#make-your-questionnaire-smart">Make your questionnaire smart</a></li>
 <li><a href="#keep-your-xlsform-legible">Keep your xlsform legible</a></li>
 <li><a href="#deploy-the-form">Deploy the form</a></li>
 </ul></li>
@@ -289,8 +289,8 @@ $(document).ready(function () {
 <h3>Variable Encoding</h3>
 <ul>
 <li><p>The “name” column must be within 32 characters, cannot begin with a number or any special character and cannot contain any spaces in between; otherwise ODK Validate will issue an error.</p></li>
-<li><p>Please use a short meaningull name for your variable rather than a code like Q1 or Q2.</p></li>
-<li><p>In order to anticipate the analysis with a statistical package, limite variable names to 12 characters and do not start a variable name with a number</p></li>
+<li><p>Please use a short meaningfull name for your variable rather than a code like Q1 or Q2.</p></li>
+<li><p>In order to anticipate the analysis with a statistical package like <a href="https://unhcr.github.io/koboloadeR/docs/">koboloadeR</a>, limit variable names lenght to 12 characters and do not start a variable name with a number</p></li>
 </ul>
 </div>
 <div id="questionnaire-structure" class="section level3">
@@ -302,8 +302,8 @@ $(document).ready(function () {
 <li><p>It is a good practice to keep naming the questions “label” as “Name of Household Head… Age of Respondent…Please specify what you mean by”Other“…and so on”. The same can be done for “name” variables but one must remember that they cannot start with an uppercase letter, e.g. “name_hhh” is allowed.</p></li>
 </ul>
 </div>
-<div id="get-your-form-smart" class="section level3">
-<h3>Get your form smart</h3>
+<div id="make-your-questionnaire-smart" class="section level3">
+<h3>Make your questionnaire smart</h3>
 <ul>
 <li><p>The “note” and “calculate” type of questions can be really handy and must be used whenever there is a reason to check back with data entered previously. E.g. “type – calculate, name – calc_loan, calculation - ${loan_1}+{loan_2}+{loan_3}” with &quot;type – note, name – chk_total_loan , label – Your breakdown of total loans ${loan_1} and ${loan_2} and ${loan_3} add up to ${calc_loan}. Please make sure they are equal to the amount entered before as total loan ${totalloan}.</p></li>
 <li><p>Systematically add constraint to your numeric questions: age can not be negative or bigger than 120. Add also constraint on linked values: for instance if you know the number of children in a family, the number of boys can not be bigger than the total number of children.</p></li>
@@ -311,8 +311,14 @@ $(document).ready(function () {
 <li><p>The best types of constraint and relevance are usually the simplest. When typing the binding guidelines (<a href="http://opendatakit.org/help/form" class="uri">http://opendatakit.org/help/form</a> - design/binding/) can simplify the entire line of code. Also this is the most interesting and perhaps challenging part of writing questionnaires. Users are free to develop their own lines of code and put them to the test. For any help the Google ODK groups are more than sufficient.</p></li>
 <li><p>If the questions need to be translated into a local language, the input must be in <strong>Unicode</strong>. Also it is imperative to make sure that questions in the base language are translated with the meaning intact. Difference in interpretation can cause severe errors in the quality of the data.</p></li>
 <li><p>Systematically add the metadata field: type: ‘start’, ‘end’, ‘today’, ‘deviceid’, ‘imei’, ‘phonenumber’</p></li>
-<li><p>Record correctly registration case number using a constraint: for case number: <strong>regex(.,‘<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>{3}-[0-9]{2}[C][0-9]{5}<span class="math inline">$')__ &amp; for Individual number __regex(.,'^[0-9]{3}-[0-9]{2}[I][0-9]{5}$</span>’)</strong></p></li>
-<li><p>Record case number using bar code scanner whenever possible - rather than manual data entry</p></li>
+<li>Record correctly registration case number using a regex constraint where caret is the <a href="https://en.wikipedia.org/wiki/Caret">ASCII special character</a>:
+<ul>
+<li>for case number: “<code>regex(.,‘caret[0-9]{3}-[0-9]{2}[C][0-9]{5}$’) </code>”</li>
+<li>and for Individual number “<code>regex(.,‘caret[0-9]{3}-[0-9]{2}[I][0-9]{5}$’)</code>”</li>
+</ul></li>
+<li><p>Record case number using bar code scanner whenever possible - rather than manual data entry.</p></li>
+<li><p>Use “or_other” whenever you have a select_one or select_multiple questions that may have additional modalities that you can not anticipate</p></li>
+<li><p>If you have a select_multiple question with one modalites being “None of the options mentionned here”, use a contraint to ensure that respondant will not select this options with other: “<code>not(count-selected(.) &gt; 1 and selected(., ‘no’))</code>”</p></li>
 </ul>
 </div>
 <div id="keep-your-xlsform-legible" class="section level3">
@@ -326,7 +332,7 @@ $(document).ready(function () {
 <div id="deploy-the-form" class="section level3">
 <h3>Deploy the form</h3>
 <ul>
-<li>Note for field deployment: if possible, users must try and keep a copy/image of the entire &quot; ODK &quot; folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out &quot; ODK &quot; and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard</li>
+<li>Note for field deployment: if possible, users must try and keep a copy/image of the entire &quot; ODK &quot; folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out &quot; ODK &quot; and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard.</li>
 </ul>
 </div>
 </div>
@@ -335,6 +341,7 @@ $(document).ready(function () {
 <p>Additional tutorials and tips can be found through the following links:</p>
 <ul>
 <li><p><a href="https://docs.opendatakit.org/form-logic/">Open data kit Form Logic</a></p></li>
+<li><p><a href="https://docs.opendatakit.org/form-operators-functions/">Open data kit Form operator functions</a></p></li>
 <li><p><a href="https://opendatakit.org/help/form-design/">Open data kit Form design guides</a></p></li>
 <li><p><a href="https://opendatakit.org/help/form-design/workarounds/">Open data kit work around</a></p></li>
 <li><p><a href="https://opendatakit.org/help/training-guides/">Other training guides</a></p></li>
@@ -350,12 +357,6 @@ $(document).ready(function () {
 <li><p><a href="http://support.kobotoolbox.org/">Forum for Kobotoolbox</a></p></li>
 <li><p><a href="https://forum.opendatakit.org/">Forum for OpenDataKit</a></p></li>
 </ul>
-</div>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>0-9<a href="#fnref1" class="footnote-back">↩</a></p></li>
-</ol>
 </div>
 
 </article>
