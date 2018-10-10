@@ -258,30 +258,83 @@ $(document).ready(function () {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#xlsform">XLSForm</a></li>
+<li><a href="#some-tips">Some tips</a><ul>
+<li><a href="#variable-encoding">Variable Encoding</a></li>
+<li><a href="#questionnaire-structure">Questionnaire structure</a></li>
+<li><a href="#get-your-form-smart">Get your form smart</a></li>
+<li><a href="#keep-your-xlsform-legible">Keep your xlsform legible</a></li>
+<li><a href="#deploy-the-form">Deploy the form</a></li>
+</ul></li>
+<li><a href="#additional-tips">Additional tips</a></li>
+<li><a href="#support-forum">Support Forum</a></li>
+</ul>
+</div>
 
 <div class="important">
 <p> </p>
 <p>Configure forms can be done both through the Kobobuilder interface or within Excel. The second options is preferred as it allows for more controls.</p>
 </div>
-<p>The form needs ot be defined using the xlsform format. XLSForm is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.</p>
+<div id="xlsform" class="section level2">
+<h2>XLSForm</h2>
+<p>The form needs to be defined using the xlsform format. XLSForm is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.</p>
 <p>The XLSForm is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.</p>
 <p>The documentation on xlsform is <a href="http://xlsform.org/">here</a>. The same format is actually used by multiple data collection technological platform such as <a href="http://www.kobotoolbox.org/">kobotoolbox</a>(the platform used by UNHCR on <a href="http://kobo.unhcr.org" class="uri">http://kobo.unhcr.org</a>, <a href="https://opendatakit.org/">OpenDataKit</a> or <a href="https://ona.io">ONA</a>.</p>
-<p>Some tips:</p>
+</div>
+<div id="some-tips" class="section level2">
+<h2>Some tips</h2>
+<div id="variable-encoding" class="section level3">
+<h3>Variable Encoding</h3>
 <ul>
 <li><p>The “name” column must be within 32 characters, cannot begin with a number or any special character and cannot contain any spaces in between; otherwise ODK Validate will issue an error.</p></li>
 <li><p>Please use a short meaningull name for your variable rather than a code like Q1 or Q2.</p></li>
-<li><p>All “begin group” types must have a corresponding “end group”. It is advised to name each of the begin group and end group “name” as well as “label” columns for easy identification of where a group starts and ends, e.g. &quot;type–begin group. Name – grp_agri_aman. Label – Aman Rice. T ype – end group. Name – endgrp_agri_aman. Label – no labels are required as this won’t show up in the form. There can be a mother group with several child groups within, however each group essentially works like brackets which open, can remain open, close or close at the end. It can get rather complicated once several questions within a group are to be skipped.</p></li>
-<li><p>DO NOT LEAVE A SPACE AFTER your “type” or “name” variables, e.g. “end group”. It is an invisible error that will cause the form to malfunction.</p></li>
-<li><p>It is a good practice to keep naming the questions “label” as “Name of Household H ead… Age of Respondent…Please specify what you mean by”Other“…and so on”. The same can be done for “name” variables but one must remember that they cannot start with an uppercase letter, e.g. “name_hhh” is allowed.</p></li>
-<li><p>The “note” and “calculate” type of questions can be really handy and must be used whenever there is a reason to check back with data entered previously. E.g. “type – calculate, name – calc_loan, calculation - ${loan_1}+{loan_2}+{loan_3}” with &quot;type – note, name – chk_total_loan , label – Your breakdown of total loans ${loan_1} and ${loan_2} and ${loan_3} add up to ${calc_loan}. Please make sure they are equal to the amount entered before as total loan ${totalloan}.</p></li>
-<li><p>It is possible to separate different sections of the questionn aire using different cell colours. It does not make a difference for ODK, but makes the form much more navigable.</p></li>
-<li><p>If the questions need to be translated into a local language, the input must be in Unicode. Also it is imperative to make sure that questions in the base language are translated with the meaning intact. Difference in interpretation can cause severe errors in the quality of the data.</p></li>
-<li><p>In the choices sheet, a gap or (blank row) can be left after each set of answers. Again, it doe s not make a difference for ODK but makes it much easier for navigation.</p></li>
-<li><p>By the end of the coding sessions, there will be several versions of the . MS X ls files. It is crucial to separate each according to versions and also to make sure the names do not in clude any spaces or begin with numbers or special characters.</p></li>
-<li><p>The best types of constraint and relevance are usually the simplest. When typing the binding guidelines (<a href="http://opendatakit.org/help/form" class="uri">http://opendatakit.org/help/form</a> - design/binding/) can simplify the entire line of code. Also this is the most interesting and perhaps challenging part of writing questionnaires. Users are free to develop their own lines of code and put them to the test. For any help the Google ODK groups are more than sufficient.  Note for field deployment: if possible, users must try and keep a copy/image of the entire &quot; ODK &quot; folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out &quot; ODK &quot; and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard</p></li>
+<li><p>In order to anticipate the analysis with a statistical package, limite variable names to 12 characters and do not start a variable name with a number</p></li>
 </ul>
+</div>
+<div id="questionnaire-structure" class="section level3">
+<h3>Questionnaire structure</h3>
+<ul>
+<li><p>All “begin group” types must have a corresponding “end group”. It is advised to name each of the begin group and end group “name” as well as “label” columns for easy identification of where a group starts and ends, e.g. &quot;type– begingroup. Name – grp_agri_aman. Label – Aman Rice. T ype – end group. Name – endgrp_agri_aman. Label – no labels are required as this won’t show up in the form.</p></li>
+<li><p>There can be a mother group with several child groups within, however each group essentially works like brackets which open, can remain open, close or close at the end. It can get rather complicated once several questions within a group are to be skipped.</p></li>
+<li><p>DO NOT LEAVE A SPACE AFTER your “type” or “name” variables, e.g. “end group”. It is an invisible error that will cause the form to malfunction.</p></li>
+<li><p>It is a good practice to keep naming the questions “label” as “Name of Household Head… Age of Respondent…Please specify what you mean by”Other“…and so on”. The same can be done for “name” variables but one must remember that they cannot start with an uppercase letter, e.g. “name_hhh” is allowed.</p></li>
+</ul>
+</div>
+<div id="get-your-form-smart" class="section level3">
+<h3>Get your form smart</h3>
+<ul>
+<li><p>The “note” and “calculate” type of questions can be really handy and must be used whenever there is a reason to check back with data entered previously. E.g. “type – calculate, name – calc_loan, calculation - ${loan_1}+{loan_2}+{loan_3}” with &quot;type – note, name – chk_total_loan , label – Your breakdown of total loans ${loan_1} and ${loan_2} and ${loan_3} add up to ${calc_loan}. Please make sure they are equal to the amount entered before as total loan ${totalloan}.</p></li>
+<li><p>Systematically add constraint to your numeric questions: age can not be negative or bigger than 120. Add also constraint on linked values: for instance if you know the number of children in a family, the number of boys can not be bigger than the total number of children.</p></li>
+<li><p>When you do a calculation, <strong>beware of zero</strong> : To convert empty values to zero, use either the coalesce() function or the if() function. See the form logic functions reference below.</p></li>
+<li><p>The best types of constraint and relevance are usually the simplest. When typing the binding guidelines (<a href="http://opendatakit.org/help/form" class="uri">http://opendatakit.org/help/form</a> - design/binding/) can simplify the entire line of code. Also this is the most interesting and perhaps challenging part of writing questionnaires. Users are free to develop their own lines of code and put them to the test. For any help the Google ODK groups are more than sufficient.</p></li>
+<li><p>If the questions need to be translated into a local language, the input must be in <strong>Unicode</strong>. Also it is imperative to make sure that questions in the base language are translated with the meaning intact. Difference in interpretation can cause severe errors in the quality of the data.</p></li>
+<li><p>Systematically add the metadata field: type: ‘start’, ‘end’, ‘today’, ‘deviceid’, ‘imei’, ‘phonenumber’</p></li>
+<li><p>Record correctly registration case number using a constraint: for case number: <strong>regex(.,‘<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>{3}-[0-9]{2}[C][0-9]{5}<span class="math inline">$')__ &amp; for Individual number __regex(.,'^[0-9]{3}-[0-9]{2}[I][0-9]{5}$</span>’)</strong></p></li>
+<li><p>Record case number using bar code scanner whenever possible - rather than manual data entry</p></li>
+</ul>
+</div>
+<div id="keep-your-xlsform-legible" class="section level3">
+<h3>Keep your xlsform legible</h3>
+<ul>
+<li><p>It is possible to separate different sections of the questionnaire using different cell colours. It does not make a difference for ODK, but makes the form much more navigable.</p></li>
+<li><p>In the choices sheet, a gap or (blank row) can be left after each set of answers. Again, it doe s not make a difference for ODK but makes it much easier for navigation.</p></li>
+<li><p>By the end of the coding sessions, there will be several versions of the MS Xls files. It is crucial to separate each according to versions and also to make sure the names do not in clude any spaces or begin with numbers or special characters.</p></li>
+</ul>
+</div>
+<div id="deploy-the-form" class="section level3">
+<h3>Deploy the form</h3>
+<ul>
+<li>Note for field deployment: if possible, users must try and keep a copy/image of the entire &quot; ODK &quot; folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out &quot; ODK &quot; and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard</li>
+</ul>
+</div>
+</div>
+<div id="additional-tips" class="section level2">
+<h2>Additional tips</h2>
 <p>Additional tutorials and tips can be found through the following links:</p>
 <ul>
+<li><p><a href="https://docs.opendatakit.org/form-logic/">Open data kit Form Logic</a></p></li>
 <li><p><a href="https://opendatakit.org/help/form-design/">Open data kit Form design guides</a></p></li>
 <li><p><a href="https://opendatakit.org/help/form-design/workarounds/">Open data kit work around</a></p></li>
 <li><p><a href="https://opendatakit.org/help/training-guides/">Other training guides</a></p></li>
@@ -289,11 +342,21 @@ $(document).ready(function () {
 <li><p><a href="http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/">Advanced XLSForm coding tips #2</a></p></li>
 <li><p><a href="https://odk.acf-e.org/odk/LinkedDocuments/Annex%204%20ODK%20ACF-E%20How%20to%20author%20surveys%20for%20ODK.pdf">ACF XLSForm coding tips</a></p></li>
 </ul>
-<p>When faced with specific challenges, multiple online forums can be consulted:</p>
+</div>
+<div id="support-forum" class="section level2">
+<h2>Support Forum</h2>
+<p>When faced with specific challenges, multiple online forums can be consulted (as xlsform is used on different platform):</p>
 <ul>
 <li><p><a href="http://support.kobotoolbox.org/">Forum for Kobotoolbox</a></p></li>
 <li><p><a href="https://forum.opendatakit.org/">Forum for OpenDataKit</a></p></li>
 </ul>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>0-9<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
 
 </article>
 </div>
