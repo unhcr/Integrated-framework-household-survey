@@ -10,6 +10,8 @@ source("options_communes.R")
  
 
 Configure forms can be done both through the Kobobuilder interface or within Excel.
+using kobobuilder comes with Risk when the form is complex. 
+
 The second options is preferred as it allows for more controls.
 
 </div>
@@ -21,10 +23,23 @@ XLSForm is a form standard created to help simplify the authoring of forms in Ex
 
 The XLSForm is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.
 
-The documentation on xlsform is [here](http://xlsform.org/). The same format is actually used by multiple data collection technological platform such as [kobotoolbox](http://www.kobotoolbox.org/)(the platform used by UNHCR on [http://kobo.unhcr.org](http://kobo.unhcr.org), [OpenDataKit](https://opendatakit.org/) or [ONA](https://ona.io).
+The documentation on xlsform is [here](http://xlsform.org/). The same format is actually used by multiple data collection technological platform such as [kobotoolbox](http://www.kobotoolbox.org/)(the platform used by UNHCR on [http://kobo.unhcr.org](http://kobo.unhcr.org)), [OpenDataKit](https://opendatakit.org/) or [ONA](https://ona.io).
 
 
 ## Some tips
+
+### Manage your xls form
+
+ * Make sure your file is saved in the .xls format and contains no spaces or special characters (‘‐’ and ‘_’ are allowed). 
+ 
+ * Make sure that your column headers are in lowercase (i.e. “label” or “name”, not “Label” or “Name”) 
+ 
+ * Make  sure  that  your  sheet  names  are  appropriately named (i.e. “survey” not “Sheet 1”, “Survey” or “surveys”) 
+ 
+ * Make sure that the question names are unique and do not contain spaces or special characters (‘‐’ and ‘_’ are allowed).
+
+ * By the end of the coding sessions, there will be several versions of the MS Xls files. It is crucial to separate each according to versions and also to make sure the names do not in clude any spaces or begin with numbers or special characters. 
+
 
 ### Variable Encoding
 
@@ -46,11 +61,15 @@ The documentation on xlsform is [here](http://xlsform.org/). The same format is 
  
 ### Make your questionnaire smart 
 
+ * Use hints as much as possible - a good example is to recall to your enumerator how to proceed with select question for instance two options are possible :
+     * Read the list and select all (or only the right) answers
+     * Do not read the list - wait for the answer to select the right answer(s)
+
  * The "note" and "calculate" type of questions can be really handy and must be used whenever there is a reason to check back with data entered previously. E.g. "type – calculate, name – calc_loan, calculation - ${loan_1}+{loan_2}+{loan_3}" with "type – note, name – chk_total_loan , label – Your breakdown of total loans ${loan_1} and ${loan_2} and ${loan_3} add up to ${calc_loan}. Please make sure they are equal to the amount entered before as total loan ${totalloan}. 
  
- * Systematically add constraint to your numeric questions: age can not be negative or bigger than 120. Add also constraint on linked values: for instance if you know the number of children in a family, the number of boys can not be bigger than the total number of children.
+ * Systematically add constraint to your numeric questions: age can not be negative or bigger than 120. Add also constraint on linked values: for instance if you know the number of children in a family, the number of boys can not be bigger than the total number of children. Do not forget to add __constraint_message__ to help your enumerator to fix the issue!
  
- * When you do a calculation, __beware of zero__ : To convert empty values to zero, use either the coalesce() function or the if() function. See the form logic functions reference below.
+ * When you do a calculation, __beware of zero__ : To convert empty values to zero, use either the coalesce() function or the if() function. See the form logic functions reference below. "+  ‐ *" correspond to add, subtract, and multiply. Division however, is special, and you need to use the word “div” to do division.
 
  * The best types of constraint and relevance are usually the simplest. When typing the binding guidelines (http://opendatakit.org/help/form - design/binding/) can simplify the entire line of code. Also this is the most interesting and perhaps challenging part of writing questionnaires. Users are free to develop their own lines of code and put them to the test. For any help the Google ODK groups are more than sufficient. 
  
@@ -58,27 +77,34 @@ The documentation on xlsform is [here](http://xlsform.org/). The same format is 
  
  * Systematically add the metadata field: type: 'start', 'end', 'today', 'deviceid', 'imei', 'phonenumber'
  
+ * To record __admin level__, use [cascading drop down lists](http://xlsform.org/en/#cascading-selects)
+ 
  * Record correctly registration case number using a regex constraint where caret is the [ASCII special character](https://en.wikipedia.org/wiki/Caret): 
      * for case number: "<code>regex(.,'caret[0-9]{3}-[0-9]{2}[C][0-9]{5}$') </code>" 
      * and for Individual number  "<code>regex(.,'caret[0-9]{3}-[0-9]{2}[I][0-9]{5}$')</code>"
  
  * Record case number using bar code scanner whenever possible - rather than manual data entry.
  
+ * add constraint on email validation through the same regex: "<code>regex(., '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}')</code>". This can be more specific if a specific email domain is expected.
+ 
  * Use "or_other" whenever you have a select_one or select_multiple questions that may have additional modalities that you can not anticipate
  
  * If you have a select_multiple question with one modalites being "None of the options mentionned here", use a contraint to ensure that respondant will not select this options with other: "<code>not(count-selected(.) > 1 and selected(., 'no'))</code>"
  
+ * Review the __appearance__ [options](http://xlsform.org/en/#appearance) : Beware some options (like ) are only for web client while other (like "quick") are only for the android client.
 
 ### Keep your xlsform legible 
 
  * It is possible to separate different sections of the questionnaire using different cell colours. It does not make a difference for ODK, but makes the form much more navigable. 
+ 
+  * In the same idea, in Excel, freeze the top row cell and add automatic filters to quickly navigate through your questions (survey) and answers (choices). 
 
  * In the choices sheet, a gap or (blank row) can be left after each set of answers. Again, it doe s not make a difference for ODK but makes it much easier for navigation. 
+ 
+ 
+### Validate & Deploy the form
 
- * By the end of the coding sessions, there will be several versions of the MS Xls files. It is crucial to separate each according to versions and also to make sure the names do not in clude any spaces or begin with numbers or special characters. 
-
-
-### Deploy the form
+ * kobotoolbox has some built-in __validation check & debugging check__ when a xlsform is uploaded. Sometimes better validation / debugging support can be obtained by other online validator such as [https://opendatakit.org/xlsform/](https://opendatakit.org/xlsform/)
 
  * Note for field deployment: if possible, users must try and keep a copy/image of the entire " ODK " folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out " ODK " and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard.
 
