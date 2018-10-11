@@ -28,6 +28,8 @@ The documentation on xlsform is [here](http://xlsform.org/). The same format is 
 
 ## Some tips
 
+Good questionnaire design can save hours at latter stage for the person that will need to analyse the data.... do invest enough time for this step and allow for peer review before starting the [testing phase](s://unhcr.github.io/Integrated-framework-household-survey/Pre-test-Phase.html) !!
+
 ### Manage your xls form
 
  * Make sure your file is saved in the .xls format and contains no spaces or special characters (‘‐’ and ‘_’ are allowed). 
@@ -48,6 +50,23 @@ The documentation on xlsform is [here](http://xlsform.org/). The same format is 
  * Please use a short meaningfull name for your variable rather than a code like Q1 or Q2. 
  
  * In order to anticipate the analysis with a statistical package like [koboloadeR](https://unhcr.github.io/koboloadeR/docs/), limit variable names lenght to 12 characters and do not start a variable name with a number
+ 
+ 
+### Labeling questions
+
+ * Numbering questions does not provide added value -- during data entry enumerator are forced to respect the order any way. In addition, if you start numbering questions, any change in the questionnaire will then require to renumber all questions.
+It's a good example of something that was important when people were using paper form but has no reason to be used anymore when moving to digital data collection.
+
+ * Quick translation can be done with [Google translate](https://translate.google.com/). Obviously the resulting translation needs to be carefully reviewed but it save the time to retype the whole text and does not prevent from the [translation review described here](https://unhcr.github.io/Integrated-framework-household-survey/Guidelines-for-Customisation.html#translation). It's also a good way to test the simplicity of the sentence used for the questions: if the artificial intelligence from Google translate can not decipher the questions, it means that it will be also probably difficult for the respondant. One test to confirm the question phrasing can also to translate and re-translate back in the original language in order to see if the meaning of the question is preserved.
+ 
+ 
+ * When there's a question like _first reason, second reason, third reason_ or _first source of income, second soure of income, third source of income_, the bad practise is actually to have 3 separate select_one questions: aka _first reason_ - then _second reason_, then _thirst reason_ -- First, from a cognitive point of view, respondents will have a hard time to rank among more than 5 options, second when recorded through 3 distinct variables, data will need a lot of coding to reshape the data in way where the analysis will make sense...
+ -- here the 2 options are either: 
+ 
+   *  select_multiple with a constraint count on the number of modality you can select "<code>not(count-selected(.) < 4</code>" --- often it's simpler as very likely the ranking between options will be difficult to analyse  
+   
+   * or go for a rating [likert]( https://unhcr.github.io/Integrated-framework-household-survey/Module-questions.html#question-design) questions for each options -- and then the ranking will be performed during the analysis through the sum of the rates for each respondent.  
+
  
 ### Questionnaire structure 
 
@@ -77,7 +96,7 @@ The documentation on xlsform is [here](http://xlsform.org/). The same format is 
  
  * Systematically add the metadata field: type: 'start', 'end', 'today', 'deviceid', 'imei', 'phonenumber'
  
- * To record __admin level__, use [cascading drop down lists](http://xlsform.org/en/#cascading-selects)
+ * To record __admin level__, use [cascading drop down lists](http://xlsform.org/en/#cascading-selects). Note that this does not work well whem more than 500 options. In this case, one option is to use select_external : http://xlsform.org/en/#external-selects but this will work only if data collection is done with Android client (not the web client).
  
  * Record correctly registration case number using a regex constraint where caret is the [ASCII special character](https://en.wikipedia.org/wiki/Caret): 
      * for case number: "<code>regex(.,'caret[0-9]{3}-[0-9]{2}[C][0-9]{5}$') </code>" 
@@ -85,7 +104,12 @@ The documentation on xlsform is [here](http://xlsform.org/). The same format is 
  
  * Record case number using bar code scanner whenever possible - rather than manual data entry.
  
- * add constraint on email validation through the same regex: "<code>regex(., '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}')</code>". This can be more specific if a specific email domain is expected.
+ * Add constraint on email validation through the same regex: "<code>regex(., '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}')</code>". This can be more specific if a specific email domain is expected.
+ 
+ 
+ * Calculate years from date (age from date of birth) "<code>round((decimal-date-time(${today}) - decimal-date-time(${dob})) div 365.24, 0)</code>".
+
+ * Validate past date (constraint) "<code>decimal-date-time(.)<decimal-date-time(${today})</code>".
  
  * Use "or_other" whenever you have a select_one or select_multiple questions that may have additional modalities that you can not anticipate
  
@@ -107,6 +131,9 @@ The documentation on xlsform is [here](http://xlsform.org/). The same format is 
  * kobotoolbox has some built-in __validation check & debugging check__ when a xlsform is uploaded. Sometimes better validation / debugging support can be obtained by other online validator such as [https://opendatakit.org/xlsform/](https://opendatakit.org/xlsform/)
 
  * Note for field deployment: if possible, users must try and keep a copy/image of the entire " ODK " folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out " ODK " and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard.
+ 
+ * one point is also that as for dataviz, good questionnaire are the result of multiple persons looking at it -- hence the importance of peer review -- peer review is different from testing - it requires people with expertise in questionnaire design to review - this is among the support than can be requestioned from regional offices. 
+ 
 
 
 ## Additional tips
