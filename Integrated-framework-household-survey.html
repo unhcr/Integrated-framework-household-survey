@@ -314,7 +314,7 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 <strong>Analytics Steps</strong>
 </p>
 <div class="list-group">
-<p><a href="#Clean" class="list-group-item">Clean</a> <a href="#Describe" class="list-group-item">Describe</a> <a href="#Discover" class="list-group-item">Discover</a> <a href="#Predict" class="list-group-item">Predict</a> <a href="#Advise" class="list-group-item">Advise</a></p>
+<p><a href="#Clean-Anonymize" class="list-group-item">Clean &amp; Anonymize</a> <a href="#Describe" class="list-group-item">Describe</a> <a href="#Discover" class="list-group-item">Discover</a> <a href="#Predict" class="list-group-item">Predict</a> <a href="#Advise" class="list-group-item">Advise</a></p>
 </div>
 </div>
 <div class="col-md-4">
@@ -2715,21 +2715,22 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 </div>
 
 </article>
-<article id="Clean"><div class="fluid-row" id="Clean_header">
+<article id="Clean-Anonymize"><div class="fluid-row" id="Clean-Anonymize_header">
 
 
 
-<h1 class="title toc-ignore">Clean</h1>
+<h1 class="title toc-ignore">Clean &amp; Anonymise</h1>
 
 </div>
 
 <div class="TOC">
 <ul>
-<li><a href="#Clean_cleaning-linked-to-the-sample">Cleaning linked to the sample</a></li>
-<li><a href="#Clean_cleaning-on-numeric-variable-filter-unwanted-outliers">Cleaning on numeric variable: Filter Unwanted Outliers</a></li>
-<li><a href="#Clean_cleaning-categoric-variables-review-categories">Cleaning categoric variables: review categories</a></li>
-<li><a href="#Clean_fix-labeling">Fix labeling</a></li>
-<li><a href="#Clean_handle-missing-data">Handle Missing Data</a></li>
+<li><a href="#Clean-Anonymize_cleaning-linked-to-the-sample">Cleaning linked to the sample</a></li>
+<li><a href="#Clean-Anonymize_cleaning-on-numeric-variable-filter-unwanted-outliers">Cleaning on numeric variable: Filter Unwanted Outliers</a></li>
+<li><a href="#Clean-Anonymize_cleaning-categoric-variables-review-categories">Cleaning categoric variables: review categories</a></li>
+<li><a href="#Clean-Anonymize_fix-labeling">Fix labeling</a></li>
+<li><a href="#Clean-Anonymize_handle-missing-data">Handle Missing Data</a></li>
+<li><a href="#Clean-Anonymize_anonymisation">Anonymisation</a></li>
 </ul>
 </div>
 
@@ -2737,27 +2738,27 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 <p>Data Cleaning is an essential step in data analysis. Most of the cleaning should allow to predect some potential errors in the dataset.</p>
 </div>
 <p>A multiplicity of errors can occurs during a survey. Once data are collected only a few of them can be addressed.</p>
-<p><img src="images/error.png"></p>
-<div id="Clean_cleaning-linked-to-the-sample" class="section level2">
-<h2>Cleaning linked to the sample</h2>
+<p><img src="images/error.png"> ## Clean</p>
+<div id="Clean-Anonymize_cleaning-linked-to-the-sample" class="section level3">
+<h3>Cleaning linked to the sample</h3>
 <p>In this case, some household were visited multiples times. The only way to address this is to have a cleaning log that contains the uniqueID (meta_instance_id) of the questionnaires that will need to be deleted.</p>
 </div>
-<div id="Clean_cleaning-on-numeric-variable-filter-unwanted-outliers" class="section level2">
-<h2>Cleaning on numeric variable: Filter Unwanted Outliers</h2>
+<div id="Clean-Anonymize_cleaning-on-numeric-variable-filter-unwanted-outliers" class="section level3">
+<h3>Cleaning on numeric variable: Filter Unwanted Outliers</h3>
 <p>Outliers on numeric variable can be spotted looking at the value of standard deviation.</p>
 <p>Keep in mind that “outliers are innocent until proven guilty”. Sometimes they traduce a proable in data collection but sometimes it can also add important information. One must have a good reason for removing an outlier, such as suspicious measurements that are unlikely to be real data.</p>
 </div>
-<div id="Clean_cleaning-categoric-variables-review-categories" class="section level2">
-<h2>Cleaning categoric variables: review categories</h2>
+<div id="Clean-Anonymize_cleaning-categoric-variables-review-categories" class="section level3">
+<h3>Cleaning categoric variables: review categories</h3>
 <p>xlsform allow to add the option of using <strong>or_other</strong> when raising a categoric questions. Often the results of this sub-variable needs to be reviewed to ensure that the or_other can not be affected to any existing value.</p>
 <p>The other point to check is low-frequency modalities that might need to be compacted together. This is also important in the sense that it will facilitate the data anonymisation in case this variable is a key one.</p>
 </div>
-<div id="Clean_fix-labeling" class="section level2">
-<h2>Fix labeling</h2>
+<div id="Clean-Anonymize_fix-labeling" class="section level3">
+<h3>Fix labeling</h3>
 <p>When recoding the data set it can appears often that the label attributed to the variables when raising the questions are not worded well, comme with typos / capitalisation issues or are too long to appear in a report. This can be fixed directly within the xlsform used for the data analysis plan.</p>
 </div>
-<div id="Clean_handle-missing-data" class="section level2">
-<h2>Handle Missing Data</h2>
+<div id="Clean-Anonymize_handle-missing-data" class="section level3">
+<h3>Handle Missing Data</h3>
 <p>This can be important when developing the analysis for the scoring.</p>
 <p>The 2 most commonly recommended ways of dealing with missing data are:</p>
 <ul>
@@ -2776,6 +2777,9 @@ THIS SECTION PRESUMES THAT A FRESH HOUSEHOLD LISTING HAS BEEN CONDUCTED AND THAT
 <li>Then, fill the original missing value with 0 just to meet the technical requirement of no missing values.</li>
 </ul>
 <p>By using this technique of flagging and filling, you are essentially allowing the algorithm to estimate the optimal constant for missingness, instead of just filling it in with the mean.</p>
+</div>
+<div id="Clean-Anonymize_anonymisation" class="section level2">
+<h2>Anonymisation</h2>
 </div>
 
 </article>
