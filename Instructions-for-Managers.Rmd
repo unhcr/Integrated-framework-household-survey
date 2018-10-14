@@ -6,7 +6,69 @@ title: "Instructions for Managers"
 source("options_communes.R")
 ```
 
+Observation and supervision throughout the fieldwork are a part of the training   
 
+Team supervisors play very important roles in continuing this training and in ensuring the quality of data   
+
+
+In addition, supervisors are responsible for the organisation of daily work and for the security of staff and equipment.
 
 [Notes from the Field: How to incentivize your survey team](http://blogs.worldbank.org/impactevaluations/notes-from-the-field-how-to-incentivize-your-survey-team)
+
+## Spot-check household composition
+
+ * Supervisors should complete parts of form and compare with that of the interviewer  
+ 
+ * Check about 5% of households (5-6 per week)  
+ 
+ * All team members must be spot-checked; provide feedback if necessary 
+
+
+
+
+## OBSERVING INTERVIEWS
+
+ * To evaluate and improve interviewer performance  
+
+ * To look for errors and misconceptions that cannot be detected through editing 
+
+
+
+## Evaluating Interviewers Performance
+
+
+ * Re-read relevant sections from the Interviewer's Manual with the team to resolve problems
+
+ * Encourage the interviewers to talk about any situations they encountered in the field 
+
+ * Discuss whether situations are handled properly, and how to do it in the future
+
+
+## What is to be monitored on daily basis 
+
+Daily montoring can be done by downloading data from kobo server and performing a few check...
+
+ * Overall completion rate of the survey according to planned logistics  
+ 
+ * Monitor usage of __or_other_ for questions where selection of modalities is open
+ 
+ * Monitor usageRespondent refuses to be interviewed 
+
+ * Distribution of completion by clusters when the sampling is based on cluster or on strata if stratfied sample  
+ 
+ * Rate of work by teams 
+ 
+ * Synchronization timing  - verify Synchronize survey data 
+ 
+ 
+## Field Check Tables
+ 
+ 
+ * Provide a full range of information about the quality of the data already collected as per above
+ 
+ * Provide information on the work of each team and each interviewer 
+ 
+ * To be shared on a regular basis 
+ 
+ * Be transparent and report on problems ..before others detect them
 
