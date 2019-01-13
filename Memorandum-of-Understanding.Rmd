@@ -8,29 +8,34 @@ source("options_communes.R")
 
 
 <div class="important">
-Whether it is for the data collection or the analysis, protection assessment are often done in partnership. To avoid confusion and misunderstnading within the proces, it is recommended to establish a clear Memorandum of Understanding
+Whether it is for the data collection or the analysis, protection assessment are often done in partnership. To avoid confusion and misunderstanding within the process, it is recommended to establish a clear Memorandum of Understanding.
 </div>
 
 ## Implementation Model
 
-According to the particular context, the assessment might be implemented using une of the following models :
+According to the particular context, the assessment might be implemented using one of the following models:
 
-*	Assigning full data collection responsibility to different agencies in different geographic areas
-*	Pooling human and logistical resources centrally
+*	Assigning full data collection responsibility to different agencies in different geographic areas.
+
+*	Pooling human and logistical resources centrally.
+
 *	Delegating data collection responsibilities to one or more NGO partners, ideally local NGOs, through a project agreement.
 
 Regardless of the model chosen, it is important to observe four principles:
 
-*	The objectives and methodology of the asessment need to be decided by consensus among particpant. Agencies who assume particular data collection responsibilities do not acquire a privileged say in choosing indicators, sites or data collection methods.  
-*	Particpant contribute resources to the implementation of the asessment, to the measure of their capacities and possibilities.   
+*	The objectives and methodology of the assessment need to be decided by consensus among participants. Agencies who assume particular data collection responsibilities do not acquire a privileged say in choosing indicators, sites or data collection methods.
+
+*	Participants contribute resources to the implementation of the asessment, to the measure of their capacities and possibilities.   
+
 *	Common standards and understanding of assessment questions need to be agreed and maintained.  
-*	Clear focal points need to be appointed per each particpating organisation with operational responsibility for data collection.
+
+*	Clear focal points need to be appointed for each participating organisations with operational responsibility for data collection.
 
 
 
 ## Field Level Memorandum of Understanding 
 
-The following is an outdated example that might provide some inspiration for the inital drafting of the memorandum. Any memorandum needs to be cleared by the Bureau before signature.
+The following is an outdated example that might provide some inspiration for the initial drafting of the memorandum. Any memorandum needs to be cleared by the Bureau before signature.
 
 #### Scope of Works
 

@@ -7,44 +7,87 @@ source("options_communes.R")
 ```
 
 <div class="note">
- A protection Assessment needs to be carefully planned. The First step of this plan is to document all the elements of the Asesssement
+ A multi-sectoral needs assessment must be carefully planned to maximize efficiency and ensure actionable results. The first – and perhaps most important – step of this plan is to ensure all elements of the process are documented. Keeping this in mind from the beginning will prevent a frantic dash later on, when reporting to donors or answering evaluations.
 </div>
+
+
+The project document should:
+ * 	clearly state the assessment objectives;
+ * 	outline the governance structure, including roles and responsibilities;
+ * 	define the methodology to be employed (population sample, tools, etc.)
+ * 	provide an overview of staffing needs, budget, and timeline. 
+
+The document can be updated throughout the exercise. 
+
 
 
 ##  Background and Objective 
 
-Protection Assessment are designed to collect statistically sound, internationally comparable estimates of key indicators and analysis that are used to assess the protection situation of displaced persons (Refugees & IDP's) and to prioritize protection intervention. 
+In UNHCR’s work around the world, multi-sectoral needs assessments are designed to collect statistically sound, internationally comparable estimates of key indicators and analysis that are used to assess overall situation of PoCs,  and to shape and prioritize appropriate interventions. Data should always be collected for a clear purpose, and only when necessary. 
 
 
 
 ## Governance Structure 
 
+From the outset, it’s important to define roles and responsibilities. This is true of single-agency and joint assessments. In recent years, joint assessments have become more of a reality, and they are an important element of the Grand Bargain commitment to coordinated needs assessments. Despite a number of benefits, joint assessments can at times be challenging. It is important to establish a strong governance structure from the beginning, often outlined in a Terms of Reference (ToR). Even single-agency assessments are often conducted in collaboration with other parties, such as the government, external contractors, etc. A ToR document for any assessment should: 
+
 * Give the name and type (government agency or other agency) of implementing agency.
-* Provide overview of Memorandum of Understanding (MoU) (Parties, critical components affecting survey planning, etc)
-* Give the names and affiliations of those who will be responsible for the management, technical work, and coordination activities. Include the survey coordinator, the sampling expert, and data processing expert assigned from the implementing agency, as well as others, if applicable. If already identified, the UNICEF MICS Consultant and other key regional experts/consultants together with their respective responsibilities should also be included. 
-* Describe the roles and contributions of national and international stakeholders and funding agencies. 
+
+* Provide overview of Memorandum of Understanding (MoU) (Parties, critical components affecting survey planning, etc.)
+
+* Give the names and affiliations of those who will be responsible for the management, technical work, and coordination activities. Include the survey coordinator, the sampling expert, and data processing expert assigned from the implementing agency, as well as others, if applicable. If applicable, regional experts/consultants together with their respective responsibilities should also be included.
+
+* Describe the roles and contributions of national and international stakeholders and funding agencies.
+
 * Describe the status, composition and roles and responsibilities of the Steering and Technical committees.
-* Provide other details on the governance structure and human resources as needed
 
-## Questionnaires Content
+* Provide other details on the governance structure and human resources as needed.
 
-List the excluded modules and provide reasons for the exclusion of each module. If the module or questions are not applicable to the country/survey you are not expected to provide a detailed explanation. However, for other exclusions, please include specific details about the reasons the modules and/or the questions that are not planned to be included and provide references to the data needs assessment.
+
+# Methodology
+
+## Data analysis plan
+
+A data analysis plan should be devised in the early stages of assessment planning. Rather than deciding on questions first, indicators must be determined in line with the information needs. Starting with the data analysis plan will avoid unpleasant surprises at the end of data collection, when you realise a certain important question might have been left out! Additionally, if the data analysis plan is linked to the tool from the outset, this will save time in data processing and analysis. 
+
+
+## Tool  
+
+While UNHCR does not have a standardized tool for multi-sectoral needs assessments, many questionnaires used in different countries are similar to each other, primarily due to cross-pollination of staff and regional experts. Tools can be easily adapted according to operational needs. 
+Once your indicators are defined, questions can be chosen, preferably from the IHSN. 
+
+UNHCR’s corporate tool for data collection is Kobo. The assessment focal point and other relevant staff should create an account on [kobo.unhcr.org](https://kobo.unhcr.org/accounts/register/#/)
 
 Provide information on the plans for the translation and back-translation of the questionnaires into local languages and plans for pre-testing the questionnaires. Indicate that the pre-test results will be compiled in a report, and that the results of the pre-test will be used to further modify, customize, and finalize the questionnaires.
 
+
+
+
 ## Sample Design 
 
-In this section, under separate sub-headings, as appropriate, describe: 
 
- * The Type of sampling design shoudl be stated (Rationale for sampling design explained)
- * State definition of Household used in the assessment
- * Sample size, including the expected numbers of households, women, men and under-5s. Include information on sub-sampling of men, if applicable
- * How the sample size was calculated, including the indicators used for the calculation of the sample size
- * The level of disaggregation sought for reporting
- * What sample frame will be used and if the sample frame needs to be updated, plans for mapping, listing and household selection 
+Sample design is crucial for usability of results. A badly designed or implemented sample can result in the findings not being applicable in the way that was originally intended, be it at geographical, demographic or any other level. Support for sample design can be requested from regional offices, and HQ (more specifically FICCS). Do not hesitate to reach out for support!
+
+UNHCR has also created a [Sampling Decision Assistant](https://unhcr-sampling-assistant.firebaseapp.com/#/home) to help in getting a general idea of how many households should be surveyed in your assessment:
+
+Any sampling strategy, however, should still be validated by technical experts prior to implementation. 
+
+Documenting the sampling strategy is also very important for posterior use of the dataset in other studies. 
+In this section, under separate sub-headings, as appropriate, describe:
+ * 	The Type of sampling design (Rationale for sampling design explained)
+ * 	Definition of unit (case/household) used in the assessment
+ * 	Sample size, including the expected numbers of households, women, men and other demographic characteristics as appropriate. 
+ * 	How the sample size was calculated, including the indicators used for the calculation of the sample size
+ * 	The level of disaggregation sought for reporting
+ * 	What sample frame will be used and if the sample frame needs to be updated, plans for mapping, listing and household selection
 
 
-## Recruitment and Training of Fieldwork Staff
+
+
+## Staffing needs
+
+UNHCR commonly relies on partners/third parties for large data collection exercises. This section of the document can be completed jointly, with each party submitting inputs as appropriate. 
+
 
 In this section, under separate sub-headings as appropriate, describe:
 

@@ -103,6 +103,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,14 +113,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -260,7 +323,7 @@ $(document).ready(function () {
 
 <div id="TOC">
 <ul>
-<li><a href="#xlsform">XLSForm</a></li>
+<li><a href="#xlsform">XLSFORM</a></li>
 <li><a href="#some-tips">Some tips</a><ul>
 <li><a href="#manage-your-xls-form">Manage your xls form</a></li>
 <li><a href="#variable-encoding">Variable Encoding</a></li>
@@ -281,9 +344,9 @@ $(document).ready(function () {
 <p>The second options is preferred as it allows for more controls.</p>
 </div>
 <div id="xlsform" class="section level2">
-<h2>XLSForm</h2>
-<p>The form needs to be defined using the xlsform format. XLSForm is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.</p>
-<p>The XLSForm is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.</p>
+<h2>XLSFORM</h2>
+<p>The form needs to be defined using the xlsform format. XLSFORM is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSFORMs provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.</p>
+<p>The XLSFORM is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.</p>
 <p>The documentation on xlsform is <a href="http://xlsform.org/">here</a>. The same format is actually used by multiple data collection technological platform such as <a href="http://www.kobotoolbox.org/">kobotoolbox</a>(the platform used by UNHCR on <a href="http://kobo.unhcr.org" class="uri">http://kobo.unhcr.org</a>), <a href="https://opendatakit.org/">OpenDataKit</a> or <a href="https://ona.io">ONA</a>.</p>
 </div>
 <div id="some-tips" class="section level2">
@@ -383,9 +446,9 @@ $(document).ready(function () {
 <li><p><a href="https://opendatakit.org/help/form-design/">Open data kit Form design guides</a></p></li>
 <li><p><a href="https://opendatakit.org/help/form-design/workarounds/">Open data kit work around</a></p></li>
 <li><p><a href="https://opendatakit.org/help/training-guides/">Other training guides</a></p></li>
-<li><p><a href="http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/">Advanced XLSForm coding tips #1</a></p></li>
-<li><p><a href="http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/">Advanced XLSForm coding tips #2</a></p></li>
-<li><p><a href="https://odk.acf-e.org/odk/LinkedDocuments/Annex%204%20ODK%20ACF-E%20How%20to%20author%20surveys%20for%20ODK.pdf">ACF XLSForm coding tips</a></p></li>
+<li><p><a href="http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/">Advanced XLSFORM coding tips #1</a></p></li>
+<li><p><a href="http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/">Advanced XLSFORM coding tips #2</a></p></li>
+<li><p><a href="https://odk.acf-e.org/odk/LinkedDocuments/Annex%204%20ODK%20ACF-E%20How%20to%20author%20surveys%20for%20ODK.pdf">ACF XLSFORM coding tips</a></p></li>
 </ul>
 </div>
 <div id="support-forum" class="section level2">

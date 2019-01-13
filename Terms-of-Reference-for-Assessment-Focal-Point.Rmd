@@ -21,23 +21,27 @@ Insert any other relevant detail.
 
 ## Methodology
 
-The survey will be developed using the Protection Assessment Toolkit. Survey methodology should be reviewed by UNHCR regional or HQ Protection Infornmatiuon Management Officer prior to data collection.
+Survey methodology should be reviewed by UNHCR regional or HQ Infornmatiuon Management Officer **prior to data collection**.
 
 
 ##  Objectives
 
-The Assessment Focal Point will oversee the Protection Assessment for:
-- <kbd>Operation</kbd>
-- <kbd>Population Group</kbd>
-- <kbd>Geographic Coverage</kbd>
-- <kbd>Timeframe</kbd>
+The Assessment Focal Point will oversee the multi-sectoral needs assessment  for:
+
+ - <kbd>Operation</kbd>
+
+ - <kbd>Population Group</kbd>
+
+ - <kbd>Geographic Coverage</kbd>
+
+ - <kbd>Timeframe</kbd>
 
 ## Deliverables
 
 * 	A final assessment report including recommendations on actions to address the situation is to be submitted at the end of the mission. Results of standardisation tests, details of data cleaning and plausibility checks should be presented in the final report. 
 
 
-* 	Standardised tables as presented in the Protection Assessment Toolkit.
+* 	Standardised tables as presented in the multi-sectoral needs assessment  Toolkit.
 
 * 	The findings and major recommendations are to be presented to partners at the mission level (oral presentation and slides).
 

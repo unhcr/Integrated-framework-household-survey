@@ -16,12 +16,12 @@ The second options is preferred as it allows for more controls.
 
 </div>
 
-## XLSForm
+## XLSFORM
 
 The form needs to be defined using the xlsform format.
-XLSForm is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.
+XLSFORM is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSFORMs provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.
 
-The XLSForm is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.
+The XLSFORM is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.
 
 The documentation on xlsform is [here](http://xlsform.org/). The same format is actually used by multiple data collection technological platform such as [kobotoolbox](http://www.kobotoolbox.org/)(the platform used by UNHCR on [http://kobo.unhcr.org](http://kobo.unhcr.org)), [OpenDataKit](https://opendatakit.org/) or [ONA](https://ona.io).
 
@@ -150,11 +150,11 @@ Additional tutorials and tips can be found through the following links:
 
  * [Other training guides](https://opendatakit.org/help/training-guides/)
 
- * [Advanced XLSForm coding tips #1](http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/)  
+ * [Advanced XLSFORM coding tips #1](http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/)  
 
- * [Advanced XLSForm coding tips #2](http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/) 
+ * [Advanced XLSFORM coding tips #2](http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/) 
  
- * [ACF XLSForm coding tips](https://odk.acf-e.org/odk/LinkedDocuments/Annex%204%20ODK%20ACF-E%20How%20to%20author%20surveys%20for%20ODK.pdf)
+ * [ACF XLSFORM coding tips](https://odk.acf-e.org/odk/LinkedDocuments/Annex%204%20ODK%20ACF-E%20How%20to%20author%20surveys%20for%20ODK.pdf)
  
 
 ## Support Forum 

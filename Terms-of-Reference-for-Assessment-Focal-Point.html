@@ -103,6 +103,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,14 +113,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -282,17 +345,23 @@ $(document).ready(function () {
 </div>
 <div id="methodology" class="section level2">
 <h2>Methodology</h2>
-<p>The survey will be developed using the Protection Assessment Toolkit. Survey methodology should be reviewed by UNHCR regional or HQ Protection Infornmatiuon Management Officer prior to data collection.</p>
+<p>Survey methodology should be reviewed by UNHCR regional or HQ Infornmatiuon Management Officer <strong>prior to data collection</strong>.</p>
 </div>
 <div id="objectives" class="section level2">
 <h2>Objectives</h2>
-<p>The Assessment Focal Point will oversee the Protection Assessment for: - <kbd>Operation</kbd> - <kbd>Population Group</kbd> - <kbd>Geographic Coverage</kbd> - <kbd>Timeframe</kbd></p>
+<p>The Assessment Focal Point will oversee the multi-sectoral needs assessment for:</p>
+<ul>
+<li><p><kbd>Operation</kbd></p></li>
+<li><p><kbd>Population Group</kbd></p></li>
+<li><p><kbd>Geographic Coverage</kbd></p></li>
+<li><p><kbd>Timeframe</kbd></p></li>
+</ul>
 </div>
 <div id="deliverables" class="section level2">
 <h2>Deliverables</h2>
 <ul>
 <li><p>A final assessment report including recommendations on actions to address the situation is to be submitted at the end of the mission. Results of standardisation tests, details of data cleaning and plausibility checks should be presented in the final report.</p></li>
-<li><p>Standardised tables as presented in the Protection Assessment Toolkit.</p></li>
+<li><p>Standardised tables as presented in the multi-sectoral needs assessment Toolkit.</p></li>
 <li><p>The findings and major recommendations are to be presented to partners at the mission level (oral presentation and slides).</p></li>
 <li><p>The final analysis script.</p></li>
 </ul>

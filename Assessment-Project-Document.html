@@ -103,6 +103,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,14 +113,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -262,52 +325,61 @@ $(document).ready(function () {
 <ul>
 <li><a href="#background-and-objective">Background and Objective</a></li>
 <li><a href="#governance-structure">Governance Structure</a></li>
-<li><a href="#questionnaires-content">Questionnaires Content</a></li>
+<li><a href="#methodology">Methodology</a><ul>
+<li><a href="#data-analysis-plan">Data analysis plan</a></li>
+<li><a href="#tool">Tool</a></li>
 <li><a href="#sample-design">Sample Design</a></li>
-<li><a href="#recruitment-and-training-of-fieldwork-staff">Recruitment and Training of Fieldwork Staff</a></li>
+<li><a href="#staffing-needs">Staffing needs</a></li>
 <li><a href="#fieldwork">Fieldwork</a></li>
 <li><a href="#budget">Budget</a></li>
 <li><a href="#timeline-for-tasks">Timeline for Tasks</a></li>
+</ul></li>
 </ul>
 </div>
 
 <div class="note">
-<p>A protection Assessment needs to be carefully planned. The First step of this plan is to document all the elements of the Asesssement</p>
+<p>A multi-sectoral needs assessment must be carefully planned to maximize efficiency and ensure actionable results. The first – and perhaps most important – step of this plan is to ensure all elements of the process are documented. Keeping this in mind from the beginning will prevent a frantic dash later on, when reporting to donors or answering evaluations.</p>
 </div>
+<p>The project document should: * clearly state the assessment objectives; * outline the governance structure, including roles and responsibilities; * define the methodology to be employed (population sample, tools, etc.) * provide an overview of staffing needs, budget, and timeline.</p>
+<p>The document can be updated throughout the exercise.</p>
 <div id="background-and-objective" class="section level2">
 <h2>Background and Objective</h2>
-<p>Protection Assessment are designed to collect statistically sound, internationally comparable estimates of key indicators and analysis that are used to assess the protection situation of displaced persons (Refugees &amp; IDP’s) and to prioritize protection intervention.</p>
+<p>In UNHCR’s work around the world, multi-sectoral needs assessments are designed to collect statistically sound, internationally comparable estimates of key indicators and analysis that are used to assess overall situation of PoCs, and to shape and prioritize appropriate interventions. Data should always be collected for a clear purpose, and only when necessary.</p>
 </div>
 <div id="governance-structure" class="section level2">
 <h2>Governance Structure</h2>
+<p>From the outset, it’s important to define roles and responsibilities. This is true of single-agency and joint assessments. In recent years, joint assessments have become more of a reality, and they are an important element of the Grand Bargain commitment to coordinated needs assessments. Despite a number of benefits, joint assessments can at times be challenging. It is important to establish a strong governance structure from the beginning, often outlined in a Terms of Reference (ToR). Even single-agency assessments are often conducted in collaboration with other parties, such as the government, external contractors, etc. A ToR document for any assessment should:</p>
 <ul>
-<li>Give the name and type (government agency or other agency) of implementing agency.</li>
-<li>Provide overview of Memorandum of Understanding (MoU) (Parties, critical components affecting survey planning, etc)</li>
-<li>Give the names and affiliations of those who will be responsible for the management, technical work, and coordination activities. Include the survey coordinator, the sampling expert, and data processing expert assigned from the implementing agency, as well as others, if applicable. If already identified, the UNICEF MICS Consultant and other key regional experts/consultants together with their respective responsibilities should also be included.</li>
-<li>Describe the roles and contributions of national and international stakeholders and funding agencies.</li>
-<li>Describe the status, composition and roles and responsibilities of the Steering and Technical committees.</li>
-<li>Provide other details on the governance structure and human resources as needed</li>
+<li><p>Give the name and type (government agency or other agency) of implementing agency.</p></li>
+<li><p>Provide overview of Memorandum of Understanding (MoU) (Parties, critical components affecting survey planning, etc.)</p></li>
+<li><p>Give the names and affiliations of those who will be responsible for the management, technical work, and coordination activities. Include the survey coordinator, the sampling expert, and data processing expert assigned from the implementing agency, as well as others, if applicable. If applicable, regional experts/consultants together with their respective responsibilities should also be included.</p></li>
+<li><p>Describe the roles and contributions of national and international stakeholders and funding agencies.</p></li>
+<li><p>Describe the status, composition and roles and responsibilities of the Steering and Technical committees.</p></li>
+<li><p>Provide other details on the governance structure and human resources as needed.</p></li>
 </ul>
 </div>
-<div id="questionnaires-content" class="section level2">
-<h2>Questionnaires Content</h2>
-<p>List the excluded modules and provide reasons for the exclusion of each module. If the module or questions are not applicable to the country/survey you are not expected to provide a detailed explanation. However, for other exclusions, please include specific details about the reasons the modules and/or the questions that are not planned to be included and provide references to the data needs assessment.</p>
+<div id="methodology" class="section level1">
+<h1>Methodology</h1>
+<div id="data-analysis-plan" class="section level2">
+<h2>Data analysis plan</h2>
+<p>A data analysis plan should be devised in the early stages of assessment planning. Rather than deciding on questions first, indicators must be determined in line with the information needs. Starting with the data analysis plan will avoid unpleasant surprises at the end of data collection, when you realise a certain important question might have been left out! Additionally, if the data analysis plan is linked to the tool from the outset, this will save time in data processing and analysis.</p>
+</div>
+<div id="tool" class="section level2">
+<h2>Tool</h2>
+<p>While UNHCR does not have a standardized tool for multi-sectoral needs assessments, many questionnaires used in different countries are similar to each other, primarily due to cross-pollination of staff and regional experts. Tools can be easily adapted according to operational needs. Once your indicators are defined, questions can be chosen, preferably from the IHSN.</p>
+<p>UNHCR’s corporate tool for data collection is Kobo. The assessment focal point and other relevant staff should create an account on <a href="https://kobo.unhcr.org/accounts/register/#/">kobo.unhcr.org</a></p>
 <p>Provide information on the plans for the translation and back-translation of the questionnaires into local languages and plans for pre-testing the questionnaires. Indicate that the pre-test results will be compiled in a report, and that the results of the pre-test will be used to further modify, customize, and finalize the questionnaires.</p>
 </div>
 <div id="sample-design" class="section level2">
 <h2>Sample Design</h2>
-<p>In this section, under separate sub-headings, as appropriate, describe:</p>
-<ul>
-<li>The Type of sampling design shoudl be stated (Rationale for sampling design explained)</li>
-<li>State definition of Household used in the assessment</li>
-<li>Sample size, including the expected numbers of households, women, men and under-5s. Include information on sub-sampling of men, if applicable</li>
-<li>How the sample size was calculated, including the indicators used for the calculation of the sample size</li>
-<li>The level of disaggregation sought for reporting</li>
-<li>What sample frame will be used and if the sample frame needs to be updated, plans for mapping, listing and household selection</li>
-</ul>
+<p>Sample design is crucial for usability of results. A badly designed or implemented sample can result in the findings not being applicable in the way that was originally intended, be it at geographical, demographic or any other level. Support for sample design can be requested from regional offices, and HQ (more specifically FICCS). Do not hesitate to reach out for support!</p>
+<p>UNHCR has also created a <a href="https://unhcr-sampling-assistant.firebaseapp.com/#/home">Sampling Decision Assistant</a> to help in getting a general idea of how many households should be surveyed in your assessment:</p>
+<p>Any sampling strategy, however, should still be validated by technical experts prior to implementation.</p>
+<p>Documenting the sampling strategy is also very important for posterior use of the dataset in other studies. In this section, under separate sub-headings, as appropriate, describe: * The Type of sampling design (Rationale for sampling design explained) * Definition of unit (case/household) used in the assessment * Sample size, including the expected numbers of households, women, men and other demographic characteristics as appropriate. * How the sample size was calculated, including the indicators used for the calculation of the sample size * The level of disaggregation sought for reporting * What sample frame will be used and if the sample frame needs to be updated, plans for mapping, listing and household selection</p>
 </div>
-<div id="recruitment-and-training-of-fieldwork-staff" class="section level2">
-<h2>Recruitment and Training of Fieldwork Staff</h2>
+<div id="staffing-needs" class="section level2">
+<h2>Staffing needs</h2>
+<p>UNHCR commonly relies on partners/third parties for large data collection exercises. This section of the document can be completed jointly, with each party submitting inputs as appropriate.</p>
 <p>In this section, under separate sub-headings as appropriate, describe:</p>
 <ul>
 <li>Plans for recruitment of fieldwork staff, including details of the type of personnel (interviewers, data entry, supervisors, measurers, data entry clerks), their education/background, sex, numbers etc.</li>
@@ -351,6 +423,7 @@ $(document).ready(function () {
 <li>Complete data processing, including secondary editing</li>
 <li>Prepare summary findings report and final report, and disseminate widely; prepare survey archive</li>
 </ul>
+</div>
 </div>
 
 </article>

@@ -103,6 +103,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,14 +113,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -266,36 +329,37 @@ $(document).ready(function () {
 IFHS: A toolkit to facilitate design, collection &amp; analysis.
 </h2>
 <p>
-Last update : 14 October 2018
+Last update : 13 January 2019
 </p>
 </div>
 <div id="presentation" class="section level2">
 <h2>Why an “Integrated Framework”?</h2>
-<p>The kit is a comprehensive set of tools to guide survey teams through every step of a protection assessment based on <strong>Household survey</strong> – from overall planning, design and data collection in the field to data processing, analysis, interpretation, documentation and dissemination. Becausse it addresses the specific challenges related to household surveys, it fits more for protracted situations and it <strong>complements</strong> other approaches such as the <a href="http://www.unhcr.org/450e963f2.html" target="_blank">UNHCR Tool for Participatory Assessment in Operations</a>, the <a href="https://emergency.unhcr.org/entry/50209" target="_blank">Needs Assessment for Refugee Emergencies (NARE) Checklist</a> for Refugees operations and the <a href="http://www.globalprotectioncluster.org/en/tools-and-guidance/information-and-data-management.html" target="_blank">Rapid Protection Assessment Tools (RPAT)</a> for IDPs operations. The kit is also organised to ensure that all findings and recommandation will allow to inform prioritisation between all potential protection activities and subsequent ressources allocation in terms of programme, through the following elements :</p>
+<p>The kit is a comprehensive set of tools to guide survey teams through every step of a multi-sectoral needs assessment done through a <strong>household survey</strong> – from overall planning, design and data collection in the field to data processing, analysis, interpretation, documentation and dissemination. Because it addresses the specific challenges related to household surveys, it fits more for protracted situations and it <strong>complements</strong> other approaches such as the <a href="http://www.unhcr.org/450e963f2.html" target="_blank">UNHCR Tool for Participatory Assessment in Operations</a>, the <a href="https://emergency.unhcr.org/entry/50209" target="_blank">Needs Assessment for Refugee Emergencies (NARE) Checklist</a> for Refugees operations and the <a href="http://www.globalprotectioncluster.org/en/tools-and-guidance/information-and-data-management.html" target="_blank">Rapid Protection Assessment Tools (RPAT)</a> for Internally Displaced Persons (IDPs) operations. The kit is also organised to ensure that all findings and recommendations will allow to inform prioritization between all potential interventions and subsequent resources allocation in terms of programme, through the following elements :</p>
 <ul>
-<li>Produce <strong>impact indicators</strong> that are used to assess the conditions of beneficiaries over time and to support programme design;</li>
-<li>Support the <strong>analysis of protection risk and vulnerabilities</strong> and the discovery of clusters of individuals with similar profile;</li>
-<li>Allow for the development of <strong>targeting models</strong> for both response (for instance cash) and prevention activities (for instance protection);</li>
+<li>Produce <strong>impact indicators</strong> that are used to assess the conditions of persons of concern (PoCs) over time and to support programme design;</li>
+<li>Support the <strong>analysis of protection risk and multi-dimensional vulnerabilities</strong> and the discovery of clusters of individuals with similar profile;</li>
+<li>Allow for the development of <strong>targeting models</strong> for both response (e.g. cash) and prevention activities (e.g. protection);</li>
 <li>Provide basis for <strong>public advocacy</strong> on issues faced by the population group.</li>
 </ul>
 <p><img src="images/process.png" /></p>
-<p>This toolkit supports the technical implementation of already existing guidelines and guidances, namely the <a href="http://gbvguidelines.org/" target="_blank">Guidelines for Integrating Gender-Based Violence Interventions in Humanitarian Action</a>, the <a href="http://www.globalprotectioncluster.org/_assets/files/tools_and_guidance/info_data_management/CPRA_English-EN.pdf" target="_blank">Child Protection Rapid Assessment Toolkit</a>, the <a href="http://jet.jips.org/" target="_blank">Joint IDP Profiling Service Essential Toolkit- JET</a>, the <a href="http://unhcr.org/4aa76c279.pdf" target="_blank">Heightened Risk Identification Tool</a>, The <a href="http://www.cashlearning.org/downloads/operational-guidance-and-toolkit-for-multipurpose-cash-grants---web.pdf" target="_blank">Operational Guidance and Toolkit for Multipurpose Cash Grants</a>, etc. The proposed technical implementation approach was inspired by the <a href="http://sens.unhcr.org" target="_blank">UNHCR Standardised Expanded Nutrition Survey</a> and the <a href="http://mics.unicef.org/tools" target="_blank">UNICEF Multiple Indicator Cluster Surveys</a>.</p>
+<p>This toolkit supports the technical implementation of already existing guidelines and guidance documents, namely the <a href="http://gbvguidelines.org/" target="_blank">Guidelines for Integrating Gender-Based Violence Interventions in Humanitarian Action</a>, the <a href="http://www.globalprotectioncluster.org/_assets/files/tools_and_guidance/info_data_management/CPRA_English-EN.pdf" target="_blank">Child Protection Rapid Assessment Toolkit</a>, the <a href="http://jet.jips.org/" target="_blank">Joint IDP Profiling Service Essential Toolkit- JET</a>, the <a href="http://unhcr.org/4aa76c279.pdf" target="_blank">Heightened Risk Identification Tool</a>, The <a href="http://www.cashlearning.org/downloads/operational-guidance-and-toolkit-for-multipurpose-cash-grants---web.pdf" target="_blank">Operational Guidance and Toolkit for Multipurpose Cash Grants</a>, etc. The proposed technical implementation approach was inspired by the <a href="http://sens.unhcr.org" target="_blank">UNHCR Standardised Expanded Nutrition Survey</a> and the <a href="http://mics.unicef.org/tools" target="_blank">UNICEF Multiple Indicator Cluster Surveys</a>.</p>
 </div>
 <div id="content" class="section level2">
 <h2>Content</h2>
-On the top of the summary narrative guidelines below, the toolkit is organised around 4 keys technical componnents that facilitate the easy replication and customisation of an assessment from an operation to another. Re-using tested proofed platforms, questions &amp; report format, technical staff in charge will save significant amount of time.
+<p>On the top of the summary narrative guidelines below, the toolkit is organised around four key technical components that facilitate the easy replication and customisation of an assessment from one operation to another. Re-using tested platforms, questions and report formats, technical staff in charge will save significant amount of time.</p>
+<p>These elements are:</p>
 <div class="note">
 <ul>
 <li><p>A pre-organised <kbd><a href="http://dev.ihsn.org/qbank-sandbox/web/indicators" target="_blank">Master list of baseline Indicators Library</a></kbd> in order to leverage good practices and enforce core questions during design of the assessment form.</p></li>
-<li><p>A <kbd><a href="hhtps://kobo.unhcr.org">KoboToolBox</a></kbd> secured server to perform the data collection. This server uses the xlsform developed during the design phase.</p></li>
+<li><p>A <kbd><a href="hhtps://kobo.unhcr.org">KoboToolBox</a></kbd> secure server to be used for data collection. This server uses the <a href="http://xlsform.org">xlsform</a> developed during the design phase.</p></li>
 <li><p>Multiple <kbd><a href="https://github.com/unhcr/koboloadeR" target="_blank">R statistical analysis scripts</a></kbd> to clean &amp; analyse data, and then to generate automatically standard report and to facilitate the creation of presentation slides and infographics.</p></li>
-<li>A <kbd><a href="https://github.com/unhcr/Integrated-framework-household-survey" target="_blank">Github Repository</a></kbd> to exchange collaboratively analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself. Suggestions for this toolkit can be <a href="https://github.com/unhcr/Integrated-framework-household-survey/issues" target="_blank">posted here</a>.</li>
+<li>A <kbd><a href="https://github.com/unhcr/Integrated-framework-household-survey" target="_blank">Github Repositories</a></kbd> to facilitate collaborative analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself. Suggestions for this toolkit can be <a href="https://github.com/unhcr/Integrated-framework-household-survey/issues" target="_blank">posted here</a>.</li>
 </ul>
 </div>
 </div>
 <div id="for-whom" class="section level2">
 <h2>For whom?</h2>
-<p>The targeted audience of the toolkit are <em>technical staff tasked to work on a protection assessment</em>: assessment focal points, information management officers and data scientists… The toolkit is to be used once all emergency assessment and secondary data review have been implemented and developped. With a bit of configuration at the begining, the toolkit will allow for the quick generation of results and will ensure that minimum data quality standards are enforced. In addition, because of the standard data format that are enforced through the kit, it will be possible to obtain comparable results from different operations.</p>
+<p>The targeted audience of the toolkit is <em>technical staff tasked to work on multi-sectoral needs assessments</em>: assessment focal points, information management officers and data scientists. The toolkit is intended for protracted situations, <strong>after</strong> emergency assessments and secondary data review have been conducted. With a bit of configuration at the beginning of the process, the toolkit will ensure that minimum data quality standards are enforced and l allow for quick generation of results. . In addition, because of the standard data format presented through the toolkit, it will be possible to obtain comparable results from different operations.</p>
 <div class="alert alert-warning" style="font-weight: bold;">
 <h2 id="disclaimer">Disclaimer</h2>
 <p>
@@ -307,7 +371,7 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 </div>
 </div>
 <div id="tdm" class="section level2">
-<h2>Table of Content</h2>
+<h2>Table of Contents</h2>
 <div id="assessment-methodology-form-design" class="section level3">
 <h3>Assessment methodology &amp; form design</h3>
 <div class="row">

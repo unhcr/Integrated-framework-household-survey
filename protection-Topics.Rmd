@@ -7,9 +7,9 @@ source("options_communes.R")
 ```
 <div class="important">
 
-Translate assessment results into programmatic response recommendations is challenging when it comes to protection activities. 
+Translating assessment results into programmatic response recommendations is challenging when it comes to protection activities. 
 
-The analysis of vulnerabilities allows to generate protection activities recommendations.
+The analysis of vulnerabilities allows to generate protection intervention recommendations.
 
 The analysis of vulnerabilities is complex as it should allow to understand:
 
@@ -17,11 +17,12 @@ The analysis of vulnerabilities is complex as it should allow to understand:
  * What is, for **each vulnerability type**, the specific profile of a population group in terms of magnitude and severity?
 
 </div>
-Translate assessment results into programmatic response recommendations is challenging when it comes to protection activities. 
 
-## The Right based approach 
 
-Protection programme are designed according to the [Right Based approach](https://en.wikipedia.org/wiki/Rights-based_approach_to_development). As such, more than the needs, it is the vulnerability of specific population group toward right violation that informs ressources allocation.
+
+## The Rights-based approach 
+
+Protection programme are designed according to the [Rights-Based approach](https://en.wikipedia.org/wiki/Rights-based_approach_to_development). As such, more than the needs, it is the vulnerability of specific population group towards rights violation that informs resources allocation.
 
 Vulnerability level for each specific risk =
 function(risk **occurrence**) +
@@ -59,10 +60,11 @@ __Security from Violence and Exploitation__     | Age, gender and diversity main
 
 On each topic, the protection assessment should allow to identify the affected population’s vulnerability profile:
 
-* Threat in terms of   __criticality__ , i.e how important is the threat compared to other. This is measured through priority ranking.
-* Threat  in terms of occurence in order to define __magnitude__ 
-* Capacities and capabilities in order to define  __severity__ -- "Severity" (or intensity) expresses the degree of unmet needs (it is thus related to shortages and deficits,  as  opposed  to  fulfillment  and  wellbeing) or the egree of something harmful,
-harsh, stern, irreversible or not desirable. As such it is expressed through a form of rating.
+ * Threat in terms of   __criticality__ , i.e. how important is the threat compared to other. This is measured through priority ranking.  
+
+ * Threat  in terms of occurrence in order to define __magnitude__ 
+
+ * Capacities and capabilities in order to define  __severity__ -- "Severity" (or intensity) expresses the degree of unmet needs (it is thus related to shortages and deficits,  as  opposed  to  fulfillment  and  wellbeing) or the degree of something harmful,harsh, stern, irreversible or not desirable. As such it is expressed through a form of rating.
 
 
 The vulnerability profile (combination of criticality/magnitude/severity) for each topic will allow to prioritise the relevant activities. [Severity and Priority](http://aldo-benini.org/Level2/HumanitData/Benini_forACAPS_SeverityAndPriority_2013.pdf) are therefore appropriate way to measure vulnerability.
@@ -102,7 +104,7 @@ List of analysis modules
 List of analysis modules:
 
 * Social cohesion
-* Housing, shelter & wash conditions
+* Housing, shelter & WASH (Water, Sanitation & Hygien) conditions
 * Employment & livelihood
 * Child Labour
 * Assets & Budget

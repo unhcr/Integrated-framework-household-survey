@@ -24,40 +24,45 @@ require(lubridate)
 
 ## Why an "Integrated Framework"?{#presentation}
 
-The kit is a comprehensive set of tools to guide survey teams through every step of a protection assessment based on **Household survey** – from overall planning, design and data collection in the field to data processing, analysis, interpretation, documentation and dissemination. Becausse it addresses the specific challenges related to household surveys, it fits more for protracted situations and it **complements** other approaches such as the [UNHCR Tool for Participatory Assessment in Operations](http://www.unhcr.org/450e963f2.html){target="_blank"}, the [Needs Assessment for Refugee Emergencies (NARE) Checklist](https://emergency.unhcr.org/entry/50209){target="_blank"} for Refugees operations and the [Rapid Protection Assessment Tools (RPAT)](http://www.globalprotectioncluster.org/en/tools-and-guidance/information-and-data-management.html){target="_blank"} for IDPs operations. The kit is also organised to ensure that all findings and recommandation will allow to inform prioritisation between all potential protection activities  and subsequent ressources allocation in terms of programme, through the following elements :
+The kit is a comprehensive set of tools to guide survey teams through every step of a multi-sectoral needs assessment done through a **household survey** – from overall planning, design and data collection in the field to data processing, analysis, interpretation, documentation and dissemination. Because it addresses the specific challenges related to household surveys, it fits more for protracted situations and it **complements** other approaches such as the [UNHCR Tool for Participatory Assessment in Operations](http://www.unhcr.org/450e963f2.html){target="_blank"}, the [Needs Assessment for Refugee Emergencies (NARE) Checklist](https://emergency.unhcr.org/entry/50209){target="_blank"} for Refugees operations and the [Rapid Protection Assessment Tools (RPAT)](http://www.globalprotectioncluster.org/en/tools-and-guidance/information-and-data-management.html){target="_blank"} for Internally Displaced Persons (IDPs) operations. The kit is also organised to ensure that all findings and recommendations will allow to inform prioritization between all potential interventions and subsequent resources allocation in terms of programme, through the following elements :
 
- * Produce **impact indicators** that are used to assess the conditions of beneficiaries over time and to support programme design; 
- * Support the **analysis of protection risk and vulnerabilities** and the discovery of clusters of individuals with similar profile; 
- * Allow for the development of **targeting models** for both response (for instance cash) and prevention activities (for instance protection);
+ * Produce **impact indicators** that are used to assess the conditions of persons of concern (PoCs) over time and to support programme design; 
+ * Support the **analysis of protection risk and multi-dimensional vulnerabilities** and the discovery of clusters of individuals with similar profile; 
+ * Allow for the development of **targeting models** for both response (e.g. cash) and prevention activities (e.g.  protection);
  * Provide basis for **public advocacy** on issues faced by the population group. 
 
 ![](images/process.png)
 
-This toolkit supports the technical implementation of already existing guidelines and guidances, namely the [Guidelines for Integrating Gender-Based Violence Interventions in Humanitarian Action](http://gbvguidelines.org/){target="_blank"}, the [Child Protection Rapid Assessment Toolkit](http://www.globalprotectioncluster.org/_assets/files/tools_and_guidance/info_data_management/CPRA_English-EN.pdf){target="_blank"}, the [Joint IDP Profiling Service Essential Toolkit- JET](http://jet.jips.org/){target="_blank"}, the [Heightened Risk Identification Tool](http://unhcr.org/4aa76c279.pdf){target="_blank"}, The [Operational Guidance and Toolkit for Multipurpose Cash Grants](http://www.cashlearning.org/downloads/operational-guidance-and-toolkit-for-multipurpose-cash-grants---web.pdf){target="_blank"}, etc. The proposed technical implementation approach was inspired by the [UNHCR Standardised Expanded Nutrition Survey](http://sens.unhcr.org){target="_blank"} and the [UNICEF Multiple Indicator Cluster Surveys](http://mics.unicef.org/tools){target="_blank"}.
+This toolkit supports the technical implementation of already existing guidelines and guidance documents, namely the [Guidelines for Integrating Gender-Based Violence Interventions in Humanitarian Action](http://gbvguidelines.org/){target="_blank"}, the [Child Protection Rapid Assessment Toolkit](http://www.globalprotectioncluster.org/_assets/files/tools_and_guidance/info_data_management/CPRA_English-EN.pdf){target="_blank"}, the [Joint IDP Profiling Service Essential Toolkit- JET](http://jet.jips.org/){target="_blank"}, the [Heightened Risk Identification Tool](http://unhcr.org/4aa76c279.pdf){target="_blank"}, The [Operational Guidance and Toolkit for Multipurpose Cash Grants](http://www.cashlearning.org/downloads/operational-guidance-and-toolkit-for-multipurpose-cash-grants---web.pdf){target="_blank"}, etc. The proposed technical implementation approach was inspired by the [UNHCR Standardised Expanded Nutrition Survey](http://sens.unhcr.org){target="_blank"} and the [UNICEF Multiple Indicator Cluster Surveys](http://mics.unicef.org/tools){target="_blank"}.
 
 
 ## Content
-On the top of the summary narrative guidelines below, the toolkit is organised around 4 keys technical componnents that facilitate the easy replication and customisation of an assessment from an operation to another. Re-using tested proofed platforms, questions & report format, technical staff in charge will save significant amount of time.
+
+On the top of the summary narrative guidelines below, the toolkit is organised around four key technical components that facilitate the easy replication and customisation of an assessment from one operation to another. Re-using tested platforms, questions and report formats, technical staff in charge will save significant amount of time.
+
+These elements are: 
+
 <div class="note">
+
  * A pre-organised <kbd>[Master list of baseline Indicators Library](http://dev.ihsn.org/qbank-sandbox/web/indicators){target="_blank"}</kbd> in order to leverage good practices and enforce core questions during design of the assessment form.
  
- * A <kbd>[KoboToolBox](hhtps://kobo.unhcr.org)</kbd> secured server to perform the data collection. This server uses the xlsform developed during the design phase.
+ * A <kbd>[KoboToolBox](hhtps://kobo.unhcr.org)</kbd> secure server to be used for data collection. This server uses the [xlsform](http://xlsform.org) developed during the design phase.
  
  * Multiple <kbd>[R statistical analysis scripts](https://github.com/unhcr/koboloadeR){target="_blank"}</kbd> to clean & analyse data, and then to generate automatically standard report  and to facilitate the creation of presentation slides and infographics.
  
- * A <kbd>[Github Repository](https://github.com/unhcr/Integrated-framework-household-survey){target="_blank"}</kbd> to exchange collaboratively analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself. Suggestions for this toolkit can be [posted here](https://github.com/unhcr/Integrated-framework-household-survey/issues){target="_blank"}.
+ * A <kbd>[Github Repositories](https://github.com/unhcr/Integrated-framework-household-survey){target="_blank"}</kbd> to facilitate collaborative analysis between operations and generate a knowledge base. Github is also used for the maintenance of the toolkit itself. Suggestions for this toolkit can be [posted here](https://github.com/unhcr/Integrated-framework-household-survey/issues){target="_blank"}.
 </div>
 
 ## For whom?
 
-The targeted audience of the toolkit are *technical staff tasked to work on a protection assessment*: assessment focal points, information management officers and data scientists... The toolkit is to be used once all emergency assessment and secondary data review have been implemented and developped. With a bit of configuration at the begining, the toolkit will allow for the quick generation of results and will ensure that minimum data quality standards are enforced. In addition, because of the standard data format that are enforced through the kit, it will be possible to obtain comparable results from different operations.
+The targeted audience of the toolkit is *technical staff tasked to work on multi-sectoral needs assessments*: assessment focal points, information management officers and data scientists. The toolkit is intended for protracted situations, **after**  emergency assessments and secondary data review have been conducted. With a bit of configuration at the beginning of the process, the toolkit will ensure that minimum data quality standards are enforced and l allow for quick generation of results. . In addition, because of the standard data format presented through the toolkit, it will be possible to obtain comparable results from different operations.
 
 <div class="alert alert-warning" style="font-weight: bold;">## Disclaimer
   <p>The toolkit is a *collaborative effort*: if you have suggestions, please share them <a href="https://github.com/unhcr/Integrated-framework-household-survey/issues" style="color: white;">through this link</a>.</p>
   <p>The Toolkit is a *work in progress*: if you identify issues, please share them <a href="https://github.com/unhcr/Integrated-framework-household-survey/issues" style="color: white;">through this link</a>.</p>
 </div>
 
-## Table of Content{#tdm}
+## Table of Contents{#tdm}
 
 
 ```{r tdm semi-programmatique, results='hide', message=FALSE, echo=FALSE,  warning=FALSE, include=FALSE, cache=FALSE }

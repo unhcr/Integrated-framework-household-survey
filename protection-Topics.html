@@ -103,6 +103,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,14 +113,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -260,7 +323,7 @@ $(document).ready(function () {
 
 <div id="TOC">
 <ul>
-<li><a href="#the-right-based-approach">The Right based approach</a></li>
+<li><a href="#the-rights-based-approach">The Rights-based approach</a></li>
 <li><a href="#vulnerability-profile">Vulnerability Profile</a></li>
 <li><a href="#analysis-topics">Analysis Topics</a><ul>
 <li><a href="#favourable-protection-environment">Favourable Protection Environment</a></li>
@@ -273,18 +336,17 @@ $(document).ready(function () {
 </div>
 
 <div class="important">
-<p>Translate assessment results into programmatic response recommendations is challenging when it comes to protection activities.</p>
-<p>The analysis of vulnerabilities allows to generate protection activities recommendations.</p>
+<p>Translating assessment results into programmatic response recommendations is challenging when it comes to protection activities.</p>
+<p>The analysis of vulnerabilities allows to generate protection intervention recommendations.</p>
 <p>The analysis of vulnerabilities is complex as it should allow to understand:</p>
 <ul>
 <li>How <strong>multiple vulnerabilities</strong> interact between each other (prioritisation through criticality)?</li>
 <li>What is, for <strong>each vulnerability type</strong>, the specific profile of a population group in terms of magnitude and severity?</li>
 </ul>
 </div>
-<p>Translate assessment results into programmatic response recommendations is challenging when it comes to protection activities.</p>
-<div id="the-right-based-approach" class="section level2">
-<h2>The Right based approach</h2>
-<p>Protection programme are designed according to the <a href="https://en.wikipedia.org/wiki/Rights-based_approach_to_development">Right Based approach</a>. As such, more than the needs, it is the vulnerability of specific population group toward right violation that informs ressources allocation.</p>
+<div id="the-rights-based-approach" class="section level2">
+<h2>The Rights-based approach</h2>
+<p>Protection programme are designed according to the <a href="https://en.wikipedia.org/wiki/Rights-based_approach_to_development">Rights-Based approach</a>. As such, more than the needs, it is the vulnerability of specific population group towards rights violation that informs resources allocation.</p>
 <p>Vulnerability level for each specific risk = function(risk <strong>occurrence</strong>) + function(<strong>exposure</strong> to risk of basic right violation) + function(<strong>coping capacity</strong> before or after violation)</p>
 <p>Protection activities for UNHCR:</p>
 <ul>
@@ -374,9 +436,9 @@ $(document).ready(function () {
 <h2>Vulnerability Profile</h2>
 <p>On each topic, the protection assessment should allow to identify the affected population’s vulnerability profile:</p>
 <ul>
-<li>Threat in terms of <strong>criticality</strong> , i.e how important is the threat compared to other. This is measured through priority ranking.</li>
-<li>Threat in terms of occurence in order to define <strong>magnitude</strong></li>
-<li>Capacities and capabilities in order to define <strong>severity</strong> – “Severity” (or intensity) expresses the degree of unmet needs (it is thus related to shortages and deficits, as opposed to fulfillment and wellbeing) or the egree of something harmful, harsh, stern, irreversible or not desirable. As such it is expressed through a form of rating.</li>
+<li><p>Threat in terms of <strong>criticality</strong> , i.e. how important is the threat compared to other. This is measured through priority ranking.</p></li>
+<li><p>Threat in terms of occurrence in order to define <strong>magnitude</strong></p></li>
+<li><p>Capacities and capabilities in order to define <strong>severity</strong> – “Severity” (or intensity) expresses the degree of unmet needs (it is thus related to shortages and deficits, as opposed to fulfillment and wellbeing) or the degree of something harmful,harsh, stern, irreversible or not desirable. As such it is expressed through a form of rating.</p></li>
 </ul>
 <p>The vulnerability profile (combination of criticality/magnitude/severity) for each topic will allow to prioritise the relevant activities. <a href="http://aldo-benini.org/Level2/HumanitData/Benini_forACAPS_SeverityAndPriority_2013.pdf">Severity and Priority</a> are therefore appropriate way to measure vulnerability.</p>
 <p>The risk profile will help designing the best intervention approach for each group:</p>
@@ -439,7 +501,7 @@ $(document).ready(function () {
 <p>List of analysis modules:</p>
 <ul>
 <li>Social cohesion</li>
-<li>Housing, shelter &amp; wash conditions</li>
+<li>Housing, shelter &amp; WASH (Water, Sanitation &amp; Hygien) conditions</li>
 <li>Employment &amp; livelihood</li>
 <li>Child Labour</li>
 <li>Assets &amp; Budget</li>

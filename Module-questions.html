@@ -103,6 +103,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,14 +113,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -268,9 +331,9 @@ $(document).ready(function () {
 <li><a href="#part-2-household-condition">Part 2: Household condition</a></li>
 <li><a href="#part-3-household-composition">Part 3: Household composition</a></li>
 <li><a href="#part-4-basic-needs-and-essential-services">Part 4: Basic Needs and Essential Services</a></li>
-<li><a href="#part-5-protection-right">Part 5: Protection &amp; Right</a></li>
+<li><a href="#part-5-protection-rights">Part 5: Protection &amp; Rights</a></li>
 <li><a href="#part-6-attitude-perception">Part 6: Attitude &amp; perception</a></li>
-<li><a href="#conclusion">conclusion</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul></li>
 <li><a href="#question-design">Question design</a><ul>
 <li><a href="#checklist-used-to-review-questions">Checklist used to review questions</a></li>
@@ -280,7 +343,6 @@ $(document).ready(function () {
 </ul></li>
 <li><a href="#using-the-modules">Using the modules</a><ul>
 <li><a href="#the-xlsform-format">The XLSFORM format</a></li>
-<li><a href="#filtering-the-questions">Filtering the questions</a></li>
 <li><a href="#questionnaire-analysis-report">Questionnaire analysis report</a></li>
 </ul></li>
 </ul>
@@ -289,17 +351,17 @@ $(document).ready(function () {
 <div class="important">
 <p>Objective of the standardised question modules:</p>
 <ul>
-<li>Avoid replicating <strong>bad practices</strong></li>
-<li>Ensure that all <strong>topics of interest</strong> are well covered in the analysis framework</li>
-<li>Check that for each selected topcis, all <strong>required questions</strong> to calculate the indicators and vulnerability profile (severity, magnitude, criticality) are included</li>
-<li>Deliver quickly <strong>final reports</strong> through reproducible analysis workflow</li>
-<li>Collect information at case level and record links between case that forms a household</li>
+<li><p>Avoid replicating <strong>bad practices</strong>;</p></li>
+<li><p>Ensure that all <strong>topics of interest</strong> are well covered in the analysis framework;</p></li>
+<li><p>Check that for each selected topics, all <strong>required questions</strong> to calculate the indicators and vulnerability profile (severity, magnitude, criticality) are included;</p></li>
+<li><p>Deliver <strong>final reports</strong> quickly through reproducible analysis workflow;</p></li>
+<li><p>Collect information at case level and record links between case that forms a household.</p></li>
 </ul>
 </div>
 <div id="intro-from-the-plan-to-the-form" class="section level2">
 <h2>Intro: from the plan to the form</h2>
 <p>During the design stage of the assessment, the team must consider how each data element collected will be compiled, aggregated, analysed and disseminated to satisfy the information needs. The data analysis plans allow the assessment team to identify data elements on data collection forms that are not analysable as well as information management requirements that have not been met. Once missing data elements have been identified, forms can be amended accordingly by modifying, removing or adding data elements.</p>
-<p>A common mistake for assessment teams is to collect too much data that is neither analysable nor will be used in decision making. The temptation to ask too many questions means that teams gather poorer quality data which obstruct useful analysis. If a data analysis plan shows that too much data will be collected, then data collection forms should be revised and shortened accordingly.</p>
+<p>A common mistake for assessment teams is to collect too much data that is neither analysable nor will be used in decision making. The temptation to ask too many questions means that teams gather poorer quality data which obstructs useful analysis. If a data analysis plan shows that too much data will be collected, then data collection forms should be revised and shortened accordingly.</p>
 <p>Each data element collected should be linked to:</p>
 <ul>
 <li>An information need linked to a Protection Topic</li>
@@ -338,7 +400,7 @@ $(document).ready(function () {
 </div>
 <div id="questions-modules" class="section level2">
 <h2>Questions modules</h2>
-<p>The Household level Assessment includes different parts that includes a series of modules. The selection of required modules will be done through a participatory assessment. Each module allow to define a series of indicators. Questions to be used in each module are extracted whenever possible from the <a href="http://qbank.ihsn.org/web/app.php/questionnaires">IHSN Question Bank</a>.</p>
+<p>The Household level Assessment includes different parts that includes a series of modules. The selection of required modules will be done through a participatory assessment. Each module allows to define a series of indicators. Questions to be used in each module are extracted whenever possible from the <a href="http://qbank.ihsn.org/web/app.php/questionnaires">IHSN Question Bank</a>.</p>
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
 <p>Introduction should include the follwoing mains elements</p>
@@ -384,8 +446,8 @@ $(document).ready(function () {
 <li>Self-expressed Needs (Hesper scale)</li>
 </ul>
 </div>
-<div id="part-5-protection-right" class="section level3">
-<h3>Part 5: Protection &amp; Right</h3>
+<div id="part-5-protection-rights" class="section level3">
+<h3>Part 5: Protection &amp; Rights</h3>
 <p><strong>Eligibility</strong>: To be administered to every household in the main sample.</p>
 <ul>
 <li>Civil status documentation</li>
@@ -414,10 +476,10 @@ $(document).ready(function () {
 </ul>
 </div>
 <div id="conclusion" class="section level3">
-<h3>conclusion</h3>
+<h3>Conclusion</h3>
 <p>Additional elements to be filled by the enumerator at the end of the interview.</p>
 <ul>
-<li>Subjective Enumerator Evaluation</li>
+<li>Subjective Enumerator Evaluation – clearly outlining which elements should be considered for each vulnerability category</li>
 <li>Referral (if needed)</li>
 </ul>
 </div>
@@ -455,15 +517,15 @@ $(document).ready(function () {
 <div id="locations-geography" class="section level3">
 <h3>Locations &amp; Geography</h3>
 <p>Pcoding location within a form is an important taks</p>
-<p>it is possible to add pcode through a reference file, <em>itemsets.csv</em>, is available for each country. This reference file can be used when creating <a href="http://xlsform.org/#cascade">Cascading selects</a> questions using the <a href="http://xlsform.org/#external">select_one_external</a> function within XLSFORM questionnaires. The itemsets.csv file can be uploaded to UNHCR Kobo Server as a media file. It will be downloaded to any Kobo Collect like any other media file and saved to the [form-filename]-media folder. Clients like Kobo Collect load media files from the SD card and so a field data collection form with all locations within the country can load very quickly.</p>
+<p>It is possible to add pcode through a reference file, <em>itemsets.csv</em>, which is available for each country. This reference file can be used when creating <a href="http://xlsform.org/#cascade">Cascading selects</a> questions using the <a href="http://xlsform.org/#external">select_one_external</a> function within XLSFORM questionnaires. The itemsets.csv file can be uploaded to UNHCR Kobo Server as a media file. It will be downloaded to any Kobo Collect like any other media file and saved to the [form-filename]-media folder. Clients like Kobo Collect load media files from the SD card and so a field data collection form with all locations within the country can load very quickly.</p>
 <p><em>itemsets.csv</em> for the MENA region countries can be downloaded from <a href="http://unhcr-mena.github.io/p-codes/">UNHCR MENA pcode</a></p>
 </div>
 <div id="likert-questions" class="section level3">
 <h3>Likert questions</h3>
-<p><a href="https://en.wikipedia.org/wiki/Likert_scale">Likert scale</a> also called “opininion scale” desribe a way to formulate questions related to opinion. A Likert item is simply a statement that the respondent is asked to evaluate by giving it a quantitative value on any kind of subjective or objective dimension, with level of agreement/disagreement being the dimension most commonly used.</p>
+<p><a href="https://en.wikipedia.org/wiki/Likert_scale">Likert scale</a> - also called “opinion scale” - describe a way to formulate questions related to opinion. A Likert item is simply a statement that the respondent is asked to evaluate by giving it a quantitative value on any kind of subjective or objective dimension, with level of agreement/disagreement being the dimension most commonly used.</p>
 <p><strong>Rating questions</strong> are often much easier to understand by individual than <strong>ranking questions</strong> where people may be forced to make one item worse or better than another, when they actually find them equal. Psychological research has proven that it’s a very tough thing for people to rank more than three options. When people are given a cognitively difficult task like ranking question choices of for instance six things, often they will end up getting frustrated and will start to rank choices randomly. This will lead to higher dropout rates and even worse, messy data.</p>
-<p>Likert questions allows for each individual parts to have the same value, if that is how people feel about them. Last the analysis of rating is more intuitve than the one of a rank that in addition might not have much statistical significance. Also from likert questions, it’s possible to compute an average score from each separate ratings in order to get an overall ranking through a <a href="https://en.wikipedia.org/wiki/Borda_count">Borda Count</a>.</p>
-<p>When designing likert questions, attention need to be given to specific <a href="http://www.uwex.edu/ces/4h/evaluation/documents/Wordingforratingscales.pdf">design issues</a> specifically in terms of wording.</p>
+<p>Likert questions allows for each individual part to have the same value, if that is how people feel about them. Last the analysis of a rating is more intuitive than the one of a rank that in addition might not have much statistical significance. Also from Likert questions, it’s possible to compute an average score from each separate ratings in order to get an overall ranking through a <a href="https://en.wikipedia.org/wiki/Borda_count">Borda Count</a>.</p>
+<p>When designing Likert questions, attention need to be given to specific <a href="http://www.uwex.edu/ces/4h/evaluation/documents/Wordingforratingscales.pdf">design issues</a> specifically in terms of wording.</p>
 <ol style="list-style-type: decimal">
 <li>Length of the scale: limit the number of points along the scale.</li>
 <li>Odd or even point scale: There should not be preferred or better choice.</li>
@@ -528,29 +590,24 @@ $(document).ready(function () {
 <h2>Using the modules</h2>
 <div id="the-xlsform-format" class="section level3">
 <h3>The XLSFORM format</h3>
-<p><a href="http://xlsform.org/">XLSFROM</a> is a standard way to describe a form. It includes information not only on the type of questions but also on:</p>
+<p><a href="http://xlsform.org/">XLSFORM</a> is a standard way to describe a form / questionnaire. It includes information not only on the type of questions but also on:</p>
 <ul>
 <li>Hints in order to add comments on methodology</li>
-<li>Contraints to avoid entering uncorrect information</li>
+<li>Contraints to avoid entering incorrect information</li>
 <li>Relevant to allow for skip logic</li>
 <li>Support for multiple language</li>
 <li>Possibility to perfom calculation for data quality checking</li>
 <li>Possibility to repeat the same questions in a loop.</li>
 </ul>
-</div>
-<div id="filtering-the-questions" class="section level3">
-<h3>Filtering the questions</h3>
-<p>The question library is an <a href="">online google spreasheet</a> where a sries of questions are organised around multiple categories</p>
-<p>To use it, simply copy or donwload the library, filter out the question you are not interested in and delete them.</p>
 <p>The next step will be then to <a href="Guidelines-for-Customisation.html">customise the form</a></p>
 </div>
 <div id="questionnaire-analysis-report" class="section level3">
 <h3>Questionnaire analysis report</h3>
-<p>The libary can generate a short report that sumerrise:</p>
+<p>The libary can generate a short report that summarises:</p>
 <ul>
-<li>What topcis are covered by the form</li>
-<li>Check that for each topics, questions are selected to allow for the estimation of magnitude, criticality &amp; severity</li>
-<li>Summarise questions that can be raised in key Informant Interview, samples household interview, on site household interview or Focus group Discussions.</li>
+<li><p>What topics are covered by the form</p></li>
+<li><p>Check that for each topics, questions are selected to allow for the estimation of magnitude, criticality &amp; severity</p></li>
+<li><p>Summarise questions that can be raised in key Informant Interview, samples household interview, on site household interview or Focus group Discussions.</p></li>
 </ul>
 </div>
 </div>

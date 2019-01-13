@@ -103,6 +103,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,14 +113,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -266,30 +329,27 @@ $(document).ready(function () {
 </div>
 
 <div class="important">
-<p>Whether it is for the data collection or the analysis, protection assessment are often done in partnership. To avoid confusion and misunderstnading within the proces, it is recommended to establish a clear Memorandum of Understanding</p>
+<p>Whether it is for the data collection or the analysis, protection assessment are often done in partnership. To avoid confusion and misunderstanding within the process, it is recommended to establish a clear Memorandum of Understanding.</p>
 </div>
 <div id="implementation-model" class="section level2">
 <h2>Implementation Model</h2>
-<p>According to the particular context, the assessment might be implemented using une of the following models :</p>
+<p>According to the particular context, the assessment might be implemented using one of the following models:</p>
 <ul>
-<li>Assigning full data collection responsibility to different agencies in different geographic areas</li>
-<li>Pooling human and logistical resources centrally</li>
-<li>Delegating data collection responsibilities to one or more NGO partners, ideally local NGOs, through a project agreement.</li>
+<li><p>Assigning full data collection responsibility to different agencies in different geographic areas.</p></li>
+<li><p>Pooling human and logistical resources centrally.</p></li>
+<li><p>Delegating data collection responsibilities to one or more NGO partners, ideally local NGOs, through a project agreement.</p></li>
 </ul>
 <p>Regardless of the model chosen, it is important to observe four principles:</p>
 <ul>
-<li>The objectives and methodology of the asessment need to be decided by consensus among particpant. Agencies who assume particular data collection responsibilities do not acquire a privileged say in choosing indicators, sites or data collection methods.<br />
-</li>
-<li>Particpant contribute resources to the implementation of the asessment, to the measure of their capacities and possibilities.<br />
-</li>
-<li>Common standards and understanding of assessment questions need to be agreed and maintained.<br />
-</li>
-<li>Clear focal points need to be appointed per each particpating organisation with operational responsibility for data collection.</li>
+<li><p>The objectives and methodology of the assessment need to be decided by consensus among participants. Agencies who assume particular data collection responsibilities do not acquire a privileged say in choosing indicators, sites or data collection methods.</p></li>
+<li><p>Participants contribute resources to the implementation of the asessment, to the measure of their capacities and possibilities.</p></li>
+<li><p>Common standards and understanding of assessment questions need to be agreed and maintained.</p></li>
+<li><p>Clear focal points need to be appointed for each participating organisations with operational responsibility for data collection.</p></li>
 </ul>
 </div>
 <div id="field-level-memorandum-of-understanding" class="section level2">
 <h2>Field Level Memorandum of Understanding</h2>
-<p>The following is an outdated example that might provide some inspiration for the inital drafting of the memorandum. Any memorandum needs to be cleared by the Bureau before signature.</p>
+<p>The following is an outdated example that might provide some inspiration for the initial drafting of the memorandum. Any memorandum needs to be cleared by the Bureau before signature.</p>
 <div id="scope-of-works" class="section level4">
 <h4>Scope of Works</h4>
 <p>The following is an example of MoU.</p>

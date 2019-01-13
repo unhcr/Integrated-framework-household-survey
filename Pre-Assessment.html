@@ -103,6 +103,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,14 +113,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -260,14 +323,19 @@ $(document).ready(function () {
 
 
 <div class="important">
-<p>A few task needs to be completed before the proper initiation of the assessment. It includes: * Informing key community stakeholders about the assessment, * Gathering critical site information required for effective primary data collection, * Confirming (or refuting) assumptions made in the planning stage, including logistics issues, travel time, limits of accessibility, and time available for fieldwork as well as highlighting implications of security issues (curfews, movements of armed actors, and risks of mines or explosive remnants of war).</p>
+<p>A few tasks need to be completed before the proper initiation of the assessment. These include:</p>
+<ul>
+<li><p>Informing key community stakeholders about the assessment,</p></li>
+<li><p>Gathering critical site information required for effective primary data collection,</p></li>
+<li><p>Confirming (or refuting) assumptions made in the planning stage, including logistics issues, travel time, limits of accessibility, and time available for fieldwork as well as highlighting implications of security issues (curfews, movements of armed actors, and risks of mines or explosive remnants of war).</p></li>
+</ul>
 </div>
-<p>It is recommended that, before actual data collection in the field, a preparatory visit is done to each site of the assessment. This site preparation visit is the first contact between the assessment team and affected communities.</p>
+<p>It is recommended that, before actual data collection takes place in the field, a preparatory visit is done to each site of the assessment. This site preparation visit is the first contact between the assessment team and affected communities.</p>
 <p>During site preparation (which can be undertaken by the field team leader, together with a second team member), meetings are held with key stakeholders in which team members will:</p>
 <ul>
 <li>Introduce themselves,</li>
 <li>Introduce the assessment objectives,</li>
-<li>Agree the assessment schedule and confirm that is suitable to the community and that will include representation of necessary population groups as planned, including those most vulnerable,<br />
+<li>Agree the assessment schedule and confirm that it is suitable to the community and that it will include representation of necessary population groups as planned, including those most vulnerable,<br />
 </li>
 <li>Work with authorities, community leaders or members of the local community to identify KI interview and FGD participants,</li>
 <li>Confirm that the site has the characteristics of the strata it has been selected for,</li>

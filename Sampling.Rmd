@@ -9,7 +9,9 @@ source("options_communes.R")
 
 <div class="important">
 
-The sampling strategy is constrainted by both available budget, field accessibility and time. The sampling approach reflects a trade off between representativity of the results, rapid delivery and  cost effectiveness.
+Sampling strategies are constrained by available budget, field accessibility and time. 
+
+hus, the chosen approach for a defined context often reflects a trade-off between representativity of the results, rapid delivery and cost effectiveness.
 
 
  
@@ -19,61 +21,60 @@ The sampling strategy is constrainted by both available budget, field accessibil
 
 ![](images/sampling_bowl.jpeg)
 
-### Declaration Bias
+
 
 
 ## Sampling strategy
 
-Sampling strategy can be either probabilistic or non-probabilistic. a good introduction can be found [here](http://www.fao.org/docrep/W3241E/w3241e08.htm)
+Sampling strategy can be either probabilistic or non-probabilistic. A good introduction can be found [here](http://www.fao.org/docrep/W3241E/w3241e08.htm)
 
 ### Non-probabilistic approaches
 
 Non-probabilistic approaches are usually **favored during the emergency phase** where both time and field access represent the main challenge. 
 
 #### Convenience sampling 
-It is a frequently used method in emergency situations. It relies on sampling those respondents who are easiest to access.
+A frequently used method in emergency situations, it relies on sampling those respondents who are easiest to access.
 
 Practically speaking those couldd be either:
-  * key Informant that are ready to report by themself 
+  * Key Informants willing to be interviewed.
   
-  * Individuals or household among those who have settled along roadsides, or who present themselves to administrative center of the returnee settlement or the assistance desk etc.  
+  * Individuals or household among those who have settled along roadsides, or who present themselves to administrative center of the returnee settlement or the assistance desk, etc.  
   
- * Advantages: Easy and quick to implement, especially when time and access are the main constraints. 
+ * __Advantages__: Easy and quick to implement, especially when time and access are the main constraints. 
  
- * Disadvantage: The danger with this type of data collection approach is that it will often lead to biased results as the sample may not be representative of the majority, i.e. those with the most resources or power are often the ones who settle in the most easily accessible areas.
+ * __Disadvantage__: The danger with this type of data collection approach is that it will often lead to biased results as the sample may not be representative of the majority, i.e. those with the most resources or power are often the ones who settle in the most easily accessible areas.
 
 
 #### Snowball sampling
 
 Snowball sampling (or [chain sampling, chain-referral sampling, referral sampling](https://en.wikipedia.org/wiki/Snowball_sampling)) is a non-probability sampling technique where existing study subjects recruit future subjects from among their acquaintances. This technique is subject to numerous biases. For example, people who have many friends are more likely to be recruited into the sample. 
 
- * Advantages: Useful when targeting specific groups that might be difficult to reach (hidden population).
+ * __Advantages__: Useful when targeting specific groups that might be difficult to reach (hidden population).
 
- * Disadvantage: This approach might underweight the most vulnerable individuals.
+ * __Disadvantage__: This approach might underweight the most vulnerable individuals.
 
 #### Purposive sampling
 It is based on previous knowledge about who might be able to provide valuable or specific information. It uses the judgement of community representatives, project staff or assessors to select typical locations and/or informants. The sampling of children or women, for example, is a type of purposive sampling.
 
 Purposive sampling can also be done through Key Informant.
 
- * Advantages: Moderately rigorous if well and clear criteria for sampling are followed. Useful when targeting specific groups of affected population or specific affected areas. Less time consuming and less expensive than representative sampling.
+ * __Advantages__: Moderately rigorous if well and clear criteria for sampling are followed. Useful when targeting specific groups of affected population or specific affected areas. Less time consuming and less expensive than representative sampling.
 
- * Disadvantage: Generalisations are biased and not recommended. Samples are not representative of population due to subjectivity of respondents.
+ * __Disadvantage__: Generalisations are biased and not recommended. Samples are not representative of population due to subjectivity of respondents.
 
-The risk of loosing certain componnent of the population can be addressed by defining strata within the purposive sample.
+The risk of losing certain componnent of the population can be addressed by defining strata within the purposive sample.
 
-
-In the case of Desk interview or key Informant, the more observation the better. Some kind of [credibility scoring](http://iomiraqdtm.info/Downloads/00-%20DTM%20Methodology%20Documents/DTM_LA_Credibility_Scoring_Methodology.pdf) can be obtained for each locations based on a review of the key informant. 
+In the case of Desk interview or key Informant, the more observations the better. Some kind of [credibility scoring](http://iomiraqdtm.info/Downloads/00-%20DTM%20Methodology%20Documents/DTM_LA_Credibility_Scoring_Methodology.pdf) can be obtained for each locations based on a review of the key informant. 
 
 
 #### Quota sample
 
-A quota sample might be representative of the population (if quotas actually do work, which they not always do). But a quota sample will never satisfy the strict randomness requirements that statistics require. 
+A quota sample might be representative of the population (if quotas actually do work, which is not always the case). But a quota sample will never satisfy the strict randomness requirements that statistics require. 
 Only if we are working with a random sample can we make inferences from the sample to the population. In quota samples, there is not sufficient randomness, as the interviewer selects the interviewees actively. 
 Therefore, quota samples cannot be used to reason about the general population.
 
 
-### Probalistics approaches
+### Probabilistic approaches
 
 Whenever the situation is becoming more **protracted**, probabilistic approaches should be favored. They will allow to generate more reliable results.
 
@@ -134,7 +135,7 @@ Usually the decision on the right confidence level and error margin to be select
 
 #### Stratified sampling  
 
-You can refer to this [Introduction video](https://www.youtube.com/watch?v=WakK8Wzmw6o&list=PLyLpEs0x9BnmPTE2RRRJW058Nf7R_2xQa&index=5) or this [presentation](http://ocw.jhsph.edu/courses/StatMethodsForSampleSurveys/PDFs/Lecture4.pdf) and this [one formt eh WFP VAM](https://resources.vam.wfp.org/sites/default/files/mVAM_Generic%20training%20for%20live%20call%20operators.pptx).
+You can refer to this [Introduction video](https://www.youtube.com/watch?v=WakK8Wzmw6o&list=PLyLpEs0x9BnmPTE2RRRJW058Nf7R_2xQa&index=5) or this [presentation](http://ocw.jhsph.edu/courses/StatMethodsForSampleSurveys/PDFs/Lecture4.pdf) and this [one frorm the WFP VAM](https://resources.vam.wfp.org/sites/default/files/mVAM_Generic%20training%20for%20live%20call%20operators.pptx).
 
 A stratified random sample can only be carried out if a complete list of the population is available. In stratified sampling the population is partitioned into groups, called strata, and sampling is performed separately within each stratum.
 
@@ -158,25 +159,28 @@ The major task of stratified sampling design is the appropriate allocation of sa
 
  * **Equal allocation**: Divide the number of sample units n equally among the k strata. This implies to use “weighted analysis” (disproportionate selection).
  
- * **Proportional to stratum size**: Make the proportion of each stratum sampled identical to the proportion of the population. A major disadvantage of proportional 
-allocation is that sample size in a stratum may be low – provide and provide unreliable stratum-specific results. In terms of analysis, data will be Self-weighted (equal proportion from each stratum). 
+ * **Proportional to stratum size**: Make the proportion of each stratum sample is identical to the proportion of the population. A major disadvantage of proportional allocation is that sample size in a stratum may be low and provide unreliable stratum-specific results. In terms of analysis, data will be Self-weighted (equal proportion from each stratum). 
 
- * Allocation based on **variance differences among the strata** (called Optimal allocation). Optimal allocation minimizes the overall variance for a specified cost, or equivalently minimizes the overall cost for a specified variance. In situations where the standard deviations of the strata are known it may be advantageous to make a disproportionate allocation. Suppose that, we had stratum A and stratum B, but we know that the individuals assigned to stratum A were more varied with respect to their opinions than those assigned to stratum B. Optimum allocation minimises the standard error of the estimated mean by ensuring that more respondents are assigned to the stratum within which there is greatest variation. Stratum variances are susually defined by previous surveys. This approach also implies to use “weighted analysis” (disproportionate selection).
+ * Allocation based on **variance differences among the strata** (called Optimal allocation). Optimal allocation minimizes the overall variance for a specified cost, or equivalently minimizes the overall cost for a specified variance. In situations where the standard deviations of the strata are known it may be advantageous to make a disproportionate allocation. Suppose that, we had stratum A and stratum B, but we know that the individuals assigned to stratum A were more varied with respect to their opinions than those assigned to stratum B. Optimum allocation minimises the standard error of the estimated mean by ensuring that more respondents are assigned to the stratum within which there is greatest variation. Stratum variances are usually defined by previous surveys. This approach also implies to use “weighted analysis” (disproportionate selection).
  
- * Allocation based on the **relative cost of each survey record** (called Neyman Allocation).Neyman allocation is a special case of optimal allocation where the costs per unit are the same for all strata. In this case, the ideal sample allocation allow to maximize precision, given a Stratified Sample With a fixed Sample Size. The ideal sample allocation plan would provide the most precision for the least cost. This implies  to sample more heavily from a stratum when the cost to sample an element from the stratum is low, the population size of the stratum is large or the variability within the stratum is large.This approach also implies to use “weighted analysis” (disproportionate selection).
+ * Allocation based on the **relative cost of each survey record** (called Neyman Allocation). Neyman allocation is a special case of optimal allocation where the costs per unit are the same for all strata. In this case, the ideal sample allocation allow to maximize precision, given a Stratified Sample With a fixed Sample Size. The ideal sample allocation plan would provide the most precision for the least cost. This implies  to sample more heavily from a stratum when the cost to sample an element from the stratum is low, the population size of the stratum is large or the variability within the stratum is large. This approach also implies to use “weighted analysis” (disproportionate selection).
  
  
-Typically, when developping the stata definition, in case of optimal or neyman allocation, i.e. when stratea variance are already known through a previous survey, the following objectives can be looked at:
- * Find minimum sample size, given a fixed error
- * Find minimum error, given a fixed sample size
- * Find minimum error, given a fixed budget
- * Find minimum cost to achieve a fixed error
+Typically, when developing the stata definition, in case of optimal or Neyman allocation, i.e. when stratea variance are already known through a previous survey, the following objectives can be looked at:  
+
+ * Find minimum sample size, given a fixed error  
+ 
+ * Find minimum error, given a fixed sample size  
+ 
+ * Find minimum error, given a fixed budget  
+ 
+ * Find minimum cost to achieve a fixed error  
  
 
 
 Typical workflow to define sample size in case of stratified sampling: 
 
-  1. Choose the stratification (e.g.regions, district,….)
+  1. Choose the stratification (e.g.regions, district…)
   2. Define the population (N) of each strata
   3. Decide on key indicator(s)
   4. Estimate mean & variance or prevalence of key indicator
@@ -209,34 +213,36 @@ Cluster sampling are therefore not relevant when techniques such as phone interv
 
 Given equal sample sizes, cluster sampling usually provides less precision than either simple random sampling or stratified sampling. 
 
-different approaches can be used for cluster sampling
+Different approaches can be used for cluster sampling
 
   * One-stage sampling. All of the elements within selected clusters are included in the sample.
   * Two-stage sampling. A subset of elements within each selected cluster is randomly selected for inclusion in the sample.
 
-#### Sampling With Replacement and Sampling Without Replacement
+#### Sampling with Replacement and Sampling without Replacement
 
 ##### What is replacement?
 
-When a population element can be selected more than one time, we are sampling with replacement. When a population element can be selected only one time, we are sampling without replacement.  When we sample with replacement, the two sample values are independent. Practically, this means that what we get on the first one doesn't affect what we get on the second. Mathematically, this means that the covariance between the two is zero.In sampling without replacement, the two sample values aren't independent. Practically, this means that what we got on the for the first one affects what we can get for the second one. Mathematically, this means that the covariance between the two isn't zero. 
+When a population element can be selected more than one time, we are sampling with replacement. When a population element can be selected only one time, we are sampling without replacement.  When we sample with replacement, the two sample values are independent. Practically, this means that what we get on the first one doesn't affect what we get on the second. Mathematically, this means that the covariance between the two is zero. In sampling without replacement, the two sample values aren't independent. Practically, this means that what we got for the first one affects what we can get for the second one. Mathematically, this means that the covariance between the two isn't zero. 
 
-##### Whith or without?
-In small populations and often in large ones, sampling is typically done "without replacement", i.e., one deliberately avoids choosing any member of the population more than once. 
+##### With or without? 
 
-Less commonly, sampling can also be conducted with replacement. This allow to address low response rate. 
+In small populations and often in large ones, sampling is typically done "without replacement", i.e. , one deliberately avoids choosing any member of the population more than once. 
 
-For a small sample from a large population, sampling without replacement is approximately the same as sampling with replacement, since the odds of choosing the same individual twice is low. This can be measure by calculating the covariance: how much two items’s probabilities are linked together. The higher the covariance, the more the results can be influenced. A covariance of zero would mean there’s no difference between sampling with replacement or sampling without.
+Less commonly, sampling can also be conducted with replacement. This allows to address low response rate. 
+
+For a small sample from a large population, sampling without replacement is approximately the same as sampling with replacement, since the odds of choosing the same individual twice is low. This can be measure by calculating the covariance: how much two items’ probabilities are linked together. The higher the covariance, the more the results can be influenced. A covariance of zero would mean there’s no difference between sampling with replacement or sampling without.
 
 
-##### The specific case of phone surveys
-As explained in this [paper](http://www.statcan.gc.ca/pub/12-001-x/2001002/article/6089-eng.pdf), bias may be introduced into population estimates through telephone surveys, however, by the exclusion of nontelephone households from these surveys.The bias introduced can be significant since "non-telephone households" may differ from telephone households in ways that are not adequately handled by poststratification. Many households, called “transients”, move in and out of the telephone population during the year, sometimes due to economic reasons or relocation. The transient telephone population may be representative of the non-telephone population in general since its members have recently been in the non-telephone population.
+##### The specific case of phone surveys 
+
+As explained in this [paper](http://www.statcan.gc.ca/pub/12-001-x/2001002/article/6089-eng.pdf), bias may be introduced into population estimates through telephone surveys, however, by the exclusion of non-telephone households from these surveys. The bias introduced can be significant since "non-telephone households" may differ from telephone households in ways that are not adequately handled by poststratification. Many households, called “transients”, move in and out of the telephone population during the year, sometimes due to economic reasons or relocation. The transient telephone population may be representative of the non-telephone population in general since its members have recently been in the non-telephone population.
 
 
 ## Sample Weight
 
 Over-sampling in regions with small populations ensures that they have a large enough sample to be representative. Under-sampling is done in regions with large populations to save costs. Sample weights are mathematical adjustments applied to the data to correct for over-sampling, under-sampling, and different response rates to the survey in different regions.
 
-### How are the oversampled/undersampled areas corrected in data analysis?
+### How are the oversampled/ undersampled areas corrected in data analysis?
 
 The samples are designed to permit data analysis of regional subsets within the sample population. When the expected number of cases for some of these regions is too small for analysis, it is necessary to oversample those areas. When the expected number of cases for some of these regions is unnecessarily large, those areas may be undersampled to accommodate logistical or budgetary constraints.
 
