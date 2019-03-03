@@ -365,10 +365,15 @@ $(document).ready(function () {
 <div id="variable-encoding" class="section level3">
 <h3>Variable Encoding</h3>
 <ul>
-<li><p>The “name” column must be within 32 characters, cannot begin with a number or any special character and cannot contain any spaces in between; otherwise ODK Validate will issue an error.</p></li>
-<li><p>Please use a short meaningfull name for your variable rather than a code like Q1 or Q2.</p></li>
-<li><p>In order to anticipate the analysis with a statistical package like <a href="https://unhcr.github.io/koboloadeR/docs/">koboloadeR</a>, limit variable names lenght to 12 characters and do not start a variable name with a number</p></li>
+<li><p>The “name” column must be within 32 characters, cannot begin with a number or any special character and cannot contain any spaces in between; otherwise ODK Validate will issue an error. The longer your name is and the more time you will have to spend searching for what that specific variable or choice is in your database. Also, Kobo doesn’t accept answer choice names that contain more than 32 characters and question/ variable names no longer than 30 characters</p></li>
+<li><p>Please use a short meaningfull name for your variable rather than a code like Q1 or Q2. The name should mean something to you and should be clear as to what it refers to.</p></li>
+<li><p>Having a consistent and harmonised naming system throughout your survey, with descriptive/meaningful and easy to remember names for your variables/questions and choices, will allow you to quickly find the variable(s) to be modified. On the contrary, should you have a non-harmonised naming system with names that are non-descriptive, it will take you much more time than expected to find the variables of interest and to modify them.</p></li>
+<li><p>In order to anticipate the analysis with a statistical package like <a href="https://unhcr.github.io/koboloadeR/docs/">koboloadeR</a>, limit variable names lenght to 12 characters and do not start a variable name with a number.</p></li>
+<li><p>Avoid underscores («_») in the technical name of the variable. It can sometimes be recognised as a «separator» by certain statistical packages. Do not hesitate to rather use the «camelCase» (consists on writing a group of words in lowercase with the first letter of the lined words in uppercase).</p></li>
+<li><p>Name should not contain any spaces, accentuation (“à è ô”) or special characters (“+”, “%”, “&amp;”,“(“, “/”, etc.).</p></li>
+<li><p>Names should not start with a number: You can use numbers in your names, but rather at the end or in the middle of your name so that it is instantly clearer as to what information it refers to.</p></li>
 </ul>
+<p>More tips on variable name encoding are available <a href="https://www.dropbox.com/s/em0s143xniqvc7j/Recommendations%20for%20the%20naming%20of%20questions%20variables%20and%20answer%20choices_EN_1802.pdf?dl=0">here</a></p>
 </div>
 <div id="labeling-questions" class="section level3">
 <h3>Labeling questions</h3>
@@ -446,6 +451,7 @@ $(document).ready(function () {
 <li><p><a href="https://opendatakit.org/help/form-design/">Open data kit Form design guides</a></p></li>
 <li><p><a href="https://opendatakit.org/help/form-design/workarounds/">Open data kit work around</a></p></li>
 <li><p><a href="https://opendatakit.org/help/training-guides/">Other training guides</a></p></li>
+<li><p><a href="https://www.mdc-toolkit.org/design-your-forms/">Tips from the Mobile Data Collection Toolkit</a></p></li>
 <li><p><a href="http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/">Advanced XLSFORM coding tips #1</a></p></li>
 <li><p><a href="http://blog.cartong.org/2015/08/21/advanced-xls-forms-coding-2/">Advanced XLSFORM coding tips #2</a></p></li>
 <li><p><a href="https://odk.acf-e.org/odk/LinkedDocuments/Annex%204%20ODK%20ACF-E%20How%20to%20author%20surveys%20for%20ODK.pdf">ACF XLSFORM coding tips</a></p></li>

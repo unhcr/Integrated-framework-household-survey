@@ -45,11 +45,21 @@ Good questionnaire design can save hours at latter stage for the person that wil
 
 ### Variable Encoding
 
- * The "name" column must be within 32 characters, cannot begin with a number or any special character and cannot contain any spaces in between; otherwise ODK Validate will issue an error. 
+ * The "name" column must be within 32 characters, cannot begin with a number or any special character and cannot contain any spaces in between; otherwise ODK Validate will issue an error. The longer your name is and the more time you will have to spend searching for what that specific variable or choice is in your database. Also, Kobo doesn’t accept answer choice names that contain more than 32 characters and question/ variable names no longer than 30 characters
  
- * Please use a short meaningfull name for your variable rather than a code like Q1 or Q2. 
+ * Please use a short meaningfull name for your variable rather than a code like Q1 or Q2. The name should mean something to you and should be clear as to what it refers to.
  
- * In order to anticipate the analysis with a statistical package like [koboloadeR](https://unhcr.github.io/koboloadeR/docs/), limit variable names lenght to 12 characters and do not start a variable name with a number
+ * Having a consistent and harmonised naming system throughout your survey, with descriptive/meaningful and easy to remember names for your variables/questions and choices, will allow you to quickly find the variable(s) to be modified. On the contrary, should you have a non-harmonised naming system with names that are non-descriptive, it will take you much more time than expected to find the variables of interest and to modify them.
+ 
+ * In order to anticipate the analysis with a statistical package like [koboloadeR](https://unhcr.github.io/koboloadeR/docs/), limit variable names lenght to 12 characters and do not start a variable name with a number.
+ 
+ * Avoid underscores («_») in the technical name of the variable. It can sometimes be recognised as a «separator» by certain statistical packages. Do not hesitate to rather use the «camelCase» (consists on writing a group of words in lowercase with the first letter of the lined words in uppercase).
+ 
+ * Name should not contain any spaces, accentuation (“à è ô”) or special characters (“+”, “%”, “&”,“(“, “/”, etc.).
+ 
+ * Names should not start with a number: You can use numbers in your names, but rather at the end or in the middle of your name so that it is instantly clearer as to what information it refers to.
+ 
+More tips on variable name encoding are available [here](https://www.dropbox.com/s/em0s143xniqvc7j/Recommendations%20for%20the%20naming%20of%20questions%20variables%20and%20answer%20choices_EN_1802.pdf?dl=0) 
  
  
 ### Labeling questions
@@ -149,6 +159,8 @@ Additional tutorials and tips can be found through the following links:
  * [Open data kit work around](https://opendatakit.org/help/form-design/workarounds/)  
 
  * [Other training guides](https://opendatakit.org/help/training-guides/)
+ 
+ * [Tips from the Mobile Data Collection Toolkit](https://www.mdc-toolkit.org/design-your-forms/)
 
  * [Advanced XLSFORM coding tips #1](http://blog.cartong.org/2015/08/11/advanced-xls-forms-coding-1/)  
 
