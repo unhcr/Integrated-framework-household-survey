@@ -86,7 +86,7 @@ Describe here the observations, suggestions, and decisions related to the assess
 The purpose of these guidelines is to provide an overview of the statistical processes needed to test the validity and reliability of any questionnaire. Validity is the extent to which the inferences or decisions we make by the questionnaire are meaningful, appropriate, and useful. In other words, a questionnaire is said to be valid to the extent that it measures what it is supposed to measures or can be used for the purpose for which it is intended. Validity alone is not enough to consider the questionnaire useful. A valid questionnaire should also be reliable. Statistically, a reliable questionnaire should produce consistent, replicable outcomes. There are several aspects of reliability and validity that need to be considered before arriving at a final distributable version of the questionnaire. This exercise is expected to take four weeks and is a critical step to ensure data quality.
  
 
-### Pre-piloting
+## Pre-piloting
 There are specific steps to be taken and areas to be covered before piloting the questionnaire:
 
 1-	The dimensions that will be measured by the questionnaire should be identified: the purpose of questionnaires is to collect data and to measure aspects that cannot be measured directly. In questionnaire design, the common practice is to assume that several dimensions are measured, and groups of questions measure different dimensions. For example, socioeconomic indicators and income/expenses related questions can be used as a proxy to profile individuals or households financially. This group of questions we can call it the socioecomonic dimension. As part of the validation process, these groups (dimensions) should be pre-defined before the piloting. For example Q1 – Q5 measure dimension A, Q6 – Q10 measure dimension B, etc. If the there is an ambiguity in some indicators as where they belong e.g., we may consider them in more than one dimenison or we are not sure where to include these indicators, then a statistical tests should be applied after the piloting to check the tool dimensionality (Priciple Component Analysis, Factor Analysis, Structural Equation Modelling, or Item Reponse Theory). 
@@ -94,4 +94,46 @@ There are specific steps to be taken and areas to be covered before piloting the
 2-	The questionnaire is face and content validated: Face validation is the process of assessing the relevance of the questions subjectively by experts. An additional aspect is to evaluate covering all facets of a given dimension, content validity. At least two external ‘experts’ (should not be from the design team) have reviewed the questionnaire and approved the final piloting form. The common practice is to ask each ‘expert’ as an example, two officers from the protection team to rate the relevance of each question to the dimension being measured and the objectives of the questionnaire. The raters identify each question by a score of +1 (favourable) or 0 (unfavourable). Review the questionnaire and adjust it to the experts’ feedback, then return it for another round of rating. This process can be repeated until an agreement is reached on a final version.
 
 3-	The translation from English to any other language should be validated through translate-re-translate process: any version of the questionnaire that is not in English should be translated to for instance to Arabic by a second party (different than the questionnaire designers), then the translated version is translated back to English by a third party (different than the previous two). The re-translated version should be compared with the original one to detect any discrepancies. Any significant issues should be solved by working with translators to assess using the appropriate words and phrases to keep the meaning consistent.
+
+## Piloting
+
+The piloting phase consists of two stages, and together they are referred to as the test-retest. The test-retest consists of asking the same participants to answer the same questionnaire twice over a predefined period. This process is necessary to test the questionnaires consistency over time (temporal validity) and reliability as previously discussed. The test phase includes:
+
+1-	Identifying the medium of contact: phone interview or online link to the questionnaire.
+
+2-	You are obtaining consent from the participants. The consent should state the nature of the study, the voluntary nature of participation, what will be done with the information, if it will be shared with any other party, etc.
+
+3-	Clearly stating to them that they will be contacted again within maximum 3-4 weeks to do the same questionnaire again. 
+
+### Re-test phase
+
+1-	The questionnaire should be sent again within 12-13 days from the first completion.
+
+2-	If the questionnaire in the pilot phase is filled online, a reminder through e-mail or text can be sent after 3-4 days maximum after the period of 12-13 days.
+
+3-	After 21 days from the initial distribution, the re-test should be finished.
+
+4-	The final collection should not exceed the period of 21 days.
+
+## Post-Piloting
+After the collection of the data from the test-re-test phases, the reliability and validity statistical tests are applied to measure:
+
+1-	Statistical reliability: the overall consistency of a measure. A measure is said to have a high reliability if it produces similar results under consistent conditions. Statistical reliability assumes that refugees with similar profiles should to some extent give similar answers. For example, refugees with similar characteristics (socio-economic statuses, living conditions, etc.) are expected to answer questions in the same trend, to have a common outcome. If refugees with similar characteristics are answering differently, then it indicates the characteristics used are not useful to create profiles. This can be tested through Spearman’s correlation (ρ), Cohen’s Kappa, and the overall reliability of the questionnaire by Cronbach’s Alpha.
+
+2-	Face and content validity are discussed before. (See Pre-piloting section)
+
+3-	Predictive validity: It assesses the ability of the questionnaire (instrument) to forecast future events, behaviour, attitudes or outcomes. 
+
+4-	Construct Validity: is the degree to which an instrument measures the trait or theoretical construct that it is intended to measure. It does not have a criterion for comparison; rather it utilizes a hypothetical construct for comparison. This part of validation is the most complex and difficult to test, as it contains several aspects:
+
+a)	Convergence validity: There is evidence that the same concept measured in different ways yields similar results. For example, a question that is asking about something related to household condition will give a similar result to sending an enumerator or an observer to assess the household condition.
+
+b)	Discriminant validity: There is evidence that one concept is different from other closely related concepts. Questions that we assumed they measure a certain dimension should not be highly correlated with other dimensions. Concepts and dimensions should not highly overlap.
+
+c)	Known group validity: In known group validity, a group with the already established attribute of the outcome of the construct is compared with a group in whom the attribute is not yet established. Since the attribute of the two groups of respondents is known, it is expected that the measured construct will be higher in the group with a related attribute but lower in the group with the unrelated attribute.
+
+## Refining and retuning
+
+The results of the reliability and validity will be used to determine the final shape of the questionnaire. Depending on the results, it may require undergoing through minor or major changes to the questionnaire. Minor changes, such as rephrasing 10-15% or less of the questionnaire, adding or removing choices, and/or changes in the questions order do not require repeating the previous steps. Major changes, such as removing or adding a question(s), and/or rephrasing more than 15% of the questionnaire. 
+
 
