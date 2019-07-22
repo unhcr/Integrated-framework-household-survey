@@ -268,6 +268,7 @@ The sampling phase should consist of the following steps:
 	a)	Each question and dimension in the questionnaire should have at least 3-5 observations, meaning each question must be answered by at least three participants. For example, if the questionnaire consists of 10 questions and 2 dimensions the minimum sample size = (10 + 2) × 3 = 12 × 3 = 36 participants.
 	
 	b)	A margin of at least 10% should be added to allow for missingness, errors, attrition, etc. So, using the previous example, four additional participants should be added, bringing the sample size to 40
+	
 	c)	The minimum recommended sample size, regardless of the number of questions and dimensions, is 30. A sample smaller than this would make the statistical tests lose considerable power. 
 	
 	d)	If you are implementing more than one version, each version is a different questionnaire. In other words, for example, English and Arabic versions are different from each other, and the samples should not be added together. Also, you cannot use the sample from the English or Arabic version to validate the other. If you want to test both the English and Arabic versions, each questionnaire requires its sample of at least 30 participants, or the recommended sample size described in (a) and (b). Also, the participants should not answer more than one version of the questionnaire.
