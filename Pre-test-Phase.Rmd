@@ -126,11 +126,11 @@ After the collection of the data from the test-re-test phases, the reliability a
 
 4-	Construct Validity: is the degree to which an instrument measures the trait or theoretical construct that it is intended to measure. It does not have a criterion for comparison; rather it utilizes a hypothetical construct for comparison. This part of validation is the most complex and difficult to test, as it contains several aspects:
 
-a)	Convergence validity: There is evidence that the same concept measured in different ways yields similar results. For example, a question that is asking about something related to household condition will give a similar result to sending an enumerator or an observer to assess the household condition.
+  a)	Convergence validity: There is evidence that the same concept measured in different ways yields similar results. For example, a question that is asking about something related to household condition will give a similar result to sending an enumerator or an observer to assess the household condition.
 
-b)	Discriminant validity: There is evidence that one concept is different from other closely related concepts. Questions that we assumed they measure a certain dimension should not be highly correlated with other dimensions. Concepts and dimensions should not highly overlap.
+  b)	Discriminant validity: There is evidence that one concept is different from other closely related concepts. Questions that we assumed they measure a certain dimension should not be highly correlated with other dimensions. Concepts and dimensions should not highly overlap.
 
-c)	Known group validity: In known group validity, a group with the already established attribute of the outcome of the construct is compared with a group in whom the attribute is not yet established. Since the attribute of the two groups of respondents is known, it is expected that the measured construct will be higher in the group with a related attribute but lower in the group with the unrelated attribute.
+  c)	Known group validity: In known group validity, a group with the already established attribute of the outcome of the construct is compared with a group in whom the attribute is not yet established. Since the attribute of the two groups of respondents is known, it is expected that the measured construct will be higher in the group with a related attribute but lower in the group with the unrelated attribute.
 
 ## Refining and retuning
 
