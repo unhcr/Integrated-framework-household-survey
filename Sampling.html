@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -76,9 +77,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -109,8 +108,6 @@ summary {
 </style>
 
 
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -168,20 +165,17 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -331,6 +325,7 @@ $(document).ready(function () {
 <li><a href="#how-are-the-oversampled-undersampled-areas-corrected-in-data-analysis">How are the oversampled/ undersampled areas corrected in data analysis?</a></li>
 <li><a href="#what-does-it-mean-to-normalize-the-weights">What does it mean to normalize the weights?</a></li>
 </ul></li>
+<li><a href="#pilot-sampling">Pilot Sampling</a></li>
 </ul>
 </div>
 
@@ -571,6 +566,26 @@ $(document).ready(function () {
 <p>Individual sample weights are normalized separately for women and men. Thus, the total weighted number of women equals the total unweighted number of women, and the total weighted number of men equals the total unweighted number of men. Women and men are normalized separately because all non-HIV calculations are performed on women and men separately. We do not provide survey estimates on the joint population of women and men combined for anything other than HIV prevalence.</p>
 </div>
 </div>
+<div id="pilot-sampling" class="section level2">
+<h2>Pilot Sampling</h2>
+<p>In the desing phase of questionnaires it is recommended that a pilot study should be undertaken for the purpose of testing the reliability and validity of the tool.</p>
+<p>The sampling phase should consist of the following steps:</p>
+<p>1- Sample size calculation: to apply the statistical tests with enough statistical power, sufficient sample size should be calculated for the piloting. There are no formulas or standard mathematical equations to determine the sample size. However, as a rule of thumb, it is recommended statistically to have the following criteria:</p>
+<pre><code>a)  Each question and dimension in the questionnaire should have at least 3-5 observations, meaning each question must be answered by at least three participants. For example, if the questionnaire consists of 10 questions and 2 dimensions the minimum sample size = (10 + 2) × 3 = 12 × 3 = 36 participants.
+
+b)  A margin of at least 10% should be added to allow for missingness, errors, attrition, etc. So, using the previous example, four additional participants should be added, bringing the sample size to 40
+
+c)  The minimum recommended sample size, regardless of the number of questions and dimensions, is 30. A sample smaller than this would make the statistical tests lose considerable power. 
+
+d)  If you are implementing more than one version, each version is a different questionnaire. In other words, for example, English and Arabic versions are different from each other, and the samples should not be added together. Also, you cannot use the sample from the English or Arabic version to validate the other. If you want to test both the English and Arabic versions, each questionnaire requires its sample of at least 30 participants, or the recommended sample size described in (a) and (b). Also, the participants should not answer more than one version of the questionnaire.</code></pre>
+<p>2- Sampling methods: there are several ways for sampling methods. Each method has its advantages and disadvantages. The following are the most commonly used methods in pilot studies:</p>
+<pre><code>a)  Purposive sample: a non-probability sample that is selected based on characteristics of a population and the objective of the study. Purposive sampling is also known as judgmental, selective, or subjective sampling. It is used when we want to target specific profiles and characteristics to ensure that we have selected what serves the objective of the study. Using proGres, a sample of participants can be selected based on certain criteria. For example, to cover the study’s aim, it is required to have participants from every GCC country, only Syrians, with and without jobs, do have household members, etc. Then the sample can be selected by the researcher(s) from the eligible list.
+
+b)  Random sampling: a random sample of participants selected from the list of participants available. Like the purposive sample in assigning inclusion and exclusion criteria. However, the sample is chosen randomly out of eligible participants. 
+
+c)  Convenient sampling: this method used to save time and resources. Convenient sampling is done by collecting those who are directly available to us without being concerned too much about their profiles.</code></pre>
+<p><strong>Recommendation: The methods in (a) and (b) are recommended for the best results.</strong></p>
+</div>
 
 </article>
 </div>
@@ -744,6 +759,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 
 </body>

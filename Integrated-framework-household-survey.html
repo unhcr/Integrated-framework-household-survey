@@ -206,7 +206,7 @@ pre:not([class]) {
 IFHS: A toolkit to facilitate design, collection &amp; analysis.
 </h2>
 <p>
-Last update : 3 March 2019
+Last update : 22 July 2019
 </p>
 </div>
 <div id="presentation" class="section level2">
@@ -617,6 +617,7 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 <li><a href="#Sampling_what-does-it-mean-to-normalize-the-weights">What does it mean to normalize the weights?</a></li>
 </ul>
 </li>
+<li><a href="#Sampling_pilot-sampling">Pilot Sampling</a></li>
 </ul>
 </div>
 
@@ -852,6 +853,26 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 <p>The entire set of household sample weights is multiplied by a constant, thus, the total weighted number of households equals the total unweighted number of households at the national level.</p>
 <p>Individual sample weights are normalized separately for women and men. Thus, the total weighted number of women equals the total unweighted number of women, and the total weighted number of men equals the total unweighted number of men. Women and men are normalized separately because all non-HIV calculations are performed on women and men separately. We do not provide survey estimates on the joint population of women and men combined for anything other than HIV prevalence.</p>
 </div>
+</div>
+<div id="Sampling_pilot-sampling" class="section level2">
+<h2>Pilot Sampling</h2>
+<p>In the desing phase of questionnaires it is recommended that a pilot study should be undertaken for the purpose of testing the reliability and validity of the tool.</p>
+<p>The sampling phase should consist of the following steps:</p>
+<p>1- Sample size calculation: to apply the statistical tests with enough statistical power, sufficient sample size should be calculated for the piloting. There are no formulas or standard mathematical equations to determine the sample size. However, as a rule of thumb, it is recommended statistically to have the following criteria:</p>
+<pre><code>a)  Each question and dimension in the questionnaire should have at least 3-5 observations, meaning each question must be answered by at least three participants. For example, if the questionnaire consists of 10 questions and 2 dimensions the minimum sample size = (10 + 2) × 3 = 12 × 3 = 36 participants.
+
+b)  A margin of at least 10% should be added to allow for missingness, errors, attrition, etc. So, using the previous example, four additional participants should be added, bringing the sample size to 40
+
+c)  The minimum recommended sample size, regardless of the number of questions and dimensions, is 30. A sample smaller than this would make the statistical tests lose considerable power. 
+
+d)  If you are implementing more than one version, each version is a different questionnaire. In other words, for example, English and Arabic versions are different from each other, and the samples should not be added together. Also, you cannot use the sample from the English or Arabic version to validate the other. If you want to test both the English and Arabic versions, each questionnaire requires its sample of at least 30 participants, or the recommended sample size described in (a) and (b). Also, the participants should not answer more than one version of the questionnaire.</code></pre>
+<p>2- Sampling methods: there are several ways for sampling methods. Each method has its advantages and disadvantages. The following are the most commonly used methods in pilot studies:</p>
+<pre><code>a)  Purposive sample: a non-probability sample that is selected based on characteristics of a population and the objective of the study. Purposive sampling is also known as judgmental, selective, or subjective sampling. It is used when we want to target specific profiles and characteristics to ensure that we have selected what serves the objective of the study. Using proGres, a sample of participants can be selected based on certain criteria. For example, to cover the study’s aim, it is required to have participants from every GCC country, only Syrians, with and without jobs, do have household members, etc. Then the sample can be selected by the researcher(s) from the eligible list.
+
+b)  Random sampling: a random sample of participants selected from the list of participants available. Like the purposive sample in assigning inclusion and exclusion criteria. However, the sample is chosen randomly out of eligible participants. 
+
+c)  Convenient sampling: this method used to save time and resources. Convenient sampling is done by collecting those who are directly available to us without being concerned too much about their profiles.</code></pre>
+<p><strong>Recommendation: The methods in (a) and (b) are recommended for the best results.</strong></p>
 </div>
 
 </article>
@@ -1779,7 +1800,7 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 <h2>XLSFORM</h2>
 <p>The form needs to be defined using the xlsform format. XLSFORM is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSFORMs provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.</p>
 <p>The XLSFORM is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.</p>
-<p>The documentation on xlsform is <a href="http://xlsform.org/">here</a>. The same format is actually used by multiple data collection technological platform such as <a href="http://www.kobotoolbox.org/">kobotoolbox</a>(the platform used by UNHCR on <a href="http://kobo.unhcr.org" class="uri">http://kobo.unhcr.org</a>), <a href="https://opendatakit.org/">OpenDataKit</a> or <a href="https://ona.io">ONA</a>.</p>
+<p>The documentation on xlsform is <a href="http://xlsform.org/">here</a>. The same format is actually used by multiple data collection technological platform such as <a href="http://www.kobotoolbox.org/">kobotoolbox</a>(the platform used by UNHCR on <a href="http://kobo.unhcr.org">http://kobo.unhcr.org</a>), <a href="https://opendatakit.org/">OpenDataKit</a> or <a href="https://ona.io">ONA</a>.</p>
 </div>
 <div id="Configure-forms_some-tips" class="section level2">
 <h2>Some tips</h2>
@@ -1872,7 +1893,7 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 <div id="Configure-forms_validate-deploy-the-form" class="section level3">
 <h3>Validate &amp; Deploy the form</h3>
 <ul>
-<li><p>kobotoolbox has some built-in <strong>validation check &amp; debugging check</strong> when a xlsform is uploaded. Sometimes better validation / debugging support can be obtained by other online validator such as <a href="https://opendatakit.org/xlsform/" class="uri">https://opendatakit.org/xlsform/</a></p></li>
+<li><p>kobotoolbox has some built-in <strong>validation check &amp; debugging check</strong> when a xlsform is uploaded. Sometimes better validation / debugging support can be obtained by other online validator such as <a href="https://opendatakit.org/xlsform/">https://opendatakit.org/xlsform/</a></p></li>
 <li><p>Note for field deployment: if possible, users must try and keep a copy/image of the entire " ODK " folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out " ODK " and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard.</p></li>
 <li><p>one point is also that as for dataviz, good questionnaire are the result of multiple persons looking at it – hence the importance of peer review – peer review is different from testing - it requires people with expertise in questionnaire design to review - this is among the support than can be requestioned from regional offices.</p></li>
 </ul>
@@ -1919,6 +1940,15 @@ The Toolkit is a <em>work in progress</em>: if you identify issues, please share
 <li><a href="#Pre-test-Phase_how-many-respondents">How many respondents?</a></li>
 <li><a href="#Pre-test-Phase_how-to-observe-pre-test">How to observe pre-test?</a></li>
 <li><a href="#Pre-test-Phase_pre-test-results-and-recommendations">Pre-test Results and Recommendations</a></li>
+<li><a href="#Pre-test-Phase_validity-and-reliability-guidelines">Validity and Reliability guidelines</a></li>
+<li><a href="#Pre-test-Phase_pre-piloting">Pre-piloting</a></li>
+<li>
+<a href="#Pre-test-Phase_piloting">Piloting</a><ul>
+<li><a href="#Pre-test-Phase_re-test-phase">Re-test phase</a></li>
+</ul>
+</li>
+<li><a href="#Pre-test-Phase_post-piloting">Post-Piloting</a></li>
+<li><a href="#Pre-test-Phase_refining-and-retuning">Refining and retuning</a></li>
 </ul>
 </div>
 
@@ -1980,6 +2010,48 @@ Describe and address the observations from the pre-test that relate to interview
 <li><p><strong>Assessment process considerations:</strong><br>
 Describe here the observations, suggestions, and decisions related to the assessment planning and next steps for finalising the questionnaire (training contents/agenda, logistics, staff, support, etc.)</p></li>
 </ul>
+</div>
+<div id="Pre-test-Phase_validity-and-reliability-guidelines" class="section level2">
+<h2>Validity and Reliability guidelines</h2>
+<p>The purpose of these guidelines is to provide an overview of the statistical processes needed to test the validity and reliability of any questionnaire. Validity is the extent to which the inferences or decisions we make by the questionnaire are meaningful, appropriate, and useful. In other words, a questionnaire is said to be valid to the extent that it measures what it is supposed to measures or can be used for the purpose for which it is intended. Validity alone is not enough to consider the questionnaire useful. A valid questionnaire should also be reliable. Statistically, a reliable questionnaire should produce consistent, replicable outcomes. There are several aspects of reliability and validity that need to be considered before arriving at a final distributable version of the questionnaire. This exercise is expected to take four weeks and is a critical step to ensure data quality.</p>
+</div>
+<div id="Pre-test-Phase_pre-piloting" class="section level2">
+<h2>Pre-piloting</h2>
+<p>There are specific steps to be taken and areas to be covered before piloting the questionnaire:</p>
+<p>1- The dimensions that will be measured by the questionnaire should be identified: the purpose of questionnaires is to collect data and to measure aspects that cannot be measured directly. In questionnaire design, the common practice is to assume that several dimensions are measured, and groups of questions measure different dimensions. For example, socioeconomic indicators and income/expenses related questions can be used as a proxy to profile individuals or households financially. This group of questions we can call it the socioecomonic dimension. As part of the validation process, these groups (dimensions) should be pre-defined before the piloting. For example Q1 – Q5 measure dimension A, Q6 – Q10 measure dimension B, etc. If the there is an ambiguity in some indicators as where they belong e.g., we may consider them in more than one dimenison or we are not sure where to include these indicators, then a statistical tests should be applied after the piloting to check the tool dimensionality (Priciple Component Analysis, Factor Analysis, Structural Equation Modelling, or Item Reponse Theory).</p>
+<p>2- The questionnaire is face and content validated: Face validation is the process of assessing the relevance of the questions subjectively by experts. An additional aspect is to evaluate covering all facets of a given dimension, content validity. At least two external ‘experts’ (should not be from the design team) have reviewed the questionnaire and approved the final piloting form. The common practice is to ask each ‘expert’ as an example, two officers from the protection team to rate the relevance of each question to the dimension being measured and the objectives of the questionnaire. The raters identify each question by a score of +1 (favourable) or 0 (unfavourable). Review the questionnaire and adjust it to the experts’ feedback, then return it for another round of rating. This process can be repeated until an agreement is reached on a final version.</p>
+<p>3- The translation from English to any other language should be validated through translate-re-translate process: any version of the questionnaire that is not in English should be translated to for instance to Arabic by a second party (different than the questionnaire designers), then the translated version is translated back to English by a third party (different than the previous two). The re-translated version should be compared with the original one to detect any discrepancies. Any significant issues should be solved by working with translators to assess using the appropriate words and phrases to keep the meaning consistent.</p>
+</div>
+<div id="Pre-test-Phase_piloting" class="section level2">
+<h2>Piloting</h2>
+<p>The piloting phase consists of two stages, and together they are referred to as the test-retest. The test-retest consists of asking the same participants to answer the same questionnaire twice over a predefined period. This process is necessary to test the questionnaires consistency over time (temporal validity) and reliability as previously discussed. The test phase includes:</p>
+<p>1- Identifying the medium of contact: phone interview or online link to the questionnaire.</p>
+<p>2- You are obtaining consent from the participants. The consent should state the nature of the study, the voluntary nature of participation, what will be done with the information, if it will be shared with any other party, etc.</p>
+<p>3- Clearly stating to them that they will be contacted again within maximum 3-4 weeks to do the same questionnaire again.</p>
+<div id="Pre-test-Phase_re-test-phase" class="section level3">
+<h3>Re-test phase</h3>
+<p>1- The questionnaire should be sent again within 12-13 days from the first completion.</p>
+<p>2- If the questionnaire in the pilot phase is filled online, a reminder through e-mail or text can be sent after 3-4 days maximum after the period of 12-13 days.</p>
+<p>3- After 21 days from the initial distribution, the re-test should be finished.</p>
+<p>4- The final collection should not exceed the period of 21 days.</p>
+</div>
+</div>
+<div id="Pre-test-Phase_post-piloting" class="section level2">
+<h2>Post-Piloting</h2>
+<p>After the collection of the data from the test-re-test phases, the reliability and validity statistical tests are applied to measure:</p>
+<p>1- Statistical reliability: the overall consistency of a measure. A measure is said to have a high reliability if it produces similar results under consistent conditions. Statistical reliability assumes that refugees with similar profiles should to some extent give similar answers. For example, refugees with similar characteristics (socio-economic statuses, living conditions, etc.) are expected to answer questions in the same trend, to have a common outcome. If refugees with similar characteristics are answering differently, then it indicates the characteristics used are not useful to create profiles. This can be tested through Spearman’s correlation (ρ), Cohen’s Kappa, and the overall reliability of the questionnaire by Cronbach’s Alpha.</p>
+<p>2- Face and content validity are discussed before. (See Pre-piloting section)</p>
+<p>3- Predictive validity: It assesses the ability of the questionnaire (instrument) to forecast future events, behaviour, attitudes or outcomes.</p>
+<p>4- Construct Validity: is the degree to which an instrument measures the trait or theoretical construct that it is intended to measure. It does not have a criterion for comparison; rather it utilizes a hypothetical construct for comparison. This part of validation is the most complex and difficult to test, as it contains several aspects:</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Convergence validity: There is evidence that the same concept measured in different ways yields similar results. For example, a question that is asking about something related to household condition will give a similar result to sending an enumerator or an observer to assess the household condition.</p></li>
+<li><p>Discriminant validity: There is evidence that one concept is different from other closely related concepts. Questions that we assumed they measure a certain dimension should not be highly correlated with other dimensions. Concepts and dimensions should not highly overlap.</p></li>
+<li><p>Known group validity: In known group validity, a group with the already established attribute of the outcome of the construct is compared with a group in whom the attribute is not yet established. Since the attribute of the two groups of respondents is known, it is expected that the measured construct will be higher in the group with a related attribute but lower in the group with the unrelated attribute.</p></li>
+</ol>
+</div>
+<div id="Pre-test-Phase_refining-and-retuning" class="section level2">
+<h2>Refining and retuning</h2>
+<p>The results of the reliability and validity will be used to determine the final shape of the questionnaire. Depending on the results, it may require undergoing through minor or major changes to the questionnaire. Minor changes, such as rephrasing 10-15% or less of the questionnaire, adding or removing choices, and/or changes in the questions order do not require repeating the previous steps. Major changes, such as removing or adding a question(s), and/or rephrasing more than 15% of the questionnaire.</p>
 </div>
 
 </article>

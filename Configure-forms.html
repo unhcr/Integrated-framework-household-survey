@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -76,9 +77,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -109,8 +108,6 @@ summary {
 </style>
 
 
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -168,20 +165,17 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -347,7 +341,7 @@ $(document).ready(function () {
 <h2>XLSFORM</h2>
 <p>The form needs to be defined using the xlsform format. XLSFORM is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSFORMs provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms by someone familiar with the syntax described below.</p>
 <p>The XLSFORM is then converted to an X-Form, a popular open form standard, that allows you to author a form with complex functionality like skip logic in a consistent way across a number of web and mobile data collection platforms.</p>
-<p>The documentation on xlsform is <a href="http://xlsform.org/">here</a>. The same format is actually used by multiple data collection technological platform such as <a href="http://www.kobotoolbox.org/">kobotoolbox</a>(the platform used by UNHCR on <a href="http://kobo.unhcr.org" class="uri">http://kobo.unhcr.org</a>), <a href="https://opendatakit.org/">OpenDataKit</a> or <a href="https://ona.io">ONA</a>.</p>
+<p>The documentation on xlsform is <a href="http://xlsform.org/">here</a>. The same format is actually used by multiple data collection technological platform such as <a href="http://www.kobotoolbox.org/">kobotoolbox</a>(the platform used by UNHCR on <a href="http://kobo.unhcr.org">http://kobo.unhcr.org</a>), <a href="https://opendatakit.org/">OpenDataKit</a> or <a href="https://ona.io">ONA</a>.</p>
 </div>
 <div id="some-tips" class="section level2">
 <h2>Some tips</h2>
@@ -436,7 +430,7 @@ $(document).ready(function () {
 <div id="validate-deploy-the-form" class="section level3">
 <h3>Validate &amp; Deploy the form</h3>
 <ul>
-<li><p>kobotoolbox has some built-in <strong>validation check &amp; debugging check</strong> when a xlsform is uploaded. Sometimes better validation / debugging support can be obtained by other online validator such as <a href="https://opendatakit.org/xlsform/" class="uri">https://opendatakit.org/xlsform/</a></p></li>
+<li><p>kobotoolbox has some built-in <strong>validation check &amp; debugging check</strong> when a xlsform is uploaded. Sometimes better validation / debugging support can be obtained by other online validator such as <a href="https://opendatakit.org/xlsform/">https://opendatakit.org/xlsform/</a></p></li>
 <li><p>Note for field deployment: if possible, users must try and keep a copy/image of the entire &quot; ODK &quot; folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out &quot; ODK &quot; and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard.</p></li>
 <li><p>one point is also that as for dataviz, good questionnaire are the result of multiple persons looking at it – hence the importance of peer review – peer review is different from testing - it requires people with expertise in questionnaire design to review - this is among the support than can be requestioned from regional offices.</p></li>
 </ul>
@@ -638,6 +632,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 
 </body>
