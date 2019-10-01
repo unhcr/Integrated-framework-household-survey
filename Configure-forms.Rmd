@@ -140,6 +140,8 @@ It's a good example of something that was important when people were using paper
 
  * kobotoolbox has some built-in __validation check & debugging check__ when a xlsform is uploaded. Sometimes better validation / debugging support can be obtained by other online validator such as [https://opendatakit.org/xlsform/](https://opendatakit.org/xlsform/)
 
+ * For review purpose, you may find usefull to have a beautifull transcript in word of your xlsfrom using [PPP for Open Data Kit](http://ppp.pma2020.org/)
+
  * Note for field deployment: if possible, users must try and keep a copy/image of the entire " ODK " folder inside the memory of the tablet and save it elsewhere for later reference. If planning requires users to clear out " ODK " and re insert a questionnaire for easy tracking, then this step becomes very a vital safe guard.
  
  * one point is also that as for dataviz, good questionnaire are the result of multiple persons looking at it -- hence the importance of peer review -- peer review is different from testing - it requires people with expertise in questionnaire design to review - this is among the support than can be requestioned from regional offices. 
